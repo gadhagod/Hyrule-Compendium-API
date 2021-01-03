@@ -103,3 +103,8 @@ If you come across a malfunction or have any suggestions open an [issue](https:/
 #### Notes
 
 If a key's value is `null`, that means it's marked as "unknown" in the Hyrule Compendium.
+
+## Client Libraries
+
+* [Python](https://pypi.org/project/Hyrule-Compendium/)
+* [Ruby](https://github.com/Hyrule-Compendium-API/Hyrule-Compendium-ruby-client)
