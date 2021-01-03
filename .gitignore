@@ -1,0 +1,15 @@
+# site scraping algorithms
+creatures.py
+food.py
+monsters.py
+materials.py
+equipment.py
+
+# database pushers
+log
+
+# docs
+slate
+
+# python
+**/__pycache__
