@@ -13,7 +13,7 @@ The Hyrule compendium is an encyclopedia of all in-game interactive items. With 
 You can see a specific item, all items in a category, or all data in our database.
 Here is an example request and response, retrieving data on the silver lynel:
 
-    $ curl http://botw-compendium.herokuapp.com/api/v1/silver_lynel
+    $ curl http://botw-compendium.herokuapp.com/api/v1/entry/silver_lynel
     {
         "data": {
             "category": "monsters",
