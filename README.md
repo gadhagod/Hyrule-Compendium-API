@@ -105,7 +105,7 @@ If a key's value is `null`, that means it's marked as "unknown" in the Hyrule Co
 
 ## Client Libraries
 
-* [Python](https://pypi.org/project/Hyrule-Compendium/)
+* [Python](https://github.com/shaunikm/Hyrule-Compendium-python-client) (from [@shaunikm](https://github.com/shaunikm))
 * [Ruby](https://github.com/gadhagod/Hyrule-Compendium-ruby-client)
 
 ## Author
