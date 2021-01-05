@@ -102,6 +102,7 @@ If you come across a malfunction or have any suggestions open an [issue](https:/
 ## Notes
 
 If a key's value is `null`, that means it's marked as "unknown" in the Hyrule Compendium.
+The response schema of the "creatures" category is much different from the others, because it has two sub-categories ("food" and "non-food").
 
 ## Client Libraries
 
