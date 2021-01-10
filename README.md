@@ -2,8 +2,7 @@
 <img src="https://static.wikia.nocookie.net/characterprofile/images/c/c8/BotW_Link.png/revision/latest/scale-to-width-down/340?cb=20170306180639" length=10% width=10%>
 </p>
 <h1 align="center">Hyrule Compendium API</h1>
-<p align="center"><b>An API serving data on all creatures, monsters, materials, equipment, and treasure in <i>The Legend of Zelda: Breath of the Wild</i>.</b><br>
-    <sub>By <a href="http://github.com/gadhagod">Aarav Borthakur</a></sub></p>
+<p align="center"><b>An API serving data on all creatures, monsters, materials, equipment, and treasure in <i>The Legend of Zelda: Breath of the Wild</i>.</b></p>
 
 
 ***
@@ -102,12 +101,15 @@ If you come across a malfunction or have any suggestions open an [issue](https:/
 ## Notes
 
 If a key's value is `null`, that means it's marked as "unknown" in the Hyrule Compendium.
-The response schema of the "creatures" category is much different from the others, because it has two sub-categories ("food" and "non-food").
 
 ## Client Libraries
 
-* [Python](https://github.com/shaunikm/Hyrule-Compendium-python-client) (from [@shaunikm](https://github.com/shaunikm))
+* [Python](https://pypi.org/project/Hyrule-Compendium/)
 * [Ruby](https://github.com/gadhagod/Hyrule-Compendium-ruby-client)
+
+## Running locally
+
+Instructions for running locally can be found [here](local/README.md).
 
 ## Author
 Made with awesomeness by [@gadhagod](http://github.com/gadhagod).
