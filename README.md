@@ -108,6 +108,7 @@ The response schema of the "creatures" category is much different from the other
 
 * [Python](https://github.com/shaunikm/Hyrule-Compendium-python-client) (from [@shaunikm](https://github.com/shaunikm))
 * [Ruby](https://github.com/gadhagod/Hyrule-Compendium-ruby-client)
+* [CLI](https://github.com/gadhagod/Hyrule-Compendium-CLI)
 
 ## Running locally
 Instructions for running locally can be found [here](local/README.md).
