@@ -1,59 +1,61 @@
-[
-    {
-        "id": 386,
-        "name": "treasure chest",
-        "description": "Fortunes untold (potentially) await the lucky adventurer who finds one of these. Chests can often be found within shrines or at enemy camps, but there may be some crafty folks who think they're safer underground.",
-        "common_locations": [
-            "Greater Hyrule"
-        ],
-        "drops": [
-            "treasures"
-        ]
-    },
-    {
-        "id": 387,
-        "name": "ore deposit",
-        "description": "This deposit contains a good deal of ore. Breaking the rock will yield rock salt, flint, and other minerals of varying value.",
-        "common_locations": [
-            "Greater Hyrule"
-        ],
-        "drops": [
-            "ruby", 
-            "diamond", 
-            "amber", 
-            "sapphire", 
-            "topaz", 
-            "opal", 
-            "rock salt", 
-            "flint"
-        ]
-    },
-    {
-        "id": 388,
-        "name": "rare ore deposit",
-        "description": "This deposit contains a good deal of precious ore and the occasional rare mineral, like ruby and sapphire. Break it open to see what it has to offer!",
-        "common_locations": [
-            "Greater Hyrule"
-        ],
-        "drops": [
-            "ruby",
-            "sapphire",
-            "diamond",
-            "amber",
-            "topaz",
-            "flint"
-        ]
-    },
-    {
-        "id": 389,
-        "name": "luminous ore deposit",
-        "description": "This deposit contains quite a bit of luminous stone. Crack it open to get at the easily process rocks within.",
-        "common_locations": [
-            "Greater Hyrule"
-        ],
-        "drops": [
-            "luminous",
-            "flint"
-        ]
-    }
-]
+{
+    "data": [
+        {
+            "id": 386,
+            "name": "treasure chest",
+            "description": "Fortunes untold (potentially) await the lucky adventurer who finds one of these. Chests can often be found within shrines or at enemy camps, but there may be some crafty folks who think they're safer underground.",
+            "common_locations": [
+                "Greater Hyrule"
+            ],
+            "drops": [
+                "treasures"
+            ]
+        },
+        {
+            "id": 387,
+            "name": "ore deposit",
+            "description": "This deposit contains a good deal of ore. Breaking the rock will yield rock salt, flint, and other minerals of varying value.",
+            "common_locations": [
+                "Greater Hyrule"
+            ],
+            "drops": [
+                "ruby", 
+                "diamond", 
+                "amber", 
+                "sapphire", 
+                "topaz", 
+                "opal", 
+                "rock salt", 
+                "flint"
+            ]
+        },
+        {
+            "id": 388,
+            "name": "rare ore deposit",
+            "description": "This deposit contains a good deal of precious ore and the occasional rare mineral, like ruby and sapphire. Break it open to see what it has to offer!",
+            "common_locations": [
+                "Greater Hyrule"
+            ],
+            "drops": [
+                "ruby",
+                "sapphire",
+                "diamond",
+                "amber",
+                "topaz",
+                "flint"
+            ]
+        },
+        {
+            "id": 389,
+            "name": "luminous ore deposit",
+            "description": "This deposit contains quite a bit of luminous stone. Crack it open to get at the easily process rocks within.",
+            "common_locations": [
+                "Greater Hyrule"
+            ],
+            "drops": [
+                "luminous",
+                "flint"
+            ]
+        }
+    ]
+}
