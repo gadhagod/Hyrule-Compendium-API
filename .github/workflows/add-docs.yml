@@ -13,19 +13,21 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
-      - uses: actions/checkout@v2
       - name: Install dependencies
         run: |
             sudo npm install -g @rockset/cli
-
       - name: Authorize access
         run: |
-          rockset auth:add me ${{ secrets.RS2_TOKEN }}
-
+          rockset auth:add gadhaguy13 ${{ secrets.RS2_TOKEN }}
       - name: Add docs
         run: |
+          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/creatures.json > creatures.json
           rockset api:documents:addDocuments botw-api creatures --body creatures.json
+          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/equipment.json > equipment.json
           rockset api:documents:addDocuments botw-api creatures --body equipment.json
+          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/materials.json > materials.json
           rockset api:documents:addDocuments botw-api creatures --body materials.json
+          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/monsters.json > monsters.json
           rockset api:documents:addDocuments botw-api creatures --body monsters.json
+          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/treasure.json > treasure.json
           rockset api:documents:addDocuments botw-api creatures --body treasure.json
