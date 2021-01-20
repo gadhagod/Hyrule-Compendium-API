@@ -1,6 +1,6 @@
 # This workflow tests endpoints every hour
 
-name: Add docs
+name: Test endpoints
 
 on:
   schedule:
