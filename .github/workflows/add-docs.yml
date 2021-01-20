@@ -26,14 +26,14 @@ jobs:
           curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/creatures.json > creatures.json
           rockset api:documents:addDocuments botw-api creatures --body creatures.json
 
-          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/equipment.json > creatures.json
+          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/equipment.json > equipment.json
           rockset api:documents:addDocuments botw-api creatures --body equipment.json
 
-          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/materials.json > creatures.json
+          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/materials.json > materials.json
           rockset api:documents:addDocuments botw-api creatures --body materials.json
 
-          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/monsters.json > creatures.json
+          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/monsters.json > monsters.json
           rockset api:documents:addDocuments botw-api creatures --body monsters.json
 
-          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/treasure.json > creatures.json
+          curl https://raw.githubusercontent.com/gadhagod/Hyrule-Compendium-API/master/compendium/treasure.json > treasure.json
           rockset api:documents:addDocuments botw-api creatures --body treasure.json
