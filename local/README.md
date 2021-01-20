@@ -1,6 +1,11 @@
 # Running locally
 
-### Enviroment setup
+### Setup
+
+Fork this repository and clone it to your local device.
+
+$ git clone https://github.com/<username>/Hyrule-Compendium-API
+$ cd Hyrule-Compendium-API
 
 Install the [dependencies](../requirements.txt).
 
@@ -35,28 +40,19 @@ Add the following field mapping:
 
 After clicking "create", create four more collections, named equipment, materials, monsters, and treasure in the same workspace with the same field mappings.
 
-After setting up the collections, add the contents of the files in the [compendium directory](../compendium) in the appropriate collections based of the file names. For example, add the contents of [creatures.json](../compendium/creatures.json) into `"botw_api".creatures`.
+Go to your cloned repository and add a repository secret named `RS2_TOKEN` with it's value being your API key.
 
-    from os import getenv
-    from json import loads
-    from rockset import Client
+![](images/repo_secret.png)
 
-    rs = Client(api_key=getenv('RS2_TOKEN'), api_server='api.rs2.usw2.rockset.com')
-    col = rs.Collection.retrieve('creatures', workspace='botw-api')
+Go to the `actions` tab and run the `add-docs` workflow.
 
-    print(
-            col.add_docs(
-                loads(
-                    open('compendium/creatures.json', 'r').read()
-                )
-            )
-    )
+![](images/add_docs.png)
 
 ### Running the server
 
 Now run [`wsgi.py`](../wsgi.py).
 
-    python3 wsgi.py
+    $ python3 wsgi.py
 
 To have it run permanantly, run:
 

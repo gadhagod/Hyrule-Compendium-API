@@ -5,11 +5,9 @@ monsters.py
 materials.py
 equipment.py
 
-# database pushers
-log
-
-# docs
-slate
-
 # python
 **/__pycache__
+
+# vscode
+
+.vscode
