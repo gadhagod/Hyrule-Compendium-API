@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Hyrule Compendium API</h1>
 <p align="center"><b>An API serving data on all creatures, monsters, materials, equipment, and treasure in <i>The Legend of Zelda: Breath of the Wild</i>.</b><br>
-    <sub>By <a href="http://github.com/gadhagod">Aarav Borthakur</a></sub></p>
+<sub>By <a href="http://github.com/gadhagod">Aarav Borthakur</a></sub></p>
 
 
 ***
@@ -113,6 +113,12 @@ The response schema of the "creatures" category is much different from the other
 
 ## Running locally
 Instructions for running locally can be found [here](local/README.md).
+
+## Status
+Server status: \
+![](https://pyheroku-badge.herokuapp.com/?app=botw-compendium)
+
+Check the latest "test endpoints" workflow run to see if the server status.
 
 ## Author
 Made with awesomeness by [@gadhagod](http://github.com/gadhagod).
