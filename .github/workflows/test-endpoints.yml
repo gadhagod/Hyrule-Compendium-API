@@ -4,7 +4,7 @@ name: Test endpoints
 
 on:
   schedule:
-  - cron:  '*/60 * * * *'
+  - cron:  '*/2400 * * * *'
 
 jobs:
   main:
