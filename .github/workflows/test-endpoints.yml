@@ -13,17 +13,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Import functions
-      run: |
-        source .github/workflows/test_endpoints/functions.sh
     - name: Test "/" endpoint
       run: |
+        source .github/workflows/test_endpoints/functions.sh
         test_endpoint ""
 
     - name: Test "/entry" enpoint
       run: |
+        source .github/workflows/test_endpoints/functions.sh
         test_endpoint "/entry/1"
 
     - name: Test "/category" endpoint
       run: |
+        source .github/workflows/test_endpoints/functions.sh
         test_endpoint "/category/creatures"
