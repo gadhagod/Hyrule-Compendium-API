@@ -20,7 +20,7 @@ creatures_selects = {
     'others': 'drops'
 }
 
-def creatures_category():
+def creatures_category(version):
     others = list(
         rs.sql(
             Q(
@@ -35,7 +35,11 @@ def creatures_category():
             )
         )
     )
-    return {'non-food': others, 'food': foods}
+    if version == 'v1':
+        food_key = 'non-food'
+    elif version == 'v2':
+        food_key = 'non_food'
+    return {food_key: others, 'food': foods}
 
 def single_category(category):
     query = 'select id, name, description, common_locations, {} from "botw-api".{}'.format(selects[category], category)
@@ -58,16 +62,16 @@ def id_name_query(target, where):
         return 'creatures', res[0]
     return None
 
-@app.route('/api/v1')
-def all():
+@app.route('/api/<version>')
+def all(version):
     category_metadata = {}
     for category in selects.keys():
         category_metadata[category] = single_category(category)
-    category_metadata['creatures'] = creatures_category()
+    category_metadata['creatures'] = creatures_category(version)
     return {'data': category_metadata}
 
-@app.route('/api/v1/entry/<inp>')
-def entry(inp):
+@app.route('/api/<version>/entry/<inp>')
+def entry(version, inp):
     try:
         try:
             int(inp)
@@ -81,25 +85,25 @@ def entry(inp):
     except TypeError:
         return {'data': {}, 'message': 'no results'}
 
-@app.route('/api/v1/category/treasure')
-def treasure():
+@app.route('/api/<version>/category/treasure')
+def treasure(version):
     return {'data': single_category('treasure')}
 
-@app.route('/api/v1/category/monsters')
-def monsters():
+@app.route('/api/<version>/category/monsters')
+def monsters(version):
     return {'data': single_category('monsters')}
 
-@app.route('/api/v1/category/materials')
-def materials():
+@app.route('/api/<version>/category/materials')
+def materials(version):
     return {'data': single_category('materials')}
 
-@app.route('/api/v1/category/equipment')
-def equipment():
+@app.route('/api/<version>/category/equipment')
+def equipment(version):
     return {'data': single_category('equipment')}
 
-@app.route('/api/v1/category/creatures')
-def creatures():
-    return {'data': creatures_category()}
+@app.route('/api/<version>/category/creatures')
+def creatures(version):
+    return {'data': creatures_category(version)}
 
 @app.route('/issues')
 @app.route('/bugs')
