@@ -5,7 +5,7 @@ from rockset import Client, Q
 from flask_cors import CORS
 
 app = flask.Flask(__name__, template_folder='js')
-CORS(app)
+CORS(app, support_credentials=True)
 rs = Client(api_key=getenv('RS2_TOKEN'), api_server='api.rs2.usw2.rockset.com')
 
 def redirect(link):
