@@ -2,8 +2,10 @@ from os import getenv
 from json import loads
 import flask
 from rockset import Client, Q
+from flask_cors import CORS
 
 app = flask.Flask(__name__, template_folder='js')
+CORS(app)
 rs = Client(api_key=getenv('RS2_TOKEN'), api_server='api.rs2.usw2.rockset.com')
 
 def redirect(link):
@@ -115,3 +117,6 @@ def issues():
 @app.route('/api')
 def home():
     return redirect('https://github.com/gadhagod/Hyrule-Compendium-API')
+
+if __name__ == '__main__':
+    app.run()
