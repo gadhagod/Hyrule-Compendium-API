@@ -9,5 +9,7 @@ equipment.py
 **/__pycache__
 
 # vscode
-
 .vscode
+
+# js
+js

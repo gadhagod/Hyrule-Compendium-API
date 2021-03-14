@@ -1,5 +1,5 @@
 from os import getenv
-from json import loads
+from json import loads, dumps
 import flask
 from rockset import Client, Q
 from flask_cors import CORS
@@ -26,14 +26,14 @@ def creatures_category(version):
     others = list(
         rs.sql(
             Q(
-                'select id, name, description, {} from "botw-api".creatures where cooking_effect is null'.format(creatures_selects['others'])
+                'select id, name, description, common_locations {} from "botw-api".creatures where cooking_effect is null'.format(creatures_selects['others'])
             )
         )
     )
     foods = list(
         rs.sql(
             Q(
-                'select id, name, description, {} from "botw-api".creatures where cooking_effect is not null'.format(creatures_selects['food'])
+                'select id, name, description, common_locations, {} from "botw-api".creatures where cooking_effect is not null'.format(creatures_selects['food'])
             )
         )
     )
@@ -50,29 +50,27 @@ def single_category(category):
     )
 
 def id_name_query(target, where):
-
     for category in list(selects.keys()):
-        print('select id, name, description, {} from "botw-api".{} where {}=\'{}\''.format(selects[category], category, where, target))
-        res = list(rs.sql(Q('select id, name, description, {} from "botw-api".{} where {}=\'{}\''.format(selects[category], category, where, target.replace('\'', '\'\'')))))
+        res = list(rs.sql(Q('select id, name, description, common_locations, {} from "botw-api".{} where {}=\'{}\''.format(selects[category], category, where, target.replace('\'', '\'\'')))))
         if res != []:
             return category, res[0]
 
-    res = list(rs.sql(Q('select id, name, description, hearts_recovered, cooking_effect from "botw-api".creatures where {}=\'{}\''.format(where, target))))
+    res = list(rs.sql(Q('select id, name, description, hearts_recovered, cooking_effect, common_locations from "botw-api".creatures where {}=\'{}\''.format(where, target))))
     if res != []:
         if res[0]['cooking_effect'] == None:
-            res = list(rs.sql(Q('select id, name, description, drops from "botw-api".creatures where {}=\'{}\''.format(where, target))))
+            res = list(rs.sql(Q('select id, name, description, drops, common_locations from "botw-api".creatures where {}=\'{}\''.format(where, target))))
         return 'creatures', res[0]
     return None
 
-@app.route('/api/<version>')
 def all(version):
+    
     category_metadata = {}
     for category in selects.keys():
         category_metadata[category] = single_category(category)
     category_metadata['creatures'] = creatures_category(version)
+
     return {'data': category_metadata}
 
-@app.route('/api/<version>/entry/<inp>')
 def entry(version, inp):
     try:
         try:
@@ -87,31 +85,62 @@ def entry(version, inp):
     except TypeError:
         return {'data': {}, 'message': 'no results'}
 
-@app.route('/api/<version>/category/treasure')
 def treasure(version):
     return {'data': single_category('treasure')}
 
-@app.route('/api/<version>/category/monsters')
 def monsters(version):
     return {'data': single_category('monsters')}
 
-@app.route('/api/<version>/category/materials')
 def materials(version):
     return {'data': single_category('materials')}
 
-@app.route('/api/<version>/category/equipment')
 def equipment(version):
     return {'data': single_category('equipment')}
 
-@app.route('/api/<version>/category/creatures')
 def creatures(version):
     return {'data': creatures_category(version)}
 
-@app.route('/issues')
-@app.route('/bugs')
-@app.route('/suggestions')
-def issues():
-    return redirect('https://github.com/gadhagod/Hyrule-Compendium-API/issues')
+@app.route('/api/<version>')
+def prod_all(version):
+    
+    res = all(version)
+    return(res)
+
+@app.route('/api/<version>/entry/<inp>')
+def prod_entry(version, inp):
+    
+    res = entry(version, inp)
+    return(res)
+
+@app.route('/api/<version>/category/treasure')
+def prod_treasure(version):
+    
+    res = treasure(version)
+    return(res)
+
+@app.route('/api/<version>/category/monsters')
+def prod_monsters(version):
+    
+    res = monsters(version)
+    return(res)
+
+@app.route('/api/<version>/category/materials')
+def prod_materials(version):
+    
+    res = materials(version)
+    return(res)
+
+@app.route('/api/<version>/category/equipment')
+def prod_equipment(version):
+    
+    res = equipment(version)
+    return(res)
+
+@app.route('/api/<version>/category/creatures')
+def prod_creatures(version):
+    res = creatures(version)
+    open('test.json', 'w+').write(dumps(res).replace("'", "\\'"))
+    return(res)
 
 @app.route('/')
 @app.route('/api')
