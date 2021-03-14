@@ -102,44 +102,37 @@ def creatures(version):
 
 @app.route('/api/<version>')
 def prod_all(version):
-    
     res = all(version)
     return(res)
 
 @app.route('/api/<version>/entry/<inp>')
 def prod_entry(version, inp):
-    
     res = entry(version, inp)
     return(res)
 
 @app.route('/api/<version>/category/treasure')
 def prod_treasure(version):
-    
     res = treasure(version)
     return(res)
 
 @app.route('/api/<version>/category/monsters')
 def prod_monsters(version):
-    
     res = monsters(version)
     return(res)
 
 @app.route('/api/<version>/category/materials')
 def prod_materials(version):
-    
     res = materials(version)
     return(res)
 
 @app.route('/api/<version>/category/equipment')
 def prod_equipment(version):
-    
     res = equipment(version)
     return(res)
 
 @app.route('/api/<version>/category/creatures')
 def prod_creatures(version):
     res = creatures(version)
-    open('test.json', 'w+').write(dumps(res).replace("'", "\\'"))
     return(res)
 
 @app.route('/')
