@@ -1,0 +1,24 @@
+# Checks for corrupted images in compendium/images directory
+
+name: Authenticate images
+
+on:
+  push:
+      branches:
+        - master
+      paths:
+        - 'compendium/images/**'
+
+jobs:
+  main:
+
+      runs-on: ubuntu-latest
+
+      steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+            sudo apt install pngcheck
+      - name: Check images
+        run: |
+          pngcheck compendium/images/**
