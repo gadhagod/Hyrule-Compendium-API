@@ -1,15 +1,8 @@
 # site scraping algorithms
-creatures.py
-food.py
-monsters.py
-materials.py
-equipment.py
+scraping
 
 # python
 **/__pycache__
 
 # vscode
 .vscode
-
-# js
-js
