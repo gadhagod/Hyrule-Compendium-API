@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Hyrule Compendium API</h1>
 <p align="center"><b>An API serving data on all creatures, monsters, materials, equipment, and treasure in <i>The Legend of Zelda: Breath of the Wild</i>.</b><br>
-<sub>By <a href="http://github.com/gadhagod">Aarav Borthakur</a></sub></p>
+<sub>By <a href="https://github.com/gadhagod">Aarav Borthakur</a></sub></p>
 
 
 ***
@@ -107,14 +107,14 @@ This API also serves images. Each item entry has a key `image`, as shown in the 
     https://botw-compendium.herokuapp.com/api/v1/entry/<entry>/image
 
 The `<entry>` can be either the entry's ID or name. For example, the white-maned lynel's image could be retrieved from either of the two links:
-* [http://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image](http://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image)
-* [http://botw-compendium.herokuapp.com/api/v1/entry/123/image](http://botw-compendium.herokuapp.com/api/v1/entry/123/image])
+* [https://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image](http://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image)
+* [https://botw-compendium.herokuapp.com/api/v1/entry/123/image](https://botw-compendium.herokuapp.com/api/v1/entry/123/image])
 
 The images are always in a 280x280 pixel PNG format. 
 
 They can be refrenced just as you would refrence any other image from the web. For example, using HTML:
 
-    <img src="http://botw-compendium.herokuapp.com/api/v1/entry/123/image">
+    <img src="https://botw-compendium.herokuapp.com/api/v1/entry/123/image">
 
 ## Support and Suggestions
 
@@ -137,4 +137,4 @@ Server status: \
 Check the latest "test endpoints" workflow run to see if the server status.
 
 ## Author
-Made with awesomeness by [@gadhagod](http://github.com/gadhagod).
+Made with awesomeness by [@gadhagod](https://github.com/gadhagod).
