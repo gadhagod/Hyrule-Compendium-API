@@ -122,7 +122,7 @@ If you come across a malfunction or have any suggestions open an [issue](https:/
 
 ## Client Libraries
 
-* [Python](https://github.com/gadhagod/pyrule-compendium) (in collaboration with [@shaunikm](https://github.com/shaunikm))
+* [Python](https://github.com/gadhagod/pyrule-compendium)
 * [Ruby](https://github.com/gadhagod/Hyrule-Compendium-ruby-client)
 * [Web Javascript](https://github.com/gadhagod/Hyrule-Compendium-web-client)
 * [CLI](https://github.com/gadhagod/Hyrule-Compendium-CLI)
