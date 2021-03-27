@@ -4,8 +4,9 @@
 
 Fork this repository and clone it to your local device.
 
-$ git clone https://github.com/<username>/Hyrule-Compendium-API
-$ cd Hyrule-Compendium-API
+    $ gh repo fork gadhagod/Hyrule-Compendium-API   # with GitHub CLI
+    $ git clone https://github.com/<username>/Hyrule-Compendium-API
+    $ cd Hyrule-Compendium-API
 
 Install the [dependencies](../requirements.txt).
 
@@ -23,7 +24,7 @@ On windows:
 
 To set a session-long enviroment variable, use `export`.
 
-    $ export RS2_TOKEN=<api key>
+    $ export RS2_TOKEN="<api key>"
 
 ### Setup your Rockset collections
 On your Rockset console, create a new collection. Select "Write API" as a custom integration.
@@ -44,34 +45,18 @@ Go to your cloned repository and add a repository secret named `RS2_TOKEN` with 
 
 ![](images/repo_secret.png)
 
-Go to the `actions` tab and run the `add-docs` workflow.
-
-![](images/add_docs.png)
+Go to the `actions` tab and run the `add compendium entries` workflow or run [.github/workflows/add-compendium-entries.yml](../.github/workflows/add-compendium-entries.yml)
 
 ### Running the server
 
-Now run [`wsgi.py`](../wsgi.py).
+Now run [`server.py`](../server.py).
 
-    $ python3 wsgi.py
+    $ python3 server.py
 
-To have it run permanantly, run:
+To have it run when the terminal is closed, run:
 
-    $ nohup python3 wsgi.py &
+    $ nohup python3 sever.py &
 
 The server will, by default, run on port 5000, so head to `http://127.0.0.1:5000`.
 
     $ open http://127.0.0.1:5000/api/v1/entry/1
-
-To run the server on debug mode, modify [`wsgi.py`](../wsgi.py).
-
-```diff
--app.run()
-+app.run(debug=True)
-```
-
-And to run on a specific port:
-
-```diff
--app.run()
-+app.run(port=<port>)
-```
