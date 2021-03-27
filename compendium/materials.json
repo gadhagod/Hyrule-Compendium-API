@@ -9,7 +9,8 @@
                 "East Necluda"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": ""
+            "cooking_effect": "",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/apple/image"
         },
         {
             "id": 166,
@@ -20,7 +21,8 @@
                 "Gerudo Desert"
             ],
             "hearts_recovered": 1.0,
-            "cooking_effect": ""
+            "cooking_effect": "",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/palm_fruit/image"
         },
         {
             "id": 167,
@@ -31,7 +33,8 @@
                 "Hebra Mountains"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": ""
+            "cooking_effect": "",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/wildberry/image"
         },
         {
             "id": 168,
@@ -42,7 +45,8 @@
                 "Faron Grasslands"
             ],
             "hearts_recovered": 3.0,
-            "cooking_effect": "extra hearts"
+            "cooking_effect": "extra hearts",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hearty_durian/image"
         },
         {
             "id": 169,
@@ -53,7 +57,8 @@
                 "Faron Grasslands"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "heat resistance"
+            "cooking_effect": "heat resistance",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hydromelon/image"
         },
         {
             "id": 170,
@@ -64,7 +69,8 @@
                 "Tabantha Frontier"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "cold resistance"
+            "cooking_effect": "cold resistance",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spicy_pepper/image"
         },
         {
             "id": 171,
@@ -75,7 +81,8 @@
                 "Gerudo Highlands"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "shock resistance"
+            "cooking_effect": "shock resistance",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/voltfruit/image"
         },
         {
             "id": 172,
@@ -86,7 +93,8 @@
                 "Lanayru Great Spring"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "speed up"
+            "cooking_effect": "speed up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fleet-lotus_seeds/image"
         },
         {
             "id": 173,
@@ -96,7 +104,8 @@
                 "Faron"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "attack up"
+            "cooking_effect": "attack up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_bananas/image"
         },
         {
             "id": 174,
@@ -107,7 +116,8 @@
                 "West Necluda"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": ""
+            "cooking_effect": "",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hylian_shroom/image"
         },
         {
             "id": 175,
@@ -118,7 +128,8 @@
                 "Hyrule Field"
             ],
             "hearts_recovered": 1.0,
-            "cooking_effect": "extra stamina"
+            "cooking_effect": "extra stamina",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/endura_shroom/image"
         },
         {
             "id": 176,
@@ -129,7 +140,8 @@
                 "Hyrule Field"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "stamina recovery"
+            "cooking_effect": "stamina recovery",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/stamella_shroom/image"
         },
         {
             "id": 177,
@@ -140,7 +152,8 @@
                 "Hyrule Field"
             ],
             "hearts_recovered": 2.0,
-            "cooking_effect": "extra hearts"
+            "cooking_effect": "extra hearts",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hearty_truffle/image"
         },
         {
             "id": 178,
@@ -151,7 +164,8 @@
                 "Great Hyrule Forest"
             ],
             "hearts_recovered": 3.0,
-            "cooking_effect": "extra hearts"
+            "cooking_effect": "extra hearts",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/big_hearty_truffle/image"
         },
         {
             "id": 179,
@@ -162,7 +176,8 @@
                 "Mount Lanayru"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "heat resistance"
+            "cooking_effect": "heat resistance",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/chillshroom/image"
         },
         {
             "id": 180,
@@ -173,7 +188,8 @@
                 "Gerudo Highlands"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "cold resistance"
+            "cooking_effect": "cold resistance",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/sunshroom/image"
         },
         {
             "id": 181,
@@ -184,7 +200,8 @@
                 "Gerudo Highlands"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "shock resistance"
+            "cooking_effect": "shock resistance",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/zapshroom/image"
         },
         {
             "id": 182,
@@ -195,7 +212,8 @@
                 "Hyrule Ridge"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "speed up"
+            "cooking_effect": "speed up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rushroom/image"
         },
         {
             "id": 183,
@@ -206,7 +224,8 @@
                 "Tabantha Frontier"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "attack up"
+            "cooking_effect": "attack up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/razorshroom/image"
         },
         {
             "id": 184,
@@ -217,7 +236,8 @@
                 "East Necluda"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "defense up"
+            "cooking_effect": "defense up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ironshroom/image"
         },
         {
             "id": 185,
@@ -228,7 +248,8 @@
                 "West Necluda"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "stealth up"
+            "cooking_effect": "stealth up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silent_shroom/image"
         },
         {
             "id": 186,
@@ -239,7 +260,8 @@
                 "Akkala Highlands"
             ],
             "hearts_recovered": 1.0,
-            "cooking_effect": ""
+            "cooking_effect": "",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hyrule_herb/image"
         },
         {
             "id": 187,
@@ -250,7 +272,8 @@
                 "East Necluda"
             ],
             "hearts_recovered": 20.5,
-            "cooking_effect": "extra hearts"
+            "cooking_effect": "extra hearts",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hearty_radish/image"
         },
         {
             "id": 188,
@@ -261,7 +284,8 @@
                 "Lanayru Great Spring"
             ],
             "hearts_recovered": 4.0,
-            "cooking_effect": "extra hearts"
+            "cooking_effect": "extra hearts",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/big_hearty_radish/image"
         },
         {
             "id": 189,
@@ -272,7 +296,8 @@
                 "Gerudo Highlands"
             ],
             "hearts_recovered": 0.0,
-            "cooking_effect": "heat resistance"
+            "cooking_effect": "heat resistance",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/cool_safflina/image"
         },
         {
             "id": 190,
@@ -283,7 +308,8 @@
                 "Hyrule Ridge"
             ],
             "hearts_recovered": 0.0,
-            "cooking_effect": "cold resistance"
+            "cooking_effect": "cold resistance",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/warm_safflina/image"
         },
         {
             "id": 191,
@@ -294,7 +320,8 @@
                 "Hyrule Ridge"
             ],
             "hearts_recovered": 0.0,
-            "cooking_effect": "shock resistance"
+            "cooking_effect": "shock resistance",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/electric_safflina/image"
         },
         {
             "id": 192,
@@ -304,7 +331,8 @@
                 "Kakariko Village"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "speed up"
+            "cooking_effect": "speed up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/swift_carrot/image"
         },
         {
             "id": 193,
@@ -315,7 +343,8 @@
                 "Faron Grasslands"
             ],
             "hearts_recovered": 2.0,
-            "cooking_effect": "extra stamina"
+            "cooking_effect": "extra stamina",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/endura_carrot/image"
         },
         {
             "id": 194,
@@ -325,7 +354,8 @@
                 "Kakariko Village"
             ],
             "hearts_recovered": 0.5,
-            "cooking_effect": "defense up"
+            "cooking_effect": "defense up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fortified_pumpkin/image"
         },
         {
             "id": 195,
@@ -336,7 +366,8 @@
                 "Hebra Mountains"
             ],
             "hearts_recovered": 0.0,
-            "cooking_effect": "speed up"
+            "cooking_effect": "speed up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/swift_violet/image"
         },
         {
             "id": 196,
@@ -347,7 +378,8 @@
                 "Faron Grasslands"
             ],
             "hearts_recovered": 0.0,
-            "cooking_effect": "attack up"
+            "cooking_effect": "attack up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_thistle/image"
         },
         {
             "id": 197,
@@ -358,7 +390,8 @@
                 "Hyrule Ridge"
             ],
             "hearts_recovered": 0.0,
-            "cooking_effect": "defense up"
+            "cooking_effect": "defense up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/armoranth/image"
         },
         {
             "id": 198,
@@ -369,7 +402,8 @@
                 "Lanayru Great Spring"
             ],
             "hearts_recovered": 0.0,
-            "cooking_effect": "stealth up"
+            "cooking_effect": "stealth up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/blue_nightshade/image"
         },
         {
             "id": 199,
@@ -380,7 +414,8 @@
                 "West Necluda"
             ],
             "hearts_recovered": 0.0,
-            "cooking_effect": "stealth up"
+            "cooking_effect": "stealth up",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silent_princess/image"
         },
         {
             "id": 200,
@@ -391,7 +426,8 @@
                 "Tabantha Frontier"
             ],
             "hearts_recovered": 2.0,
-            "cooking_effect": "stamina recovery"
+            "cooking_effect": "stamina recovery",
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/courser_bee_honey/image"
         }
     ]
 }

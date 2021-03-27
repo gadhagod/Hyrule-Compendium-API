@@ -9,7 +9,8 @@
             ],
             "drops": [
                 "treasures"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/treasure_chest/image"
         },
         {
             "id": 387,
@@ -27,7 +28,8 @@
                 "opal", 
                 "rock salt", 
                 "flint"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ore_deposit/image"
         },
         {
             "id": 388,
@@ -43,7 +45,8 @@
                 "amber",
                 "topaz",
                 "flint"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rare_or_deposit/image"
         },
         {
             "id": 389,
@@ -55,7 +58,8 @@
             "drops": [
                 "luminous",
                 "flint"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/luminous_ore_deposit/image"
         }
     ]
 }

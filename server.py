@@ -4,8 +4,8 @@ import flask
 from rockset import Client, Q
 from flask_cors import CORS
 
-app = flask.Flask(__name__, template_folder='js')
-CORS(app, support_credentials=True)
+app = flask.Flask(__name__, static_folder='compendium/images')
+CORS(app)
 rs = Client(api_key=getenv('RS2_TOKEN'), api_server='api.rs2.usw2.rockset.com')
 
 def redirect(link):
@@ -26,14 +26,14 @@ def creatures_category(version):
     others = list(
         rs.sql(
             Q(
-                'select id, name, description, common_locations {} from "botw-api".creatures where cooking_effect is null'.format(creatures_selects['others'])
+                'select id, name, description, common_locations, image, {} from "botw-api".creatures where cooking_effect is null'.format(creatures_selects['others'])
             )
         )
     )
     foods = list(
         rs.sql(
             Q(
-                'select id, name, description, common_locations, {} from "botw-api".creatures where cooking_effect is not null'.format(creatures_selects['food'])
+                'select id, name, description, common_locations, image, {} from "botw-api".creatures where cooking_effect is not null'.format(creatures_selects['food'])
             )
         )
     )
@@ -44,26 +44,25 @@ def creatures_category(version):
     return {food_key: others, 'food': foods}
 
 def single_category(category):
-    query = 'select id, name, description, common_locations, {} from "botw-api".{}'.format(selects[category], category)
+    query = 'select id, name, description, common_locations, image, {} from "botw-api".{}'.format(selects[category], category)
     return list(
         rs.sql(Q(query))
     )
 
 def id_name_query(target, where):
     for category in list(selects.keys()):
-        res = list(rs.sql(Q('select id, name, description, common_locations, {} from "botw-api".{} where {}=\'{}\''.format(selects[category], category, where, target.replace('\'', '\'\'')))))
+        res = list(rs.sql(Q('select id, name, description, common_locations, image, {} from "botw-api".{} where {}=\'{}\''.format(selects[category], category, where, target.replace('\'', '\'\'')))))
         if res != []:
             return category, res[0]
 
-    res = list(rs.sql(Q('select id, name, description, hearts_recovered, cooking_effect, common_locations from "botw-api".creatures where {}=\'{}\''.format(where, target))))
+    res = list(rs.sql(Q('select id, name, description, hearts_recovered, cooking_effect, common_locations, image from "botw-api".creatures where {}=\'{}\''.format(where, target))))
     if res != []:
         if res[0]['cooking_effect'] == None:
-            res = list(rs.sql(Q('select id, name, description, drops, common_locations from "botw-api".creatures where {}=\'{}\''.format(where, target))))
+            res = list(rs.sql(Q('select id, name, description, drops, common_locations, image from "botw-api".creatures where {}=\'{}\''.format(where, target))))
         return 'creatures', res[0]
     return None
 
 def all(version):
-    
     category_metadata = {}
     for category in selects.keys():
         category_metadata[category] = single_category(category)
@@ -85,6 +84,18 @@ def entry(version, inp):
     except TypeError:
         return {'data': {}, 'message': 'no results'}
 
+def img_entry(version, inp):
+    try:
+        try:
+            cat, query_res = id_name_query(inp, '_id')
+            target_entry = query_res['name'].replace(' ', '_')
+        except ValueError:
+            target_entry = inp
+        return flask.send_from_directory('compendium/images', target_entry)
+    except TypeError:
+        return {'data': {}, 'message': 'no results'}
+   
+
 def treasure(version):
     return {'data': single_category('treasure')}
 
@@ -104,6 +115,10 @@ def creatures(version):
 def prod_all(version):
     res = all(version)
     return(res)
+
+@app.route('/api/<version>/entry/<inp>/image')
+def entry_img(version, inp):
+    return(img_entry(version, inp))
 
 @app.route('/api/<version>/entry/<inp>')
 def prod_entry(version, inp):

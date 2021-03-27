@@ -14,23 +14,23 @@ The Hyrule compendium is an encyclopedia of all in-game interactive items. With 
 You can see a specific item, all items in a category, or all data in our database.
 Here is an example request and response, retrieving data on the silver lynel:
 
-    $ curl http://botw-compendium.herokuapp.com/api/v1/entry/silver_lynel
+    $ curl https://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel
     {
         "data": {
+            "name": "white-maned lynel",
+            "id": 123,
             "category": "monsters",
-            "description": "Silver Lynels are not to be trifled with. They have been influenced by Ganon's fiendish magic, so they are the strongest among the Lynel species, surpassing even the strength of those with white manes. The term \"silver\" denotes not only their color but also their rarity. The purple stripes help them to stand out even more.",
+            "description": "These fearsome monsters have lived in Hyrule since ancient times. Their ability to breathe fire makes White-Maned Lynels among the toughest of the species; each one of their attacks is an invitation to the grave. There are so few eyewitness accounts of this breed because a White-Maned Lynel is not one to let even simple passersby escape with their lives.",
+            "common_locations":[
+                "Hyrule Field",
+                "Hebra Mountains"
+            ]
             "drops": [
                 "lynel horn",
                 "lynel hoof",
-                "lynel guts",
-                "topaz",
-                "ruby",
-                "sapphire",
-                "diamond",
-                "star fragment"
+                "lynel guts"
             ],
-            "id": 124,
-            "name": "silver lynel"
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image"
         }
     }
 
@@ -95,14 +95,30 @@ This endpoint is for retrieving *all* data.
 
     $ curl https://botw-compendium.herokuapp.com/api/v1
 
-## Support and Suggestions
-
-If you come across a malfunction or have any suggestions open an [issue](https://github.com/gadhagod/Hyrule-Compendium-API/issues) or a [pull request](https://github.com/gadhagod/Hyrule-Compendium-API/pulls).
-
-## Notes
+### Notes
 
 If a key's value is `null`, that means it's marked as "unknown" in the Hyrule Compendium. \
 The response schema of the "creatures" category is much different from the others, because it has two sub-categories ("food" and "non-food").
+
+## Images
+
+This API also serves images. Each item entry has a key `image`, as shown in the example request and response. That key has a link to the image. The images follow this schema:
+
+    https://botw-compendium.herokuapp.com/api/v1/entry/<entry>/image
+
+The `<entry>` can be either the entry's ID or name. For example, the white-maned lynel's image could be retrieved from either of the two links:
+* [http://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image](http://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image)
+* [http://botw-compendium.herokuapp.com/api/v1/entry/123/image](http://botw-compendium.herokuapp.com/api/v1/entry/123/image])
+
+The images are always in a 280x280 pixel PNG format. 
+
+They can be refrenced just as you would refrence any other image from the web. For example, using HTML:
+
+    <img src="http://botw-compendium.herokuapp.com/api/v1/entry/123/image">
+
+## Support and Suggestions
+
+If you come across a malfunction or have any suggestions open an [issue](https://github.com/gadhagod/Hyrule-Compendium-API/issues) or a [pull request](https://github.com/gadhagod/Hyrule-Compendium-API/pulls).
 
 ## Client Libraries
 

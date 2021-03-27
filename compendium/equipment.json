@@ -4,9 +4,12 @@
             "id": 201,
             "name": "master sword",
             "description": "The legendary sword that seals the darkness. Its blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself can wield it.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 30,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/master_sword/image"
         },
         {
             "id": 202,
@@ -17,7 +20,8 @@
                 "West Necluda"
             ],
             "attack": 2,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/tree_branch/image"
         },
         {
             "id": 203,
@@ -28,7 +32,8 @@
                 "Hyrule Field"
             ],
             "attack": 2,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/torch/image"
         },
         {
             "id": 204,
@@ -39,7 +44,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 4,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soup_ladle/image"
         },
         {
             "id": 205,
@@ -50,15 +56,19 @@
                 "Faron Grasslands"
             ],
             "attack": 8,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boomerang/image"
         },
         {
             "id": 206,
             "name": "spring-loaded hammer",
             "description": "This strange hammer is one of Kilton's specialties. Being struck by it doesn't hurt much, but the forth swing in a string of attacks will send the victim flying.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 1,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spring-loaded_hammer/image"
         },
         {
             "id": 207,
@@ -69,7 +79,8 @@
                 "West Necluda"
             ],
             "attack": 5,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_sword/image"
         },
         {
             "id": 208,
@@ -80,7 +91,8 @@
                 "Faron Grasslands"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_broadsword/image"
         },
         {
             "id": 209,
@@ -91,7 +103,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 26,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_broadsword/image"
         },
         {
             "id": 210,
@@ -102,7 +115,8 @@
                 "Akkala Highlands"
             ],
             "attack": 36,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_broadsword/image"
         },
         {
             "id": 211,
@@ -113,7 +127,8 @@
                 "Hyrule Field"
             ],
             "attack": 22,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forest_dweller's_sword/image"
         },
         {
             "id": 212,
@@ -124,7 +139,8 @@
                 "East Necluda"
             ],
             "attack": 15,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/zora_sword/image"
         },
         {
             "id": 213,
@@ -135,7 +151,8 @@
                 "Hyrule Field"
             ],
             "attack": 15,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/feathered_edge/image"
         },
         {
             "id": 214,
@@ -146,7 +163,8 @@
                 "Gerudo Desert"
             ],
             "attack": 16,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/gerudo_scimitar/image"
         },
         {
             "id": 215,
@@ -157,7 +175,8 @@
                 "Gerudo Desert"
             ],
             "attack": 25,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/moonlight_scimitar/image"
         },
         {
             "id": 216,
@@ -167,7 +186,8 @@
                 "Gerudo Town"
             ],
             "attack": 32,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/scimitar_of_the_seven/image"
         },
         {
             "id": 217,
@@ -178,15 +198,19 @@
                 "Lake Hylia"
             ],
             "attack": 15,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/eightfold_blade/image"
         },
         {
             "id": 218,
             "name": "ancient short sword",
             "description": "The blade of this ancient sword was made using an ancient power lost to this modern age. Its blade appears only when drawn, and its cutting power surpasses metal swords.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 40,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_short_sword/image"
         },
         {
             "id": 219,
@@ -197,15 +221,19 @@
                 "Eldin Canyon"
             ],
             "attack": 6,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rusty_broadsword/image"
         },
         {
             "id": 220,
             "name": "royal guard's sword",
             "description": "A Sheikah-made replica of the sword that seals the darkness. It was made with ancient technology to oppose the Great Calamity, but its low durability made it inefficient.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 48,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_sword/image"
         },
         {
             "id": 221,
@@ -216,7 +244,8 @@
                 "East Necluda"
             ],
             "attack": 24,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/flameblade/image"
         },
         {
             "id": 222,
@@ -227,7 +256,8 @@
                 "Hyrule Field"
             ],
             "attack": 20,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/frostblade/image"
         },
         {
             "id": 223,
@@ -238,7 +268,8 @@
                 "West Necluda"
             ],
             "attack": 22,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/thunderblade/image"
         },
         {
             "id": 224,
@@ -249,7 +280,8 @@
                 "West Necluda"
             ],
             "attack": 4,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_club/image"
         },
         {
             "id": 225,
@@ -260,7 +292,8 @@
                 "East Necluda"
             ],
             "attack": 12,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_club/image"
         },
         {
             "id": 226,
@@ -271,7 +304,8 @@
                 "Necluda Sea"
             ],
             "attack": 24,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_boko_club/image"
         },
         {
             "id": 227,
@@ -282,7 +316,8 @@
                 "Lanayru Wetlands"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_boomerang/image"
         },
         {
             "id": 228,
@@ -293,7 +328,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 24,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_forked_boomerang/image"
         },
         {
             "id": 229,
@@ -304,7 +340,8 @@
                 "Akkala Highlands"
             ],
             "attack": 36,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_tri-boomerang/image"
         },
         {
             "id": 230,
@@ -315,7 +352,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 20,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_sword/image"
         },
         {
             "id": 231,
@@ -326,7 +364,8 @@
                 "Akkala Highlands"
             ],
             "attack": 30,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_sword+/image"
         },
         {
             "id": 232,
@@ -337,7 +376,8 @@
                 "Akkala Highlands"
             ],
             "attack": 40,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_sword++/image"
         },
         {
             "id": 233,
@@ -348,7 +388,8 @@
                 "Hyrule Field"
             ],
             "attack": 24,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_sword/image"
         },
         {
             "id": 234,
@@ -359,7 +400,8 @@
                 "Lanayru Great Spring"
             ],
             "attack": 36,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_sword/image"
         },
         {
             "id": 235,
@@ -370,7 +412,8 @@
                 "Hebra Mountains"
             ],
             "attack": 58,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_sword/image"
         },
         {
             "id": 236,
@@ -381,7 +424,8 @@
                 "Hebra Mountains"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fire_rod/image"
         },
         {
             "id": 237,
@@ -392,7 +436,8 @@
                 "Hebra Mountains"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/meteor_rod/image"
         },
         {
             "id": 238,
@@ -403,7 +448,8 @@
                 "Eldin Canyon"
             ],
             "attack": 5,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ice_rod/image"
         },
         {
             "id": 239,
@@ -414,7 +460,8 @@
                 "Hebra Mountains"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/blizzard_rod/image"
         },
         {
             "id": 240,
@@ -425,7 +472,8 @@
                 "Hyrule Ridge"
             ],
             "attack": 5,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lightning_rod/image"
         },
         {
             "id": 241,
@@ -436,7 +484,8 @@
                 "Hyrule Ridge"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/thunderstorm_rod/image"
         },
         {
             "id": 242,
@@ -447,23 +496,30 @@
                 "Gerudo Desert"
             ],
             "attack": 16,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/vicious_sickle/image"
         },
         {
             "id": 243,
             "name": "demon carver",
             "description": "This lethal weapon is forged by the Yiga. Its unique shape facilitates the sound dispatching of any target and strikes fear into the hearts of all who see it.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 40,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/demon_carver/image"
         },
         {
             "id": 244,
             "name": "one-hit obliterator",
             "description": "A weapon that defeats foes with one hit and causes the user to die within one hit. It loses its sheen and power after two consecutive uses, but it will eventually regain both.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 1000000000,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/one-hit_obliterator/image"
         },
         {
             "id": 245,
@@ -473,7 +529,8 @@
                 "Greater Hyrule"
             ],
             "attack": 5,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/bokoblin_arm/image"
         },
         {
             "id": 246,
@@ -483,7 +540,8 @@
                 "Greater Hyrule"
             ],
             "attack": 12,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizalfos_arm/image"
         },
         {
             "id": 247,
@@ -494,7 +552,8 @@
                 "West Necluda"
             ],
             "attack": 1,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/korok_leaf/image"
         },
         {
             "id": 248,
@@ -505,7 +564,8 @@
                 "Hyrule Field"
             ],
             "attack": 16,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/farming_hoe/image"
         },
         {
             "id": 249,
@@ -516,7 +576,8 @@
                 "Necluda Sea"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boat_oar/image"
         },
         {
             "id": 250,
@@ -527,7 +588,8 @@
                 "Hyrule Field"
             ],
             "attack": 3,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/woodcutter's_axe/image"
         },
         {
             "id": 251,
@@ -538,7 +600,8 @@
                 "Gerudo Highlands"
             ],
             "attack": 18,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/double_axe/image"
         },
         {
             "id": 252,
@@ -549,7 +612,8 @@
                 "Akkala Highlands"
             ],
             "attack": 12,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/iron_sledgehammer/image"
         },
         {
             "id": 253,
@@ -560,7 +624,8 @@
                 "Hebra Mountains"
             ],
             "attack": 25,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/giant_boomerang/image"
         },
         {
             "id": 254,
@@ -571,7 +636,8 @@
                 "West Necluda"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_claymore/image"
         },
         {
             "id": 255,
@@ -582,7 +648,8 @@
                 "Faron Grasslands"
             ],
             "attack": 20,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_claymore/image"
         },
         {
             "id": 256,
@@ -593,7 +660,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 38,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_claymore/image"
         },
         {
             "id": 257,
@@ -604,7 +672,8 @@
                 "Gerudo Desert"
             ],
             "attack": 52,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_claymore/image"
         },
         {
             "id": 258,
@@ -615,7 +684,8 @@
                 "Lanayru Wetlands"
             ],
             "attack": 22,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silver_longsword/image"
         },
         {
             "id": 259,
@@ -626,7 +696,8 @@
                 "Eldin Mountains"
             ],
             "attack": 15,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/cobble_crusher/image"
         },
         {
             "id": 260,
@@ -637,7 +708,8 @@
                 "Hyrule Field"
             ],
             "attack": 42,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/stone_smasher/image"
         },
         {
             "id": 261,
@@ -647,7 +719,8 @@
                 "Eldin Canyon"
             ],
             "attack": 60,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boulder_breaker/image"
         },
         {
             "id": 262,
@@ -658,7 +731,8 @@
                 "Hyrule Ridge"
             ],
             "attack": 28,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/golden_claymore/image"
         },
         {
             "id": 263,
@@ -669,7 +743,8 @@
                 "Lanayru Great Spring"
             ],
             "attack": 32,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/eightfold_longblade/image"
         },
         {
             "id": 264,
@@ -680,15 +755,19 @@
                 "West Necluda"
             ],
             "attack": 50,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/edge_of_duality/image"
         },
         {
             "id": 265,
             "name": "ancient bladesaw",
             "description": "This two-handed sword was forged using ancient Sheikah technology. Its unique rotating blades give it impressive cutting power that will slice enemies to shreds.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 55,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_bladesaw/image"
         },
         {
             "id": 266,
@@ -699,15 +778,19 @@
                 "Eldin Canyon"
             ],
             "attack": 12,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rusty_claymore/image"
         },
         {
             "id": 267,
             "name": "royal guard's claymore",
             "description": "The Sheikah used the very essence of ancient technology to forge this greatsword. It was designed to oppose the Calamity, but its low durability made it impractical in battle.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 72,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_claymore/image"
         },
         {
             "id": 268,
@@ -718,7 +801,8 @@
                 "Eldin Canyon"
             ],
             "attack": 34,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/great_flameblade/image"
         },
         {
             "id": 269,
@@ -729,7 +813,8 @@
                 "Hyrule Field"
             ],
             "attack": 30,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/great_frostblade/image"
         },
         {
             "id": 270,
@@ -740,7 +825,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 32,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/great_thunderblade/image"
         },
         {
             "id": 271,
@@ -751,7 +837,8 @@
                 "West Necluda"
             ],
             "attack": 6,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_bat/image"
         },
         {
             "id": 272,
@@ -762,7 +849,8 @@
                 "East Necluda"
             ],
             "attack": 18,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_bat/image"
         },
         {
             "id": 273,
@@ -773,7 +861,8 @@
                 "Necluda Sea"
             ],
             "attack": 36,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_boko_bat/image"
         },
         {
             "id": 274,
@@ -784,7 +873,8 @@
                 "Faron Grasslands"
             ],
             "attack": 9,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/moblin_club/image"
         },
         {
             "id": 275,
@@ -795,7 +885,8 @@
                 "Akkala Highlands"
             ],
             "attack": 27,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_moblin_club/image"
         },
         {
             "id": 276,
@@ -806,7 +897,8 @@
                 "Eldin Mountains"
             ],
             "attack": 45,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_moblin_club/image"
         },
         {
             "id": 277,
@@ -817,7 +909,8 @@
                 "Hyrule Field"
             ],
             "attack": 30,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_battle_axe/image"
         },
         {
             "id": 278,
@@ -828,7 +921,8 @@
                 "Hyrule Field"
             ],
             "attack": 45,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_battle_axe+/image"
         },
         {
             "id": 279,
@@ -839,7 +933,8 @@
                 "Gerudo Highlands"
             ],
             "attack": 60,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_battle_axe++/image"
         },
         {
             "id": 280,
@@ -850,7 +945,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 36,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_crusher/image"
         },
         {
             "id": 281,
@@ -861,7 +957,8 @@
                 "Hebra Mountains"
             ],
             "attack": 54,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_crusher/image"
         },
         {
             "id": 282,
@@ -872,7 +969,8 @@
                 "Eldin Mountains"
             ],
             "attack": 78,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_crusher/image"
         },
         {
             "id": 283,
@@ -883,7 +981,8 @@
                 "West Necluda"
             ],
             "attack": 40,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/windcleaver/image"
         },
         {
             "id": 284,
@@ -893,7 +992,8 @@
                 "Greater Hyrule"
             ],
             "attack": 15,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/moblin_arm/image"
         },
         {
             "id": 285,
@@ -904,7 +1004,8 @@
                 "Hyrule Field"
             ],
             "attack": 5,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/wooden_mop/image"
         },
         {
             "id": 286,
@@ -915,7 +1016,8 @@
                 "West Necluda"
             ],
             "attack": 7,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/farmer's_pitchfork/image"
         },
         {
             "id": 287,
@@ -926,7 +1028,8 @@
                 "Lake Hylia"
             ],
             "attack": 8,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fishing_harpoon/image"
         },
         {
             "id": 288,
@@ -937,7 +1040,8 @@
                 "Hyrule Field"
             ],
             "attack": 6,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/throwing_spear/image"
         },
         {
             "id": 289,
@@ -948,7 +1052,8 @@
                 "West Necluda"
             ],
             "attack": 3,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_spear/image"
         },
         {
             "id": 290,
@@ -959,7 +1064,8 @@
                 "Faron Grasslands"
             ],
             "attack": 7,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_spear/image"
         },
         {
             "id": 291,
@@ -970,7 +1076,8 @@
                 "Gerudo Desert"
             ],
             "attack": 13,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_halberd/image"
         },
         {
             "id": 292,
@@ -981,7 +1088,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 26,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_halberd/image"
         },
         {
             "id": 293,
@@ -992,7 +1100,8 @@
                 "Hyrule Ridge"
             ],
             "attack": 11,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forest_dweller's_spear/image"
         },
         {
             "id": 294,
@@ -1003,7 +1112,8 @@
                 "Lake Hylia"
             ],
             "attack": 9,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/zora_spear/image"
         },
         {
             "id": 295,
@@ -1014,7 +1124,8 @@
                 "Lanayru Great Spring"
             ],
             "attack": 12,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silverscale_spear/image"
         },
         {
             "id": 296,
@@ -1024,7 +1135,8 @@
                 "Lanayru Great Spring"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ceremonial_trident/image"
         },
         {
             "id": 297,
@@ -1034,7 +1146,8 @@
                 "Lanayru Great Spring"
             ],
             "attack": 22,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lightscale_trident/image"
         },
         {
             "id": 298,
@@ -1045,7 +1158,8 @@
                 "Hebra Mountains"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/drillshaft/image"
         },
         {
             "id": 299,
@@ -1056,7 +1170,8 @@
                 "Hyrule Field"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/feathered_spear/image"
         },
         {
             "id": 300,
@@ -1067,7 +1182,8 @@
                 "Gerudo Highlands"
             ],
             "attack": 16,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/gerudo_spear/image"
         },
         {
             "id": 301,
@@ -1078,15 +1194,19 @@
                 "Hyrule Field"
             ],
             "attack": 12,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/serpentine_spear/image"
         },
         {
             "id": 302,
             "name": "ancient spear",
             "description": "This spear is the result of countless hours of research into the ancient technology used by Guardians. The glowing spearhead has piercing potential.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 30,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_spear/image"
         },
         {
             "id": 303,
@@ -1097,15 +1217,19 @@
                 "Great Hyrule Forest"
             ],
             "attack": 5,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rusty_halberd/image"
         },
         {
             "id": 304,
             "name": "royal guard's spear",
             "description": "This Sheikah-made spear was created using ancient technology to combat the Calamity. Its attack power is very high, but a critical design flaw left it with poor durability.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 32,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_spear/image"
         },
         {
             "id": 305,
@@ -1116,7 +1240,8 @@
                 "Hebra Mountains"
             ],
             "attack": 24,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/flamespear/image"
         },
         {
             "id": 306,
@@ -1127,7 +1252,8 @@
                 "Hyrule Field"
             ],
             "attack": 20,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/frostspear/image"
         },
         {
             "id": 307,
@@ -1138,7 +1264,8 @@
                 "Hyrule Field"
             ],
             "attack": 22,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/thunderspear/image"
         },
         {
             "id": 308,
@@ -1149,7 +1276,8 @@
                 "Hyrule Field"
             ],
             "attack": 2,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_spear/image"
         },
         {
             "id": 309,
@@ -1160,7 +1288,8 @@
                 "East Necluda"
             ],
             "attack": 6,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_spear/image"
         },
         {
             "id": 310,
@@ -1171,7 +1300,8 @@
                 "Hyrule Ridge"
             ],
             "attack": 12,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_boko_spear/image"
         },
         {
             "id": 311,
@@ -1182,7 +1312,8 @@
                 "Gerudo Highlands"
             ],
             "attack": 4,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/moblin_spear/image"
         },
         {
             "id": 312,
@@ -1193,7 +1324,8 @@
                 "Akkala Highlands"
             ],
             "attack": 9,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_moblin_spear/image"
         },
         {
             "id": 313,
@@ -1204,7 +1336,8 @@
                 "Eldin Mountains"
             ],
             "attack": 15,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_moblin_spear/image"
         },
         {
             "id": 314,
@@ -1215,7 +1348,8 @@
                 "East Necluda"
             ],
             "attack": 7,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_spear/image"
         },
         {
             "id": 315,
@@ -1226,7 +1360,8 @@
                 "Gerudo Desert"
             ],
             "attack": 12,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/enhanced_lizal_spear/image"
         },
         {
             "id": 316,
@@ -1237,7 +1372,8 @@
                 "Akkala Highlands"
             ],
             "attack": 18,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forked_lizal_spear/image"
         },
         {
             "id": 317,
@@ -1248,7 +1384,8 @@
                 "Hebra Mountains"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_spear/image"
         },
         {
             "id": 318,
@@ -1259,7 +1396,8 @@
                 "Hyrule Field"
             ],
             "attack": 15,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_spear+/image"
         },
         {
             "id": 319,
@@ -1270,7 +1408,8 @@
                 "Akkala Highlands"
             ],
             "attack": 20,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_spear++/image"
         },
         {
             "id": 320,
@@ -1281,7 +1420,8 @@
                 "West Necluda"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_spear/image"
         },
         {
             "id": 321,
@@ -1292,7 +1432,8 @@
                 "Deep Akkala"
             ],
             "attack": 20,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_spear/image"
         },
         {
             "id": 322,
@@ -1303,15 +1444,19 @@
                 "Hebra Mountains"
             ],
             "attack": 30,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_spear/image"
         },
         {
             "id": 323,
             "name": "bow of light",
             "description": "Princess Zelda gave you this bow and arrow for the battle with Dark Beast Ganon. When wielded by the hero, it fires arrows of pure light strong enough to oppose the Calamity.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 100,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/bow_of_light/image"
         },
         {
             "id": 324,
@@ -1322,7 +1467,8 @@
                 "West Necluda"
             ],
             "attack": 4,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/wooden_bow/image"
         },
         {
             "id": 325,
@@ -1333,7 +1479,8 @@
                 "West Necluda"
             ],
             "attack": 5,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_bow/image"
         },
         {
             "id": 326,
@@ -1344,7 +1491,8 @@
                 "Faron Grasslands"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_bow/image"
         },
         {
             "id": 327,
@@ -1355,7 +1503,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 26,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_bow/image"
         },
         {
             "id": 328,
@@ -1366,7 +1515,8 @@
                 "Hebra Mountains"
             ],
             "attack": 38,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_bow/image"
         },
         {
             "id": 329,
@@ -1377,7 +1527,8 @@
                 "Hyrule Ridge"
             ],
             "attack": 15,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forest_dweller's_bow/image"
         },
         {
             "id": 330,
@@ -1388,7 +1539,8 @@
                 "Akkala Highlands"
             ],
             "attack": 15,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silver_bow/image"
         },
         {
             "id": 331,
@@ -1399,7 +1551,8 @@
                 "Hebra Mountains"
             ],
             "attack": 9,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/swallow_bow/image"
         },
         {
             "id": 332,
@@ -1410,7 +1563,8 @@
                 "Hebra Mountains"
             ],
             "attack": 20,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/falcon_bow/image"
         },
         {
             "id": 333,
@@ -1420,7 +1574,8 @@
                 "Tabantha Frontier"
             ],
             "attack": 28,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/great_eagle_bow/image"
         },
         {
             "id": 334,
@@ -1431,7 +1586,8 @@
                 "Gerudo Desert"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/golden_bow/image"
         },
         {
             "id": 335,
@@ -1442,23 +1598,30 @@
                 "Lake Hylia"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/phrenic_bow/image"
         },
         {
             "id": 336,
             "name": "ancient bow",
             "description": "This bow is the result of Robbie's research. Ancient Sheikah technology affords it heightened functionality. Arrows fired from it travel in a perfectly straight line.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 44,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_bow/image"
         },
         {
             "id": 337,
             "name": "royal guard's bow",
             "description": "This prototype Sheikah-made bow was designed to fight the Great Calamity. Made with ancient technology, it boast a high rate of fire and firepower, but has a low durability.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "attack": 50,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_bow/image"
         },
         {
             "id": 338,
@@ -1469,7 +1632,8 @@
                 "West Necluda"
             ],
             "attack": 4,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_bow/image"
         },
         {
             "id": 339,
@@ -1480,7 +1644,8 @@
                 "East Necluda"
             ],
             "attack": 12,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_bow/image"
         },
         {
             "id": 340,
@@ -1491,7 +1656,8 @@
                 "Hyrule Field"
             ],
             "attack": 24,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragon_bone_boko_bow/image"
         },
         {
             "id": 341,
@@ -1502,7 +1668,8 @@
                 "Lanayru Wetlands"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_bow/image"
         },
         {
             "id": 342,
@@ -1513,7 +1680,8 @@
                 "Gerudo Desert"
             ],
             "attack": 25,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/strengthened_lizal_bow/image"
         },
         {
             "id": 343,
@@ -1524,7 +1692,8 @@
                 "Akkala Highlands"
             ],
             "attack": 36,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/steel_lizal_bow/image"
         },
         {
             "id": 344,
@@ -1535,7 +1704,8 @@
                 "Lanayru Great Spring"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_bow/image"
         },
         {
             "id": 345,
@@ -1546,7 +1716,8 @@
                 "Deep Akkala"
             ],
             "attack": 20,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_bow/image"
         },
         {
             "id": 346,
@@ -1557,7 +1728,8 @@
                 "Hyrule Field"
             ],
             "attack": 32,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_bow/image"
         },
         {
             "id": 347,
@@ -1567,7 +1739,8 @@
                 "Gerudo Highlands"
             ],
             "attack": 14,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/duplex_bow/image"
         },
         {
             "id": 348,
@@ -1576,7 +1749,8 @@
             "common_locations": [
                 "Hyrule Field",
                 "Eldin Canyon"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/arrow/image"
         },
         {
             "id": 349,
@@ -1585,7 +1759,8 @@
             "common_locations": [
                 "Hyrule Field",
                 "Eldin Canyon"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fire_arrow/image"
         },
         {
             "id": 350,
@@ -1594,7 +1769,8 @@
             "common_locations": [
                 "Hyrule Field",
                 "Hebra Mountains"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ice_arrow/image"
         },
         {
             "id": 351,
@@ -1603,7 +1779,8 @@
             "common_locations": [
                 "Lanayru Great Spring",
                 "Hyrule Field"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/shock_arrow/image"
         },
         {
             "id": 352,
@@ -1612,7 +1789,8 @@
             "common_locations": [
                 "Hyrule Field",
                 "East Necluda"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/bomb_arrow/image"
         },
         {
             "id": 353,
@@ -1620,15 +1798,19 @@
             "description": "An arrow created using ancient technology. To be struck with one is to be consigned to oblivion in an instant. It deals devastating damage\u2014even against Guardians.",
             "common_locations": [
                 "Hyrule Field"
-            ]
+            ],
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_arrow/image"
         },
         {
             "id": 354,
             "name": "hylian shield",
             "description": "A shield passes down through the Hylian royal family, along with the legend of the hero who wielded it. Its defensive capabilities and durability outshine all other shields.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "defense": 90,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hylian_shield/image"
         },
         {
             "id": 355,
@@ -1639,7 +1821,8 @@
                 "East Necluda"
             ],
             "defense": 1,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/pot_lid/image"
         },
         {
             "id": 356,
@@ -1650,7 +1833,8 @@
                 "East Necluda"
             ],
             "defense": 2,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/wooden_shield/image"
         },
         {
             "id": 357,
@@ -1661,7 +1845,8 @@
                 "Hebra Mountains"
             ],
             "defense": 3,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/emblazoned_shield/image"
         },
         {
             "id": 358,
@@ -1672,7 +1857,8 @@
                 "Lanayru Wetlands"
             ],
             "defense": 3,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hunter's_shield/image"
         },
         {
             "id": 359,
@@ -1683,7 +1869,8 @@
                 "Hebra Mountains"
             ],
             "defense": 3,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fisherman's_shield/image"
         },
         {
             "id": 360,
@@ -1694,7 +1881,8 @@
                 "West Necluda"
             ],
             "defense": 4,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_shield/image"
         },
         {
             "id": 361,
@@ -1705,7 +1893,8 @@
                 "Hyrule Field"
             ],
             "defense": 16,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_shield/image"
         },
         {
             "id": 362,
@@ -1716,7 +1905,8 @@
                 "Eldin Mountains"
             ],
             "defense": 40,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_shield/image"
         },
         {
             "id": 363,
@@ -1727,7 +1917,8 @@
                 "Hebra Mountains"
             ],
             "defense": 55,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_shield/image"
         },
         {
             "id": 364,
@@ -1737,7 +1928,8 @@
                 "Great Hyrule Forest"
             ],
             "defense": 30,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forest_dweller's_shield/image"
         },
         {
             "id": 365,
@@ -1748,7 +1940,8 @@
                 "Lake Hylia"
             ],
             "defense": 18,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silver_shield/image"
         },
         {
             "id": 366,
@@ -1759,7 +1952,8 @@
                 "Tabantha Frontier"
             ],
             "defense": 14,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/kite_shield/image"
         },
         {
             "id": 367,
@@ -1770,7 +1964,8 @@
                 "Gerudo Highlands"
             ],
             "defense": 20,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/gerudo_shield/image"
         },
         {
             "id": 368,
@@ -1781,7 +1976,8 @@
                 "Gerudo Highlands"
             ],
             "defense": 35,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/radiant_shield/image"
         },
         {
             "id": 369,
@@ -1791,7 +1987,8 @@
                 "Gerudo Desert"
             ],
             "defense": 48,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/daybreaker/image"
         },
         {
             "id": 370,
@@ -1802,15 +1999,19 @@
                 "East Necluda"
             ],
             "defense": 16,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/shield_of_the_mind's_eye/image"
         },
         {
             "id": 371,
             "name": "ancient shield",
             "description": "This shield was made using ancient Sheikah technology. Its surface glows blue when raised in defense. Enhanced functionality allows it to deflect Guardian beams.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "defense": 70,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_shield/image"
         },
         {
             "id": 372,
@@ -1821,15 +2022,19 @@
                 "East Necluda"
             ],
             "defense": 3,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rusty_shield/image"
         },
         {
             "id": 373,
             "name": "royal guard's shield",
             "description": "This shield was forged using ancient Sheikah technology. It boasts extremely high stopping power, but its structural weakness made its low durability impractical for combat.",
-            "common_locations": null,
+            "common_locations": [
+                "Unknown"
+            ],
             "defense": 70,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_shield/image"
         },
         {
             "id": 374,
@@ -1840,7 +2045,8 @@
                 "West Necluda"
             ],
             "defense": 3,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_shield/image"
         },
         {
             "id": 375,
@@ -1851,7 +2057,8 @@
                 "East Necluda"
             ],
             "attack": 10,
-            "defense": 0
+            "defense": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_shield/image"
         },
         {
             "id": 376,
@@ -1862,7 +2069,8 @@
                 "Necluda Sea"
             ],
             "defense": 25,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_boko_shield/image"
         },
         {
             "id": 377,
@@ -1873,7 +2081,8 @@
                 "East Necluda"
             ],
             "defense": 15,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_shield/image"
         },
         {
             "id": 378,
@@ -1884,7 +2093,8 @@
                 "Gerudo Desert"
             ],
             "defense": 22,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/reinforced_lizal_shield/image"
         },
         {
             "id": 379,
@@ -1895,7 +2105,8 @@
                 "Akkala Highlands"
             ],
             "defense": 35,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/steel_lizal_shield/image"
         },
         {
             "id": 380,
@@ -1906,7 +2117,8 @@
                 "Lanayru Great Spring"
             ],
             "defense": 18,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_shield/image"
         },
         {
             "id": 381,
@@ -1917,7 +2129,8 @@
                 "Faron Grasslands"
             ],
             "defense": 30,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_shield+/image"
         },
         {
             "id": 382,
@@ -1928,7 +2141,8 @@
                 "Akkala Highlands"
             ],
             "defense": 42,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_shield++/image"
         },
         {
             "id": 383,
@@ -1939,7 +2153,8 @@
                 "Hyrule Field"
             ],
             "defense": 30,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_shield/image"
         },
         {
             "id": 384,
@@ -1950,7 +2165,8 @@
                 "Lanayru Great Spring"
             ],
             "defense": 44,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_shield/image"
         },
         {
             "id": 385,
@@ -1961,7 +2177,8 @@
                 "Hebra Mountains"
             ],
             "defense": 62,
-            "attack": 0
+            "attack": 0,
+            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_shield/image"
         }
     ]
 }
