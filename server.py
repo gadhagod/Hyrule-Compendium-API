@@ -87,7 +87,7 @@ def entry(version, inp):
 def img_entry(version, inp):
     try:
         try:
-            cat, query_res = id_name_query(inp, '_id')
+            cat, query_res = id_name_query(int(inp), '_id')
             target_entry = query_res['name'].replace(' ', '_')
         except ValueError:
             target_entry = inp
