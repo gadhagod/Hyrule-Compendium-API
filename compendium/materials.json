@@ -10,7 +10,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/apple/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/apple/image"
         },
         {
             "id": 166,
@@ -22,7 +22,7 @@
             ],
             "hearts_recovered": 1.0,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/palm_fruit/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/palm_fruit/image"
         },
         {
             "id": 167,
@@ -34,7 +34,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/wildberry/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/wildberry/image"
         },
         {
             "id": 168,
@@ -46,7 +46,7 @@
             ],
             "hearts_recovered": 3.0,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hearty_durian/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hearty_durian/image"
         },
         {
             "id": 169,
@@ -58,7 +58,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "heat resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hydromelon/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hydromelon/image"
         },
         {
             "id": 170,
@@ -70,7 +70,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "cold resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spicy_pepper/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spicy_pepper/image"
         },
         {
             "id": 171,
@@ -82,7 +82,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "shock resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/voltfruit/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/voltfruit/image"
         },
         {
             "id": 172,
@@ -94,7 +94,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "speed up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fleet-lotus_seeds/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fleet-lotus_seeds/image"
         },
         {
             "id": 173,
@@ -105,7 +105,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "attack up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_bananas/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_bananas/image"
         },
         {
             "id": 174,
@@ -117,7 +117,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hylian_shroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hylian_shroom/image"
         },
         {
             "id": 175,
@@ -129,7 +129,7 @@
             ],
             "hearts_recovered": 1.0,
             "cooking_effect": "extra stamina",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/endura_shroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/endura_shroom/image"
         },
         {
             "id": 176,
@@ -141,7 +141,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "stamina recovery",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/stamella_shroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/stamella_shroom/image"
         },
         {
             "id": 177,
@@ -153,7 +153,7 @@
             ],
             "hearts_recovered": 2.0,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hearty_truffle/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hearty_truffle/image"
         },
         {
             "id": 178,
@@ -165,7 +165,7 @@
             ],
             "hearts_recovered": 3.0,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/big_hearty_truffle/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/big_hearty_truffle/image"
         },
         {
             "id": 179,
@@ -177,7 +177,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "heat resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/chillshroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/chillshroom/image"
         },
         {
             "id": 180,
@@ -189,7 +189,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "cold resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/sunshroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/sunshroom/image"
         },
         {
             "id": 181,
@@ -201,7 +201,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "shock resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/zapshroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/zapshroom/image"
         },
         {
             "id": 182,
@@ -213,7 +213,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "speed up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rushroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rushroom/image"
         },
         {
             "id": 183,
@@ -225,7 +225,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "attack up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/razorshroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/razorshroom/image"
         },
         {
             "id": 184,
@@ -237,7 +237,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "defense up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ironshroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ironshroom/image"
         },
         {
             "id": 185,
@@ -249,7 +249,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "stealth up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silent_shroom/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silent_shroom/image"
         },
         {
             "id": 186,
@@ -261,7 +261,7 @@
             ],
             "hearts_recovered": 1.0,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hyrule_herb/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hyrule_herb/image"
         },
         {
             "id": 187,
@@ -273,7 +273,7 @@
             ],
             "hearts_recovered": 20.5,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hearty_radish/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hearty_radish/image"
         },
         {
             "id": 188,
@@ -285,7 +285,7 @@
             ],
             "hearts_recovered": 4.0,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/big_hearty_radish/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/big_hearty_radish/image"
         },
         {
             "id": 189,
@@ -297,7 +297,7 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "heat resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/cool_safflina/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/cool_safflina/image"
         },
         {
             "id": 190,
@@ -309,7 +309,7 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "cold resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/warm_safflina/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/warm_safflina/image"
         },
         {
             "id": 191,
@@ -321,7 +321,7 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "shock resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/electric_safflina/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/electric_safflina/image"
         },
         {
             "id": 192,
@@ -332,7 +332,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "speed up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/swift_carrot/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/swift_carrot/image"
         },
         {
             "id": 193,
@@ -344,7 +344,7 @@
             ],
             "hearts_recovered": 2.0,
             "cooking_effect": "extra stamina",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/endura_carrot/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/endura_carrot/image"
         },
         {
             "id": 194,
@@ -355,7 +355,7 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "defense up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fortified_pumpkin/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fortified_pumpkin/image"
         },
         {
             "id": 195,
@@ -367,7 +367,7 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "speed up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/swift_violet/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/swift_violet/image"
         },
         {
             "id": 196,
@@ -379,7 +379,7 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "attack up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_thistle/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_thistle/image"
         },
         {
             "id": 197,
@@ -391,7 +391,7 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "defense up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/armoranth/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/armoranth/image"
         },
         {
             "id": 198,
@@ -403,7 +403,7 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "stealth up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/blue_nightshade/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/blue_nightshade/image"
         },
         {
             "id": 199,
@@ -415,7 +415,7 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "stealth up",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silent_princess/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silent_princess/image"
         },
         {
             "id": 200,
@@ -427,7 +427,7 @@
             ],
             "hearts_recovered": 2.0,
             "cooking_effect": "stamina recovery",
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/courser_bee_honey/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/courser_bee_honey/image"
         }
     ]
 }

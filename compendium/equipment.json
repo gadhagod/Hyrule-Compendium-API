@@ -4,12 +4,10 @@
             "id": 201,
             "name": "master sword",
             "description": "The legendary sword that seals the darkness. Its blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself can wield it.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/master_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/master_sword/image"
         },
         {
             "id": 202,
@@ -21,7 +19,7 @@
             ],
             "attack": 2,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/tree_branch/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/tree_branch/image"
         },
         {
             "id": 203,
@@ -33,7 +31,7 @@
             ],
             "attack": 2,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/torch/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/torch/image"
         },
         {
             "id": 204,
@@ -45,7 +43,7 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soup_ladle/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soup_ladle/image"
         },
         {
             "id": 205,
@@ -57,18 +55,16 @@
             ],
             "attack": 8,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boomerang/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boomerang/image"
         },
         {
             "id": 206,
             "name": "spring-loaded hammer",
             "description": "This strange hammer is one of Kilton's specialties. Being struck by it doesn't hurt much, but the forth swing in a string of attacks will send the victim flying.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 1,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spring-loaded_hammer/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spring-loaded_hammer/image"
         },
         {
             "id": 207,
@@ -80,7 +76,7 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_sword/image"
         },
         {
             "id": 208,
@@ -92,7 +88,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_broadsword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_broadsword/image"
         },
         {
             "id": 209,
@@ -104,7 +100,7 @@
             ],
             "attack": 26,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_broadsword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_broadsword/image"
         },
         {
             "id": 210,
@@ -116,7 +112,7 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_broadsword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_broadsword/image"
         },
         {
             "id": 211,
@@ -128,7 +124,7 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forest_dweller's_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forest_dweller's_sword/image"
         },
         {
             "id": 212,
@@ -140,7 +136,7 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/zora_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/zora_sword/image"
         },
         {
             "id": 213,
@@ -152,7 +148,7 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/feathered_edge/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/feathered_edge/image"
         },
         {
             "id": 214,
@@ -164,7 +160,7 @@
             ],
             "attack": 16,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/gerudo_scimitar/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/gerudo_scimitar/image"
         },
         {
             "id": 215,
@@ -176,7 +172,7 @@
             ],
             "attack": 25,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/moonlight_scimitar/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/moonlight_scimitar/image"
         },
         {
             "id": 216,
@@ -187,7 +183,7 @@
             ],
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/scimitar_of_the_seven/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/scimitar_of_the_seven/image"
         },
         {
             "id": 217,
@@ -199,18 +195,16 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/eightfold_blade/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/eightfold_blade/image"
         },
         {
             "id": 218,
             "name": "ancient short sword",
             "description": "The blade of this ancient sword was made using an ancient power lost to this modern age. Its blade appears only when drawn, and its cutting power surpasses metal swords.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 40,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_short_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_short_sword/image"
         },
         {
             "id": 219,
@@ -222,18 +216,16 @@
             ],
             "attack": 6,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rusty_broadsword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rusty_broadsword/image"
         },
         {
             "id": 220,
             "name": "royal guard's sword",
             "description": "A Sheikah-made replica of the sword that seals the darkness. It was made with ancient technology to oppose the Great Calamity, but its low durability made it inefficient.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 48,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_sword/image"
         },
         {
             "id": 221,
@@ -245,7 +237,7 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/flameblade/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/flameblade/image"
         },
         {
             "id": 222,
@@ -257,7 +249,7 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/frostblade/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/frostblade/image"
         },
         {
             "id": 223,
@@ -269,7 +261,7 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/thunderblade/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/thunderblade/image"
         },
         {
             "id": 224,
@@ -281,7 +273,7 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_club/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_club/image"
         },
         {
             "id": 225,
@@ -293,7 +285,7 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_club/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_club/image"
         },
         {
             "id": 226,
@@ -305,7 +297,7 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_boko_club/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_boko_club/image"
         },
         {
             "id": 227,
@@ -317,7 +309,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_boomerang/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_boomerang/image"
         },
         {
             "id": 228,
@@ -329,7 +321,7 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_forked_boomerang/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_forked_boomerang/image"
         },
         {
             "id": 229,
@@ -341,7 +333,7 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_tri-boomerang/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_tri-boomerang/image"
         },
         {
             "id": 230,
@@ -353,7 +345,7 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_sword/image"
         },
         {
             "id": 231,
@@ -365,7 +357,7 @@
             ],
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_sword+/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_sword+/image"
         },
         {
             "id": 232,
@@ -377,7 +369,7 @@
             ],
             "attack": 40,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_sword++/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_sword++/image"
         },
         {
             "id": 233,
@@ -389,7 +381,7 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_sword/image"
         },
         {
             "id": 234,
@@ -401,7 +393,7 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_sword/image"
         },
         {
             "id": 235,
@@ -413,7 +405,7 @@
             ],
             "attack": 58,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_sword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_sword/image"
         },
         {
             "id": 236,
@@ -425,7 +417,7 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fire_rod/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fire_rod/image"
         },
         {
             "id": 237,
@@ -437,7 +429,7 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/meteor_rod/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/meteor_rod/image"
         },
         {
             "id": 238,
@@ -449,7 +441,7 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ice_rod/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ice_rod/image"
         },
         {
             "id": 239,
@@ -461,7 +453,7 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/blizzard_rod/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/blizzard_rod/image"
         },
         {
             "id": 240,
@@ -473,7 +465,7 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lightning_rod/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lightning_rod/image"
         },
         {
             "id": 241,
@@ -485,7 +477,7 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/thunderstorm_rod/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/thunderstorm_rod/image"
         },
         {
             "id": 242,
@@ -497,29 +489,25 @@
             ],
             "attack": 16,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/vicious_sickle/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/vicious_sickle/image"
         },
         {
             "id": 243,
             "name": "demon carver",
             "description": "This lethal weapon is forged by the Yiga. Its unique shape facilitates the sound dispatching of any target and strikes fear into the hearts of all who see it.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 40,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/demon_carver/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/demon_carver/image"
         },
         {
             "id": 244,
             "name": "one-hit obliterator",
             "description": "A weapon that defeats foes with one hit and causes the user to die within one hit. It loses its sheen and power after two consecutive uses, but it will eventually regain both.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 1000000000,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/one-hit_obliterator/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/one-hit_obliterator/image"
         },
         {
             "id": 245,
@@ -530,7 +518,7 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/bokoblin_arm/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/bokoblin_arm/image"
         },
         {
             "id": 246,
@@ -541,7 +529,7 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizalfos_arm/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizalfos_arm/image"
         },
         {
             "id": 247,
@@ -553,7 +541,7 @@
             ],
             "attack": 1,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/korok_leaf/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/korok_leaf/image"
         },
         {
             "id": 248,
@@ -565,7 +553,7 @@
             ],
             "attack": 16,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/farming_hoe/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/farming_hoe/image"
         },
         {
             "id": 249,
@@ -577,7 +565,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boat_oar/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boat_oar/image"
         },
         {
             "id": 250,
@@ -589,7 +577,7 @@
             ],
             "attack": 3,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/woodcutter's_axe/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/woodcutter's_axe/image"
         },
         {
             "id": 251,
@@ -601,7 +589,7 @@
             ],
             "attack": 18,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/double_axe/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/double_axe/image"
         },
         {
             "id": 252,
@@ -613,7 +601,7 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/iron_sledgehammer/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/iron_sledgehammer/image"
         },
         {
             "id": 253,
@@ -625,7 +613,7 @@
             ],
             "attack": 25,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/giant_boomerang/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/giant_boomerang/image"
         },
         {
             "id": 254,
@@ -637,7 +625,7 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_claymore/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_claymore/image"
         },
         {
             "id": 255,
@@ -649,7 +637,7 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_claymore/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_claymore/image"
         },
         {
             "id": 256,
@@ -661,7 +649,7 @@
             ],
             "attack": 38,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_claymore/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_claymore/image"
         },
         {
             "id": 257,
@@ -673,7 +661,7 @@
             ],
             "attack": 52,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_claymore/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_claymore/image"
         },
         {
             "id": 258,
@@ -685,7 +673,7 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silver_longsword/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silver_longsword/image"
         },
         {
             "id": 259,
@@ -697,7 +685,7 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/cobble_crusher/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/cobble_crusher/image"
         },
         {
             "id": 260,
@@ -709,7 +697,7 @@
             ],
             "attack": 42,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/stone_smasher/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/stone_smasher/image"
         },
         {
             "id": 261,
@@ -720,7 +708,7 @@
             ],
             "attack": 60,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boulder_breaker/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boulder_breaker/image"
         },
         {
             "id": 262,
@@ -732,7 +720,7 @@
             ],
             "attack": 28,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/golden_claymore/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/golden_claymore/image"
         },
         {
             "id": 263,
@@ -744,7 +732,7 @@
             ],
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/eightfold_longblade/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/eightfold_longblade/image"
         },
         {
             "id": 264,
@@ -756,18 +744,16 @@
             ],
             "attack": 50,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/edge_of_duality/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/edge_of_duality/image"
         },
         {
             "id": 265,
             "name": "ancient bladesaw",
             "description": "This two-handed sword was forged using ancient Sheikah technology. Its unique rotating blades give it impressive cutting power that will slice enemies to shreds.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 55,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_bladesaw/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_bladesaw/image"
         },
         {
             "id": 266,
@@ -779,18 +765,16 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rusty_claymore/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rusty_claymore/image"
         },
         {
             "id": 267,
             "name": "royal guard's claymore",
             "description": "The Sheikah used the very essence of ancient technology to forge this greatsword. It was designed to oppose the Calamity, but its low durability made it impractical in battle.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 72,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_claymore/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_claymore/image"
         },
         {
             "id": 268,
@@ -802,7 +786,7 @@
             ],
             "attack": 34,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/great_flameblade/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/great_flameblade/image"
         },
         {
             "id": 269,
@@ -814,7 +798,7 @@
             ],
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/great_frostblade/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/great_frostblade/image"
         },
         {
             "id": 270,
@@ -826,7 +810,7 @@
             ],
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/great_thunderblade/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/great_thunderblade/image"
         },
         {
             "id": 271,
@@ -838,7 +822,7 @@
             ],
             "attack": 6,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_bat/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_bat/image"
         },
         {
             "id": 272,
@@ -850,7 +834,7 @@
             ],
             "attack": 18,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_bat/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_bat/image"
         },
         {
             "id": 273,
@@ -862,7 +846,7 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_boko_bat/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_boko_bat/image"
         },
         {
             "id": 274,
@@ -874,7 +858,7 @@
             ],
             "attack": 9,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/moblin_club/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/moblin_club/image"
         },
         {
             "id": 275,
@@ -886,7 +870,7 @@
             ],
             "attack": 27,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_moblin_club/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_moblin_club/image"
         },
         {
             "id": 276,
@@ -898,7 +882,7 @@
             ],
             "attack": 45,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_moblin_club/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_moblin_club/image"
         },
         {
             "id": 277,
@@ -910,7 +894,7 @@
             ],
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_battle_axe/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_battle_axe/image"
         },
         {
             "id": 278,
@@ -922,7 +906,7 @@
             ],
             "attack": 45,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_battle_axe+/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_battle_axe+/image"
         },
         {
             "id": 279,
@@ -934,7 +918,7 @@
             ],
             "attack": 60,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_battle_axe++/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_battle_axe++/image"
         },
         {
             "id": 280,
@@ -946,7 +930,7 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_crusher/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_crusher/image"
         },
         {
             "id": 281,
@@ -958,7 +942,7 @@
             ],
             "attack": 54,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_crusher/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_crusher/image"
         },
         {
             "id": 282,
@@ -970,7 +954,7 @@
             ],
             "attack": 78,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_crusher/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_crusher/image"
         },
         {
             "id": 283,
@@ -982,7 +966,7 @@
             ],
             "attack": 40,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/windcleaver/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/windcleaver/image"
         },
         {
             "id": 284,
@@ -993,7 +977,7 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/moblin_arm/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/moblin_arm/image"
         },
         {
             "id": 285,
@@ -1005,7 +989,7 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/wooden_mop/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/wooden_mop/image"
         },
         {
             "id": 286,
@@ -1017,7 +1001,7 @@
             ],
             "attack": 7,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/farmer's_pitchfork/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/farmer's_pitchfork/image"
         },
         {
             "id": 287,
@@ -1029,7 +1013,7 @@
             ],
             "attack": 8,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fishing_harpoon/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fishing_harpoon/image"
         },
         {
             "id": 288,
@@ -1041,7 +1025,7 @@
             ],
             "attack": 6,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/throwing_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/throwing_spear/image"
         },
         {
             "id": 289,
@@ -1053,7 +1037,7 @@
             ],
             "attack": 3,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_spear/image"
         },
         {
             "id": 290,
@@ -1065,7 +1049,7 @@
             ],
             "attack": 7,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_spear/image"
         },
         {
             "id": 291,
@@ -1077,7 +1061,7 @@
             ],
             "attack": 13,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_halberd/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_halberd/image"
         },
         {
             "id": 292,
@@ -1089,7 +1073,7 @@
             ],
             "attack": 26,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_halberd/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_halberd/image"
         },
         {
             "id": 293,
@@ -1101,7 +1085,7 @@
             ],
             "attack": 11,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forest_dweller's_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forest_dweller's_spear/image"
         },
         {
             "id": 294,
@@ -1113,7 +1097,7 @@
             ],
             "attack": 9,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/zora_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/zora_spear/image"
         },
         {
             "id": 295,
@@ -1125,7 +1109,7 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silverscale_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silverscale_spear/image"
         },
         {
             "id": 296,
@@ -1136,7 +1120,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ceremonial_trident/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ceremonial_trident/image"
         },
         {
             "id": 297,
@@ -1147,7 +1131,7 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lightscale_trident/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lightscale_trident/image"
         },
         {
             "id": 298,
@@ -1159,7 +1143,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/drillshaft/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/drillshaft/image"
         },
         {
             "id": 299,
@@ -1171,7 +1155,7 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/feathered_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/feathered_spear/image"
         },
         {
             "id": 300,
@@ -1183,7 +1167,7 @@
             ],
             "attack": 16,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/gerudo_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/gerudo_spear/image"
         },
         {
             "id": 301,
@@ -1195,18 +1179,16 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/serpentine_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/serpentine_spear/image"
         },
         {
             "id": 302,
             "name": "ancient spear",
             "description": "This spear is the result of countless hours of research into the ancient technology used by Guardians. The glowing spearhead has piercing potential.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_spear/image"
         },
         {
             "id": 303,
@@ -1218,18 +1200,16 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rusty_halberd/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rusty_halberd/image"
         },
         {
             "id": 304,
             "name": "royal guard's spear",
             "description": "This Sheikah-made spear was created using ancient technology to combat the Calamity. Its attack power is very high, but a critical design flaw left it with poor durability.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_spear/image"
         },
         {
             "id": 305,
@@ -1241,7 +1221,7 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/flamespear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/flamespear/image"
         },
         {
             "id": 306,
@@ -1253,7 +1233,7 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/frostspear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/frostspear/image"
         },
         {
             "id": 307,
@@ -1265,7 +1245,7 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/thunderspear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/thunderspear/image"
         },
         {
             "id": 308,
@@ -1277,7 +1257,7 @@
             ],
             "attack": 2,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_spear/image"
         },
         {
             "id": 309,
@@ -1289,7 +1269,7 @@
             ],
             "attack": 6,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_spear/image"
         },
         {
             "id": 310,
@@ -1301,7 +1281,7 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_boko_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_boko_spear/image"
         },
         {
             "id": 311,
@@ -1313,7 +1293,7 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/moblin_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/moblin_spear/image"
         },
         {
             "id": 312,
@@ -1325,7 +1305,7 @@
             ],
             "attack": 9,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_moblin_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_moblin_spear/image"
         },
         {
             "id": 313,
@@ -1337,7 +1317,7 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_moblin_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_moblin_spear/image"
         },
         {
             "id": 314,
@@ -1349,7 +1329,7 @@
             ],
             "attack": 7,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_spear/image"
         },
         {
             "id": 315,
@@ -1361,7 +1341,7 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/enhanced_lizal_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/enhanced_lizal_spear/image"
         },
         {
             "id": 316,
@@ -1373,7 +1353,7 @@
             ],
             "attack": 18,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forked_lizal_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forked_lizal_spear/image"
         },
         {
             "id": 317,
@@ -1385,7 +1365,7 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_spear/image"
         },
         {
             "id": 318,
@@ -1397,7 +1377,7 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_spear+/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_spear+/image"
         },
         {
             "id": 319,
@@ -1409,7 +1389,7 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_spear++/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_spear++/image"
         },
         {
             "id": 320,
@@ -1421,7 +1401,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_spear/image"
         },
         {
             "id": 321,
@@ -1433,7 +1413,7 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_spear/image"
         },
         {
             "id": 322,
@@ -1445,18 +1425,16 @@
             ],
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_spear/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_spear/image"
         },
         {
             "id": 323,
             "name": "bow of light",
             "description": "Princess Zelda gave you this bow and arrow for the battle with Dark Beast Ganon. When wielded by the hero, it fires arrows of pure light strong enough to oppose the Calamity.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 100,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/bow_of_light/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/bow_of_light/image"
         },
         {
             "id": 324,
@@ -1468,7 +1446,7 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/wooden_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/wooden_bow/image"
         },
         {
             "id": 325,
@@ -1480,7 +1458,7 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_bow/image"
         },
         {
             "id": 326,
@@ -1492,7 +1470,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_bow/image"
         },
         {
             "id": 327,
@@ -1504,7 +1482,7 @@
             ],
             "attack": 26,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_bow/image"
         },
         {
             "id": 328,
@@ -1516,7 +1494,7 @@
             ],
             "attack": 38,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_bow/image"
         },
         {
             "id": 329,
@@ -1528,7 +1506,7 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forest_dweller's_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forest_dweller's_bow/image"
         },
         {
             "id": 330,
@@ -1540,7 +1518,7 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silver_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silver_bow/image"
         },
         {
             "id": 331,
@@ -1552,7 +1530,7 @@
             ],
             "attack": 9,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/swallow_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/swallow_bow/image"
         },
         {
             "id": 332,
@@ -1564,7 +1542,7 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/falcon_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/falcon_bow/image"
         },
         {
             "id": 333,
@@ -1575,7 +1553,7 @@
             ],
             "attack": 28,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/great_eagle_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/great_eagle_bow/image"
         },
         {
             "id": 334,
@@ -1587,7 +1565,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/golden_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/golden_bow/image"
         },
         {
             "id": 335,
@@ -1599,29 +1577,25 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/phrenic_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/phrenic_bow/image"
         },
         {
             "id": 336,
             "name": "ancient bow",
             "description": "This bow is the result of Robbie's research. Ancient Sheikah technology affords it heightened functionality. Arrows fired from it travel in a perfectly straight line.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 44,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_bow/image"
         },
         {
             "id": 337,
             "name": "royal guard's bow",
             "description": "This prototype Sheikah-made bow was designed to fight the Great Calamity. Made with ancient technology, it boast a high rate of fire and firepower, but has a low durability.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "attack": 50,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_bow/image"
         },
         {
             "id": 338,
@@ -1633,7 +1607,7 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_bow/image"
         },
         {
             "id": 339,
@@ -1645,7 +1619,7 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_bow/image"
         },
         {
             "id": 340,
@@ -1657,7 +1631,7 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragon_bone_boko_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragon_bone_boko_bow/image"
         },
         {
             "id": 341,
@@ -1669,7 +1643,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_bow/image"
         },
         {
             "id": 342,
@@ -1681,7 +1655,7 @@
             ],
             "attack": 25,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/strengthened_lizal_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/strengthened_lizal_bow/image"
         },
         {
             "id": 343,
@@ -1693,7 +1667,7 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/steel_lizal_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/steel_lizal_bow/image"
         },
         {
             "id": 344,
@@ -1705,7 +1679,7 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_bow/image"
         },
         {
             "id": 345,
@@ -1717,7 +1691,7 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_bow/image"
         },
         {
             "id": 346,
@@ -1729,7 +1703,7 @@
             ],
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_bow/image"
         },
         {
             "id": 347,
@@ -1740,7 +1714,7 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/duplex_bow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/duplex_bow/image"
         },
         {
             "id": 348,
@@ -1750,7 +1724,7 @@
                 "Hyrule Field",
                 "Eldin Canyon"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/arrow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/arrow/image"
         },
         {
             "id": 349,
@@ -1760,7 +1734,7 @@
                 "Hyrule Field",
                 "Eldin Canyon"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fire_arrow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fire_arrow/image"
         },
         {
             "id": 350,
@@ -1770,7 +1744,7 @@
                 "Hyrule Field",
                 "Hebra Mountains"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ice_arrow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ice_arrow/image"
         },
         {
             "id": 351,
@@ -1780,7 +1754,7 @@
                 "Lanayru Great Spring",
                 "Hyrule Field"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/shock_arrow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/shock_arrow/image"
         },
         {
             "id": 352,
@@ -1790,7 +1764,7 @@
                 "Hyrule Field",
                 "East Necluda"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/bomb_arrow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/bomb_arrow/image"
         },
         {
             "id": 353,
@@ -1799,18 +1773,16 @@
             "common_locations": [
                 "Hyrule Field"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_arrow/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_arrow/image"
         },
         {
             "id": 354,
             "name": "hylian shield",
             "description": "A shield passes down through the Hylian royal family, along with the legend of the hero who wielded it. Its defensive capabilities and durability outshine all other shields.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "defense": 90,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hylian_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hylian_shield/image"
         },
         {
             "id": 355,
@@ -1822,7 +1794,7 @@
             ],
             "defense": 1,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/pot_lid/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/pot_lid/image"
         },
         {
             "id": 356,
@@ -1834,7 +1806,7 @@
             ],
             "defense": 2,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/wooden_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/wooden_shield/image"
         },
         {
             "id": 357,
@@ -1846,7 +1818,7 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/emblazoned_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/emblazoned_shield/image"
         },
         {
             "id": 358,
@@ -1858,7 +1830,7 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/hunter's_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hunter's_shield/image"
         },
         {
             "id": 359,
@@ -1870,7 +1842,7 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/fisherman's_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fisherman's_shield/image"
         },
         {
             "id": 360,
@@ -1882,7 +1854,7 @@
             ],
             "defense": 4,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/traveler's_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_shield/image"
         },
         {
             "id": 361,
@@ -1894,7 +1866,7 @@
             ],
             "defense": 16,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/soldier's_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_shield/image"
         },
         {
             "id": 362,
@@ -1906,7 +1878,7 @@
             ],
             "defense": 40,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/knight's_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_shield/image"
         },
         {
             "id": 363,
@@ -1918,7 +1890,7 @@
             ],
             "defense": 55,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_shield/image"
         },
         {
             "id": 364,
@@ -1929,7 +1901,7 @@
             ],
             "defense": 30,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/forest_dweller's_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forest_dweller's_shield/image"
         },
         {
             "id": 365,
@@ -1941,7 +1913,7 @@
             ],
             "defense": 18,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/silver_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silver_shield/image"
         },
         {
             "id": 366,
@@ -1953,7 +1925,7 @@
             ],
             "defense": 14,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/kite_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/kite_shield/image"
         },
         {
             "id": 367,
@@ -1965,7 +1937,7 @@
             ],
             "defense": 20,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/gerudo_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/gerudo_shield/image"
         },
         {
             "id": 368,
@@ -1977,7 +1949,7 @@
             ],
             "defense": 35,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/radiant_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/radiant_shield/image"
         },
         {
             "id": 369,
@@ -1988,7 +1960,7 @@
             ],
             "defense": 48,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/daybreaker/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/daybreaker/image"
         },
         {
             "id": 370,
@@ -2000,18 +1972,16 @@
             ],
             "defense": 16,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/shield_of_the_mind's_eye/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/shield_of_the_mind's_eye/image"
         },
         {
             "id": 371,
             "name": "ancient shield",
             "description": "This shield was made using ancient Sheikah technology. Its surface glows blue when raised in defense. Enhanced functionality allows it to deflect Guardian beams.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "defense": 70,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/ancient_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_shield/image"
         },
         {
             "id": 372,
@@ -2023,18 +1993,16 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/rusty_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rusty_shield/image"
         },
         {
             "id": 373,
             "name": "royal guard's shield",
             "description": "This shield was forged using ancient Sheikah technology. It boasts extremely high stopping power, but its structural weakness made its low durability impractical for combat.",
-            "common_locations": [
-                "Unknown"
-            ],
+            "common_locations": null,
             "defense": 70,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/royal_guard's_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_shield/image"
         },
         {
             "id": 374,
@@ -2046,7 +2014,7 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/boko_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_shield/image"
         },
         {
             "id": 375,
@@ -2058,7 +2026,7 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/spiked_boko_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_shield/image"
         },
         {
             "id": 376,
@@ -2070,7 +2038,7 @@
             ],
             "defense": 25,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/dragonbone_boko_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_boko_shield/image"
         },
         {
             "id": 377,
@@ -2082,7 +2050,7 @@
             ],
             "defense": 15,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lizal_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_shield/image"
         },
         {
             "id": 378,
@@ -2094,7 +2062,7 @@
             ],
             "defense": 22,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/reinforced_lizal_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/reinforced_lizal_shield/image"
         },
         {
             "id": 379,
@@ -2106,7 +2074,7 @@
             ],
             "defense": 35,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/steel_lizal_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/steel_lizal_shield/image"
         },
         {
             "id": 380,
@@ -2118,7 +2086,7 @@
             ],
             "defense": 18,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_shield/image"
         },
         {
             "id": 381,
@@ -2130,7 +2098,7 @@
             ],
             "defense": 30,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_shield+/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_shield+/image"
         },
         {
             "id": 382,
@@ -2142,7 +2110,7 @@
             ],
             "defense": 42,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/guardian_shield++/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_shield++/image"
         },
         {
             "id": 383,
@@ -2154,7 +2122,7 @@
             ],
             "defense": 30,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/lynel_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_shield/image"
         },
         {
             "id": 384,
@@ -2166,7 +2134,7 @@
             ],
             "defense": 44,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/mighty_lynel_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_shield/image"
         },
         {
             "id": 385,
@@ -2178,7 +2146,7 @@
             ],
             "defense": 62,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/savage_lynel_shield/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_shield/image"
         }
     ]
 }
