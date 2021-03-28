@@ -8,6 +8,19 @@ app = flask.Flask(__name__, static_folder='compendium/images')
 CORS(app)
 rs = Client(api_key=getenv('RS2_TOKEN'), api_server='api.rs2.usw2.rockset.com')
 
+class ServerException(Exception):
+    def __init__(self, message, status_code, payload=None):
+        Exception.__init__(self)
+        self.message = message
+        if status_code is not None:
+            self.status_code = status_code
+        self.payload = payload
+
+    def to_dict(self):
+        rv = dict(self.payload or ())
+        rv['message'] = self.message
+        return rv
+
 def redirect(link):
     return '<script>window.location.replace("{}")</script>'.format(link)
 
@@ -87,14 +100,13 @@ def entry(version, inp):
 def img_entry(version, inp):
     try:
         try:
-            cat, query_res = id_name_query(int(inp), '_id')
+            _, query_res = id_name_query(int(inp), '_id')
             target_entry = query_res['name'].replace(' ', '_')
         except ValueError:
             target_entry = inp
         return flask.send_from_directory('compendium/images', target_entry)
     except TypeError:
         return {'data': {}, 'message': 'no results'}
-   
 
 def treasure(version):
     return {'data': single_category('treasure')}
