@@ -120,6 +120,11 @@ They can be refrenced just as you would refrence any other image from the web. F
 
 If you come across a malfunction or have any suggestions open an [issue](https://github.com/gadhagod/Hyrule-Compendium-API/issues) or a [pull request](https://github.com/gadhagod/Hyrule-Compendium-API/pulls).
 
+## Client libraries
+* [Nodejs](https://github.com/gadhagod/Hyrule-Compendium-node-client)
+* [Python](https://github.com/gadhagod/pyrule-compendium)
+* [Ruby](https://github.com/gadhagod/Hyrule-Compendium-ruby-client)
+
 ## Running locally
 Instructions for running locally can be found [here](local/README.md).
 
