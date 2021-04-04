@@ -34,96 +34,10 @@ Here is an example request and response, retrieving data on the silver lynel:
         }
     }
 
-Let's get started!
-
-## API Refrence
-
-The base URL is **https://botw-compendium.herokuapp.com/api/v1**.
-
----------------
-
-#### `/category`
-This endpoint is used for retrieving all entries in a category. The categories are:
-
-* Creatures
-* Equipment
-* Materials
-* Monsters
-* Treasure
-
-**HTTP Request**
-
-    GET https://botw-compendium.herokuapp.com/api/v1/category/<category>
-    
-**Example Request**
-
-    $ curl https://botw-compendium.herokuapp.com/api/v1/category/monsters
-    
----------------
-
-#### `/entry`
-This endpoint is used for retrieving a specific entry, using it's name or ID. 
-If you are using a name to search for an item, spaces are to be replaced with an underscore or "%20".
-
-**HTTP Request**
-
-    GET https://botw-compendium.herokuapp.com/api/v1/entry/<entry>
-    
-**Example Request** \
-<br>With name:
-
-    $ curl https://botw-compendium.herokuapp.com/api/v1/entry/moblin
-    
-With name with spaces:
-
-    $ curl https://botw-compendium.herokuapp.com/api/v1/entry/silver%20moblin
-    
-With ID:
-
-    $ curl https://botw-compendium.herokuapp.com/api/v1/entry/70
-    
----------------
-
-#### `/`
-This endpoint is for retrieving *all* data.
-
-**HTTP Request**
-
-    GET https://botw-compendium.herokuapp.com/api/v1
-
-**Example Request**
-
-    $ curl https://botw-compendium.herokuapp.com/api/v1
-
-### Notes
-
-If a key's value is `null`, that means it's marked as "unknown" in the Hyrule Compendium. \
-The response schema of the "creatures" category is much different from the others, because it has two sub-categories ("food" and "non-food").
-
-## Images
-
-This API also serves images. Each item entry has a key `image`, as shown in the example request and response. That key has a link to the image. The images follow this schema:
-
-    https://botw-compendium.herokuapp.com/api/v1/entry/<entry>/image
-
-The `<entry>` can be either the entry's ID or name. For example, the white-maned lynel's image could be retrieved from either of the two links:
-* [https://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image](http://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image)
-* [https://botw-compendium.herokuapp.com/api/v1/entry/123/image](https://botw-compendium.herokuapp.com/api/v1/entry/123/image])
-
-The images are always in a 280x280 pixel PNG format. 
-
-They can be refrenced just as you would refrence any other image from the web. For example, using HTML:
-
-    <img src="https://botw-compendium.herokuapp.com/api/v1/entry/123/image">
+To get started, check out the [documentation](http://gadhagod.github.io/Hyrule-Compendium-API).
 
 ## Support and Suggestions
-
 If you come across a malfunction or have any suggestions open an [issue](https://github.com/gadhagod/Hyrule-Compendium-API/issues) or a [pull request](https://github.com/gadhagod/Hyrule-Compendium-API/pulls).
-
-## Client libraries
-* [Nodejs](https://github.com/gadhagod/Hyrule-Compendium-node-client)
-* [Python](https://github.com/gadhagod/pyrule-compendium)
-* [Ruby](https://github.com/gadhagod/Hyrule-Compendium-ruby-client)
 
 ## Running locally
 Instructions for running locally can be found [here](local/README.md).

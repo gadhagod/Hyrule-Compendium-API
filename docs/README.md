@@ -6,7 +6,7 @@
 <hr>
 
 ## Concept
-The Hyrule compendium is an encyclopedia of all in-game interactive items. With this brilliant API, you can access this data from code and embed it into your own application. See the [compendium directory](compendium) of this repository to see all entries in the compendium. 385 entries and 5 categories of entries are in the compendium.
+The Hyrule compendium is an encyclopedia of all in-game interactive items. With this brilliant API, you can access this data from code and embed it into your own application. 385 entries and 5 categories of entries make up the compendium.
 
 You can see a specific item, all items in a category, or all data in our database.
 Here is an example request and response, retrieving data on the silver lynel:
