@@ -19,11 +19,11 @@ const hyrule_compendium = require("hyrule-compendium")
 
 let comp = new hyrule_compendium.compendium
 
-comp.get_all(console.log) # get all entries
-comp.get_entry("silver lynel", console.log) # get a specific entry with it's name
-comp.get_entry(1, console.log) # get a specific entry with it's ID
-comp.get_category("monsters", console.log) # get all entries in a category
-comp.download_entry_image("silver_lynel", "dream_pet.png") # download entry image
+comp.get_all(console.log) // get all entries
+comp.get_entry("silver lynel", console.log) // get a specific entry with it's name
+comp.get_entry(1, console.log) // get a specific entry with it's ID
+comp.get_category("monsters", console.log) // get all entries in a category
+comp.download_entry_image("silver_lynel", "dream_pet.png") // download entry image
 ```
 
 ## Documentation
@@ -104,7 +104,7 @@ Parameters:
 
 ***
 
-#### `NoCategoryError`: exception
+#### `exceptions.NoCategoryError`: exception
 Raised when a given category does not exist in the compendium.<br>
 Parameters:
 * `target_category`: Non-existant input category that causes error.
