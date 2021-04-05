@@ -110,7 +110,7 @@ Parameters:
 * `target_category`: Non-existant input category that causes error.
     - type: string
 
-#### `NoEntryError`: exception
+#### `exceptionns.NoEntryError`: exception
 Raised when a given entry does not exist in the compendium.<br>
 Parameters:
 * `target_entry`: Non-existant input entry that causes error.
