@@ -1,5 +1,5 @@
 # Node wrapper
-The official python library, [*hyrule-compendium*](https://github.com/gadhagod/Hyrule-Compendium-node-client), makes API usage quick to setup and use.
+The official javascript library, [*hyrule-compendium*](https://github.com/gadhagod/Hyrule-Compendium-node-client), makes API usage quick to setup and use.
 
 ## Installation
 From NPM:
