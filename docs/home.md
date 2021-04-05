@@ -132,13 +132,3 @@ They can be refrenced just as you would refrence any other image from the web. F
 ```
 Would result in: \
 ![](https://botw-compendium.herokuapp.com/api/v2/entry/123/image)
-
-## Client Libraries
-Official API wrappers are available in the following languages:
-
-* [Python](https://github.com/gadhagod/pyrule-compendium)
-* [Nodejs](https://github.com/gadhagod/Hyrule-Compendium-node-client)
-* [Ruby](https://github.com/gadhagod/Hyrule-Compendium-ruby-client)
-* [CLI](https://github.com/gadhagod/Hyrule-Compendium-CLI)
-
-Documentation for these libraires is arriving soon. Until then, code comments have detailed info.

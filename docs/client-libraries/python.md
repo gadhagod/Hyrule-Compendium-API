@@ -21,7 +21,7 @@ print(comp.get_all()) # get all entries
 print(comp.get_entry("silver lynel")) # get a specific entry with it's name
 print(comp.get_entry(1)) # get a specific entry with it's ID
 print(comp.get_category("monsters")) # get all entries in a category
-comp.download_entry_image("silver_lynel", "dream_pet.png") # download entry image
+comp.download_entry_image("silver lynel", "dream_pet.png") # download entry image
 ```
 
 ## Documentation
