@@ -88,11 +88,9 @@ def entry(version, inp):
         try:
             int(inp)
             cat, query_res = id_name_query(inp, '_id')
-            query_res['category'] = cat
             return {'data': query_res}
         except ValueError:
             cat, query_res = id_name_query(inp.lower().replace('_', ' '), 'name')
-            query_res['category'] = cat
             return {'data': query_res}
     except TypeError:
         return {'data': {}, 'message': 'no results'}
