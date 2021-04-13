@@ -39,14 +39,14 @@ def creatures_category(version):
     others = list(
         rs.sql(
             Q(
-                'select id, name, description, common_locations, image, {} from "botw-api".creatures where cooking_effect is null'.format(creatures_selects['others'])
+                'select id, name, description, common_locations, image, category, {} from "botw-api".creatures where cooking_effect is null'.format(creatures_selects['others'])
             )
         )
     )
     foods = list(
         rs.sql(
             Q(
-                'select id, name, description, common_locations, image, {} from "botw-api".creatures where cooking_effect is not null'.format(creatures_selects['food'])
+                'select id, name, description, common_locations, image, category, {} from "botw-api".creatures where cooking_effect is not null'.format(creatures_selects['food'])
             )
         )
     )
@@ -57,21 +57,21 @@ def creatures_category(version):
     return {food_key: others, 'food': foods}
 
 def single_category(category):
-    query = 'select id, name, description, common_locations, image, {} from "botw-api".{}'.format(selects[category], category)
+    query = 'select id, name, description, common_locations, image, category, {} from "botw-api".{}'.format(selects[category], category)
     return list(
         rs.sql(Q(query))
     )
 
 def id_name_query(target, where):
     for category in list(selects.keys()):
-        res = list(rs.sql(Q('select id, name, description, common_locations, image, {} from "botw-api".{} where {}=\'{}\''.format(selects[category], category, where, target))))
+        res = list(rs.sql(Q('select id, name, description, common_locations, image, category, {} from "botw-api".{} where {}=\'{}\''.format(selects[category], category, where, target))))
         if res != []:
             return category, res[0]
 
-    res = list(rs.sql(Q('select id, name, description, hearts_recovered, cooking_effect, common_locations, image from "botw-api".creatures where {}=\'{}\''.format(where, target))))
+    res = list(rs.sql(Q('select id, name, description, hearts_recovered, category, cooking_effect, common_locations, image from "botw-api".creatures where {}=\'{}\''.format(where, target))))
     if res != []:
         if res[0]['cooking_effect'] == None:
-            res = list(rs.sql(Q('select id, name, description, drops, common_locations, image from "botw-api".creatures where {}=\'{}\''.format(where, target))))
+            res = list(rs.sql(Q('select id, name, description, drops, common_locations, image, category from "botw-api".creatures where {}=\'{}\''.format(where, target))))
         return 'creatures', res[0]
     return None
 
