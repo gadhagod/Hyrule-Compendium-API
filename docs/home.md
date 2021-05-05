@@ -115,7 +115,7 @@ More on images at [compendium images](?id=images).
 
 ?> In all API endpoints, if a value is `null`, it's marked as "unknown" in the compendium.
 
-## Images
+## Images (BETA)
 This API also serves images. Each item entry has a key `image`, as shown in the example request and response. That key has a link to the image. The images follow this schema:
 ```bash
 https://botw-compendium.herokuapp.com/api/v2/entry/<entry>/image
@@ -132,3 +132,5 @@ They can be refrenced just as you would refrence any other image from the web. F
 ```
 Would result in: \
 ![](https://botw-compendium.herokuapp.com/api/v2/entry/123/image)
+
+!> **Warning**: The images feature is still in development. Issues can happen. 
