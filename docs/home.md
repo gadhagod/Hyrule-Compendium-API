@@ -133,4 +133,4 @@ They can be refrenced just as you would refrence any other image from the web. F
 Would result in: \
 ![](https://botw-compendium.herokuapp.com/api/v2/entry/123/image)
 
-!> **Warning**: The images feature is still in development. Issues can happen. 
+!> **Warning**: The images feature is still in development. DLC images are not yet implimented.
