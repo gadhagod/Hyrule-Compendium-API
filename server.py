@@ -97,11 +97,11 @@ def entry(version, inp):
 
 def img_entry(version, inp):
     try:
-        try:
+        try: # inp is ID
             _, query_res = id_name_query(int(inp), '_id')
             target_entry = query_res['name'].replace(' ', '_')
-        except ValueError:
-            target_entry = inp
+        except ValueError: # inp is name
+            target_entry = inp.replace(' ', '_')
         return flask.send_from_directory('compendium/images', target_entry)
     except TypeError:
         return {'data': {}, 'message': 'no results'}
