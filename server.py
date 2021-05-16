@@ -1,3 +1,4 @@
+import os
 from os import getenv
 from json import loads, dumps
 import flask
@@ -99,9 +100,11 @@ def img_entry(version, inp):
     try:
         try: # inp is ID
             _, query_res = id_name_query(int(inp), '_id')
-            target_entry = query_res['name'].replace(' ', '_')
+            target_entry = query_res['name'].replace(' ', '_').replace('＋', '')
         except ValueError: # inp is name
-            target_entry = inp.replace(' ', '_')
+            target_entry = inp.replace(' ', '_').replace('+', '＋')
+        
+        print(target_entry)
         return flask.send_from_directory('compendium/images', target_entry)
     except TypeError:
         return {'data': {}, 'message': 'no results'}
