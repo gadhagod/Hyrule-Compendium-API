@@ -1,4 +1,4 @@
-import os
+from imghdr import what
 from os import getenv
 from json import loads, dumps
 import flask
@@ -105,7 +105,7 @@ def img_entry(version, inp):
             target_entry = inp.replace(' ', '_').replace('+', '＋')
         
         print(target_entry)
-        return flask.send_from_directory('compendium/images', target_entry)
+        return flask.send_from_directory('compendium/images', target_entry, mimetype=f'image/{what(f"compendium/images/{target_entry}")}')
     except TypeError:
         return {'data': {}, 'message': 'no results'}
 
