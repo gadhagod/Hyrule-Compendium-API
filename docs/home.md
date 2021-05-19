@@ -134,3 +134,9 @@ Would result in: \
 ![](https://botw-compendium.herokuapp.com/api/v2/entry/123/image)
 
 !> **Warning**: The images feature is still in development. DLC images are not yet implimented.
+
+## Demo
+
+<iframe width="100%" height="500" src="https://botw-compendium-demo.herokuapp.com/"></iframe>
+
+You can also view the demo of the Hyrule Compendium API [here](https://botw-compendium-demo.herokuapp.com). The source code can be found [here](https://github.com/gadhagod/Hyrule-Compendium-Demo).

@@ -6,7 +6,8 @@
         * [`/category`](?id=category)
         * [`/all`](?id=category)
         * [`/entry/image`](?id=entryltgtimage)
-    * [Images](?id=images)
+    * [Images](?id=images-beta)
+    * [Demo](?id=demo)
 
 * Client libraries
 
