@@ -21,7 +21,7 @@ print(comp.get_all()) # get all entries
 print(comp.get_entry("silver lynel")) # get a specific entry with it's name
 print(comp.get_entry(1)) # get a specific entry with it's ID
 print(comp.get_category("monsters")) # get all entries in a category
-comp.download_entry_image("silver lynel", "dream_pet.png") # download entry image
+comp.get_image("silver lynel").download() # download entry image
 ```
 
 ## Documentation
@@ -78,21 +78,15 @@ Parameters:
 Returns: all items in the compendium with their metadata nested in categories.
 - type: dict
 
-#### `compendium.download_entry_image`: function
-Download the image of a compendium entry.<br>
+#### `compendium.get_image`: function
+Retrieves the image of a compendium entry.<br>
 Parameters:
-* `entry`: The ID or name of the entry of the image to be downloaded.
-    - type: str, int
-* `output_file`: The output file's path.
-    - default: entry's name with a ".png" extension with spaces replaced by underscores
-    - type: str
-* `get_entry_timeout`: Seconds to wait for response until raising `requests.exceptions.ReadTimeout`.
-    - default: `self.default_timeout`
-    - type: int, float, tuple (for connect and read timeouts)
+    * `entry`: Entry image object
+        - type: `objects.entry_image`
 <!---->
 
-Returns: path to the newly created image and the resulting HTTPMessage object.
-- type: tuple
+Returns: Entry image object
+    - type: `objects.entry_image`
 
 ***
 
