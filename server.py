@@ -22,9 +22,6 @@ class ServerException(Exception):
         rv['message'] = self.message
         return rv
 
-def redirect(link):
-    return '<script>window.location.replace("{}")</script>'.format(link)
-
 selects = {
     'treasure': 'drops',
     'monsters': 'drops',
@@ -166,7 +163,7 @@ def prod_creatures(version):
 @app.route('/')
 @app.route('/api')
 def home():
-    return redirect('https://github.com/gadhagod/Hyrule-Compendium-API')
+    return flask.redirect('https://github.com/gadhagod/Hyrule-Compendium-API')
 
 if __name__ == '__main__':
     app.run()
