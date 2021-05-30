@@ -48,7 +48,7 @@
                 "topaz",
                 "flint"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rare_or_deposit/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rare_ore_deposit/image",
             "category": "treasure"
         },
         {
