@@ -1,6 +1,6 @@
 # Execute API tests in tests/
 
-name: Authenticate images
+name: API Tests
 
 on: push
 
@@ -17,7 +17,8 @@ jobs:
       - name: Install dependencies
         run: |
             cd tests
-            npm i
+            npm i 
+            npm i -g mocha
       - name: Execute tests
         run: |
-            env URL="http://127.0.0.1:5000/api/v2" node_modules/mocha/bin/mocha test/index.ts -r ts-node/register
+            env URL="http://127.0.0.1:5000/api/v2" mocha test/index.ts -r ts-node/register
