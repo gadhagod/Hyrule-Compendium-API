@@ -2,12 +2,7 @@
 
 name: Authenticate images
 
-on:
-  push:
-      paths:
-        - 'server.py'
-        - 'requirements.txt'
-        - 'compendium/**'
+on: push
 
 jobs:
   main:
