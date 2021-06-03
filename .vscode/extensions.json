@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "hbenl.vscode-mocha-test-adapter",
+        "rocksetinc.rockset-vscode",
+    ]
+}

@@ -6,3 +6,9 @@ scraping
 
 # vscode
 .vscode/settings.json
+
+# tests
+out
+node_modules
+package-lock.json
+dist
