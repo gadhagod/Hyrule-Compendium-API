@@ -1,0 +1,28 @@
+# Execute API tests in tests/
+
+name: Authenticate images
+
+on:
+  push:
+      paths:
+        - 'server.py'
+        - 'requirements.txt'
+        - 'compendium/**'
+
+jobs:
+  main:
+      runs-on: ubuntu-latest
+
+      steps:
+      - uses: actions/checkout@v2
+      - name: Start API server
+        run: |
+            sudo pip3 install -r requirements.txt
+            python3 server.py &
+      - name: Install dependencies
+        run: |
+            cd tests
+            npm i
+      - name: Execute tests
+        run: |
+            env URL="http://127.0.0.1:5000/api/v2" node_modules/mocha/bin/mocha test/index.ts -r ts-node/register
