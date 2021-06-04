@@ -21,4 +21,6 @@ jobs:
             sudo npm i -g mocha
       - name: Execute tests
         run: |
+            pwd
+            cd tests
             env URL="http://127.0.0.1:5000/api/v2" mocha test/index.ts -r ts-node/register
