@@ -23,4 +23,5 @@ jobs:
         run: |
             pwd
             cd tests
+            pwd
             env URL="http://127.0.0.1:5000/api/v2" mocha test/index.ts -r ts-node/register
