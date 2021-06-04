@@ -16,7 +16,7 @@ jobs:
       - name: Start API server
         run: |
             sudo pip3 install -r requirements.txt
-            suod pip3 install protobuf
+            sudo pip3 install protobuf
             python3 server.py &
       - name: Install dependencies
         run: |
