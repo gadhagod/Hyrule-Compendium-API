@@ -12,6 +12,7 @@ jobs:
       strategy:
         matrix:
           node-version: [15.x]
+      steps:
       - name: Install dependencies
         run: |
             cd tests
