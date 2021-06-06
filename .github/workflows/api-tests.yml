@@ -10,7 +10,7 @@ jobs:
       strategy:
         matrix:
           node-version: [15.x]
-          python-versoin: ["3.6"]
+          python-version: ["3.6"]
       steps:
       - uses: actions/checkout@v2
       - name: Start API server
