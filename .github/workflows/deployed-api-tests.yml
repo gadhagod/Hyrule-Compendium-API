@@ -4,7 +4,7 @@ name: Deployed API Tests
 
 on: 
   schedule: 
-  - cron: '* 8 * * *'
+  - cron: "* 8 * * *"
 
 jobs:
   main:
