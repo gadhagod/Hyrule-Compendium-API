@@ -19,7 +19,6 @@ jobs:
           requirements: requirements.txt
       - name: Start API server
         run: |
-
             pip3 list
             python3 server.py ${{ secrets.RS2_TOKEN }} &
       - name: Install dependencies
