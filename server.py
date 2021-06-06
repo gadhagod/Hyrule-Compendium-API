@@ -4,10 +4,11 @@ from json import loads, dumps
 import flask
 from rockset import Client, Q
 from flask_cors import CORS
+from sys import argv
 
 app = flask.Flask(__name__, static_folder='compendium/images')
 CORS(app)
-rs = Client(api_key=getenv('RS2_TOKEN'), api_server='api.rs2.usw2.rockset.com')
+rs = Client(api_key=getenv('RS2_TOKEN') or argv[1], api_server='api.rs2.usw2.rockset.com')
 
 class ServerException(Exception):
     def __init__(self, message, status_code, payload=None):
@@ -165,5 +166,5 @@ def prod_creatures(version):
 def home():
     return flask.redirect('https://github.com/gadhagod/Hyrule-Compendium-API')
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     app.run()

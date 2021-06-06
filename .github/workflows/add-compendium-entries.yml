@@ -1,6 +1,6 @@
 # This workflow adds documents to the Rockset collections when a change is made
 
-name: Add compandium entries
+name: Add compendium entries
 
 on:
   push:

@@ -21,11 +21,10 @@
   "homepage": "https://github.com/gadhagod/Hyrule-Compendium-API#readme",
   "dependencies": {
     "@types/mocha": "^8.2.2",
+    "@types/node": "^15.12.1",
     "mocha": "^8.4.0",
     "request": "^2.88.2",
+    "ts-node": "^10.0.0",
     "validate-image-type": "^1.1.1"
-  },
-  "devDependencies": {
-    "ts-node": "^10.0.0"
   }
 }
