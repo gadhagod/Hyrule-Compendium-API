@@ -1,11 +1,11 @@
 # Execute API tests in tests/ with deployed API
 
-name: Deployed API Tests
+name: API Tests
 
-on: push
-  #workflow_dispatch:
-  #schedule: 
-  #  - cron: "* 8 * * *"
+on:
+  workflow_dispatch:
+  schedule: 
+    - cron: "* 8 * * *"
 
 jobs:
   main:
