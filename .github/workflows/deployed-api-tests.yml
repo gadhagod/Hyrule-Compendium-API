@@ -12,7 +12,6 @@ jobs:
       strategy:
         matrix:
           node-version: [15.x]
-          python-version: ["3.9"]
       - name: Install dependencies
         run: |
             cd tests
