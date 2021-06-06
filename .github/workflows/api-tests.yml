@@ -16,9 +16,8 @@ jobs:
       - uses: actions/setup-python@v2
       - name: Start API server
         run: |
-            sudo pip3 install -r requirements.txt
-            sudo pip3 install protobuf
-            python server.py ${{ secrets.RS2_TOKEN }} &
+            sudo python3 -m pip install -r requirements.txt
+            python3 server.py ${{ secrets.RS2_TOKEN }} &
       - name: Install dependencies
         run: |
             cd tests
