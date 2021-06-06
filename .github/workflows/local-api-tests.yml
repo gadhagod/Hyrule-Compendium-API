@@ -1,4 +1,4 @@
-# Execute API tests in tests/
+# Execute API tests in tests/ with server.py running locally
 
 name: Local API Tests
 

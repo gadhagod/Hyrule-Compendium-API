@@ -166,4 +166,5 @@ def prod_creatures(version):
 def home():
     return flask.redirect('https://github.com/gadhagod/Hyrule-Compendium-API')
 
-if __name__ == '__main__': app.run()
+if __name__ == '__main__': 
+    app.run()

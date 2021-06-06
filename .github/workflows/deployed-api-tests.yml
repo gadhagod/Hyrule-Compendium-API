@@ -1,0 +1,26 @@
+# Execute API tests in tests/ with deployed API
+
+name: Deployed API Tests
+
+on: 
+  schedule: 
+  - cron: '* 8 * * *'
+
+jobs:
+  main:
+      runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          node-version: [15.x]
+          python-version: ["3.9"]
+      - name: Install dependencies
+        run: |
+            cd tests
+            npm i 
+            sudo npm i -g mocha 
+            sudo npm i -g ts-node
+            sudo npm i typescript
+      - name: Execute tests
+        run: |
+            cd tests
+            mocha test/index.ts -r ts-node/register
