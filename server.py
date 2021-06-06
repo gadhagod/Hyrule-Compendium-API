@@ -156,8 +156,8 @@ def prod_equipment(version):
     res = equipment(version)
     return(res)
 
-#@app.route('/api/<version>/category/creatures')
-#def prod_creatures(version):
+@app.route('/api/<version>/category/creatures')
+def prod_creatures(version):
     res = creatures(version)
     return(res)
 
