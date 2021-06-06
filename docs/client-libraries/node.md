@@ -1,6 +1,8 @@
 # Node wrapper
 The official javascript library, [*hyrule-compendium*](https://github.com/gadhagod/Hyrule-Compendium-node-client), makes API usage quick to setup and use.
 
+This documentation applies version [1.3.1](https://github.com/gadhagod/Hyrule-Compendium-node-client/releases/tag/1.3.1).
+
 ## Installation
 From NPM:
 ```bash
@@ -104,13 +106,13 @@ Parameters:
 
 ***
 
-#### `exceptions.NoCategoryError`: exception
+#### `NoCategoryError`: exception
 Raised when a given category does not exist in the compendium.<br>
 Parameters:
 * `target_category`: Non-existant input category that causes error.
     - type: string
 
-#### `exceptionns.NoEntryError`: exception
+#### `NoEntryError`: exception
 Raised when a given entry does not exist in the compendium.<br>
 Parameters:
 * `target_entry`: Non-existant input entry that causes error.

@@ -1,6 +1,8 @@
 # Python wrapper
 The official python library, [*pyrule compendium*](https://github.com/gadhagod/pyrule-compendium), makes API usage quick to setup and use.
 
+This documentation applies to version [2.4.1](https://github.com/gadhagod/pyrule-compendium/releases/tag/2.4.1).
+
 ## Installation
 With pip:
 ```bash

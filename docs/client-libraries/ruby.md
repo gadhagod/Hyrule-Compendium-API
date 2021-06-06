@@ -1,6 +1,8 @@
 # Ruby wrapper
 The official Ruby wrapper makes API usage quick to setup and use in the Ruby language.
 
+This documentaion applies to version [3.2.0](https://github.com/gadhagod/Hyrule-Compendium-ruby-client/releases/tag/3.2.0).
+
 ## Installation
 ```ruby
 gem install Hyrule-Compendium
