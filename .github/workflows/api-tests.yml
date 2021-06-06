@@ -16,7 +16,8 @@ jobs:
       - uses: actions/setup-python@v2
       - name: Start API server
         run: |
-            sudo python3 -m pip install -r requirements.txt
+            sudo pip3 install -r requirements.txt
+            pip3 list
             python3 server.py ${{ secrets.RS2_TOKEN }} &
       - name: Install dependencies
         run: |
