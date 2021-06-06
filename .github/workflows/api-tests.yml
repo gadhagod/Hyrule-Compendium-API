@@ -14,9 +14,12 @@ jobs:
       steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
+      - uses: BSFishy/pip-action@v1
+        with: 
+          requirements: requirements.txt
       - name: Start API server
         run: |
-            sudo pip3 install -r requirements.txt
+
             pip3 list
             python3 server.py ${{ secrets.RS2_TOKEN }} &
       - name: Install dependencies
