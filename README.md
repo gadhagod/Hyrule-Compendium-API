@@ -4,10 +4,9 @@
 <h1 align="center">Hyrule Compendium API</h1>
 <p align="center"><b>An API serving data on all creatures, monsters, materials, equipment, and treasure in <i>The Legend of Zelda: Breath of the Wild</i>.</b><br>
 <sub>By <a href="https://github.com/gadhagod">Aarav Borthakur</a></sub></p>
-
-<center>
+<p align="center">
 <img src="https://github.com/gadhagod/Hyrule-Compendium-API/actions/workflows/deployed-api-tests.yml/badge.svg">
-</center>
+</p>
 
 ***
 
