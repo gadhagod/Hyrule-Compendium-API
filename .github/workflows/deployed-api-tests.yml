@@ -2,10 +2,10 @@
 
 name: Deployed API Tests
 
-on: 
-  workflow_dispatch:
-  schedule: 
-    - cron: "* 8 * * *"
+on: push
+  #workflow_dispatch:
+  #schedule: 
+  #  - cron: "* 8 * * *"
 
 jobs:
   main:
