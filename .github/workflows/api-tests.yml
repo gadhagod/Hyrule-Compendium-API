@@ -18,7 +18,7 @@ jobs:
         run: |
             sudo pip3 install -r requirements.txt
             sudo pip3 install protobuf
-            python3 server.py & ${{ secrets.RS2_TOKEN }}
+            python server.py ${{ secrets.RS2_TOKEN }} &
       - name: Install dependencies
         run: |
             cd tests
