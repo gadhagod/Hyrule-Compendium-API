@@ -1,6 +1,6 @@
 # Execute API tests in tests/
 
-name: API Tests
+name: Local API Tests
 
 on: 
   push:
