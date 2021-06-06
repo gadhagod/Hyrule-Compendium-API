@@ -45,10 +45,7 @@ If you come across a malfunction or have any suggestions open an [issue](https:/
 Instructions for running locally can be found [here](local/README.md).
 
 ## Status
-Server status: \
 ![](https://pyheroku-badge.herokuapp.com/?app=botw-compendium)
-
-Check the latest "test endpoints" workflow run to see if the server status.
 
 ## Author
 Made with awesomeness by [@gadhagod](https://github.com/gadhagod).
