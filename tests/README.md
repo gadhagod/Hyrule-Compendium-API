@@ -10,7 +10,3 @@ Test the deployed REST API:
 Test a local server:
     
     env URL=[url] node_modules/mocha/bin/mocha
-
-Execute a specific test:
-
-    node_modules/mocha/bin/mocha
