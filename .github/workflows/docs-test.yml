@@ -1,0 +1,26 @@
+# Checks spelling of markdown files in docs/
+
+name: Docs spellcheck
+
+on:
+  push:
+    branches: 
+      - docs/*.md
+      - docs/**/*.md
+
+jobs:
+  main:
+      runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          node-version: [15.x]
+      steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+            cd tests
+            npm i --global spellchecker-cli
+      - name: Execute tests
+        run: |
+            cd tests
+            sh test/docs.sh
