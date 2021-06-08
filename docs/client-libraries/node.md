@@ -10,7 +10,6 @@ npm i hyrule-compendium
 ```
 From development build :
 ```bash
-npm init
 npm i git+https://github.com/gadhagod/Hyrule-Compendium-node-client
 ```
 
