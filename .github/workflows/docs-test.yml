@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
             cd tests
-            suod npm i --global spellchecker-cli
+            sudo npm i --global spellchecker-cli
       - name: Execute tests
         run: |
             cd tests
