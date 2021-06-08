@@ -6,12 +6,10 @@ This documentation applies version [1.3.1](https://github.com/gadhagod/Hyrule-Co
 ## Installation
 From NPM:
 ```bash
-npm init
 npm i hyrule-compendium
 ```
 From development build :
 ```bash
-npm init
 npm i git+https://github.com/gadhagod/Hyrule-Compendium-node-client
 ```
 
