@@ -4,7 +4,7 @@ name: Docs spellcheck
 
 on:
   push:
-    branches: 
+    paths: 
       - docs/*.md
       - docs/**/*.md
 
