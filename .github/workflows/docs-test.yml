@@ -3,10 +3,12 @@
 name: Docs spellcheck
 
 on:
+  workflow_dispatch:
   push:
     paths: 
       - docs/*.md
       - docs/**/*.md
+  
 
 jobs:
   main:
@@ -19,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
             cd tests
-            npm i --global spellchecker-cli
+            suod npm i --global spellchecker-cli
       - name: Execute tests
         run: |
             cd tests
