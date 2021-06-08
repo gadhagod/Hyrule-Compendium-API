@@ -39,7 +39,7 @@ Parameters:
 * `default_timeout`: Default seconds to wait for response for all API calling functions until raising `requests.exceptions.ReadTimeout`
     - default: `None` (no timeout)
     - type: integer, float, tuple (for connect and read timeouts)
-    - notes: If a API calling function has a parameter `timeout`, it will overide this
+    - notes: If a API calling function has a parameter `timeout`, it will override this
 
 #### `compendium.get_entry`: function
 Gets an entry from the compendium. <br>

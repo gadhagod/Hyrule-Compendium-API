@@ -1,0 +1,1 @@
+spellchecker --files ../docs/*.md ../docs/**/*.md --ignore javascript NPM pyrule npm hyrule-compendium Hyrule-Compendium str Non-existant Aarav Borthakur Hyrule lynel 280x280 PNG DLC "lynel's"

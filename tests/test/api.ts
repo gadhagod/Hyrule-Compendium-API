@@ -2,7 +2,7 @@ const assert = require("assert");
 const request = require("request");
 const fs = require("fs")
 const validateMIMEType = require("validate-image-type").validateMIMEType
-import { APIImageRequest, Entry } from "./utils"
+import { APIImageRequest, Entry } from "../utils"
 
 fs.rmdirSync("out", { recursive: true })
 fs.mkdirSync("out")

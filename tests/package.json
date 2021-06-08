@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha test/index.ts -r ts-node/register"
+    "test": "node_modules/mocha/bin/mocha ** sh test/docs.sh"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "@types/node": "^15.12.1",
     "mocha": "^8.4.0",
     "request": "^2.88.2",
+    "spellchecker-cli": "^4.5.0",
     "ts-node": "^10.0.0",
     "validate-image-type": "^1.1.1"
   }

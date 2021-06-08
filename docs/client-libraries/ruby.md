@@ -1,7 +1,7 @@
 # Ruby wrapper
 The official Ruby wrapper makes API usage quick to setup and use in the Ruby language.
 
-This documentaion applies to version [3.2.0](https://github.com/gadhagod/Hyrule-Compendium-ruby-client/releases/tag/3.2.0).
+This documentation applies to version [3.2.0](https://github.com/gadhagod/Hyrule-Compendium-ruby-client/releases/tag/3.2.0).
 
 ## Installation
 ```ruby
@@ -32,7 +32,7 @@ Parameters:
 * `default_timeout`: Default seconds to wait for response for all API calling functions until raising `Net::ReadTimeout`.
     - type: float, int
     - default: `nil` (no timeout)
-    - notes: If a API calling function has a parameter `timeout`, it will overide this.
+    - notes: If a API calling function has a parameter `timeout`, it will override this.
 
 #### `Hyrule_Compendium.get_entry`: function
 Gets an entry from the compendium.<br>

@@ -1,7 +1,7 @@
 * API
 
     * [Concept](?id=concept)
-    * [API Refrence](?id=api-refrence)
+    * [API Reference](?id=api-refrence)
         * [`/entry`](?id=entry)
         * [`/category`](?id=category)
         * [`/all`](?id=category)

@@ -34,7 +34,7 @@ $ curl https://botw-compendium.herokuapp.com/api/v2/entry/white-maned_lynel
 ```
 Let's get started!
 
-## API Refrence
+## API Reference
 
 The base URL is **https://botw-compendium.herokuapp.com/api/v2**.
 
@@ -80,7 +80,7 @@ GET https://botw-compendium.herokuapp.com/api/v2/category/<category>
 $ curl https://botw-compendium.herokuapp.com/api/v2/category/monsters
 ```
     
-!> **Warning**: the creatures category has two sub categores as keys, `food` and `non_food`.
+!> **Warning**: the creatures category has two sub categories as keys, `food` and `non_food`.
 
 ---------------
 
@@ -126,14 +126,14 @@ The `<entry>` can be either the entry's ID or name. For example, the white-maned
 
 The images are always in a 280x280 pixel PNG format. 
 
-They can be refrenced just as you would refrence any other image from the web. For example, using HTML:
+They can be referenced just as you would reference any other image from the web. For example, using HTML:
 ```html
 <img src="https://botw-compendium.herokuapp.com/api/v2/entry/123/image">
 ```
 Would result in: \
 ![](https://botw-compendium.herokuapp.com/api/v2/entry/123/image)
 
-!> **Warning**: The images feature is still in development. DLC images are not yet implimented.
+!> **Warning**: The images feature is still in development. DLC images are not yet implemented.
 
 ## Demo
 
