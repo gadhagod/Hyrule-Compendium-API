@@ -25,4 +25,4 @@ jobs:
       - name: Execute tests
         run: |
             cd tests
-            mocha test/index.ts -r ts-node/register
+            mocha test/api.ts -r ts-node/register
