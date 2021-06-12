@@ -9,15 +9,15 @@ Run all tests:
 
 Test the deployed API:
 
-    npm test test/api.ts
+    npm run test:api
 
 Test a local server:
     
-    env URL=[url] node_modules/mocha/bin/mocha test/api.ts
+    env URL=[url] node_modules/mocha/bin/mocha
 
 Test documentation files:
 
-    sh test/docs.sh
+    npm run test:docs
 
 ### Important
 * All tests assume you are in the `tests/` directory of this repo.
