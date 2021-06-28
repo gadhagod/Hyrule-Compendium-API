@@ -164,7 +164,7 @@ def prod_creatures(version):
 @app.route('/')
 @app.route('/api')
 def home():
-    return flask.redirect('https://github.com/gadhagod/Hyrule-Compendium-API')
+    return flask.redirect('https://gadhagod.github.io/Hyrule-Compendium-API')
 
 if __name__ == '__main__': 
     app.run()
