@@ -1,6 +1,6 @@
 ---
 files:
-- "../docs/*.md"
-- "../docs/**/*.md"
+- ./docs/*.md
+- ./docs/**/*.md
 dictionaries:
-- dictionary.txt
+- "./tests/dictionary.txt"
