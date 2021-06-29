@@ -133,7 +133,7 @@ They can be referenced just as you would reference any other image from the web.
 Would result in: \
 ![](https://botw-compendium.herokuapp.com/api/v2/entry/123/image)
 
-!> **Warning**: The images feature is still in development. DLC images are not yet implemented.
+!> **Warning**: The images feature is still in development.
 
 ## Demo
 
