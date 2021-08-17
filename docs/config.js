@@ -3,5 +3,6 @@ window.$docsify = {
     repo: 'https://github.com/gadhagod/Hyrule-Compendium-API',
     loadNavbar: true,
     homepage: 'home.md',
-    loadSidebar: true
+    loadSidebar: true,
+    executeScript: true
 }

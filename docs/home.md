@@ -1,3 +1,4 @@
+<script src="index.js"></script>
 <center>
     <img src="logo.png" length=10% width=10%>
     <h1>Hyrule Compendium API</h1>
@@ -60,6 +61,19 @@ With ID:
 ```bash
 $ curl https://botw-compendium.herokuapp.com/api/v2/entry/108
 ```
+<br>
+
+#### Try endpoint
+
+<form target="fooFrame">
+    <label for="entry-IdOrName">Entry ID/Name:</label>
+    <input type="text" id="entry-IdOrName" required>
+    <br><br>
+    <input type="submit" onclick="createButton('/entry/' + document.getElementById('entry-IdOrName').value, [], 'entryRes', 'entryLoader')" value="Send request"></input>
+    <div id="entryLoader"></div>
+    <div id="entryRes"></div>
+</form>
+
 ---------------
 
 ### `/category`
@@ -140,3 +154,5 @@ Would result in: \
 <iframe width="100%" height="500" src="https://botw-compendium-demo.herokuapp.com/"></iframe>
 
 You can also view the demo of the Hyrule Compendium API [here](https://botw-compendium-demo.herokuapp.com). The source code can be found [here](https://github.com/gadhagod/Hyrule-Compendium-Demo).
+
+<iframe name="fooFrame" class="hide"></iframe>
