@@ -69,7 +69,8 @@ $ curl https://botw-compendium.herokuapp.com/api/v2/entry/108
     <label for="entry-IdOrName">Entry ID/Name:</label>
     <input type="text" id="entry-IdOrName" required>
     <br><br>
-    <input type="submit" onclick="createButton('/entry/' + document.getElementById('entry-IdOrName').value, [], 'entryRes')" value="Send request"></input>
+    <input type="submit" onclick="createButton('/entry/' + document.getElementById('entry-IdOrName').value, [], 'entryRes', 'entryLoader')" value="Send request"></input>
+    <div id="entryLoader"></div>
     <div id="entryRes"></div>
 </form>
 
