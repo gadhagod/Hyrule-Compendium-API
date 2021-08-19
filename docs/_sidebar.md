@@ -11,6 +11,6 @@
 
 * Client libraries
 
-    * [Python](client-libraries/python?id=python-wrapper)
+    * [Python](client-libraries/python?id=pyrule-compendium)
     * [Node](client-libraries/node?id=node-wrapper)
     * [Ruby](client-libraries/ruby?id=ruby-wrapper)
