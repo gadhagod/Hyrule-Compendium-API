@@ -4,5 +4,8 @@ window.$docsify = {
     loadNavbar: true,
     homepage: 'home.md',
     loadSidebar: true,
-    executeScript: true
+    executeScript: true,
+    darklightTheme: {
+        defaultTheme: 'light'
+    }
 }

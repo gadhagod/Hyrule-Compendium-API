@@ -48,3 +48,17 @@ function createButton(endpoint, params, resElemId, loaderElemId) {
     req.open("GET", url, true);
     req.send();
 }
+
+/**
+ * Toggles the favicon based on color theme
+ */
+function setFavicon() {
+    document.getElementById("icon").setAttribute("href", `assets/${localStorage.getItem("DARK_LIGHT_THEME")}_triforce.png`);
+}
+
+// Set favicon based on browser's light theme preference or last selection
+setFavicon();
+
+// Change favicon when theme changed enabled
+var darkButton = document.getElementById("docsify-darklight-theme");
+document.getElementById("docsify-darklight-theme").addEventListener("click", setFavicon);
