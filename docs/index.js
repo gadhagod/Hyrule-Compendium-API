@@ -53,7 +53,7 @@ function createButton(endpoint, params, resElemId, loaderElemId) {
  * Toggles content based on color theme
  */
 function themeChanged() {
-    document.getElementById("icon").setAttribute("href", `assets/${localStorage.getItem("DARK_LIGHT_THEME")}_triforce.png`);
+    document.getElementById("icon").setAttribute("href", `assets/${localStorage.getItem("DARK_LIGHT_THEME")}_icon.png`);
 }
 
 // Set content based on browser's light theme preference or last selection
