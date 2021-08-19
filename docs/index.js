@@ -41,6 +41,7 @@ function createButton(endpoint, params, resElemId, loaderElemId) {
                 var code = document.getElementById(resElemId + "Json");
                 code.innerHTML = JSON.stringify(res, null, 4);
             }
+            Prism.highlightElement(code);
         }
     }
 
