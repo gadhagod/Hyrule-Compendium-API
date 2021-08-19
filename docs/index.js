@@ -50,15 +50,15 @@ function createButton(endpoint, params, resElemId, loaderElemId) {
 }
 
 /**
- * Toggles the favicon based on color theme
+ * Toggles content based on color theme
  */
-function setFavicon() {
+function themeChanged() {
     document.getElementById("icon").setAttribute("href", `assets/${localStorage.getItem("DARK_LIGHT_THEME")}_triforce.png`);
 }
 
-// Set favicon based on browser's light theme preference or last selection
-setFavicon();
+// Set content based on browser's light theme preference or last selection
+themeChanged();
 
-// Change favicon when theme changed enabled
+// Change content when theme changed
 var darkButton = document.getElementById("docsify-darklight-theme");
-document.getElementById("docsify-darklight-theme").addEventListener("click", setFavicon);
+document.getElementById("docsify-darklight-theme").addEventListener("click", themeChanged);
