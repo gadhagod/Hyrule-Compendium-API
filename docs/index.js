@@ -48,3 +48,32 @@ function createButton(endpoint, params, resElemId, loaderElemId) {
     req.open("GET", url, true);
     req.send();
 }
+
+/**
+ * Toggles content based on color theme
+ */
+function themeChanged() {
+    let darkOrLight = localStorage.getItem("DARK_LIGHT_THEME");;
+
+    // change favicon
+    document.getElementById("icon").setAttribute("href", `assets/${darkOrLight}_icon.png`);
+
+    // change logo (at top of home page)
+    let logo = document.getElementById("logo");
+    if(darkOrLight === "dark") {
+        logo.setAttribute("src", `assets/dark_logo.png`);
+        logo.setAttribute("length", "21%");
+        logo.setAttribute("width", "21%");
+    } else {
+        logo.setAttribute("src", `assets/light_logo.png`)
+        logo.setAttribute("length", "15%");
+        logo.setAttribute("width", "15%");
+    }
+}
+
+// Set content based on browser's light theme preference or last selection
+themeChanged();
+
+// Change content when theme changed
+var darkButton = document.getElementById("docsify-darklight-theme");
+document.getElementById("docsify-darklight-theme").addEventListener("click", themeChanged);

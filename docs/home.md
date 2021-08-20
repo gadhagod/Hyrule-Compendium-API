@@ -1,6 +1,6 @@
 <script src="index.js"></script>
 <center>
-    <img src="logo.png" length=10% width=10%>
+    <img id="logo" src="assets/light_logo.png" length=10% width=10%>
     <h1>Hyrule Compendium API</h1>
     <strong>An API serving data on all creatures, monsters, materials, equipment, and treasure in <i>The Legend of Zelda: Breath of the Wild</i></strong><br>
 </center>
