@@ -10,19 +10,6 @@ app = flask.Flask(__name__, static_folder='compendium/images')
 CORS(app)
 rs = Client(api_key=getenv('RS2_TOKEN') or argv[1], api_server='api.rs2.usw2.rockset.com')
 
-class ServerException(Exception):
-    def __init__(self, message, status_code, payload=None):
-        Exception.__init__(self)
-        self.message = message
-        if status_code is not None:
-            self.status_code = status_code
-        self.payload = payload
-
-    def to_dict(self):
-        rv = dict(self.payload or ())
-        rv['message'] = self.message
-        return rv
-
 selects = {
     'treasure': 'drops',
     'monsters': 'drops',
@@ -92,7 +79,7 @@ def entry(version, inp):
             cat, query_res = id_name_query(inp.lower().replace('_', ' '), 'name')
             return {'data': query_res}
     except TypeError:
-        return {'data': {}, 'message': 'no results'}
+        return {'data': {}, 'message': 'no results'}, 404
 
 def img_entry(version, inp):
     try:
@@ -105,7 +92,7 @@ def img_entry(version, inp):
         print(target_entry)
         return flask.send_from_directory('compendium/images', target_entry, mimetype=f'image/{what(f"compendium/images/{target_entry}")}')
     except TypeError:
-        return {'data': {}, 'message': 'no results'}
+        return {'data': {}, 'message': 'no results'}, 404
 
 def treasure(version):
     return {'data': single_category('treasure')}
