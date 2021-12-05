@@ -4,8 +4,10 @@ const fs = require("fs")
 const validateMIMEType = require("validate-image-type").validateMIMEType
 import { APIImageRequest, Entry } from "../utils"
 
-fs.rmdirSync("out", { recursive: true })
-fs.mkdirSync("out")
+if (fs.existsSync("out")){
+    fs.rmdirSync("out", { recursive: true });
+}
+fs.mkdirSync("out");
 
 console.log("Using base URL " + (process.env.URL ?? "https://botw-compendium.herokuapp.com/api/v2"))
 
@@ -300,3 +302,5 @@ describe("API response contents", () => {
         }); 
     });
 });
+
+fs.rmdirSync("out", { recursive: true });
