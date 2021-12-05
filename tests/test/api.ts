@@ -302,5 +302,3 @@ describe("API response contents", () => {
         }); 
     });
 });
-
-fs.rmdirSync("out", { recursive: true });
