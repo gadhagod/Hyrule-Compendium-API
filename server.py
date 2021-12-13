@@ -49,6 +49,7 @@ def single_category(category):
     )
 
 def id_name_query(target, where):
+    target = target.replace('\'', '\'\'')
     for category in list(selects.keys()):
         res = list(rs.sql(Q('select id, name, description, common_locations, image, category, {} from "botw-api".{} where {}=\'{}\''.format(selects[category], category, where, target))))
         if res != []:
