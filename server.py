@@ -153,5 +153,7 @@ def prod_creatures(version):
 def home():
     return flask.redirect('https://gadhagod.github.io/Hyrule-Compendium-API')
 
+app.register_error_handler(500, lambda ctx: {"data": {}, "message": "Server error"})
+
 if __name__ == '__main__': 
     app.run()
