@@ -48,13 +48,14 @@ def get_category(version: VersionString, category: StandardCategoryName) -> Cate
     )} if category == "creatures" else query(category=category, select=selects[category])
 
 def get_entry(target, where) -> EntryData:
-    for category in list(selects.keys()):
+    for category in list(selects.keys())[:-1]:
         res = query(
             category=category, 
             where=F[where] == target, 
             select=selects[category]
         )
         if res:
+            print(res)
             return category, res[0]
 
     res = query(
