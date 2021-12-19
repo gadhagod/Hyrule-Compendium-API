@@ -8,6 +8,8 @@ on:
       - server.py
       - requirements.txt
       - compendium/**/*
+      - src/*
+  workflow_dispatch:
 
 jobs:
   main:
