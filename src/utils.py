@@ -97,7 +97,7 @@ def get_master_mode_entry(version, inp) -> EntryData:
         category='master_mode',
         where=(F['name'] == name) | (F['id'] == id),
         select=selects['monsters']
-    )[0]
+    )
 
 def get_all_master_mode_entries(version) -> list[EntryData]:
     return query(

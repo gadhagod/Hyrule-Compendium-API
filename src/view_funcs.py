@@ -33,7 +33,7 @@ def all(version):
 
 def master_mode_entry(version, inp):
     res = utils.get_master_mode_entry(version, inp)
-    return {'data': [], 'message': 'no results'} if not res else {'data': res}
+    return (res[0] if res else {'data': [], 'message': 'no results'}), 404
 
 def all_master_mode(version):
     return {'data': utils.get_all_master_mode_entries(version)}

@@ -35,10 +35,26 @@ describe("Server HTTP codes", () => {
             })
         });
     });
+    describe("`/master_mode/entry/<>` endpoint", () => {
+        it("should have 200 code", (done) => {
+            make_req("/master_mode/entry/97", (_err, res) => {
+                assert.equal(res.statusCode, 200, `DLC Entry 97 responded with code ${res.statusCode}`)
+                done()
+            })
+        });
+    });
     describe("`/category/<>` endpoint", () => {
         it("should have 200 code", (done) => {
             make_req("/category/monsters", (_err, res) => {
                 assert.equal(res.statusCode, 200, `Responded with code ${res.statusCode}`)
+                done()
+            })
+        });
+    });
+    describe("`/master_mode` endpoint", () => {
+        it("should have 200 code", (done) => {
+            make_req("/master_mode", (_err, res) => {
+                assert.equal(res.statusCode, 200, `DLC Entry 97 responded with code ${res.statusCode}`)
                 done()
             })
         });
@@ -165,6 +181,28 @@ describe("API response contents", () => {
                 }, {filename: `out/${entry}.png`})
             });
         });
+        describe("Master Mode entry", () => {
+            let entry = "golden lynel"
+            it("should have expected fields", (done) => {
+                make_req(`/master_mode/entry/${entry}`, (_err, res) => {
+                    assert.deepEqual(
+                        Object.keys(
+                            JSON.parse(res.body).data
+                        ), 
+                        ["category", "common_locations", "description", "drops", "id", "image", "name"], 
+                        `Responded with incorrect fields.`
+                    )
+                    done()
+                })
+            });
+            it("should have working image", (done) => {
+                make_req(`/master_mode/entry/${entry}/image`, () => {
+                    let result = validateMIMEType(`out/${entry}.png`, {allowMimeTypes: ["image/png"]})
+                    assert.equal(result.ok, true, result.error)
+                    done()
+                }, {filename: `out/${entry}.png`})
+            });
+        });
     });
 
     describe("Categories", () => {
@@ -279,26 +317,26 @@ describe("API response contents", () => {
                 })
             });
         });
-        describe("All data", () => {
-            it("should have correct of # entries", (done) => {
-                make_req("", (_err, res) => {
-                    let data = JSON.parse(res.body).data
-                    assert.equal(
-                        data.creatures.food.length + data.creatures.non_food.length + data.equipment.length + data.materials.length + data.monsters.length + data.treasure.length,
-                        389
-                    )
-                    done()
-                })
-            });
-            it("should have correct of # categories", (done) => {
-                make_req("", (_err, res) => {
-                    assert.equal(
-                        Object.keys(JSON.parse(res.body).data).length,
-                        5
-                    )
-                    done()
-                })
-            });
-        }); 
     });
+    describe("All data", () => {
+        it("should have correct of # entries", (done) => {
+            make_req("", (_err, res) => {
+                let data = JSON.parse(res.body).data
+                assert.equal(
+                    data.creatures.food.length + data.creatures.non_food.length + data.equipment.length + data.materials.length + data.monsters.length + data.treasure.length,
+                    389
+                )
+                done()
+            })
+        });
+        it("should have correct of # categories", (done) => {
+            make_req("", (_err, res) => {
+                assert.equal(
+                    Object.keys(JSON.parse(res.body).data).length,
+                    5
+                )
+                done()
+            })
+        });
+    }); 
 });
