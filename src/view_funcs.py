@@ -31,6 +31,9 @@ entry_image = utils.get_entry_image
 def all(version):
     return {'data': utils.get_all(version)}
 
+def master_mode_entry_image(version, inp):
+    return utils.get_entry_image(version, inp, master_mode=True)
+
 def master_mode_entry(version, inp):
     res = utils.get_master_mode_entry(version, inp)
     return (res[0] if res else ({'data': {}, 'message': 'no results'}, 404))

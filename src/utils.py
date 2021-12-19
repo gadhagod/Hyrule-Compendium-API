@@ -73,15 +73,16 @@ def get_entry(target, where) -> EntryData:
             )
         return 'creatures', res[0]
 
-def get_entry_image(version, inp) -> Union[Response, tuple[dict, int]]:
+def get_entry_image(version, inp, master_mode=False) -> Union[Response, tuple[dict, int]]:
+    if inp == "master_mode":
+        return {'data': {}, 'message': 'no results'}, 404
     try:
         try:
             _, query_res = get_entry(int(inp), '_id')
             target_entry = query_res['name'].replace(' ', '_').replace('＋', '')
         except ValueError:
             target_entry = inp.replace(' ', '_').replace('+', '＋')
-            print(type(send_from_directory('compendium/images', target_entry, mimetype=f'image/{what(f"compendium/images/{target_entry}")}')).__name__)
-        return send_from_directory('compendium/images', target_entry, mimetype=f'image/{what(f"compendium/images/{target_entry}")}')
+        return send_from_directory(f'compendium/images{"/master_mode" if master_mode else ""}', target_entry, mimetype=f'''image/{what(f"compendium/images/{'master_mode/' if master_mode else ''}{target_entry}")}''')
     except TypeError:
         return {'data': {}, 'message': 'no results'}, 404
 

@@ -11,6 +11,7 @@ app.add_url_rule('/api/<version>', view_func=view_funcs.all)
 app.add_url_rule('/api/<version>/entry/<inp>', view_func=view_funcs.entry)
 app.add_url_rule('/api/<version>/entry/<inp>/image', view_func=view_funcs.entry_image)
 app.add_url_rule('/api/<version>/master_mode/entry/<inp>', view_func=view_funcs.master_mode_entry)
+app.add_url_rule('/api/<version>/master_mode/entry/<inp>/image', view_func=view_funcs.master_mode_entry_image)
 
 app.add_url_rule('/api/<version>/category/treasure', view_func=view_funcs.treasure)
 app.add_url_rule('/api/<version>/category/monsters', view_func=view_funcs.monsters)
