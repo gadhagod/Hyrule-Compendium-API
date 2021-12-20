@@ -1,6 +1,5 @@
 from typing import Optional, Union
 from src.types import *
-from imghdr import what
 from os import getenv
 from flask import send_from_directory, Response
 from rockset import Client, Q, F
@@ -83,7 +82,7 @@ def get_entry_image(version, inp, master_mode=False) -> Union[Response, tuple[di
         except ValueError:
             target_entry = inp.replace(' ', '_').replace('+', '＋')
         try:
-            return send_from_directory(f'compendium/images{"/master_mode" if master_mode else ""}', target_entry, mimetype=f'''image/{what(f"compendium/images/{'master_mode/' if master_mode else ''}{target_entry}")}''')
+            return send_from_directory(f'compendium/images{"/master_mode" if master_mode else ""}', f"{target_entry}.png", mimetype='image/png')
         except FileNotFoundError:
             return {'data': {}, 'message': 'no results'}, 404
     except TypeError:

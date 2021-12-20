@@ -21,4 +21,4 @@ jobs:
             sudo apt install pngcheck
       - name: Check images
         run: |
-          pngcheck compendium/images/**
+          pngcheck compendium/images/*.png compendium/images/**/*.png
