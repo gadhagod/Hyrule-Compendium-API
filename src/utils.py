@@ -82,7 +82,10 @@ def get_entry_image(version, inp, master_mode=False) -> Union[Response, tuple[di
             target_entry = query_res['name'].replace(' ', '_').replace('＋', '')
         except ValueError:
             target_entry = inp.replace(' ', '_').replace('+', '＋')
-        return send_from_directory(f'compendium/images{"/master_mode" if master_mode else ""}', target_entry, mimetype=f'''image/{what(f"compendium/images/{'master_mode/' if master_mode else ''}{target_entry}")}''')
+        try:
+            return send_from_directory(f'compendium/images{"/master_mode" if master_mode else ""}', target_entry, mimetype=f'''image/{what(f"compendium/images/{'master_mode/' if master_mode else ''}{target_entry}")}''')
+        except FileNotFoundError:
+            return {'data': {}, 'message': 'no results'}, 404
     except TypeError:
         return {'data': {}, 'message': 'no results'}, 404
 
