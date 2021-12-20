@@ -197,10 +197,10 @@ describe("API response contents", () => {
             });
             it("should have working image", (done) => {
                 make_req(`/master_mode/entry/${entry}/image`, () => {
-                    let result = validateMIMEType(`out/${entry}.jpeg`, {allowMimeTypes: ["image/jpeg"]})
+                    let result = validateMIMEType(`out/${entry}.png`, {allowMimeTypes: ["image/png"]})
                     assert.equal(result.ok, true, result.error)
                     done()
-                }, {filename: `out/${entry}.jpeg`})
+                }, {filename: `out/${entry}.png`})
             });
         });
     });
