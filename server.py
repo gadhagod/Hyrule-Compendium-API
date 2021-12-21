@@ -25,7 +25,8 @@ app.add_url_rule('/api/<version>/master_mode', view_func=view_funcs.all_master_m
 def website():
     return flask.redirect('https://gadhagod.github.io/Hyrule-Compendium-API')
 
-app.register_error_handler(500, lambda ctx: {'data': {}, 'message': 'Server error'})
+app.register_error_handler(500, lambda ctx: ({'data': {}, 'message': 'Server error'}, 500))
+app.register_error_handler(404, lambda ctx: ({'data': {}, 'message': 'Not found'}, 404))
 
 if __name__ == '__main__':  
-    app.run()
+    app.run(debug=True)

@@ -18,6 +18,8 @@ selects = {
     }
 }
 
+entry_not_found = {'data': {}, 'message': 'no results'}, 404
+
 def query(
     category: Union[StandardCategoryName, DlcCategoryName],
     where: Optional[bool]=None,
@@ -74,7 +76,7 @@ def get_entry(target, where) -> EntryData:
 
 def get_entry_image(version, inp, master_mode=False) -> Union[Response, tuple[dict, int]]:
     if inp == "master_mode":
-        return {'data': {}, 'message': 'no results'}, 404
+        return entry_not_found
     try:
         try:
             _, query_res = get_entry(int(inp), '_id')
@@ -84,9 +86,9 @@ def get_entry_image(version, inp, master_mode=False) -> Union[Response, tuple[di
         try:
             return send_from_directory(f'compendium/images{"/master_mode" if master_mode else ""}', f"{target_entry}.png", mimetype='image/png')
         except FileNotFoundError:
-            return {'data': {}, 'message': 'no results'}, 404
+            return entry_not_found
     except TypeError:
-        return {'data': {}, 'message': 'no results'}, 404
+        return entry_not_found
 
 def get_all(version) -> list[CategoryData]:
     category_metadata = {}

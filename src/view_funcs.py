@@ -24,7 +24,7 @@ def entry(version, inp):
             res = utils.get_entry(inp.lower().replace('_', ' '), 'name')[1]
         return {'data': res}
     except TypeError:
-        return {'data': {}, 'message': 'no results'}, 404
+        return utils.entry_not_found
 
 entry_image = utils.get_entry_image
 
@@ -36,7 +36,7 @@ def master_mode_entry_image(version, inp):
 
 def master_mode_entry(version, inp):
     res = utils.get_master_mode_entry(version, inp)
-    return ({'data': res[0]} if res else ({'data': {}, 'message': 'no results'}, 404))
+    return ({'data': res[0]} if res else utils.entry_not_found)
 
 def all_master_mode(version):
     return {'data': utils.get_all_master_mode_entries(version)}
