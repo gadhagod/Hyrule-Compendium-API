@@ -17,15 +17,8 @@ def creatures(version):
     return {'data': utils.get_category(version, 'creatures')}
 
 def entry(version, inp):
-    try:
-        try:
-            int(inp)
-            res = utils.get_entry(F['_id'] == inp)[1]
-        except ValueError:
-            res = utils.get_entry(inp.lower().replace('_', ' '), 'name')[1]
-        return {'data': res}
-    except TypeError:
-        return utils.entry_not_found
+    res = utils.get_entry((F['id'] == int(inp)) if inp.isnumeric() else F['name'] == inp.lower().replace('_', ' '))
+    return utils.entry_not_found if not res else {'data': res[1]}
 
 entry_image = utils.get_entry_image
 
