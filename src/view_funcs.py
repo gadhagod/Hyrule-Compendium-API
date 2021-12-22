@@ -1,4 +1,5 @@
 from src import utils
+from rockset import F
 
 def treasure(version):
     return {'data': utils.get_category(version, 'treasure')}
@@ -19,7 +20,7 @@ def entry(version, inp):
     try:
         try:
             int(inp)
-            res = utils.get_entry(inp, '_id')[1]
+            res = utils.get_entry(F['_id'] == inp)[1]
         except ValueError:
             res = utils.get_entry(inp.lower().replace('_', ' '), 'name')[1]
         return {'data': res}
