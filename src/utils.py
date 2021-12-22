@@ -24,7 +24,7 @@ def query(
     category: Union[StandardCategoryName, DlcCategoryName],
     where: Optional[bool]=None,
     select: list[BaseEntrySelect]=[]
-) -> list[EntryData]: return list(rs.sql(
+) -> list[EntryData]: return rs.sql(
     Q(f'botw-api.{category}')
         .where(where if where is not None else F['id'].is_not_null())
         .select(*[
@@ -35,7 +35,7 @@ def query(
             'image', 
             'category'
         ]+list(map(lambda i: F[i], select)))
-))
+).results()
 
 def get_category(version: VersionString, category: StandardCategoryName) -> CategoryData:
     return {'non_food' if version == 'v2' else 'non-food': query(
@@ -48,20 +48,19 @@ def get_category(version: VersionString, category: StandardCategoryName) -> Cate
         select=selects['creatures']['food']
     )} if category == "creatures" else query(category=category, select=selects[category])
 
-def get_entry(target, where) -> EntryData:
+def get_entry(where) -> tuple[StandardCategoryName, EntryData]:
     for category in list(selects.keys())[:-1]:
         res = query(
             category=category, 
-            where=F[where] == target, 
+            where=where, 
             select=selects[category]
         )
         if res:
-            print(res)
             return category, res[0]
 
     res = query(
         category='creatures',
-        where=F[where] == target,
+        where=where,
         select=['hearts_recovered', 'cooking_effect']
     )
 
@@ -69,7 +68,7 @@ def get_entry(target, where) -> EntryData:
         if res[0]['cooking_effect'] is None:
             res = query(
                 category='creatures',
-                where=F[where] == target,
+                where=where,
                 select=['drops']
             )
         return 'creatures', res[0]
@@ -77,17 +76,37 @@ def get_entry(target, where) -> EntryData:
 def get_entry_image(version, inp, master_mode=False) -> Union[Response, tuple[dict, int]]:
     if inp == "master_mode":
         return entry_not_found
+
+    target_entry = None
+    if master_mode:
+        if inp.isnumeric():
+            res = query(
+                category='master_mode',
+                where=(F['_id'] == inp),
+            )
+            if res:
+                target_entry = res[0]['name']
+        else:
+            target_entry = inp
+    else:
+        if inp.isnumeric():
+            for category in selects.keys():
+                res = query(
+                    category=category,
+                    where=(F['_id'] == inp),
+                )
+                if res:
+                    target_entry = res[0]['name']
+                    break
+        else:
+            target_entry = inp
+
+    if not target_entry:
+        return entry_not_found
+
     try:
-        try:
-            _, query_res = get_entry(int(inp), '_id')
-            target_entry = query_res['name'].replace(' ', '_').replace('＋', '')
-        except ValueError:
-            target_entry = inp.replace(' ', '_').replace('+', '＋')
-        try:
-            return send_from_directory(f'compendium/images{"/master_mode" if master_mode else ""}', f"{target_entry}.png", mimetype='image/png')
-        except FileNotFoundError:
-            return entry_not_found
-    except TypeError:
+        return send_from_directory(f'compendium/images{"/master_mode" if master_mode else ""}', f"{target_entry.replace(' ', '_').replace('+', '＋')}.png", mimetype='image/png')
+    except FileNotFoundError:
         return entry_not_found
 
 def get_all(version) -> list[CategoryData]:
