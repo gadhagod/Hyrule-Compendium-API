@@ -4,9 +4,10 @@
     * [API Reference](?id=api-refrence)
         * [`/entry`](?id=entry)
         * [`/category`](?id=category)
-        * [`/all`](?id=category)
-        * [`/entry/image`](?id=entryltgtimage)
-    * [Images](?id=images-beta)
+        * [`/all`](?id=all)
+        * [`/master_mode/entry`](?id=master_modeentry)
+        * [`/master_mode/all`](?id=master_modeall)
+    * [Images](?id=images)
     * [Demo](?id=demo)
 
 * Client libraries

@@ -94,7 +94,7 @@ GET https://botw-compendium.herokuapp.com/api/v2/category/<category>
 $ curl https://botw-compendium.herokuapp.com/api/v2/category/monsters
 ```
     
-!> **Warning**: the creatures category has two sub categories as keys, `food` and `non_food`.
+!> **Warning**: the creatures category has two sub categories as response keys, `food` and `non_food`.
 
 ---------------
 
@@ -103,40 +103,52 @@ This endpoint is for retrieving *all* data.
 
 **HTTP Request**
 ```http
-GET https://botw-compendium.herokuapp.com/api/v2
+GET https://botw-compendium.herokuapp.com/api/v2/all
 ```
 **Example Request**
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v2
+$ curl https://botw-compendium.herokuapp.com/api/v2/all
 ```
 
 ---------------
 
-### `/entry/<>/image`
-This endpoint serves an image on a given entry.
+### `/master_mode/entry`
+This endpoint retrieves data on a master mode exclusive entry, using it's name or ID. 
+If you are using a name to search for an item, spaces are to be replaced with an underscore or "%20".
 
 **HTTP Request**
 ```http
-GET https://botw-compendium.herokuapp.com/api/v2/entry/<entry>/image    
+GET https://botw-compendium.herokuapp.com/api/v2/master_mode/entry/<entry>
 ```
 **Example Request**
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v2/entry/horse/image   # returns a bunch of binary
+$ curl https://botw-compendium.herokuapp.com/api/v2/master_mode/entry/golden_bokoblin
 ```
-More on images at [compendium images](?id=images).
+---------------
 
+### `/master_mode/all`
+
+**HTTP Request**
+This endpoint retrieves all data on master mode exclusive entries.
+```http
+GET https://botw-compendium.herokuapp.com/api/v2/master_mode/all
+```
+**Example Request**
+```bash
+$ curl https://botw-compendium.herokuapp.com/api/v2/master_mode/all
+```
 ---------------
 
 ?> In all API endpoints, if a value is `null`, it's marked as "unknown" in the compendium.
 
-## Images (BETA)
+## Images
 This API also serves images. Each item entry has a key `image`, as shown in the example request and response. That key has a link to the image. The images follow this schema:
 ```bash
 https://botw-compendium.herokuapp.com/api/v2/entry/<entry>/image
 ```
 The `<entry>` can be either the entry's ID or name. For example, the white-maned lynel's image could be retrieved from either of the two links:
 * [https://botw-compendium.herokuapp.com/api/v2/entry/white-maned_lynel/image](http://botw-compendium.herokuapp.com/api/v2/entry/white-maned_lynel/image)
-* [https://botw-compendium.herokuapp.com/api/v2/entry/123/image](https://botw-compendium.herokuapp.com/api/v2/entry/123/image])
+* [https://botw-compendium.herokuapp.com/api/v2/entry/123/image](https://botw-compendium.herokuapp.com/api/v2/entry/123/image)
 
 The images are always in a 280x280 pixel PNG format. 
 
@@ -147,7 +159,7 @@ They can be referenced just as you would reference any other image from the web.
 Would result in: \
 ![](https://botw-compendium.herokuapp.com/api/v2/entry/123/image)
 
-!> **Warning**: The images feature is still in development.
+?> **NOTE**: Master mode entry images use a different URL schema: `/master_mode/entry/<entry>/image`
 
 ## Demo
 
