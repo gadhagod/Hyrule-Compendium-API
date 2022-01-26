@@ -18,7 +18,7 @@ The Hyrule compendium is an encyclopedia of all in-game interactive items. With 
 You can see a specific item, all items in a category, or all data in our database.
 Here is an example request and response, retrieving data on the silver lynel:
 
-    $ curl https://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel
+    $ curl https://botw-compendium.herokuapp.com/api/v2/entry/white-maned_lynel
     {
         "data": {
             "name": "white-maned lynel",
@@ -34,7 +34,7 @@ Here is an example request and response, retrieving data on the silver lynel:
                 "lynel hoof",
                 "lynel guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v1/entry/white-maned_lynel/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/white-maned_lynel/image"
         }
     }
 
