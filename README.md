@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://static.wikia.nocookie.net/characterprofile/images/c/c8/BotW_Link.png/revision/latest/scale-to-width-down/340?cb=20170306180639" length=10% width=10%>
+<img src="docs/assets/light_logo.png" length=10% width=10%>
 </p>
 <h1 align="center">Hyrule Compendium API</h1>
 <p align="center"><b>An API serving data on all creatures, monsters, materials, equipment, and treasure in <i>The Legend of Zelda: Breath of the Wild</i>.</b><br>
