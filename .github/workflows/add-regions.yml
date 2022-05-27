@@ -1,4 +1,4 @@
-# This workflow adds compendium entries to the Rockset collections when a change is made
+# This workflow adds regions to the Rockset collection when a change is made
 
 name: Add compendium entries
 
@@ -7,7 +7,7 @@ on:
       branches:
         - master
       paths:
-        - 'db/data/compendium/*.json'
+        - 'db/data/regions.json'
 
 jobs:
   main:
@@ -24,4 +24,4 @@ jobs:
           rockset auth:add me ${{ secrets.RS2_TOKEN }}
       - name: Add docs
         run: |
-          source .github/workflows/add-compendium-entries/main.sh
+          source .github/workflows/add-regions/main.sh

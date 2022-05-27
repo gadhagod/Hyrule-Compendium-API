@@ -1,0 +1,1 @@
+rockset api:documents:addDocuments botw-api regions --body db/data/regions.json

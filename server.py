@@ -1,34 +1,21 @@
 
-from src import view_funcs
 import flask
 from flask_cors import CORS
+from src.utils import redirectToDocs
+from src import loadViews
 
 app = flask.Flask(__name__, static_folder='compendium/images')
 CORS(app)
 
-app.add_url_rule('/api/<version>', view_func=view_funcs.all)
-app.add_url_rule('/api/<version>/all', view_func=view_funcs.all)
-app.add_url_rule('/api/<version>/master_mode', view_func=view_funcs.all_master_mode)
-app.add_url_rule('/api/<version>/master_mode/all', view_func=view_funcs.all_master_mode)
-
-app.add_url_rule('/api/<version>/entry/<inp>', view_func=view_funcs.entry)
-app.add_url_rule('/api/<version>/entry/<inp>/image', view_func=view_funcs.entry_image)
-app.add_url_rule('/api/<version>/master_mode/entry/<inp>', view_func=view_funcs.master_mode_entry)
-app.add_url_rule('/api/<version>/master_mode/entry/<inp>/image', view_func=view_funcs.master_mode_entry_image)
-
-app.add_url_rule('/api/<version>/category/treasure', view_func=view_funcs.treasure)
-app.add_url_rule('/api/<version>/category/monsters', view_func=view_funcs.monsters)
-app.add_url_rule('/api/<version>/category/materials', view_func=view_funcs.materials)
-app.add_url_rule('/api/<version>/category/equipment', view_func=view_funcs.equipment)
-app.add_url_rule('/api/<version>/category/creatures', view_func=view_funcs.creatures)
-
-@app.route('/')
-@app.route('/api')
-def website():
-    return flask.redirect('https://gadhagod.github.io/Hyrule-Compendium-API')
-
 app.register_error_handler(500, lambda ctx: ({'data': {}, 'message': 'Server error'}, 500))
 app.register_error_handler(404, lambda ctx: ({'data': {}, 'message': 'Not found'}, 404))
+app.add_url_rule('/', view_func=redirectToDocs)
+app.add_url_rule('/api', view_func=redirectToDocs)
+app.add_url_rule('/api/v3', view_func=lambda: {})
+loadViews(app)
 
-if __name__ == '__main__':  
+if __name__ == '__main__': # debug
     app.run(debug=True)
+else: # production
+    # deploy.sh should be run prior
+    ""
