@@ -1,4 +1,3 @@
-
 import flask
 from flask_cors import CORS
 from src.utils import redirectToDocs
@@ -14,8 +13,10 @@ app.add_url_rule('/api', view_func=redirectToDocs)
 app.add_url_rule('/api/v3', view_func=lambda: {})
 loadViews(app)
 
-if __name__ == '__main__': # debug
+if __name__ == '__main__': # testing server
     app.run(debug=True)
-else: # production
-    # deploy.sh should be run prior
+else: # production server
+    # precondition: setup_versioning.sh executed
     ""
+    import v2 as v2_server
+    v2_server.load_views(app)

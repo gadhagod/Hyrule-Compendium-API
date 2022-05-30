@@ -1,4 +1,4 @@
--- Casts name as ID
+-- transformation for region collection
 SELECT
     *
 EXCEPT

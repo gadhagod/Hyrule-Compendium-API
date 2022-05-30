@@ -1,3 +1,4 @@
+-- tranformation for compendium collections
 SELECT
     *
 EXCEPT
