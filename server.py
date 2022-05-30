@@ -42,11 +42,6 @@ app.add_url_rule('/api/v2/category/equipment', view_func=load_view(view_funcs.eq
 app.add_url_rule('/api/v1/category/creatures', view_func=load_view(view_funcs.creatures, 'v1'))
 app.add_url_rule('/api/v2/category/creatures', view_func=load_view(view_funcs.creatures, 'v2'))
 
-@app.route('/')
-@app.route('/api')
-def website():
-    return flask.redirect('https://gadhagod.github.io/Hyrule-Compendium-API')
-
 app.register_error_handler(500, lambda ctx: ({'data': {}, 'message': 'Server error'}, 500))
 app.register_error_handler(404, lambda ctx: ({'data': {}, 'message': 'Not found'}, 404))
 
