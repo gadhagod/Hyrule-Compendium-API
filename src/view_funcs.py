@@ -1,4 +1,4 @@
-from src import utils
+from v2.src import utils
 from rockset import F
 
 def treasure(version):
