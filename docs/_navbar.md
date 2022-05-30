@@ -1,1 +1,0 @@
-By [Aarav Borthakur](https://github.com/gadhagod)
