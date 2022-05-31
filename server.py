@@ -18,5 +18,5 @@ if __name__ == '__main__': # testing server
 else: # production server
     # precondition: setup_versioning.sh executed
     ""
-    import v2 as v2_server
-    v2_server.load_views(app)
+    from v2.server import v2_blueprint
+    app.register_blueprint(v2_blueprint)
