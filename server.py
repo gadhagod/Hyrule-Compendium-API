@@ -1,6 +1,9 @@
-from .src import view_funcs
+from src import view_funcs
 import flask
 from flask_cors import CORS
+
+app = flask.Flask(__name__, static_folder='compendium/images')
+CORS(app)
 
 func_cnt = 0
 def load_view(view_func, version, inp=False):
@@ -10,7 +13,7 @@ def load_view(view_func, version, inp=False):
     func_cnt += 1
     return wrapper
 
-def load_views(app):
+def load_views():
     app.add_url_rule('/api/v1', view_func=load_view(view_funcs.all, 'v1'))
     app.add_url_rule('/api/v2', view_func=load_view(view_funcs.all, 'v2'))
     app.add_url_rule('/api/v1/all', view_func=load_view(view_funcs.all, 'v1'))

@@ -12,6 +12,3 @@ out
 node_modules
 package-lock.json
 dist
-
-# previous versions
-v2
