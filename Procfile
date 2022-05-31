@@ -1,2 +1,1 @@
-release: bash setup_versioning.sh
-web: gunicorn server:app 
+web: bash setup_versioning.sh && gunicorn server:app 
