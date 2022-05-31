@@ -1,5 +1,5 @@
 from typing import Optional, Union
-from src.types import *
+from ..src.types import *
 from os import getenv
 from flask import send_from_directory, Response
 from rockset import Client, Q, F
