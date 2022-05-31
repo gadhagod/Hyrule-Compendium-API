@@ -1,5 +1,23 @@
+certifi==2021.10.8
+charset-normalizer==2.0.9
+click==8.0.3
+docopt==0.6.2
+Flask==1.1.2
+Flask-Cors==3.0.10
+geojson==2.5.0
+greenlet==1.1.2
 gunicorn==20.0.4
-flask==1.1.2
-jinja2==3.0.3
-git+https://github.com/gadhagod/rockset-python.git@1.0.0
-flask-cors==3.0.10
+idna==3.3
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+prockset @ git+https://github.com/gadhagod/rockset-python.git@fae8902baffdc9325b6a34a449132b4e699c7463
+protobuf==3.19.1
+PyYAML==6.0
+requests==2.26.0
+requests-toolbelt==0.9.1
+six==1.16.0
+SQLAlchemy==1.4.28
+texttable==1.6.4
+urllib3==1.26.7
+Werkzeug==2.0.2
