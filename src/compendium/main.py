@@ -87,7 +87,7 @@ def get_entry_image(inp, master_mode=False) -> Union[Response, tuple[dict, int]]
         return no_results
 
     try:
-        return send_from_directory(f'compendium/images{"/master_mode" if master_mode else ""}', f"{target_entry.replace(' ', '_').replace('+', '＋')}.png", mimetype='image/png')
+        return send_from_directory(f'db/data/compendium/images{"/master_mode" if master_mode else ""}', f"{target_entry.replace(' ', '_').replace('+', '＋')}.png", mimetype='image/png')
     except FileNotFoundError:
         return no_results
 
