@@ -1,5 +1,5 @@
 {
     "timeout": 20000,
     "require": "ts-node/register",
-    "file": ["test/api.ts"]
+    "file": ["test/v2.ts"]
 }
