@@ -10,8 +10,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/apple/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/apple/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 166,
@@ -23,8 +24,9 @@
             ],
             "hearts_recovered": 1.0,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/palm_fruit/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/palm_fruit/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 167,
@@ -36,8 +38,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/wildberry/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/wildberry/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 168,
@@ -49,8 +52,9 @@
             ],
             "hearts_recovered": 3.0,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hearty_durian/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hearty_durian/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 169,
@@ -62,8 +66,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "heat resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hydromelon/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hydromelon/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 170,
@@ -75,8 +80,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "cold resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spicy_pepper/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/spicy_pepper/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 171,
@@ -88,8 +94,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "shock resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/voltfruit/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/voltfruit/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 172,
@@ -101,8 +108,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "speed up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fleet-lotus_seeds/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fleet-lotus_seeds/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 173,
@@ -113,8 +121,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "attack up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_bananas/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mighty_bananas/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 174,
@@ -126,8 +135,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hylian_shroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hylian_shroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 175,
@@ -139,8 +149,9 @@
             ],
             "hearts_recovered": 1.0,
             "cooking_effect": "extra stamina",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/endura_shroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/endura_shroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 176,
@@ -152,8 +163,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "stamina recovery",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/stamella_shroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stamella_shroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 177,
@@ -165,8 +177,9 @@
             ],
             "hearts_recovered": 2.0,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hearty_truffle/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hearty_truffle/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 178,
@@ -178,8 +191,9 @@
             ],
             "hearts_recovered": 3.0,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/big_hearty_truffle/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/big_hearty_truffle/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 179,
@@ -191,8 +205,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "heat resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/chillshroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/chillshroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 180,
@@ -204,8 +219,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "cold resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/sunshroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/sunshroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 181,
@@ -217,8 +233,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "shock resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/zapshroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/zapshroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 182,
@@ -230,8 +247,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "speed up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rushroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rushroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 183,
@@ -243,8 +261,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "attack up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/razorshroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/razorshroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 184,
@@ -256,8 +275,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "defense up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ironshroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ironshroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 185,
@@ -269,8 +289,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "stealth up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silent_shroom/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silent_shroom/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 186,
@@ -282,8 +303,9 @@
             ],
             "hearts_recovered": 1.0,
             "cooking_effect": "",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hyrule_herb/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hyrule_herb/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 187,
@@ -295,8 +317,9 @@
             ],
             "hearts_recovered": 20.5,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hearty_radish/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hearty_radish/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 188,
@@ -308,8 +331,9 @@
             ],
             "hearts_recovered": 4.0,
             "cooking_effect": "extra hearts",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/big_hearty_radish/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/big_hearty_radish/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 189,
@@ -321,8 +345,9 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "heat resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/cool_safflina/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/cool_safflina/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 190,
@@ -334,8 +359,9 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "cold resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/warm_safflina/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/warm_safflina/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 191,
@@ -347,8 +373,9 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "shock resistance",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/electric_safflina/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/electric_safflina/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 192,
@@ -359,8 +386,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "speed up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/swift_carrot/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/swift_carrot/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 193,
@@ -372,8 +400,9 @@
             ],
             "hearts_recovered": 2.0,
             "cooking_effect": "extra stamina",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/endura_carrot/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/endura_carrot/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 194,
@@ -384,8 +413,9 @@
             ],
             "hearts_recovered": 0.5,
             "cooking_effect": "defense up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fortified_pumpkin/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fortified_pumpkin/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 195,
@@ -397,8 +427,9 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "speed up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/swift_violet/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/swift_violet/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 196,
@@ -410,8 +441,9 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "attack up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_thistle/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mighty_thistle/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 197,
@@ -423,8 +455,9 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "defense up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/armoranth/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/armoranth/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 198,
@@ -436,8 +469,9 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "stealth up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/blue_nightshade/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blue_nightshade/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 199,
@@ -449,8 +483,9 @@
             ],
             "hearts_recovered": 0.0,
             "cooking_effect": "stealth up",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silent_princess/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silent_princess/image",
+            "category": "materials",
+            "dlc": false
         },
         {
             "id": 200,
@@ -462,8 +497,9 @@
             ],
             "hearts_recovered": 2.0,
             "cooking_effect": "stamina recovery",
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/courser_bee_honey/image",
-            "category": "materials"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/courser_bee_honey/image",
+            "category": "materials",
+            "dlc": false
         }
     ]
 }

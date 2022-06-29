@@ -7,8 +7,9 @@
             "common_locations": null,
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/master_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/master_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 202,
@@ -20,8 +21,9 @@
             ],
             "attack": 2,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/tree_branch/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/tree_branch/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 203,
@@ -33,8 +35,9 @@
             ],
             "attack": 2,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/torch/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/torch/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 204,
@@ -46,8 +49,9 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soup_ladle/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/soup_ladle/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 205,
@@ -59,8 +63,9 @@
             ],
             "attack": 8,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boomerang/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/boomerang/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 206,
@@ -69,8 +74,9 @@
             "common_locations": null,
             "attack": 1,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spring-loaded_hammer/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/spring-loaded_hammer/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 207,
@@ -82,8 +88,9 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/traveler's_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 208,
@@ -95,8 +102,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_broadsword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/soldier's_broadsword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 209,
@@ -108,8 +116,9 @@
             ],
             "attack": 26,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_broadsword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/knight's_broadsword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 210,
@@ -121,8 +130,9 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_broadsword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_broadsword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 211,
@@ -134,8 +144,9 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forest_dweller's_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/forest_dweller's_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 212,
@@ -147,8 +158,9 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/zora_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/zora_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 213,
@@ -160,8 +172,9 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/feathered_edge/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/feathered_edge/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 214,
@@ -173,8 +186,9 @@
             ],
             "attack": 16,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/gerudo_scimitar/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/gerudo_scimitar/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 215,
@@ -186,8 +200,9 @@
             ],
             "attack": 25,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/moonlight_scimitar/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/moonlight_scimitar/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 216,
@@ -198,8 +213,9 @@
             ],
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/scimitar_of_the_seven/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/scimitar_of_the_seven/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 217,
@@ -211,8 +227,9 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/eightfold_blade/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/eightfold_blade/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 218,
@@ -221,8 +238,9 @@
             "common_locations": null,
             "attack": 40,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_short_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ancient_short_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 219,
@@ -234,8 +252,9 @@
             ],
             "attack": 6,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rusty_broadsword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rusty_broadsword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 220,
@@ -244,8 +263,9 @@
             "common_locations": null,
             "attack": 48,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_guard's_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 221,
@@ -257,8 +277,9 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/flameblade/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/flameblade/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 222,
@@ -270,8 +291,9 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/frostblade/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/frostblade/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 223,
@@ -283,8 +305,9 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/thunderblade/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/thunderblade/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 224,
@@ -296,8 +319,9 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_club/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/boko_club/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 225,
@@ -309,8 +333,9 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_club/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/spiked_boko_club/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 226,
@@ -322,8 +347,9 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_boko_club/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/dragonbone_boko_club/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 227,
@@ -335,8 +361,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_boomerang/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lizal_boomerang/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 228,
@@ -348,8 +375,9 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_forked_boomerang/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lizal_forked_boomerang/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 229,
@@ -361,8 +389,9 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_tri-boomerang/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lizal_tri-boomerang/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 230,
@@ -374,8 +403,9 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 231,
@@ -387,8 +417,9 @@
             ],
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_sword+/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_sword+/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 232,
@@ -400,8 +431,9 @@
             ],
             "attack": 40,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_sword++/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_sword++/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 233,
@@ -413,8 +445,9 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lynel_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 234,
@@ -426,8 +459,9 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mighty_lynel_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 235,
@@ -439,8 +473,9 @@
             ],
             "attack": 58,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_sword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/savage_lynel_sword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 236,
@@ -452,8 +487,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fire_rod/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fire_rod/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 237,
@@ -465,8 +501,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/meteor_rod/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/meteor_rod/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 238,
@@ -478,8 +515,9 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ice_rod/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ice_rod/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 239,
@@ -491,8 +529,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/blizzard_rod/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blizzard_rod/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 240,
@@ -504,8 +543,9 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lightning_rod/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lightning_rod/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 241,
@@ -517,8 +557,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/thunderstorm_rod/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/thunderstorm_rod/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 242,
@@ -530,8 +571,9 @@
             ],
             "attack": 16,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/vicious_sickle/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/vicious_sickle/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 243,
@@ -540,8 +582,9 @@
             "common_locations": null,
             "attack": 40,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/demon_carver/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/demon_carver/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 244,
@@ -550,8 +593,9 @@
             "common_locations": null,
             "attack": 1000000000,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/one-hit_obliterator/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/one-hit_obliterator/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 245,
@@ -562,8 +606,9 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/bokoblin_arm/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/bokoblin_arm/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 246,
@@ -574,8 +619,9 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizalfos_arm/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lizalfos_arm/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 247,
@@ -587,8 +633,9 @@
             ],
             "attack": 1,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/korok_leaf/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/korok_leaf/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 248,
@@ -600,8 +647,9 @@
             ],
             "attack": 16,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/farming_hoe/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/farming_hoe/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 249,
@@ -613,8 +661,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boat_oar/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/boat_oar/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 250,
@@ -626,8 +675,9 @@
             ],
             "attack": 3,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/woodcutter's_axe/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/woodcutter's_axe/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 251,
@@ -639,8 +689,9 @@
             ],
             "attack": 18,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/double_axe/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/double_axe/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 252,
@@ -652,8 +703,9 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/iron_sledgehammer/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/iron_sledgehammer/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 253,
@@ -665,8 +717,9 @@
             ],
             "attack": 25,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/giant_boomerang/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/giant_boomerang/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 254,
@@ -678,8 +731,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_claymore/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/traveler's_claymore/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 255,
@@ -691,8 +745,9 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_claymore/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/soldier's_claymore/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 256,
@@ -704,8 +759,9 @@
             ],
             "attack": 38,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_claymore/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/knight's_claymore/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 257,
@@ -717,8 +773,9 @@
             ],
             "attack": 52,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_claymore/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_claymore/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 258,
@@ -730,8 +787,9 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silver_longsword/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silver_longsword/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 259,
@@ -743,8 +801,9 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/cobble_crusher/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/cobble_crusher/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 260,
@@ -756,8 +815,9 @@
             ],
             "attack": 42,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/stone_smasher/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stone_smasher/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 261,
@@ -768,8 +828,9 @@
             ],
             "attack": 60,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boulder_breaker/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/boulder_breaker/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 262,
@@ -781,8 +842,9 @@
             ],
             "attack": 28,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/golden_claymore/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/golden_claymore/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 263,
@@ -794,8 +856,9 @@
             ],
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/eightfold_longblade/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/eightfold_longblade/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 264,
@@ -807,8 +870,9 @@
             ],
             "attack": 50,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/edge_of_duality/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/edge_of_duality/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 265,
@@ -817,8 +881,9 @@
             "common_locations": null,
             "attack": 55,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_bladesaw/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ancient_bladesaw/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 266,
@@ -830,8 +895,9 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rusty_claymore/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rusty_claymore/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 267,
@@ -840,8 +906,9 @@
             "common_locations": null,
             "attack": 72,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_claymore/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_guard's_claymore/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 268,
@@ -853,8 +920,9 @@
             ],
             "attack": 34,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/great_flameblade/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/great_flameblade/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 269,
@@ -866,8 +934,9 @@
             ],
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/great_frostblade/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/great_frostblade/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 270,
@@ -879,8 +948,9 @@
             ],
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/great_thunderblade/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/great_thunderblade/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 271,
@@ -892,8 +962,9 @@
             ],
             "attack": 6,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_bat/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/boko_bat/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 272,
@@ -905,8 +976,9 @@
             ],
             "attack": 18,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_bat/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/spiked_boko_bat/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 273,
@@ -918,8 +990,9 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_boko_bat/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/dragonbone_boko_bat/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 274,
@@ -931,8 +1004,9 @@
             ],
             "attack": 9,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/moblin_club/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/moblin_club/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 275,
@@ -944,8 +1018,9 @@
             ],
             "attack": 27,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_moblin_club/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/spiked_moblin_club/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 276,
@@ -957,8 +1032,9 @@
             ],
             "attack": 45,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_moblin_club/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/dragonbone_moblin_club/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 277,
@@ -970,8 +1046,9 @@
             ],
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_battle_axe/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ancient_battle_axe/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 278,
@@ -983,8 +1060,9 @@
             ],
             "attack": 45,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_battle_axe+/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ancient_battle_axe+/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 279,
@@ -996,8 +1074,9 @@
             ],
             "attack": 60,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_battle_axe++/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ancient_battle_axe++/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 280,
@@ -1009,8 +1088,9 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_crusher/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lynel_crusher/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 281,
@@ -1022,8 +1102,9 @@
             ],
             "attack": 54,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_crusher/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mighty_lynel_crusher/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 282,
@@ -1035,8 +1116,9 @@
             ],
             "attack": 78,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_crusher/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/savage_lynel_crusher/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 283,
@@ -1048,8 +1130,9 @@
             ],
             "attack": 40,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/windcleaver/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/windcleaver/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 284,
@@ -1060,8 +1143,9 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/moblin_arm/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/moblin_arm/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 285,
@@ -1073,8 +1157,9 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/wooden_mop/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/wooden_mop/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 286,
@@ -1086,8 +1171,9 @@
             ],
             "attack": 7,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/farmer's_pitchfork/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/farmer's_pitchfork/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 287,
@@ -1099,8 +1185,9 @@
             ],
             "attack": 8,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fishing_harpoon/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fishing_harpoon/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 288,
@@ -1112,8 +1199,9 @@
             ],
             "attack": 6,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/throwing_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/throwing_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 289,
@@ -1125,8 +1213,9 @@
             ],
             "attack": 3,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/traveler's_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 290,
@@ -1138,8 +1227,9 @@
             ],
             "attack": 7,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/soldier's_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 291,
@@ -1151,8 +1241,9 @@
             ],
             "attack": 13,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_halberd/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/knight's_halberd/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 292,
@@ -1164,8 +1255,9 @@
             ],
             "attack": 26,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_halberd/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_halberd/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 293,
@@ -1177,8 +1269,9 @@
             ],
             "attack": 11,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forest_dweller's_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/forest_dweller's_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 294,
@@ -1190,8 +1283,9 @@
             ],
             "attack": 9,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/zora_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/zora_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 295,
@@ -1203,8 +1297,9 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silverscale_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silverscale_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 296,
@@ -1215,8 +1310,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ceremonial_trident/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ceremonial_trident/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 297,
@@ -1227,8 +1323,9 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lightscale_trident/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lightscale_trident/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 298,
@@ -1240,8 +1337,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/drillshaft/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/drillshaft/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 299,
@@ -1253,8 +1351,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/feathered_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/feathered_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 300,
@@ -1266,8 +1365,9 @@
             ],
             "attack": 16,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/gerudo_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/gerudo_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 301,
@@ -1279,8 +1379,9 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/serpentine_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/serpentine_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 302,
@@ -1289,8 +1390,9 @@
             "common_locations": null,
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ancient_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 303,
@@ -1302,8 +1404,9 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rusty_halberd/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rusty_halberd/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 304,
@@ -1312,8 +1415,9 @@
             "common_locations": null,
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_guard's_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 305,
@@ -1325,8 +1429,9 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/flamespear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/flamespear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 306,
@@ -1338,8 +1443,9 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/frostspear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/frostspear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 307,
@@ -1351,8 +1457,9 @@
             ],
             "attack": 22,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/thunderspear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/thunderspear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 308,
@@ -1364,8 +1471,9 @@
             ],
             "attack": 2,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/boko_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 309,
@@ -1377,8 +1485,9 @@
             ],
             "attack": 6,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/spiked_boko_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 310,
@@ -1390,8 +1499,9 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_boko_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/dragonbone_boko_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 311,
@@ -1403,8 +1513,9 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/moblin_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/moblin_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 312,
@@ -1416,8 +1527,9 @@
             ],
             "attack": 9,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_moblin_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/spiked_moblin_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 313,
@@ -1429,8 +1541,9 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_moblin_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/dragonbone_moblin_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 314,
@@ -1442,8 +1555,9 @@
             ],
             "attack": 7,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lizal_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 315,
@@ -1455,8 +1569,9 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/enhanced_lizal_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/enhanced_lizal_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 316,
@@ -1468,8 +1583,9 @@
             ],
             "attack": 18,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forked_lizal_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/forked_lizal_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 317,
@@ -1481,8 +1597,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 318,
@@ -1494,8 +1611,9 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_spear+/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_spear+/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 319,
@@ -1507,8 +1625,9 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_spear++/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_spear++/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 320,
@@ -1520,8 +1639,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lynel_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 321,
@@ -1533,8 +1653,9 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mighty_lynel_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 322,
@@ -1546,8 +1667,9 @@
             ],
             "attack": 30,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_spear/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/savage_lynel_spear/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 323,
@@ -1556,8 +1678,9 @@
             "common_locations": null,
             "attack": 100,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/bow_of_light/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/bow_of_light/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 324,
@@ -1569,8 +1692,9 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/wooden_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/wooden_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 325,
@@ -1582,8 +1706,9 @@
             ],
             "attack": 5,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/traveler's_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 326,
@@ -1595,8 +1720,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/soldier's_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 327,
@@ -1608,8 +1734,9 @@
             ],
             "attack": 26,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/knight's_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 328,
@@ -1621,8 +1748,9 @@
             ],
             "attack": 38,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 329,
@@ -1634,8 +1762,9 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forest_dweller's_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/forest_dweller's_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 330,
@@ -1647,8 +1776,9 @@
             ],
             "attack": 15,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silver_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silver_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 331,
@@ -1660,8 +1790,9 @@
             ],
             "attack": 9,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/swallow_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/swallow_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 332,
@@ -1673,8 +1804,9 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/falcon_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/falcon_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 333,
@@ -1685,8 +1817,9 @@
             ],
             "attack": 28,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/great_eagle_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/great_eagle_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 334,
@@ -1698,8 +1831,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/golden_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/golden_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 335,
@@ -1711,8 +1845,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/phrenic_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/phrenic_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 336,
@@ -1721,8 +1856,9 @@
             "common_locations": null,
             "attack": 44,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ancient_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 337,
@@ -1731,8 +1867,9 @@
             "common_locations": null,
             "attack": 50,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_guard's_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 338,
@@ -1744,8 +1881,9 @@
             ],
             "attack": 4,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/boko_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 339,
@@ -1757,8 +1895,9 @@
             ],
             "attack": 12,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/spiked_boko_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 340,
@@ -1770,8 +1909,9 @@
             ],
             "attack": 24,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragon_bone_boko_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/dragon_bone_boko_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 341,
@@ -1783,8 +1923,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lizal_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 342,
@@ -1796,8 +1937,9 @@
             ],
             "attack": 25,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/strengthened_lizal_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/strengthened_lizal_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 343,
@@ -1809,8 +1951,9 @@
             ],
             "attack": 36,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/steel_lizal_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/steel_lizal_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 344,
@@ -1822,8 +1965,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lynel_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 345,
@@ -1835,8 +1979,9 @@
             ],
             "attack": 20,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mighty_lynel_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 346,
@@ -1848,8 +1993,9 @@
             ],
             "attack": 32,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/savage_lynel_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 347,
@@ -1860,8 +2006,9 @@
             ],
             "attack": 14,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/duplex_bow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/duplex_bow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 348,
@@ -1871,8 +2018,9 @@
                 "Hyrule Field",
                 "Eldin Canyon"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/arrow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/arrow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 349,
@@ -1882,8 +2030,9 @@
                 "Hyrule Field",
                 "Eldin Canyon"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fire_arrow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fire_arrow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 350,
@@ -1893,8 +2042,9 @@
                 "Hyrule Field",
                 "Hebra Mountains"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ice_arrow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ice_arrow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 351,
@@ -1904,8 +2054,9 @@
                 "Lanayru Great Spring",
                 "Hyrule Field"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/shock_arrow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/shock_arrow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 352,
@@ -1915,8 +2066,9 @@
                 "Hyrule Field",
                 "East Necluda"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/bomb_arrow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/bomb_arrow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 353,
@@ -1925,8 +2077,9 @@
             "common_locations": [
                 "Hyrule Field"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_arrow/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ancient_arrow/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 354,
@@ -1935,8 +2088,9 @@
             "common_locations": null,
             "defense": 90,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hylian_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hylian_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 355,
@@ -1948,8 +2102,9 @@
             ],
             "defense": 1,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/pot_lid/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/pot_lid/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 356,
@@ -1961,8 +2116,9 @@
             ],
             "defense": 2,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/wooden_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/wooden_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 357,
@@ -1974,8 +2130,9 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/emblazoned_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/emblazoned_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 358,
@@ -1987,8 +2144,9 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/hunter's_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hunter's_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 359,
@@ -2000,8 +2158,9 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/fisherman's_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fisherman's_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 360,
@@ -2013,8 +2172,9 @@
             ],
             "defense": 4,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/traveler's_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/traveler's_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 361,
@@ -2026,8 +2186,9 @@
             ],
             "defense": 16,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/soldier's_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 362,
@@ -2039,8 +2200,9 @@
             ],
             "defense": 40,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/knight's_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/knight's_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 363,
@@ -2052,8 +2214,9 @@
             ],
             "defense": 55,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 364,
@@ -2064,8 +2227,9 @@
             ],
             "defense": 30,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/forest_dweller's_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/forest_dweller's_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 365,
@@ -2077,8 +2241,9 @@
             ],
             "defense": 18,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/silver_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silver_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 366,
@@ -2090,8 +2255,9 @@
             ],
             "defense": 14,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/kite_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/kite_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 367,
@@ -2103,8 +2269,9 @@
             ],
             "defense": 20,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/gerudo_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/gerudo_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 368,
@@ -2116,8 +2283,9 @@
             ],
             "defense": 35,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/radiant_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/radiant_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 369,
@@ -2128,8 +2296,9 @@
             ],
             "defense": 48,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/daybreaker/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/daybreaker/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 370,
@@ -2141,8 +2310,9 @@
             ],
             "defense": 16,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/shield_of_the_mind's_eye/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/shield_of_the_mind's_eye/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 371,
@@ -2151,8 +2321,9 @@
             "common_locations": null,
             "defense": 70,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/ancient_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ancient_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 372,
@@ -2164,8 +2335,9 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rusty_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rusty_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 373,
@@ -2174,8 +2346,9 @@
             "common_locations": null,
             "defense": 70,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/royal_guard's_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/royal_guard's_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 374,
@@ -2187,8 +2360,9 @@
             ],
             "defense": 3,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/boko_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/boko_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 375,
@@ -2200,8 +2374,9 @@
             ],
             "attack": 10,
             "defense": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/spiked_boko_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/spiked_boko_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 376,
@@ -2213,8 +2388,9 @@
             ],
             "defense": 25,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/dragonbone_boko_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/dragonbone_boko_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 377,
@@ -2226,8 +2402,9 @@
             ],
             "defense": 15,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lizal_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lizal_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 378,
@@ -2239,8 +2416,9 @@
             ],
             "defense": 22,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/reinforced_lizal_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/reinforced_lizal_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 379,
@@ -2252,8 +2430,9 @@
             ],
             "defense": 35,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/steel_lizal_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/steel_lizal_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 380,
@@ -2265,8 +2444,9 @@
             ],
             "defense": 18,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 381,
@@ -2278,8 +2458,9 @@
             ],
             "defense": 30,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_shield+/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_shield+/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 382,
@@ -2291,8 +2472,9 @@
             ],
             "defense": 42,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/guardian_shield++/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_shield++/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 383,
@@ -2304,8 +2486,9 @@
             ],
             "defense": 30,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/lynel_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lynel_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 384,
@@ -2317,8 +2500,9 @@
             ],
             "defense": 44,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/mighty_lynel_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mighty_lynel_shield/image",
+            "category": "equipment",
+            "dlc": false
         },
         {
             "id": 385,
@@ -2330,8 +2514,9 @@
             ],
             "defense": 62,
             "attack": 0,
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/savage_lynel_shield/image",
-            "category": "equipment"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/savage_lynel_shield/image",
+            "category": "equipment",
+            "dlc": false
         }
     ]
 }

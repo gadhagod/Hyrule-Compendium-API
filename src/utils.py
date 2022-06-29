@@ -12,7 +12,7 @@ def entry_query(
     where: Optional[bool]=None,
     select: list[BaseEntrySelect]=[]
 ) -> list[EntryData]: return rs.sql(
-    Q(f'botw-api.{category}')
+    Q(f'botw-api-v3.{category}')
         .where(where if where is not None else F['id'].is_not_null())
         .select(*[
             'id', 
@@ -20,7 +20,8 @@ def entry_query(
             'description', 
             'common_locations', 
             'image', 
-            'category'
+            'category',
+            'dlc'
         ]+list(map(lambda i: F[i], select)))
 ).results()
 
@@ -28,7 +29,7 @@ def region_query(
     where=None
 ) -> list[EntryData]: 
     return (rs.sql(
-        Q(f'botw-api.regions')
+        Q(f'botw-api-v3.regions')
             .where(where)
             .select(
                 'name', 
