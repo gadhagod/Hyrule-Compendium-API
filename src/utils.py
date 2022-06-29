@@ -1,6 +1,6 @@
 from typing import Optional, Union
 from ..src.types import *
-from os import getenv
+from os import getenv, path
 from flask import send_from_directory, Response
 from rockset import Client, Q, F
 from sys import argv
@@ -105,7 +105,7 @@ def get_entry_image(version, inp, master_mode=False) -> Union[Response, tuple[di
         return entry_not_found
 
     try:
-        return send_from_directory(f'db/data/compendium/images{"/master_mode" if master_mode else ""}', f"{target_entry.replace(' ', '_').replace('+', '＋')}.png", mimetype='image/png')
+        return send_from_directory(f'{path.dirname(path.realpath(path.dirname(path.realpath(__file__))))}/compendium/images{"/master_mode" if master_mode else ""}', f"{target_entry.replace(' ', '_').replace('+', '＋')}.png", mimetype='image/png')
     except FileNotFoundError:
         return entry_not_found
 
