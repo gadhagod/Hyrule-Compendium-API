@@ -38,7 +38,7 @@ def region_query(
                 'settlements' 
             )
     ) if where else rs.sql(
-        Q(f'botw-api.regions')
+        Q(f'botw-api-v3.regions')
             .select(
                 'name', 
                 'regular_shrines', 

@@ -1,0 +1,21 @@
+name: Update compendium
+on:
+  push:
+      branches:
+        - master
+      paths:
+        - db/data/compendium/*.json
+jobs:
+  main:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+            sudo npm install -g @rockset/cli
+      - name: Authorize access
+        run: |
+          rockset auth:add me ${{ secrets.RS2_TOKEN }}
+      - name: Add docs
+        run: |
+          sh db/scripts/update-compendium.sh
