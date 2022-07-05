@@ -12,6 +12,7 @@ out
 node_modules
 package-lock.json
 dist
+.img
 
 # previous versions
 v2

@@ -1,1 +1,1 @@
-web: bash setup.sh && gunicorn server:app 
+web: bash setup.sh && gunicorn server:app

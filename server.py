@@ -10,7 +10,7 @@ app.register_error_handler(500, lambda ctx: ({'data': {}, 'message': 'Server err
 app.register_error_handler(404, lambda ctx: ({'data': {}, 'message': 'Not found'}, 404))
 app.add_url_rule('/', view_func=redirectToDocs)
 app.add_url_rule('/api', view_func=redirectToDocs)
-app.add_url_rule('/api/v3', view_func=lambda: {})
+app.add_url_rule('/api/v3', view_func=redirectToDocs)
 loadViews(app)
 
 if __name__ == '__main__': # testing server
