@@ -1,6 +1,6 @@
 # Execute API tests in tests/ with deployed API
 
-name: API Tests
+name: V2 API Tests
 
 on:
   workflow_dispatch:
@@ -25,4 +25,4 @@ jobs:
       - name: Execute tests
         run: |
             cd tests
-            mocha test/api.ts -r ts-node/register
+            mocha test/v2.ts -r ts-node/register

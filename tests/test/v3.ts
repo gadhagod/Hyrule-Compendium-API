@@ -1,453 +1,288 @@
-const assert = require("assert");
-const request = require("request");
-const fs = require("fs");
-const validateMIMEType = require("validate-image-type").validateMIMEType;
-import { APIImageRequest, Entry } from "./types";
+import assert from "assert";
+import { CompendiumTester, ImageTester, RegionTester } from "./util";
 
-if (fs.existsSync("out")) {
-    fs.rmdirSync("out", { recursive: true });
-}
-fs.mkdirSync("out");
-
-console.log(
-    "Using base URL " +
-        (process.env.URL ?? "https://botw-compendium.herokuapp.com/api/v3")
-);
-
-function makeReq(
-    endpoint: string,
-    callback: (arg0: any, arg1: any) => void,
-    image: false | APIImageRequest = false
-) {
-    let url = `${process.env.URL ?? "https://botw-compendium.herokuapp.com/api/v2"}${endpoint}`;
-    if (image) {
-        request.head(url, (_err: any, res: any) => {
-            request(url)
-                .pipe(fs.createWriteStream((image as APIImageRequest).filename))
-                .on("close", callback);
-        });
-    } else {
-        request(
-            {
-                url: url,
-                jar: true,
-                followAllRedirects: false,
-            },
-            callback
-        );
-    }
+let config = {
+    version: 3,
+    serverUrl: process.env.URL ?? "https://botw-compendium.herokuapp.com"
 }
 
-describe("Server HTTP codes", () => {
-    describe("`/entry/<>` endpoint", () => {
-        it("should have 200 code", (done) => {
-            makeReq("/entry/1", (_err, res) => {
-                assert.equal(
-                    res.statusCode,
-                    200,
-                    `Entry 1 responded with code ${res.statusCode}`
-                );
-                done();
-            });
-        });
-    });
-    describe("`/master_mode/entry/<>` endpoint", () => {
-        it("should have 200 code", (done) => {
-            makeReq("/master_mode/entry/97", (_err, res) => {
-                assert.equal(
-                    res.statusCode,
-                    200,
-                    `DLC Entry 97 responded with code ${res.statusCode}`
-                );
-                done();
-            });
-        });
-    });
-    describe("`/category/<>` endpoint", () => {
-        it("should have 200 code", (done) => {
-            makeReq("/category/monsters", (_err, res) => {
-                assert.equal(
-                    res.statusCode,
-                    200,
-                    `Responded with code ${res.statusCode}`
-                );
-                done();
-            });
-        });
-    });
-    describe("`/master_mode` endpoint", () => {
-        it("should have 200 code", (done) => {
-            makeReq("/master_mode", (_err, res) => {
-                assert.equal(
-                    res.statusCode,
-                    200,
-                    `DLC Entry 97 responded with code ${res.statusCode}`
-                );
-                done();
-            });
-        });
-    });
-    describe("`/` endpoint", () => {
-        it("should have 200 code", (done) => {
-            makeReq("", (_err, res) => {
-                assert.equal(
-                    res.statusCode,
-                    200,
-                    `Responded with code ${res.statusCode}`
-                );
-                done();
-            });
-        });
-    });
-});
+const compendium = new CompendiumTester(config.version, config.serverUrl);
+const regions = new RegionTester(config.version, config.serverUrl);
 
-describe("API response contents", () => {
-    describe("Entries", () => {
-        describe("Creature entry", () => {
-            let entry = "thunderwing butterfly";
-            it("should have expected fields", (done) => {
-                makeReq(`/entry/${entry}`, (_err, res) => {
-                    assert.deepEqual(
-                        Object.keys(JSON.parse(res.body).data),
-                        [
-                            "category",
-                            "common_locations",
-                            "cooking_effect",
-                            "description",
-                            "hearts_recovered",
-                            "id",
-                            "image",
-                            "name",
-                        ],
-                        `Responded with incorrect fields.`
-                    );
-                    done();
+describe("v3", () => {
+    describe("compendium", () => {
+        describe("standard", () => {
+            describe("entries", () => {
+                describe("all standard entries", () => {
+                    it("should have 5 categories", (done) => {
+                        compendium.getAllEntries((data) => {
+                            assert.equal(Object.keys(data).length, 5);
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                    it("should have 389 entries", (done) => {
+                        compendium.getAllEntries((data) => {
+                            let numOfEntries = 0;
+                            console.log(data.length)
+                            for (let i = 0; i < Object.keys(data).length; i++) {
+                                if (Object.keys(data)[i] === "creatures") {
+                                    numOfEntries += data["creatures"]["food"].length;
+                                    numOfEntries += data["creatures"]["non_food"].length;
+                                } else {
+                                    numOfEntries += data[Object.keys(data)[i]].length;
+                                }
+                            }
+                            assert.equal(numOfEntries, 389);
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("creature entry (non_food)", () => {
+                    it("should have correct fields", (done) => {
+                        compendium.getEntry(Math.floor(Math.random() * (47 - 1)) + 1, (data) => {
+                            let expectedAdditionalAttrs = ["drops"];
+                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            CompendiumTester.assertHasAttrs(
+                                data, 
+                                expectedAdditionalAttrs
+                            ); 
+                            assert.equal(
+                                Object.keys(data).length, 
+                                expectedNumOfFields, 
+                                `Entry ${data.id}; ${Math.abs(Object.keys(data).length - expectedNumOfFields)} extra/less field(s). \nExpected: [${Object.keys(data)}].length === ${expectedNumOfFields}`
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("creature entry (food)", () => {
+                    it("should have correct fields", (done) => {
+                        compendium.getEntry(Math.floor(Math.random() * (83 - 48)) + 48, (data) => {
+                            let expectedAdditionalAttrs = ["hearts_recovered", "cooking_effect"];
+                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            CompendiumTester.assertHasAttrs(
+                                data, 
+                                expectedAdditionalAttrs
+                            ); 
+                            assert.equal(
+                                Object.keys(data).length, 
+                                expectedNumOfFields, 
+                                `Entry ${data.id}; ${Math.abs(Object.keys(data).length - expectedNumOfFields)} extra/less field(s). \nExpected: [${Object.keys(data)}].length === ${expectedNumOfFields}`
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("equipment entry", () => {
+                    it("should have correct fields", (done) => {
+                        compendium.getEntry(Math.floor(Math.random() * (385 - 201)) + 201, (data) => {
+                            let expectedAdditionalAttrs = ["attack", "defense"];
+                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            CompendiumTester.assertHasAttrs(
+                                data, 
+                                expectedAdditionalAttrs
+                            ); 
+                            assert.equal(
+                                Object.keys(data).length, 
+                                expectedNumOfFields, 
+                                `Entry ${data.id}; ${Math.abs(Object.keys(data).length - expectedNumOfFields)} extra/less field(s). \nExpected: [${Object.keys(data)}].length === ${expectedNumOfFields}`
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("material entry", () => {
+                    it("should have correct fields", (done) => {
+                        compendium.getEntry(Math.floor(Math.random() * (200 - 165)) + 165, (data) => {
+                            let expectedAdditionalAttrs = ["hearts_recovered", "cooking_effect"];
+                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            CompendiumTester.assertHasAttrs(
+                                data, 
+                                expectedAdditionalAttrs
+                            ); 
+                            assert.equal(
+                                Object.keys(data).length, 
+                                expectedNumOfFields, 
+                                `Entry ${data.id}; ${Math.abs(Object.keys(data).length - expectedNumOfFields)} extra/less field(s). \nExpected: [${Object.keys(data)}].length === ${expectedNumOfFields}`
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("monster entry", () => {
+                    it("should have correct fields", (done) => {
+                        compendium.getEntry(Math.floor(Math.random() * (164 - 84)) + 84, (data) => {
+                            let expectedAdditionalAttrs = ["drops"];
+                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            CompendiumTester.assertHasAttrs(
+                                data, 
+                                expectedAdditionalAttrs
+                            ); 
+                            assert.equal(
+                                Object.keys(data).length, 
+                                expectedNumOfFields, 
+                                `Entry ${data.id}; ${Math.abs(Object.keys(data).length - expectedNumOfFields)} extra/less field(s). \nExpected: [${Object.keys(data)}].length === ${expectedNumOfFields}`
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("treasure entry", () => {
+                    it("should have correct fields", (done) => {
+                        compendium.getEntry(Math.floor(Math.random() * (389 - 386)) + 386, (data) => {
+                            let expectedAdditionalAttrs = ["drops"];
+                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            CompendiumTester.assertHasAttrs(
+                                data, 
+                                expectedAdditionalAttrs
+                            ); 
+                            assert.equal(
+                                Object.keys(data).length, 
+                                expectedNumOfFields, 
+                                `Entry ${data.id}; ${Math.abs(Object.keys(data).length - expectedNumOfFields)} extra/less field(s). \nExpected: [${Object.keys(data)}].length === ${expectedNumOfFields}`
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
                 });
             });
-            it("should have working image", (done) => {
-                makeReq(
-                    `/entry/${entry}/image`,
-                    () => {
-                        let result = validateMIMEType(`out/${entry}.png`, {
-                            allowMimeTypes: ["image/png"],
-                        });
-                        assert.equal(result.ok, true, result.error);
-                        done();
-                    },
-                    { filename: `out/${entry}.png` }
-                );
-            });
-        });
-        describe("Equipment entry", () => {
-            let entry = "golden claymore";
-            it("should have expected fields", (done) => {
-                makeReq(`/entry/${entry}`, (_err, res) => {
-                    assert.deepEqual(
-                        Object.keys(JSON.parse(res.body).data),
-                        [
-                            "attack",
-                            "category",
-                            "common_locations",
-                            "defense",
-                            "description",
-                            "id",
-                            "image",
-                            "name",
-                        ],
-                        `Responded with incorrect fields.`
-                    );
-                    done();
+            describe("categories", () => {
+                describe("creatures", () => {
+                    it("should have 2 sub-categories", (done) =>{
+                        compendium.getCategory("creatures", (data) => {
+                            assert.equal(Object.keys(data).length, 2);
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                    it("should have 52 entries", (done) =>{
+                        compendium.getCategory("creatures", (data) => {
+                            assert.equal(
+                                data["non_food"].length + data["non_food"].length,
+                                94
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("equipment", () => {
+                    it("should have 185 entries", (done) =>{
+                        compendium.getCategory("equipment", (data) => {
+                            assert.equal(
+                                data.length,
+                                185
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("materials", () => {
+                    it("should have 36 entries", (done) =>{
+                        compendium.getCategory("materials", (data) => {
+                            assert.equal(
+                                data.length,
+                                36
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("monsters", () => {
+                    it("should have 81 entries", (done) =>{
+                        compendium.getCategory("monsters", (data) => {
+                            assert.equal(
+                                data.length,
+                                81
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
+                });
+                describe("treasure", () => {
+                    it("should have 4 entries", (done) => {
+                        compendium.getCategory("treasure", (data) => {
+                            assert.equal(
+                                data.length,
+                                4
+                            );
+                            done();
+                        }, CompendiumTester.fail);
+                    });
                 });
             });
-            it("should have working image", (done) => {
-                makeReq(
-                    `/entry/${entry}/image`,
-                    () => {
-                        let result = validateMIMEType(`out/${entry}.png`, {
-                            allowMimeTypes: ["image/png"],
-                        });
-                        assert.equal(result.ok, true, result.error);
-                        done();
-                    },
-                    { filename: `out/${entry}.png` }
-                );
-            });
-        });
-        describe("Material entry", () => {
-            let entry = "palm fruit";
-            it("should have expected fields", (done) => {
-                makeReq(`/entry/${entry}`, (_err, res) => {
-                    assert.deepEqual(
-                        Object.keys(JSON.parse(res.body).data),
-                        [
-                            "category",
-                            "common_locations",
-                            "cooking_effect",
-                            "description",
-                            "hearts_recovered",
-                            "id",
-                            "image",
-                            "name",
-                        ],
-                        `Responded with incorrect fields.`
-                    );
-                    done();
-                });
-            });
-            it("should have working image", (done) => {
-                makeReq(
-                    `/entry/${entry}/image`,
-                    () => {
-                        let result = validateMIMEType(`out/${entry}.png`, {
-                            allowMimeTypes: ["image/png"],
-                        });
-                        assert.equal(result.ok, true, result.error);
-                        done();
-                    },
-                    { filename: `out/${entry}.png` }
-                );
-            });
-        });
-        describe("Monster entry", () => {
-            let entry = "molduga";
-            it("should have expected fields", (done) => {
-                makeReq(`/entry/${entry}`, (_err, res) => {
-                    assert.deepEqual(
-                        Object.keys(JSON.parse(res.body).data),
-                        [
-                            "category",
-                            "common_locations",
-                            "description",
-                            "drops",
-                            "id",
-                            "image",
-                            "name",
-                        ],
-                        `Responded with incorrect fields.`
-                    );
-                    done();
-                });
-            });
-            it("should have working image", (done) => {
-                makeReq(
-                    `/entry/${entry}/image`,
-                    () => {
-                        let result = validateMIMEType(`out/${entry}.png`, {
-                            allowMimeTypes: ["image/png"],
-                        });
-                        assert.equal(result.ok, true, result.error);
-                        done();
-                    },
-                    { filename: `out/${entry}.png` }
-                );
-            });
-        });
-        describe("Treasure entry", () => {
-            let entry = "molduga";
-            it("should have expected fields", (done) => {
-                makeReq(`/entry/${entry}`, (_err, res) => {
-                    assert.deepEqual(
-                        Object.keys(JSON.parse(res.body).data),
-                        [
-                            "category",
-                            "common_locations",
-                            "description",
-                            "drops",
-                            "id",
-                            "image",
-                            "name",
-                        ],
-                        `Responded with incorrect fields.`
-                    );
-                    done();
-                });
-            });
-            it("should have working image", (done) => {
-                makeReq(
-                    `/entry/${entry}/image`,
-                    () => {
-                        let result = validateMIMEType(`out/${entry}.png`, {
-                            allowMimeTypes: ["image/png"],
-                        });
-                        assert.equal(result.ok, true, result.error);
-                        done();
-                    },
-                    { filename: `out/${entry}.png` }
-                );
-            });
-        });
-        describe("Master Mode entry", () => {
-            let entry = "golden lynel";
-            it("should have expected fields", (done) => {
-                makeReq(`/master_mode/entry/${entry}`, (_err, res) => {
-                    assert.deepEqual(
-                        Object.keys(JSON.parse(res.body).data),
-                        [
-                            "category",
-                            "common_locations",
-                            "description",
-                            "drops",
-                            "id",
-                            "image",
-                            "name",
-                        ],
-                        `Responded with incorrect fields.`
-                    );
-                    done();
-                });
-            });
-            it("should have working image", (done) => {
-                makeReq(
-                    `/master_mode/entry/${entry}/image`,
-                    () => {
-                        let result = validateMIMEType(`out/${entry}.png`, {
-                            allowMimeTypes: ["image/png"],
-                        });
-                        assert.equal(result.ok, true, result.error);
-                        done();
-                    },
-                    { filename: `out/${entry}.png` }
-                );
-            });
-        });
-    });
-
-    describe("Categories", () => {
-        describe("Creature category", () => {
-            it("should have correct of # sub-categories", (done) => {
-                makeReq("/category/creatures", (_err, res) => {
-                    assert.equal(
-                        Object.keys(JSON.parse(res.body).data).length,
-                        2
-                    );
-                    done();
-                });
-            });
-            it("should have correct of # entries", (done) => {
-                makeReq("/category/creatures", (_err, res) => {
-                    assert.equal(
-                        Object.keys(JSON.parse(res.body).data.non_food).length +
-                            Object.keys(JSON.parse(res.body).data.food).length,
-                        83
-                    );
-                    done();
-                });
-            });
-            it("entries should be of category", (done) => {
-                makeReq("/category/creatures", (_err, res) => {
-                    try {
-                        var entries = Object.assign(
-                            JSON.parse(res.body).data.food,
-                            JSON.parse(res.body).data.non_food
-                        );
-                    } catch (err) {
-                        if (err.name == "SyntaxError") {
-                            assert.fail("Subcategories non-existant");
-                        } else {
+            describe("images", () => {
+                it("should be png", (done) => {
+                    let entryId = Math.floor(Math.random() * (389 - 386)) + 386;
+                    compendium.getEntryImage(entryId, (content) => {
+                        ImageTester.validateImage(entryId, content as Buffer, done, (err) => {
                             throw err;
+                        });
+                    }, CompendiumTester.fail);
+                });
+            });
+        });
+        describe("dlc", () => {
+            describe("entries", () => {
+                it("should have 5 entries", (done) => {
+                    compendium.getAllMasterModeEntries((data) => {
+                        assert.equal(
+                            data.length,
+                            5
+                        );
+                        done();
+                    }, CompendiumTester.fail);
+                });
+                it("should have correct fields", (done) => {
+                    compendium.getEntry(Math.floor(Math.random() * (164 - 84)) + 84, (data) => {
+                        let expectedAdditionalAttrs = ["drops"];
+                        let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                        CompendiumTester.assertHasAttrs(
+                            data, 
+                            expectedAdditionalAttrs
+                        ); 
+                        assert.equal(
+                            Object.keys(data).length, 
+                            expectedNumOfFields, 
+                            `Entry ${data.id}; ${Math.abs(Object.keys(data).length - expectedNumOfFields)} extra/less field(s). \nExpected: [${Object.keys(data)}].length === ${expectedNumOfFields}`
+                        );
+                        done();
+                    }, CompendiumTester.fail);
+                });
+            })
+            describe("images", () => {
+                it("should be png", (done) => {
+                    let entryId = Math.floor(Math.random() * (129 - 97)) + 97;
+                    compendium.getEntryImage(entryId, (content) => {
+                        ImageTester.validateImage(entryId, content as Buffer, done, (err) => {
+                            throw err;
+                        });
+                    }, CompendiumTester.fail);
+                });
+            });
+        });
+    });
+    
+    describe("regions", () => {
+        let expectedReigonNames = ["hebra", "central", "eldin", "hateno", "ridgeland", "gerudo", "wasteland", "tabantha", "dueling peaks", "lake", "great plateau", "woodland", "akkala", "lanayru", "faron"]
+        describe("get all regions", () => {
+            it(`should have correct regions`, (done) => {
+                regions.getAllRegions((data) => {
+                    assert.equal(data.length, expectedReigonNames.length, `STATUS CODE: 200; Expected regions do not match recieved regions`);
+                    for (let i = 0; i < expectedReigonNames.length; i++) {
+                        if (!data.includes(expectedReigonNames[i])) {
+                            assert.fail(`STATUS CODE: 200; Expected regions do not match recieved regions`)
                         }
                     }
-                    entries.forEach((e: Entry) =>
-                        assert.equal(e.category, "creatures")
-                    );
-                    done();
-                });
+                    done()
+                }, RegionTester.fail);
             });
         });
-        describe("Equipment category", () => {
-            it("should have correct of # entries", (done) => {
-                makeReq("/category/equipment", (_err, res) => {
-                    var entries = JSON.parse(res.body).data;
-                    assert.equal(Object.keys(entries).length, 185);
+        describe("get single region", () => {
+            it("should have correct fields", (done) => {
+                regions.getRegion(expectedReigonNames[Math.floor(Math.random() * expectedReigonNames.length)], (data) => {
+                    RegionTester.assertHasAttrs(data);
                     done();
-                });
-            });
-            it("entries should be of category", (done) => {
-                makeReq("/category/equipment", (_err, res) => {
-                    var entries = JSON.parse(res.body).data;
-                    entries.forEach((e: Entry) =>
-                        assert.equal(e.category, "equipment")
-                    );
-                    done();
-                });
-            });
-        });
-        describe("Materials category", () => {
-            it("should have correct of # entries", (done) => {
-                makeReq("/category/materials", (_err, res) => {
-                    var entries = JSON.parse(res.body).data;
-                    assert.equal(Object.keys(entries).length, 36);
-                    done();
-                });
-            });
-            it("entries should be of category", (done) => {
-                makeReq("/category/materials", (_err, res) => {
-                    var entries = JSON.parse(res.body).data;
-                    entries.forEach((e: Entry) =>
-                        assert.equal(e.category, "materials")
-                    );
-                    done();
-                });
-            });
-        });
-        describe("Monsters category", () => {
-            it("should have correct of # entries", (done) => {
-                makeReq("/category/monsters", (_err, res) => {
-                    var entries = JSON.parse(res.body).data;
-                    assert.equal(Object.keys(entries).length, 81);
-                    done();
-                });
-            });
-            it("entries should be of category", (done) => {
-                makeReq("/category/monsters", (_err, res) => {
-                    var entries = JSON.parse(res.body).data;
-                    entries.forEach((e: Entry) =>
-                        assert.equal(e.category, "monsters")
-                    );
-                    done();
-                });
-            });
-        });
-        describe("Treasure category", () => {
-            it("should have correct of # entries", (done) => {
-                makeReq("/category/treasure", (_err, res) => {
-                    var entries = JSON.parse(res.body).data;
-                    assert.equal(Object.keys(entries).length, 4);
-                    done();
-                });
-            });
-            it("entries should be of category", (done) => {
-                makeReq("/category/treasure", (_err, res) => {
-                    var entries = JSON.parse(res.body).data;
-                    entries.forEach((e: Entry) =>
-                        assert.equal(e.category, "treasure")
-                    );
-                    done();
-                });
-            });
-        });
-    });
-    describe("All data", () => {
-        it("should have correct of # entries", (done) => {
-            makeReq("", (_err, res) => {
-                let data = JSON.parse(res.body).data;
-                assert.equal(
-                    data.creatures.food.length +
-                        data.creatures.non_food.length +
-                        data.equipment.length +
-                        data.materials.length +
-                        data.monsters.length +
-                        data.treasure.length,
-                    389
-                );
-                done();
-            });
-        });
-        it("should have correct of # categories", (done) => {
-            makeReq("", (_err, res) => {
-                assert.equal(Object.keys(JSON.parse(res.body).data).length, 5);
-                done();
-            });
+                }, RegionTester.fail);
+            })
         });
     });
 });

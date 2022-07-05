@@ -13,7 +13,8 @@ export namespace Callback {
         export type SuccessCallback = (data: any) => void;
     }
     export namespace Image {
-        export type SuccessCallback = (path: PathOrFileDescriptor) => void;
+        export type ValidateErrorCallback = (err: any) => void;
+        export type GetSuccessCallback = (content: string | Buffer) => void;
     }
     export type SuccessCallback = (res: Response) => void;
     export type ErrorCallback = (res: Response, err: any) => void;
