@@ -5,6 +5,7 @@ on:
         - master
       paths:
         - db/data/regions.json
+  workflow_dispatch:
 jobs:
   main:
       runs-on: ubuntu-latest
