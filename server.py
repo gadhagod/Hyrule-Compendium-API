@@ -16,7 +16,7 @@ loadViews(app)
 if __name__ == '__main__': # testing server
     app.run(debug=True)
 else: # production server
-    # precondition: setup_versioning.sh executed
+    # precondition: setup.sh executed
     ""
     from v2.server import v2_blueprint
     app.register_blueprint(v2_blueprint)
