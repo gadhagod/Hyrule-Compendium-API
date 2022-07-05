@@ -26,6 +26,7 @@ jobs:
           requirements: requirements.txt
       - name: Start API server
         run: |
+            sh setup_versioning.sh
             python3 server.py ${{ secrets.RS2_TOKEN }} &
       - name: Install dependencies
         run: |

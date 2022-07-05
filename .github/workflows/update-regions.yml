@@ -1,19 +1,14 @@
-# This workflow adds compendium entries to the Rockset collections when a change is made
-
-name: Add compendium entries
-
+name: Update regions
 on:
   push:
       branches:
         - master
       paths:
-        - 'db/data/compendium/*.json'
-
+        - db/data/regions.json
+  workflow_dispatch:
 jobs:
   main:
-
       runs-on: ubuntu-latest
-
       steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
@@ -24,4 +19,5 @@ jobs:
           rockset auth:add me ${{ secrets.RS2_TOKEN }}
       - name: Add docs
         run: |
-          source .github/workflows/add-compendium-entries/main.sh
+          cd db/scripts
+          sh update-regions.sh
