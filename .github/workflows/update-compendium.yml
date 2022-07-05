@@ -18,4 +18,5 @@ jobs:
           rockset auth:add me ${{ secrets.RS2_TOKEN }}
       - name: Add docs
         run: |
-          sh db/scripts/update-compendium.sh
+          cd db/scripts
+          sh update-compendium.sh
