@@ -11,7 +11,7 @@
             "drops": [
                 "chuchu jelly"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/chuchu/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/chuchu/image",
             "category": "monsters",
             "dlc": false
         },
@@ -26,7 +26,7 @@
             "drops": [
                 "red chuchu jelly"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fire_chuchu/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fire_chuchu/image",
             "category": "monsters",
             "dlc": false
         },
@@ -41,7 +41,7 @@
             "drops": [
                 "white chuchu jelly"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ice_chuchu/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ice_chuchu/image",
             "category": "monsters",
             "dlc": false
         },
@@ -56,7 +56,7 @@
             "drops": [
                 "yellow chuchu jelly"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/electric_chuchu/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/electric_chuchu/image",
             "category": "monsters",
             "dlc": false
         },
@@ -72,7 +72,7 @@
                 "keese wing",
                 "keese eyeball"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/keese/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/keese/image",
             "category": "monsters",
             "dlc": false
         },
@@ -88,7 +88,7 @@
                 "fire keese wing",
                 "keese eyeball"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fire_keese/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fire_keese/image",
             "category": "monsters",
             "dlc": false
         },
@@ -104,7 +104,7 @@
                 "ice keese wing",
                 "keese eyeball"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ice_keese/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ice_keese/image",
             "category": "monsters",
             "dlc": false
         },
@@ -120,7 +120,7 @@
                 "electric keese wing",
                 "keese eyeball"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/electric_keese/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/electric_keese/image",
             "category": "monsters",
             "dlc": false
         },
@@ -137,7 +137,7 @@
                 "octo balloon",
                 "octorok eyeball"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/water_octorok/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/water_octorok/image",
             "category": "monsters",
             "dlc": false
         },
@@ -154,7 +154,7 @@
                 "octo balloon",
                 "octorok eyeball"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/forest_octorok/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/forest_octorok/image",
             "category": "monsters",
             "dlc": false
         },
@@ -171,7 +171,7 @@
                 "octo balloon",
                 "octorok eyeball"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rock_octorok/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rock_octorok/image",
             "category": "monsters",
             "dlc": false
         },
@@ -188,7 +188,7 @@
                 "octo balloon",
                 "octorok eyeball"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/snow_octorok/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/snow_octorok/image",
             "category": "monsters",
             "dlc": false
         },
@@ -210,7 +210,7 @@
                 "purple rupee",
                 "silver rupee"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/treasure_octorok/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/treasure_octorok/image",
             "category": "monsters",
             "dlc": false
         },
@@ -223,7 +223,7 @@
                 "Great Hyrule Forest"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fire_wizzrobe/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fire_wizzrobe/image",
             "category": "monsters",
             "dlc": false
         },
@@ -236,7 +236,7 @@
                 "Hyrule Field"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ice_wizzrobe/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ice_wizzrobe/image",
             "category": "monsters",
             "dlc": false
         },
@@ -249,7 +249,7 @@
                 "West Necluda"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/electric_wizzrobe/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/electric_wizzrobe/image",
             "category": "monsters",
             "dlc": false
         },
@@ -262,7 +262,7 @@
                 "Eldin Canyon"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/meteo_wizzrobe/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/meteo_wizzrobe/image",
             "category": "monsters",
             "dlc": false
         },
@@ -275,7 +275,7 @@
                 "Hebra Mountains"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blizzrobe/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blizzrobe/image",
             "category": "monsters",
             "dlc": false
         },
@@ -288,7 +288,7 @@
                 "Tabantha Frontier"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/thunder_wizzrobe/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/thunder_wizzrobe/image",
             "category": "monsters",
             "dlc": false
         },
@@ -304,7 +304,7 @@
                 "bokoblin horn",
                 "bokoblin fang"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/bokoblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bokoblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -321,7 +321,7 @@
                 "bokoblin fang",
                 "bokoblin guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blue_bokoblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blue_bokoblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -338,7 +338,7 @@
                 "bokoblin fang",
                 "bokoblin guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/black_bokoblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/black_bokoblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -354,7 +354,7 @@
                 "bokoblin horn",
                 "bokoblin fang"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stalkoblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stalkoblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -374,7 +374,7 @@
                 "sapphire",
                 "diamond"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silver_bokoblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silver_bokoblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -390,7 +390,7 @@
                 "moblin horn",
                 "moblin fang"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/moblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/moblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -407,7 +407,7 @@
                 "moblin fang",
                 "moblin guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blue_moblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blue_moblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -424,7 +424,7 @@
                 "moblin fang",
                 "moblin guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/black_moblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/black_moblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -440,7 +440,7 @@
                 "moblin horn",
                 "moblin fang"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stalmoblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stalmoblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -460,7 +460,7 @@
                 "sapphire",
                 "diamond"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silver_moblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silver_moblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -476,7 +476,7 @@
                 "lizalfos horn",
                 "lizalfos talon"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lizalfos/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lizalfos/image",
             "category": "monsters",
             "dlc": false
         },
@@ -493,7 +493,7 @@
                 "lizalfos talon",
                 "lizalfos tail"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blue_lizalfos/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blue_lizalfos/image",
             "category": "monsters",
             "dlc": false
         },
@@ -510,7 +510,7 @@
                 "lizalfos talon",
                 "lizalfos tail"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/black_lizalfos/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/black_lizalfos/image",
             "category": "monsters",
             "dlc": false
         },
@@ -526,7 +526,7 @@
                 "lizalfos horn",
                 "lizalfos talon"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stalizalfos/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stalizalfos/image",
             "category": "monsters",
             "dlc": false
         },
@@ -543,7 +543,7 @@
                 "lizalfos talon",
                 "red lizalfos tail"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fire-breath_lizalfos/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fire-breath_lizalfos/image",
             "category": "monsters",
             "dlc": false
         },
@@ -560,7 +560,7 @@
                 "lizalfos talon",
                 "icy lizalfos tail"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ice-breath_lizalfos/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ice-breath_lizalfos/image",
             "category": "monsters",
             "dlc": false
         },
@@ -577,7 +577,7 @@
                 "lizalfos tail",
                 "yellow lizalfos tail"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/electric_lizalfos/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/electric_lizalfos/image",
             "category": "monsters",
             "dlc": false
         },
@@ -597,7 +597,7 @@
                 "sapphire",
                 "diamond"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silver_lizalfos/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silver_lizalfos/image",
             "category": "monsters",
             "dlc": false
         },
@@ -614,7 +614,7 @@
                 "lynel hoof",
                 "lynel guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lynel/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel/image",
             "category": "monsters",
             "dlc": false
         },
@@ -631,7 +631,7 @@
                 "lynel hoof",
                 "lynel guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blue-maned_lynel/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blue-maned_lynel/image",
             "category": "monsters",
             "dlc": false
         },
@@ -648,7 +648,7 @@
                 "lynel hoof",
                 "lynel guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/white-maned_lynel/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/white-maned_lynel/image",
             "category": "monsters",
             "dlc": false
         },
@@ -667,7 +667,7 @@
                 "diamond",
                 "star fragment"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/silver_lynel/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/silver_lynel/image",
             "category": "monsters",
             "dlc": false
         },
@@ -686,7 +686,7 @@
                 "ancient core",
                 "giant ancient core"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_stalker/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_stalker/image",
             "category": "monsters",
             "dlc": false
         },
@@ -706,7 +706,7 @@
                 "ancient core",
                 "giant ancient core"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_skywatcher/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_skywatcher/image",
             "category": "monsters",
             "dlc": false
         },
@@ -725,7 +725,7 @@
                 "ancient core",
                 "giant ancient core"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_turret/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_turret/image",
             "category": "monsters",
             "dlc": false
         },
@@ -743,7 +743,7 @@
                 "ancient shaft",
                 "ancient core"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/sentry/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sentry/image",
             "category": "monsters",
             "dlc": false
         },
@@ -761,7 +761,7 @@
                 "ancient gear",
                 "ancient shaft"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/decayed_guardian/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/decayed_guardian/image",
             "category": "monsters",
             "dlc": false
         },
@@ -774,7 +774,7 @@
                 "ancient screw",
                 "ancient spring"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_scout_i/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_scout_i/image",
             "category": "monsters",
             "dlc": false
         },
@@ -789,7 +789,7 @@
                 "ancient gear",
                 "ancient shaft"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_scout_ii/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_scout_ii/image",
             "category": "monsters",
             "dlc": false
         },
@@ -805,7 +805,7 @@
                 "ancient shaft",
                 "ancient core"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_scout_iii/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_scout_iii/image",
             "category": "monsters",
             "dlc": false
         },
@@ -821,7 +821,7 @@
                 "ancient shaft",
                 "ancient core"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/guardian_scout_iv/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/guardian_scout_iv/image",
             "category": "monsters",
             "dlc": false
         },
@@ -837,7 +837,7 @@
                 "purple rupee",
                 "mighty bananas"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/yiga_footsoldier/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/yiga_footsoldier/image",
             "category": "monsters",
             "dlc": false
         },
@@ -854,7 +854,7 @@
                 "sapphire",
                 "mighty bananas"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/yiga_blademaster/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/yiga_blademaster/image",
             "category": "monsters",
             "dlc": false
         },
@@ -866,7 +866,7 @@
                 "Yiga Clan Hideout"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/master_kohga/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/master_kohga/image",
             "category": "monsters",
             "dlc": false
         },
@@ -876,7 +876,7 @@
             "description": "The arbiter of worthiness for the hero who wishes to control a Divine Beast, following a revelation from the Goddess Hylia. As the last part of the final trial, the monk offers a challenge of ancient techniques.",
             "common_locations": null,
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/monk_maz_koshia/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/monk_maz_koshia/image",
             "category": "monsters",
             "dlc": false
         },
@@ -894,7 +894,7 @@
                 "opal",
                 "ruby"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stone_talus/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stone_talus/image",
             "category": "monsters",
             "dlc": false
         },
@@ -914,7 +914,7 @@
                 "topaz",
                 "diamond"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stone_talus_(luminous)/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stone_talus_(luminous)/image",
             "category": "monsters",
             "dlc": false
         },
@@ -935,7 +935,7 @@
                 "sapphire",
                 "diamond"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stone_talus_(rare)/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stone_talus_(rare)/image",
             "category": "monsters",
             "dlc": false
         },
@@ -952,7 +952,7 @@
                 "ruby",
                 "diamond"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/igneo_talus/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/igneo_talus/image",
             "category": "monsters",
             "dlc": false
         },
@@ -970,7 +970,7 @@
                 "sapphire",
                 "diamond"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/frost_talus/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/frost_talus/image",
             "category": "monsters",
             "dlc": false
         },
@@ -986,7 +986,7 @@
                 "amber",
                 "opal"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stone_pebblit/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stone_pebblit/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1003,7 +1003,7 @@
                 "amber",
                 "ruby"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/igneo_pebblit/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/igneo_pebblit/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1020,7 +1020,7 @@
                 "amber",
                 "sapphire"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/frost_pebblit/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/frost_pebblit/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1030,7 +1030,7 @@
             "description": "This monster is an Igneo Talus subspecies that is camouflaged as molten rock. It lives in lava for many years before emerging at an enormous size. It is wildly powerful and emits a tremendous amount of heat, causing a constant updraft in its vicinity. This monster is so fearsome it has earned the title of Titan.",
             "common_locations": null,
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/igneo_talus_titan/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/igneo_talus_titan/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1054,7 +1054,7 @@
                 "fortified pumpkin",
                 "hearty durian"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hinox/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hinox/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1080,7 +1080,7 @@
                 "blueshell escargot",
                 "blackened crab"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blue_hinox/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blue_hinox/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1103,7 +1103,7 @@
                 "roasted bird thigh",
                 "roasted whole bird"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/black_hinox/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/black_hinox/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1118,7 +1118,7 @@
             "drops": [
                 "hinox tooth"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stalnox/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stalnox/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1133,7 +1133,7 @@
                 "molduga fin",
                 "molduga guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/molduga/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/molduga/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1145,7 +1145,7 @@
             "drops": [
                 "treasures"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/molduking/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/molduking/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1158,7 +1158,7 @@
                 "Tabantha Frontier"
             ],
             "drops": null,
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/dinraal/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/dinraal/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1170,7 +1170,7 @@
                 "Mount Lanayru"
             ],
             "drops": null,
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/naydra/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/naydra/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1183,7 +1183,7 @@
                 "Lake Floria"
             ],
             "drops": null,
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/farosh/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/farosh/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1193,7 +1193,7 @@
             "description": "The Malice has given these Bokoblin skulls a sort of life. Devoid of any intelligence the Bokoblin it once belonged to may have had, these pitiful things now exist only to attack anything that gets too close.",
             "common_locations": null,
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/cursed_bokoblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cursed_bokoblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1203,7 +1203,7 @@
             "description": "The Malice has given these Moblin skulls a pitiful life after death. The only fragment of their former selves they've held on to is the ferocity innate to all Moblins, so they will attack anyone that approaches.",
             "common_locations": null,
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/cursed_moblin/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cursed_moblin/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1213,7 +1213,7 @@
             "description": "The Malice has given these Lizalfos skulls a sorry form of life after death. Only the slyness of their former selves remains, making them faster than Bokoblin skulls. They thoughtlessly attack anyone who approaches.",
             "common_locations": null,
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/cursed_lizalfos/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cursed_lizalfos/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1225,7 +1225,7 @@
                 "Divine Beast Vah Naboris"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/thunderblight_ganon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/thunderblight_ganon/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1237,7 +1237,7 @@
                 "Divine Beast Vah Rudania"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fireblight_ganon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fireblight_ganon/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1249,7 +1249,7 @@
                 "Divine Beast Vah Ruta"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/waterblight_ganon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/waterblight_ganon/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1261,7 +1261,7 @@
                 "Divine Beast Vah Medoh"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/windblight_ganon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/windblight_ganon/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1273,7 +1273,7 @@
                 "Hyrule Castle"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/calamity_ganon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/calamity_ganon/image",
             "category": "monsters",
             "dlc": false
         },
@@ -1285,7 +1285,7 @@
                 "Hyrule Field"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/dark_beast_ganon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/dark_beast_ganon/image",
             "category": "monsters",
             "dlc": false
         }

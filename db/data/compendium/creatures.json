@@ -9,7 +9,7 @@
                 "Faron Grasslands"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/horse/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/horse/image",
             "category": "creatures",
             "dlc": false
         },
@@ -19,7 +19,7 @@
             "description": "This giant horse is the last of its kind. Its physical capabilities completely overshadow those of regular horses, but its temperament is extremely wild. Only a truly skilled rider can train, or even catch, this beast of a mount. This is a horse that chooses its rider.",
             "common_locations": null,
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/giant_horse/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/giant_horse/image",
             "category": "creatures",
             "dlc": false
         },
@@ -29,7 +29,7 @@
             "description": "The Hyrulean royal family that perished 100 years ago would sometimes ride atop white horses as a display of their divine right. This white horse may be a descendant of one once ridden by royalty.",
             "common_locations": null,
             "drops": null,
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/white_horse/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/white_horse/image",
             "category": "creatures",
             "dlc": false
         },
@@ -41,7 +41,7 @@
                 "Satori Mountain"
             ],
             "drops": null,
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/lord_of_the_mountain/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lord_of_the_mountain/image",
             "category": "creatures",
             "dlc": false
         },
@@ -54,7 +54,7 @@
                 "Akkala Highlands"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stalhorse/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stalhorse/image",
             "category": "creatures",
             "dlc": false
         },
@@ -66,7 +66,7 @@
                 "Greater Hyrule"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/donkey/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/donkey/image",
             "category": "creatures",
             "dlc": false
         },
@@ -78,7 +78,7 @@
                 "Gerudo Desert"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/sand_seal/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sand_seal/image",
             "category": "creatures",
             "dlc": false
         },
@@ -90,7 +90,7 @@
                 "Gerudo Desert"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/patricia/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/patricia/image",
             "category": "creatures",
             "dlc": false
         },
@@ -105,7 +105,7 @@
             "drops": [
                 "acorn"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/bushy-tailed_squirrel/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bushy-tailed_squirrel/image",
             "category": "creatures",
             "dlc": false
         },
@@ -120,7 +120,7 @@
             "drops": [
                 "raw meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/woodland_boar/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/woodland_boar/image",
             "category": "creatures",
             "dlc": false
         },
@@ -135,7 +135,7 @@
             "drops": [
                 "raw prime meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/red-tusked_boar/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/red-tusked_boar/image",
             "category": "creatures",
             "dlc": false
         },
@@ -150,7 +150,7 @@
             "drops": [
                 "raw meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mountain_goat/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mountain_goat/image",
             "category": "creatures",
             "dlc": false
         },
@@ -163,7 +163,7 @@
                 "Eldin Canyon"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/white_goat/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/white_goat/image",
             "category": "creatures",
             "dlc": false
         },
@@ -178,7 +178,7 @@
             "drops": [
                 "raw prime meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mountain_buck/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mountain_buck/image",
             "category": "creatures",
             "dlc": false
         },
@@ -193,7 +193,7 @@
             "drops": [
                 "raw prime meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mountain_doe/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mountain_doe/image",
             "category": "creatures",
             "dlc": false
         },
@@ -209,7 +209,7 @@
                 "raw prime meat",
                 "raw gourmet meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/water_buffalo/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/water_buffalo/image",
             "category": "creatures",
             "dlc": false
         },
@@ -222,7 +222,7 @@
                 "Faron Grasslands"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hateno_cow/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hateno_cow/image",
             "category": "creatures",
             "dlc": false
         },
@@ -235,7 +235,7 @@
                 "Akkala Highlands"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/highland_sheep/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/highland_sheep/image",
             "category": "creatures",
             "dlc": false
         },
@@ -250,7 +250,7 @@
             "drops": [
                 "raw meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/grassland_fox/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/grassland_fox/image",
             "category": "creatures",
             "dlc": false
         },
@@ -266,7 +266,7 @@
                 "raw prime meat",
                 "raw gourmet meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/snowcoat_fox/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/snowcoat_fox/image",
             "category": "creatures",
             "dlc": false
         },
@@ -282,7 +282,7 @@
                 "raw prime meat",
                 "raw gourmet meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/maraudo_wolf/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/maraudo_wolf/image",
             "category": "creatures",
             "dlc": false
         },
@@ -298,7 +298,7 @@
                 "raw prime meat",
                 "raw gourmet meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/wasteland_coyote/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/wasteland_coyote/image",
             "category": "creatures",
             "dlc": false
         },
@@ -314,7 +314,7 @@
                 "raw prime meat",
                 "raw gourmet meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/cold-footed_wolf/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cold-footed_wolf/image",
             "category": "creatures",
             "dlc": false
         },
@@ -330,7 +330,7 @@
                 "raw prime meat",
                 "raw gourmet meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/tabantha_moose/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/tabantha_moose/image",
             "category": "creatures",
             "dlc": false
         },
@@ -346,7 +346,7 @@
                 "raw prime meat",
                 "raw gourmet meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/great-horned_rhinoceros/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/great-horned_rhinoceros/image",
             "category": "creatures",
             "dlc": false
         },
@@ -363,7 +363,7 @@
                 "raw prime meat",
                 "raw gourmet meat"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/honeyvore_bear/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/honeyvore_bear/image",
             "category": "creatures",
             "dlc": false
         },
@@ -380,7 +380,7 @@
                 "raw gourmet meat",
                 "hearty salmon"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/grizzlemaw_bear/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/grizzlemaw_bear/image",
             "category": "creatures",
             "dlc": false
         },
@@ -393,7 +393,7 @@
                 "Hebra Mountains"
             ],
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hylian_retriever/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hylian_retriever/image",
             "category": "creatures",
             "dlc": false
         },
@@ -405,7 +405,7 @@
                 "Satori Mountain"
             ],
             "drops": null,
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blupee/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blupee/image",
             "category": "creatures",
             "dlc": false
         },
@@ -420,7 +420,7 @@
             "drops": [
                 "chickaloo tree nut"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/common_sparrow/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/common_sparrow/image",
             "category": "creatures",
             "dlc": false
         },
@@ -436,7 +436,7 @@
             "drops": [
                 "chickaloo tree nut"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/red_sparrow/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/red_sparrow/image",
             "category": "creatures",
             "dlc": false
         },
@@ -451,7 +451,7 @@
             "drops": [
                 "chickaloo tree nut"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blue_sparrow/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blue_sparrow/image",
             "category": "creatures",
             "dlc": false
         },
@@ -467,7 +467,7 @@
             "drops": [
                 "chickaloo tree nut"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rainbow_sparrow/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rainbow_sparrow/image",
             "category": "creatures",
             "dlc": false
         },
@@ -481,7 +481,7 @@
             "drops": [
                 "chickaloo tree nut"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/sand_sparrow/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sand_sparrow/image",
             "category": "creatures",
             "dlc": false
         },
@@ -496,7 +496,7 @@
             "drops": [
                 "chickaloo tree nut"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/golden_sparrow/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/golden_sparrow/image",
             "category": "creatures",
             "dlc": false
         },
@@ -511,7 +511,7 @@
             "drops": [
                 "raw bird drumstick"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/wood_pigeon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/wood_pigeon/image",
             "category": "creatures",
             "dlc": false
         },
@@ -527,7 +527,7 @@
             "drops": [
                 "raw bird thigh"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rainbow_pigeon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rainbow_pigeon/image",
             "category": "creatures",
             "dlc": false
         },
@@ -542,7 +542,7 @@
             "drops": [
                 "raw bird thigh"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hotfeather_pigeon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hotfeather_pigeon/image",
             "category": "creatures",
             "dlc": false
         },
@@ -558,7 +558,7 @@
                 "raw bird thigh",
                 "raw whole bird"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/white_pigeon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/white_pigeon/image",
             "category": "creatures",
             "dlc": false
         },
@@ -573,7 +573,7 @@
             "drops": [
                 "raw bird drumstick"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mountain_crow/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mountain_crow/image",
             "category": "creatures",
             "dlc": false
         },
@@ -588,7 +588,7 @@
             "drops": [
                 "raw bird drumstick"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/bright-chested_duck/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bright-chested_duck/image",
             "category": "creatures",
             "dlc": false
         },
@@ -603,7 +603,7 @@
             "drops": [
                 "raw bird drumstick"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/blue-winged_heron/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/blue-winged_heron/image",
             "category": "creatures",
             "dlc": false
         },
@@ -618,7 +618,7 @@
             "drops": [
                 "raw bird drumstick"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/pink_heron/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/pink_heron/image",
             "category": "creatures",
             "dlc": false
         },
@@ -633,7 +633,7 @@
             "drops": [
                 "raw bird thigh"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/islander_hawk/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/islander_hawk/image",
             "category": "creatures",
             "dlc": false
         },
@@ -648,7 +648,7 @@
             "drops": [
                 "raw bird drumstick"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/seagull/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/seagull/image",
             "category": "creatures",
             "dlc": false
         },
@@ -664,7 +664,7 @@
                 "raw bird thigh",
                 "raw whole bird"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/eldin_ostrich/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/eldin_ostrich/image",
             "category": "creatures",
             "dlc": false
         },
@@ -679,7 +679,7 @@
             "drops": [
                 "bird egg"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/cucco/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cucco/image",
             "category": "creatures",
             "dlc": false
         },
@@ -694,7 +694,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hyrule_bass/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hyrule_bass/image",
             "category": "creatures",
             "dlc": false
         },
@@ -709,7 +709,7 @@
             "hearts_recovered": 2.0,
             "cooking_effect": "extra hearts",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hearty_bass/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_bass/image",
             "category": "creatures",
             "dlc": false
         },
@@ -724,7 +724,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "stamina recovery",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/staminoka_bass/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/staminoka_bass/image",
             "category": "creatures",
             "dlc": false
         },
@@ -739,7 +739,7 @@
             "hearts_recovered": 4.0,
             "cooking_effect": "extra hearts",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hearty_salmon/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_salmon/image",
             "category": "creatures",
             "dlc": false
         },
@@ -754,7 +754,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "heat resistance",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/chillfin_trout/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/chillfin_trout/image",
             "category": "creatures",
             "dlc": false
         },
@@ -769,7 +769,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "cold resistance",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/sizzlefin_trout/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sizzlefin_trout/image",
             "category": "creatures",
             "dlc": false
         },
@@ -784,7 +784,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "shock resistance",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/voltfin_trout/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/voltfin_trout/image",
             "category": "creatures",
             "dlc": false
         },
@@ -799,7 +799,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "stealth up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/stealthfin_trout/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/stealthfin_trout/image",
             "category": "creatures",
             "dlc": false
         },
@@ -814,7 +814,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "attack up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mighty_carp/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_carp/image",
             "category": "creatures",
             "dlc": false
         },
@@ -829,7 +829,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "defense up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/armored_carp/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/armored_carp/image",
             "category": "creatures",
             "dlc": false
         },
@@ -843,7 +843,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/sanke_carp/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sanke_carp/image",
             "category": "creatures",
             "dlc": false
         },
@@ -858,7 +858,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "attack up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/mighty_porgy/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/mighty_porgy/image",
             "category": "creatures",
             "dlc": false
         },
@@ -873,7 +873,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "defense up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/armored_porgy/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/armored_porgy/image",
             "category": "creatures",
             "dlc": false
         },
@@ -888,7 +888,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "stealth up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/sneaky_river_snail/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sneaky_river_snail/image",
             "category": "creatures",
             "dlc": false
         },
@@ -903,7 +903,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "extra hearts",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hearty_blueshell_snail/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_blueshell_snail/image",
             "category": "creatures",
             "dlc": false
         },
@@ -918,7 +918,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "attack up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/razorclaw_crab/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/razorclaw_crab/image",
             "category": "creatures",
             "dlc": false
         },
@@ -933,7 +933,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "defense up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ironshell_crab/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ironshell_crab/image",
             "category": "creatures",
             "dlc": false
         },
@@ -948,7 +948,7 @@
             "hearts_recovered": 1.0,
             "cooking_effect": "stamina recovery",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/bright-eyed_crab/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bright-eyed_crab/image",
             "category": "creatures",
             "dlc": false
         },
@@ -962,7 +962,7 @@
             "hearts_recovered": 5.0,
             "cooking_effect": "",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fairy/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fairy/image",
             "category": "creatures",
             "dlc": false
         },
@@ -977,7 +977,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "heat resistance",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/winterwing_butterfly/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/winterwing_butterfly/image",
             "category": "creatures",
             "dlc": false
         },
@@ -992,7 +992,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "cold resistance",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/summerwing_butterfly/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/summerwing_butterfly/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1007,7 +1007,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "shock resistance",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/thunderwing_butterfly/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/thunderwing_butterfly/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1022,7 +1022,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "flame guard",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/smotherwing_butterfly/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/smotherwing_butterfly/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1037,7 +1037,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "heat resistance",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/cold_darner/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/cold_darner/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1052,7 +1052,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "cold resistance",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/warm_darner/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/warm_darner/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1067,7 +1067,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "shock resistance",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/electric_darner/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/electric_darner/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1082,7 +1082,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "stamina recovery",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/restless_cricket/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/restless_cricket/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1097,7 +1097,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "attack up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/bladed_rhino_beetle/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/bladed_rhino_beetle/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1112,7 +1112,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "defense up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rugged_rhino_beetle/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rugged_rhino_beetle/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1127,7 +1127,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "stamina recovery",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/energetic_rhino_beetle/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/energetic_rhino_beetle/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1142,7 +1142,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "stealth up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/sunset_firefly/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/sunset_firefly/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1157,7 +1157,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "speed up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hot-footed_frog/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hot-footed_frog/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1172,7 +1172,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "extra stamina",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/tireless_frog/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/tireless_frog/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1187,7 +1187,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "speed up",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hightail_lizard/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hightail_lizard/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1202,7 +1202,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "extra hearts",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/hearty_lizard/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_lizard/image",
             "category": "creatures",
             "dlc": false
         },
@@ -1217,7 +1217,7 @@
             "hearts_recovered": 0.0,
             "cooking_effect": "flame guard",
             "drops": [],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/fireproof_lizard/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/fireproof_lizard/image",
             "category": "creatures",
             "dlc": false
         }

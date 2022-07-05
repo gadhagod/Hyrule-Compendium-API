@@ -10,7 +10,7 @@
             "drops": [
                 "treasures"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/treasure_chest/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/treasure_chest/image",
             "category": "treasure",
             "dlc": false
         },
@@ -31,7 +31,7 @@
                 "rock salt",
                 "flint"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/ore_deposit/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/ore_deposit/image",
             "category": "treasure",
             "dlc": false
         },
@@ -50,7 +50,7 @@
                 "topaz",
                 "flint"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/rare_ore_deposit/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/rare_ore_deposit/image",
             "category": "treasure",
             "dlc": false
         },
@@ -65,7 +65,7 @@
                 "luminous",
                 "flint"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/luminous_ore_deposit/image",
+            "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/luminous_ore_deposit/image",
             "category": "treasure",
             "dlc": false
         }
