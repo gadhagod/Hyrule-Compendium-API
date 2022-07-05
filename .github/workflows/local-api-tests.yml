@@ -7,8 +7,10 @@ on:
     paths: 
       - server.py
       - requirements.txt
-      - compendium/**/*
+      - db/**/*
       - src/*
+      - tests/**/*
+      - setup.sh
   workflow_dispatch:
 
 jobs:
