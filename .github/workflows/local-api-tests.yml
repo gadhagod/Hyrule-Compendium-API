@@ -40,4 +40,4 @@ jobs:
       - name: Execute tests
         run: |
             cd tests
-            env URL="http://127.0.0.1:5000/api/v2" mocha test/api.ts -r ts-node/register
+            env URL="http://127.0.0.1:5000" mocha test/api.ts -r ts-node/register
