@@ -7,7 +7,7 @@ from sys import argv
 
 rs = Client(api_key=getenv('RS2_TOKEN') or argv[1], api_server='api.rs2.usw2.rockset.com')
 
-def entry_query(
+def compendium_query(
     category: Union[StandardCategoryName, DlcCategoryName],
     where: Optional[bool]=None,
     select: list[BaseEntrySelect]=[]
