@@ -231,7 +231,7 @@ export class RegionTester extends ApiTester {
     static assertHasAttrs(categoryData: {name: string}): void {
         super.assertHasAttrs(
             categoryData,
-            ["dlc_shrines", "name", "regular_shrines", "settlements"],
+            ["dlc_shrines", "name", "shrines", "settlements"],
             categoryData.name
         )
     }

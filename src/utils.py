@@ -33,7 +33,7 @@ def region_query(
             .where(where)
             .select(
                 'name', 
-                'regular_shrines', 
+                'shrines', 
                 'dlc_shrines', 
                 'settlements' 
             )
@@ -41,7 +41,7 @@ def region_query(
         Q(f'botw-api-v3.regions')
             .select(
                 'name', 
-                'regular_shrines', 
+                'shrines', 
                 'dlc_shrines', 
                 'settlements' 
             ))
