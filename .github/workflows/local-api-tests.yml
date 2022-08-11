@@ -29,7 +29,7 @@ jobs:
       - name: Start API server
         run: |
             sh setup.sh
-            python3 server.py ${{ secrets.RS2_TOKEN }} &
+            python3 -c "from server import app; app.run()"
       - name: Install dependencies
         run: |
             cd tests
@@ -40,4 +40,4 @@ jobs:
       - name: Execute tests
         run: |
             cd tests
-            env URL="http://127.0.0.1:5000" mocha test/api.ts -r ts-node/register
+            env URL="http://127.0.0.1:5000" mocha -r ts-node/register
