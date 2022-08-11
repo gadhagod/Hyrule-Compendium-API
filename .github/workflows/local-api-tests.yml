@@ -11,6 +11,7 @@ on:
       - src/*
       - tests/**/*
       - setup.sh
+  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -29,7 +30,7 @@ jobs:
       - name: Start API server
         run: |
             sh setup.sh
-            python3 -c "from server import app; app.run()"
+            python3 -c "from server import app; app.run()" ${{ secrets.RS2_TOKEN }} &
       - name: Install dependencies
         run: |
             cd tests
