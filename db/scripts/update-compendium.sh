@@ -1,5 +1,5 @@
 # adds and overwrites all compendium entries with data from db/data/compendium
-# assumes you are in db/data/scripts
+# assumes you are in db/scripts
 
 rockset api:documents:addDocuments botw-api-v3 creatures --body ../data/compendium/creatures.json
 rockset api:documents:addDocuments botw-api-v3 equipment --body ../data/compendium/equipment.json

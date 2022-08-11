@@ -1,675 +1,675 @@
 {
     "data": [
         {
-            "name": "Great Plateau",
-            "regular_shrines": [
+            "name": "great plateau",
+            "shrines": [
                 {
-                    "name": "Oman Au",
-                    "puzzle": "Magnesis Trial"
+                    "name": "oman au",
+                    "puzzle": "magnesis trial"
                 },
                 {
-                    "name": "Ja Baij",
-                    "puzzle": "Bomb Trial"
+                    "name": "ja baij",
+                    "puzzle": "bomb trial"
                 },
                 {
-                    "name": "Owa Dam",
-                    "puzzle": "Stasis Trial"
+                    "name": "owa dam",
+                    "puzzle": "stasis trial"
                 },
                 {
-                    "name": "Keh Namut",
-                    "puzzle": "Cryonis Trial"
+                    "name": "keh namut",
+                    "puzzle": "cryonis trial"
                 }
             ],
             "dlc_shrines": [
                 {
-                    "name": "Yowaka Ita",
-                    "puzzle": "Collected Soul"
+                    "name": "yowaka ita",
+                    "puzzle": "collected soul"
                 },
                 {
-                    "name": "Rohta Chigah",
-                    "puzzle": "Stop to Start"
+                    "name": "rohta chigah",
+                    "puzzle": "stop to start"
                 },
                 {
-                    "name": "Ruvo Korbah",
-                    "puzzle": "A Major Test of Strength"
+                    "name": "ruvo korbah",
+                    "puzzle": "a major test of strength"
                 },
                 {
-                    "name": "Etsu Korima",
-                    "puzzle": "Path of Light"
+                    "name": "etsu korima",
+                    "puzzle": "path of light"
                 }
             ],
             "settlements": []
         },
         {
-            "name": "Dueling Peaks",
-            "regular_shrines": [
+            "name": "dueling peaks",
+            "shrines": [
                 {
-                    "name": "Bosh Kala",
-                    "puzzle": "The Wind Guides You"
+                    "name": "bosh kala",
+                    "puzzle": "the wind guides you"
                 },
                 {
-                    "name": "Ta'Loh Naeg",
-                    "puzzle": "Ta'Loh Naeg's Teaching"
+                    "name": "ta'loh naeg",
+                    "puzzle": "ta'loh naeg's teaching"
                 },
                 {
-                    "name": "Ree Dahee",
-                    "puzzle": "Timing is Critical"
+                    "name": "ree dahee",
+                    "puzzle": "timing is critical"
                 },
                 {
-                    "name": "Hila Rao",
-                    "puzzle": "Drifting"
+                    "name": "hila rao",
+                    "puzzle": "drifting"
                 },
                 {
-                    "name": "Ha Dahamar",
-                    "puzzle": "The Water Guides"
+                    "name": "ha dahamar",
+                    "puzzle": "the water guides"
                 },
                 {
-                    "name": "Shee Vaneer",
-                    "puzzle": "Twin Memories"
+                    "name": "shee vaneer",
+                    "puzzle": "twin memories"
                 },
                 {
-                    "name": "Shee Venath",
-                    "puzzle": "Twin Memories"
+                    "name": "shee venath",
+                    "puzzle": "twin memories"
                 },
                 {
-                    "name": "Lakna Rokee",
-                    "puzzle": "Lakna Rokee's Blessing"
+                    "name": "lakna rokee",
+                    "puzzle": "lakna rokee's blessing"
                 },
                 {
-                    "name": "Toto Sah",
-                    "puzzle": "Toto Sah Apparatus"
+                    "name": "toto sah",
+                    "puzzle": "toto sah apparatus"
                 }
             ],
             "dlc_shrines": [],
             "settlements": [
-                "Kakariko Village"
+                "kakariko village"
             ]
         },
         {
-            "name": "Lanayru",
-            "regular_shrines": [
+            "name": "lanayru",
+            "shrines": [
                 {
-                    "name": "Daka Tuss",
-                    "puzzle": "Sunken Scoop"
+                    "name": "daka tuss",
+                    "puzzle": "sunken scoop"
                 },
                 {
-                    "name": "Rucco Maag",
-                    "puzzle": "Five Flames"
+                    "name": "rucco maag",
+                    "puzzle": "five flames"
                 },
                 {
-                    "name": "Kaya Wan",
-                    "puzzle": "Sheilds from Water"
+                    "name": "kaya wan",
+                    "puzzle": "sheilds from water"
                 },
                 {
-                    "name": "Sheh Rata",
-                    "puzzle": "Speed of Light"
+                    "name": "sheh rata",
+                    "puzzle": "speed of light"
                 },
                 {
-                    "name": "Shai Yota",
-                    "puzzle": "Shai Yota's Blessing"
+                    "name": "shai yota",
+                    "puzzle": "shai yota's blessing"
                 },
                 {
-                    "name": "Dagah Keek",
-                    "puzzle": "Dagah Keek's Blessing"
+                    "name": "dagah keek",
+                    "puzzle": "dagah keek's blessing"
                 },
                 {
-                    "name": "Kah Mael",
-                    "puzzle": "Drop and Rise"
+                    "name": "kah mael",
+                    "puzzle": "drop and rise"
                 },
                 {
-                    "name": "Ne'ez Yohma",
-                    "puzzle": "Pushing Power"
+                    "name": "ne'ez yohma",
+                    "puzzle": "pushing power"
                 },
                 {
-                    "name": "Soh Kofi",
-                    "puzzle": "A Minor Test of Strength"
+                    "name": "soh kofi",
+                    "puzzle": "a minor test of strength"
                 }
             ],
             "dlc_shrines": [
                 {
-                    "name": "Kee Dafunia",
-                    "puzzle": "The Melting Point"
+                    "name": "kee dafunia",
+                    "puzzle": "the melting point"
                 },
                 {
-                    "name": "Mah Eliya",
-                    "puzzle": "Secret Stairway"
+                    "name": "mah eliya",
+                    "puzzle": "secret stairway"
                 },
                 {
-                    "name": "Sato Koda",
-                    "puzzle": "Support and Guidance"
+                    "name": "sato koda",
+                    "puzzle": "support and guidance"
                 }
             ],
             "settlements": []
         },
         {
-            "name": "Hateno",
-            "regular_shrines": [
+            "name": "hateno",
+            "shrines": [
                 {
-                    "name": "Myahm Agana",
-                    "puzzle": "Myahm Agana Apparatus"
+                    "name": "myahm agana",
+                    "puzzle": "myahm agana apparatus"
                 },
                 {
-                    "name": "Kam Urog",
-                    "puzzle": "Trial of Passage"
+                    "name": "kam urog",
+                    "puzzle": "trial of passage"
                 },
                 {
-                    "name": "Dow Na'eh",
-                    "puzzle": "Three Boxes"
+                    "name": "dow na'eh",
+                    "puzzle": "three boxes"
                 },
                 {
-                    "name": "Jitan Sa'mi",
-                    "puzzle": "Jitan Sa'mi's Blessing"
+                    "name": "jitan sa'mi",
+                    "puzzle": "jitan sa'mi's blessing"
                 },
                 {
-                    "name": "Mezza Lo",
-                    "puzzle": "Ancient Trifecta"
+                    "name": "mezza lo",
+                    "puzzle": "ancient trifecta"
                 },
                 {
-                    "name": "Tahno O'ah",
-                    "puzzle": "Tahno O'ah's Blessing"
+                    "name": "tahno o'ah",
+                    "puzzle": "tahno o'ah's blessing"
                 },
                 {
-                    "name": "Chaas Qeta",
-                    "puzzle": "A Major Test of Strength"
+                    "name": "chaas qeta",
+                    "puzzle": "a major test of strength"
                 }
             ],
             "dlc_shrines": [],
             "settlements": [
-                "Hateno Village",
-                "Zora's Domain"
+                "hateno village",
+                "zora's domain"
             ]
         },
         {
-            "name": "Lake",
-            "regular_shrines": [
+            "name": "lake",
+            "shrines": [
                 {
-                    "name": "Ka'o Makagh",
-                    "puzzle": "Metal Doors Open the Way"
+                    "name": "ka'o makagh",
+                    "puzzle": "metal doors open the way"
                 },
                 {
-                    "name": "Ya Naga",
-                    "puzzle": "Shatter the Heavens"
+                    "name": "ya naga",
+                    "puzzle": "shatter the heavens"
                 },
                 {
-                    "name": "Pumaag Nitae",
-                    "puzzle": "A Minor Test of Strength"
+                    "name": "pumaag nitae",
+                    "puzzle": "a minor test of strength"
                 },
                 {
-                    "name": "Shae Katha",
-                    "puzzle": "Shae Katha's Blessing"
+                    "name": "shae katha",
+                    "puzzle": "shae katha's blessing"
                 },
                 {
-                    "name": "Ishto Soh",
-                    "puzzle": "Bravery's Grasp"
+                    "name": "ishto soh",
+                    "puzzle": "bravery's grasp"
                 },
                 {
-                    "name": "Shoqa Tatone",
-                    "puzzle": "A Modest Test of Strength"
+                    "name": "shoqa tatone",
+                    "puzzle": "a modest test of strength"
                 }
             ],
             "dlc_shrines": [],
             "settlements": []
         },
         {
-            "name": "Central",
-            "regular_shrines": [
+            "name": "central",
+            "shrines": [
                 {
-                    "name": "Dah Kaso",
-                    "puzzle": "A Minor Test of Strength"
+                    "name": "dah kaso",
+                    "puzzle": "a minor test of strength"
                 },
                 {
-                    "name": "Wahgo Katta",
-                    "puzzle": "Metal Connections"
+                    "name": "wahgo katta",
+                    "puzzle": "metal connections"
                 },
                 {
-                    "name": "Rota Ooh",
-                    "puzzle": "Passing of the Gates"
+                    "name": "rota ooh",
+                    "puzzle": "passing of the gates"
                 },
                 {
-                    "name": "Kaam Ya'tak",
-                    "puzzle": "Trial of Power"
+                    "name": "kaam ya'tak",
+                    "puzzle": "trial of power"
                 },
                 {
-                    "name": "Katah Chuki",
-                    "puzzle": "A Minor Test of Strength"
+                    "name": "katah chuki",
+                    "puzzle": "a minor test of strength"
                 },
                 {
-                    "name": "Noya Neha",
-                    "puzzle": "A Minor Test Of Strength"
+                    "name": "noya neha",
+                    "puzzle": "a minor test of strength"
                 },
                 {
-                    "name": "Saas Ko'sah",
-                    "puzzle": "A Major Test of Strength"
+                    "name": "saas ko'sah",
+                    "puzzle": "a major test of strength"
                 },
                 {
-                    "name": "Namika Ozz",
-                    "puzzle": "A Modest Test of Strength"
+                    "name": "namika ozz",
+                    "puzzle": "a modest test of strength"
                 }
             ],
             "dlc_shrines": [],
             "settlements": []
         },
         {
-            "name": "Woodland",
-            "regular_shrines": [
+            "name": "woodland",
+            "shrines": [
                 {
-                    "name": "Keo Ruug",
-                    "puzzle": "Fateful Stars"
+                    "name": "keo ruug",
+                    "puzzle": "fateful stars"
                 },
                 {
-                    "name": "Daag Chokah",
-                    "puzzle": "Daag Chokah's Blessing"
+                    "name": "daag chokah",
+                    "puzzle": "daag chokah's blessing"
                 },
                 {
-                    "name": "Mirro Shaz",
-                    "puzzle": "Tempered Tower"
+                    "name": "mirro shaz",
+                    "puzzle": "tempered tower"
                 },
                 {
-                    "name": "Monya Toma",
-                    "puzzle": "Drawing Parabolas"
+                    "name": "monya toma",
+                    "puzzle": "drawing parabolas"
                 },
                 {
-                    "name": "Ketoh Wawai",
-                    "puzzle": "Ketoh Wawai's Blessing"
+                    "name": "ketoh wawai",
+                    "puzzle": "ketoh wawai's blessing"
                 },
                 {
-                    "name": "Rona Kachta",
-                    "puzzle": "Rona Kachta's Blessing"
+                    "name": "rona kachta",
+                    "puzzle": "rona kachta's blessing"
                 },
                 {
-                    "name": "Kuhn Sidajj",
-                    "puzzle": "Kuhn Sidajj's Blessing"
+                    "name": "kuhn sidajj",
+                    "puzzle": "kuhn sidajj's blessing"
                 },
                 {
-                    "name": "Maag Halan",
-                    "puzzle": "Maag Halan's Blessing"
+                    "name": "maag halan",
+                    "puzzle": "maag halan's blessing"
                 }
             ],
             "dlc_shrines": [],
             "settlements": []
         },
         {
-            "name": "Ridgeland",
-            "regular_shrines": [
+            "name": "ridgeland",
+            "shrines": [
                 {
-                    "name": "Toh Yahsa",
-                    "puzzle": "Buried Secrets"
+                    "name": "toh yahsa",
+                    "puzzle": "buried secrets"
                 },
                 {
-                    "name": "Mogg Latan",
-                    "puzzle": "Synced Swing"
+                    "name": "mogg latan",
+                    "puzzle": "synced swing"
                 },
                 {
-                    "name": "Zalta Wa",
-                    "puzzle": "Two Orbs Guide You"
+                    "name": "zalta wa",
+                    "puzzle": "two orbs guide you"
                 },
                 {
-                    "name": "Shae Loya",
-                    "puzzle": "Aim for the Moment"
+                    "name": "shae loya",
+                    "puzzle": "aim for the moment"
                 },
                 {
-                    "name": "Maag No'rah",
-                    "puzzle": "Maag No'rah's Blessing"
+                    "name": "maag no'rah",
+                    "puzzle": "maag no'rah's blessing"
                 },
                 {
-                    "name": "Sheem Dagoze",
-                    "puzzle": "Moving in Parallel"
+                    "name": "sheem dagoze",
+                    "puzzle": "moving in parallel"
                 },
                 {
-                    "name": "Mijah Rokee",
-                    "puzzle": "A Modest Test of Strength"
+                    "name": "mijah rokee",
+                    "puzzle": "a modest test of strength"
                 }
             ],
             "dlc_shrines": [
                 {
-                    "name": "Shira Gomar",
-                    "puzzle": "Aim for Stillness"
+                    "name": "shira gomar",
+                    "puzzle": "aim for stillness"
                 }
             ],
             "settlements": []
         },
         {
-            "name": "Gerudo",
-            "regular_shrines": [
+            "name": "gerudo",
+            "shrines": [
                 {
-                    "name": "Kuh Takkar",
-                    "puzzle": "Melting Ice Hazard"
+                    "name": "kuh takkar",
+                    "puzzle": "melting ice hazard"
                 },
                 {
-                    "name": "Sasa Kai",
-                    "puzzle": "A Moderate Test of Strength"
+                    "name": "sasa kai",
+                    "puzzle": "a moderate test of strength"
                 },
                 {
-                    "name": "Sho Dantu",
-                    "puzzle": "Two Bombs"
+                    "name": "sho dantu",
+                    "puzzle": "two bombs"
                 },
                 {
-                    "name": "Joloo Nah",
-                    "puzzle": "Joloo Nah Apparatus"
+                    "name": "joloo nah",
+                    "puzzle": "joloo nah apparatus"
                 },
                 {
-                    "name": "Kema Kosassa",
-                    "puzzle": "A Major Test of Strength"
+                    "name": "kema kosassa",
+                    "puzzle": "a major test of strength"
                 },
                 {
-                    "name": "Keeha Yoog",
-                    "puzzle": "Keeha Yoog's Blessing"
+                    "name": "keeha yoog",
+                    "puzzle": "keeha yoog's blessing"
                 }
             ],
             "dlc_shrines": [],
             "settlements": []
         },
         {
-            "name": "Faron",
-            "regular_shrines": [
+            "name": "faron",
+            "shrines": [
                 {
-                    "name": "Shoda Sah",
-                    "puzzle": "Impeccable Timing"
+                    "name": "shoda sah",
+                    "puzzle": "impeccable timing"
                 },
                 {
-                    "name": "Qukah Nata",
-                    "puzzle": "Qukah Nata's Blessing"
+                    "name": "qukah nata",
+                    "puzzle": "qukah nata's blessing"
                 },
                 {
-                    "name": "Shai Utoh",
-                    "puzzle": "Halt the Tilt"
+                    "name": "shai utoh",
+                    "puzzle": "halt the tilt"
                 },
                 {
-                    "name": "Muwo Jeem",
-                    "puzzle": "A Modest Test of Strength"
+                    "name": "muwo jeem",
+                    "puzzle": "a modest test of strength"
                 },
                 {
-                    "name": "Tawa Jinn",
-                    "puzzle": "Tawa Jinn's Blessing"
+                    "name": "tawa jinn",
+                    "puzzle": "tawa jinn's blessing"
                 },
                 {
-                    "name": "Yah Rin",
-                    "puzzle": "A Weighty Decision"
+                    "name": "yah rin",
+                    "puzzle": "a weighty decision"
                 },
                 {
-                    "name": "Kah Yah",
-                    "puzzle": "Quick Thinking"
+                    "name": "kah yah",
+                    "puzzle": "quick thinking"
                 },
                 {
-                    "name": "Korgu Chideh",
-                    "puzzle": "Korgu Chideh's Blessing"
+                    "name": "korgu chideh",
+                    "puzzle": "korgu chideh's blessing"
                 }
             ],
             "dlc_shrines": [],
             "settlements": [
-                "Lurelin Village"
+                "lurelin village"
             ]
         },
         {
-            "name": "Akkala",
-            "regular_shrines": [
+            "name": "akkala",
+            "shrines": [
                 {
-                    "name": "Katosa Aug",
-                    "puzzle": "Katosa Aug Apparatus"
+                    "name": "katosa aug",
+                    "puzzle": "katosa aug apparatus"
                 },
                 {
-                    "name": "Dah Hesho",
-                    "puzzle": "A Minor Test of Strength"
+                    "name": "dah hesho",
+                    "puzzle": "a minor test of strength"
                 },
                 {
-                    "name": "Ze Kasho",
-                    "puzzle": "Ze Kasho Apparatus"
+                    "name": "ze kasho",
+                    "puzzle": "ze kasho apparatus"
                 },
                 {
-                    "name": "Tutsuwa Nima",
-                    "puzzle": "A Major Test of Strength"
+                    "name": "tutsuwa nima",
+                    "puzzle": "a major test of strength"
                 },
                 {
-                    "name": "Ke'nai Shakah",
-                    "puzzle": "A Modest Test of Strength"
+                    "name": "ke'nai shakah",
+                    "puzzle": "a modest test of strength"
                 },
                 {
-                    "name": "Zuna Kai",
-                    "puzzle": "Zuna Kai's Blessing"
+                    "name": "zuna kai",
+                    "puzzle": "zuna kai's blessing"
                 },
                 {
-                    "name": "Tu Ka'loh",
-                    "puzzle": "Tu Ka'loh's Blessing"
+                    "name": "tu ka'loh",
+                    "puzzle": "tu ka'loh's blessing"
                 },
                 {
-                    "name": "Ritaag Zumo",
-                    "puzzle": "Ritaag Zumo's Blessing"
+                    "name": "ritaag zumo",
+                    "puzzle": "ritaag zumo's blessing"
                 }
             ],
             "dlc_shrines": [],
             "settlements": [
-                "Tarrey Town"
+                "tarrey town"
             ]
         },
         {
-            "name": "Hebra",
-            "regular_shrines": [
+            "name": "hebra",
+            "shrines": [
                 {
-                    "name": "Rin Oyaa",
-                    "puzzle": "Directing the Wind"
+                    "name": "rin oyaa",
+                    "puzzle": "directing the wind"
                 },
                 {
-                    "name": "Sha Gehma",
-                    "puzzle": "Shift and Lock"
+                    "name": "sha gehma",
+                    "puzzle": "shift and lock"
                 },
                 {
-                    "name": "Hia Miu",
-                    "puzzle": "A Major Test of Strength"
+                    "name": "hia miu",
+                    "puzzle": "a major test of strength"
                 },
                 {
-                    "name": "Mozo Shenno",
-                    "puzzle": "A Major Test of Strength"
+                    "name": "mozo shenno",
+                    "puzzle": "a major test of strength"
                 },
                 {
-                    "name": "Shada Naw",
-                    "puzzle": "Red Giveaway"
+                    "name": "shada naw",
+                    "puzzle": "red giveaway"
                 },
                 {
-                    "name": "Goma Asaagh",
-                    "puzzle": "A Major Test of Strength"
+                    "name": "goma asaagh",
+                    "puzzle": "a major test of strength"
                 },
                 {
-                    "name": "To Quomo",
-                    "puzzle": "To Quomo's Blessing"
+                    "name": "to quomo",
+                    "puzzle": "to quomo's blessing"
                 },
                 {
-                    "name": "Rok Uwog",
-                    "puzzle": "Power of Reach"
+                    "name": "rok uwog",
+                    "puzzle": "power of reach"
                 },
                 {
-                    "name": "Maka Rah",
-                    "puzzle": "Steady Thy Heart"
+                    "name": "maka rah",
+                    "puzzle": "steady thy heart"
                 },
                 {
-                    "name": "Lanno Kooh",
-                    "puzzle": "Lanno Kooh's Blessing"
+                    "name": "lanno kooh",
+                    "puzzle": "lanno kooh's blessing"
                 },
                 {
-                    "name": "Dunba Taag",
-                    "puzzle": "Build and Release"
+                    "name": "dunba taag",
+                    "puzzle": "build and release"
                 },
                 {
-                    "name": "Gee Ha'rah",
-                    "puzzle": "Tandem"
+                    "name": "gee ha'rah",
+                    "puzzle": "tandem"
                 },
                 {
-                    "name": "Qaza Tokki",
-                    "puzzle": "Qaza Tokki's Blessing"
+                    "name": "qaza tokki",
+                    "puzzle": "qaza tokki's blessing"
                 }
             ],
             "dlc_shrines": [
                 {
-                    "name": "Kiah Toza",
-                    "puzzle": "Master the Orb"
+                    "name": "kiah toza",
+                    "puzzle": "master the orb"
                 }
             ],
             "settlements": []
         },
         {
-            "name": "Wasteland",
-            "regular_shrines": [
+            "name": "wasteland",
+            "shrines": [
                 {
-                    "name": "Daqo Chisay",
-                    "puzzle": "The Whole Picture"
+                    "name": "daqo chisay",
+                    "puzzle": "the whole picture"
                 },
                 {
-                    "name": "Jee Noh",
-                    "puzzle": "On the Move"
+                    "name": "jee noh",
+                    "puzzle": "on the move"
                 },
                 {
-                    "name": "Kay Noh",
-                    "puzzle": "A Minor Test of Strength"
+                    "name": "kay noh",
+                    "puzzle": "a minor test of strength"
                 },
                 {
-                    "name": "Dako Tah",
-                    "puzzle": "Electric Path"
+                    "name": "dako tah",
+                    "puzzle": "electric path"
                 },
                 {
-                    "name": "Tho Kayu",
-                    "puzzle": "Tho Kayu’s Blessing"
+                    "name": "tho kayu",
+                    "puzzle": "tho kayu\u2019s blessing"
                 },
                 {
-                    "name": "Hawa Koth",
-                    "puzzle": "The Current Solution"
+                    "name": "hawa koth",
+                    "puzzle": "the current solution"
                 },
                 {
-                    "name": "Dila Maag",
-                    "puzzle": "Dila Maag's Blessing"
+                    "name": "dila maag",
+                    "puzzle": "dila maag's blessing"
                 },
                 {
-                    "name": "Raqa Zunzo",
-                    "puzzle": "Raqa Zunzo's Blessing"
+                    "name": "raqa zunzo",
+                    "puzzle": "raqa zunzo's blessing"
                 },
                 {
-                    "name": "Kema Zoos",
-                    "puzzle": "A Delayed Puzzle"
+                    "name": "kema zoos",
+                    "puzzle": "a delayed puzzle"
                 },
                 {
-                    "name": "Suma Sahma",
-                    "puzzle": "Secret of the Snowy Peaks"
+                    "name": "suma sahma",
+                    "puzzle": "secret of the snowy peaks"
                 },
                 {
-                    "name": "Korsh O'hu",
-                    "puzzle": "Korsh O'hu's Blessing"
+                    "name": "korsh o'hu",
+                    "puzzle": "korsh o'hu's blessing"
                 },
                 {
-                    "name": "Misae Suma",
-                    "puzzle": "Misae Suma's Blessing"
+                    "name": "misae suma",
+                    "puzzle": "misae suma's blessing"
                 }
             ],
             "dlc_shrines": [
                 {
-                    "name": "Kihiro Moh",
-                    "puzzle": "Inside the Box"
+                    "name": "kihiro moh",
+                    "puzzle": "inside the box"
                 },
                 {
-                    "name": "Takama Shiri",
-                    "puzzle": "Dual Purpose"
+                    "name": "takama shiri",
+                    "puzzle": "dual purpose"
                 },
                 {
-                    "name": "Keive Tala",
-                    "puzzle": "Big or Small"
+                    "name": "keive tala",
+                    "puzzle": "big or small"
                 }
             ],
             "settlements": [
-                "Gerudo Town",
-                "Kara Kara Bazaar"
+                "gerudo town",
+                "kara kara bazaar"
             ]
         },
         {
-            "name": "Tabantha",
-            "regular_shrines": [
+            "name": "tabantha",
+            "shrines": [
                 {
-                    "name": "Akh Va'quot",
-                    "puzzle": "Windmills"
+                    "name": "akh va'quot",
+                    "puzzle": "windmills"
                 },
                 {
-                    "name": "Kah Okeo",
-                    "puzzle": "Wind Guide"
+                    "name": "kah okeo",
+                    "puzzle": "wind guide"
                 },
                 {
-                    "name": "Sha Warvo",
-                    "puzzle": "Path of Hidden Winds"
+                    "name": "sha warvo",
+                    "puzzle": "path of hidden winds"
                 },
                 {
-                    "name": "Tena Ko'sah",
-                    "puzzle": "A Major Test of Strength"
+                    "name": "tena ko'sah",
+                    "puzzle": "a major test of strength"
                 },
                 {
-                    "name": "Bareeda Naag",
-                    "puzzle": "Cannon"
+                    "name": "bareeda naag",
+                    "puzzle": "cannon"
                 },
                 {
-                    "name": "Voo Lota",
-                    "puzzle": "The Winding Route"
+                    "name": "voo lota",
+                    "puzzle": "the winding route"
                 }
             ],
             "dlc_shrines": [
                 {
-                    "name": "Noe Rajee",
-                    "puzzle": "The Four Winds"
+                    "name": "noe rajee",
+                    "puzzle": "the four winds"
                 }
             ],
             "settlements": [
-                "Rito Village"
+                "rito village"
             ]
         },
         {
-            "name": "Eldin",
-            "regular_shrines": [
+            "name": "eldin",
+            "shrines": [
                 {
-                    "name": "Mo'a Keet",
-                    "puzzle": "Metal Makes a Path"
+                    "name": "mo'a keet",
+                    "puzzle": "metal makes a path"
                 },
                 {
-                    "name": "Sah Dahaj",
-                    "puzzle": "Power of Fire"
+                    "name": "sah dahaj",
+                    "puzzle": "power of fire"
                 },
                 {
-                    "name": "Qua Raym",
-                    "puzzle": "A Balanced Approach"
+                    "name": "qua raym",
+                    "puzzle": "a balanced approach"
                 },
                 {
-                    "name": "Shae Mo'sah",
-                    "puzzle": "Swinging Flames"
+                    "name": "shae mo'sah",
+                    "puzzle": "swinging flames"
                 },
                 {
-                    "name": "Shora Hah",
-                    "puzzle": "Blue Flame"
+                    "name": "shora hah",
+                    "puzzle": "blue flame"
                 },
                 {
-                    "name": "Daqa Koh",
-                    "puzzle": "Stalled Flight"
+                    "name": "daqa koh",
+                    "puzzle": "stalled flight"
                 },
                 {
-                    "name": "Tah Muhl",
-                    "puzzle": "Passing the Flame"
+                    "name": "tah muhl",
+                    "puzzle": "passing the flame"
                 },
                 {
-                    "name": "Gorae Torr",
-                    "puzzle": "Gorae Torr's Blessing"
+                    "name": "gorae torr",
+                    "puzzle": "gorae torr's blessing"
                 },
                 {
-                    "name": "Kayra Mah",
-                    "puzzle": "Greedy Hill"
+                    "name": "kayra mah",
+                    "puzzle": "greedy hill"
                 }
             ],
             "dlc_shrines": [
                 {
-                    "name": "Kamia Omuna",
-                    "puzzle": "Moving Targets"
+                    "name": "kamia omuna",
+                    "puzzle": "moving targets"
                 },
                 {
-                    "name": "Sharo Lun",
-                    "puzzle": "Blind Spots"
+                    "name": "sharo lun",
+                    "puzzle": "blind spots"
                 },
                 {
-                    "name": "Rinu Honika",
-                    "puzzle": "Block the Blaze"
+                    "name": "rinu honika",
+                    "puzzle": "block the blaze"
                 }
             ],
             "settlements": [
-                "Goron City"
+                "goron city"
             ]
         }
     ]
