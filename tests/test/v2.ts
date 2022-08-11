@@ -96,15 +96,13 @@ describe("v2", () => {
                         done()
                     })
                 });
-                /* TODO
                 it("should have working image", (done) => {
                     makeReq(`/entry/${entry}/image`, () => {
                         const buffer = readChunk.sync(`out/${entry}.png`, 0, 26);
-                        assert.equal(imageType(buffer).mime, "image/png")
+                        assert.equal(imageType(buffer).mime, "image/png");
                         done()
                     }, { filename: `out/${entry}.png` })
                 });
-                */
             });
             describe("Equipment entry", () => {
                 let entry = "golden claymore"
@@ -120,14 +118,13 @@ describe("v2", () => {
                         done()
                     })
                 });
-                /* TODO
                 it("should have working image", (done) => {
                     makeReq(`/entry/${entry}/image`, () => {
-                        const buffer = readChunk.sync(`out/${entry}.png`, 0, 12);
+                        const buffer = readChunk.sync(`out/${entry}.png`, 0, 26);
+                        assert.equal(imageType(buffer).mime, "image/png")
                         done()
                     }, { filename: `out/${entry}.png` })
                 });
-                */
             });
             describe("Material entry", () => {
                 let entry = "palm fruit"
@@ -143,14 +140,13 @@ describe("v2", () => {
                         done()
                     })
                 });
-                /* TODO
                 it("should have working image", (done) => {
                     makeReq(`/entry/${entry}/image`, () => {
                         const buffer = readChunk.sync(`out/${entry}.png`, 0, 12);
+                        assert.equal(imageType(buffer).mime, "image/png");
                         done()
                     }, { filename: `out/${entry}.png` })
                 });
-                */
             });
             describe("Monster entry", () => {
                 let entry = "molduga"
@@ -169,6 +165,7 @@ describe("v2", () => {
                 it("should have working image", (done) => {
                     makeReq(`/entry/${entry}/image`, () => {
                         const buffer = readChunk.sync(`out/${entry}.png`, 0, 12);
+                        assert.equal(imageType(buffer).mime, "image/png");
                         done()
                     }, { filename: `out/${entry}.png` })
                 });
@@ -190,6 +187,7 @@ describe("v2", () => {
                 it("should have working image", (done) => {
                     makeReq(`/entry/${entry}/image`, () => {
                         const buffer = readChunk.sync(`out/${entry}.png`, 0, 12);
+                        assert.equal(imageType(buffer).mime, "image/png");
                         done()
                     }, { filename: `out/${entry}.png` })
                 });
@@ -209,8 +207,9 @@ describe("v2", () => {
                     })
                 });
                 it("should have working image", (done) => {
-                    makeReq(`/entry/${entry}/image`, () => {
+                    makeReq(`/master_mode/entry/${entry}/image`, () => {
                         const buffer = readChunk.sync(`out/${entry}.png`, 0, 12);
+                        assert.equal(imageType(buffer).mime, "image/png");
                         done()
                     }, { filename: `out/${entry}.png` })
                 });

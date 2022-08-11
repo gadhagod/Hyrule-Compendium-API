@@ -25,12 +25,7 @@ describe("v3", () => {
                             let numOfEntries = 0;
                             console.log(data.length)
                             for (let i = 0; i < Object.keys(data).length; i++) {
-                                if (Object.keys(data)[i] === "creatures") {
-                                    numOfEntries += data["creatures"]["food"].length;
-                                    numOfEntries += data["creatures"]["non_food"].length;
-                                } else {
-                                    numOfEntries += data[Object.keys(data)[i]].length;
-                                }
+                                numOfEntries += data[Object.keys(data)[i]].length;
                             }
                             assert.equal(numOfEntries, 389);
                             done();
@@ -40,8 +35,8 @@ describe("v3", () => {
                 describe("creature entry (non_food)", () => {
                     it("should have correct fields", (done) => {
                         compendium.getEntry(Math.floor(Math.random() * (47 - 1)) + 1, (data) => {
-                            let expectedAdditionalAttrs = ["drops"];
-                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            let expectedAdditionalAttrs = ["drops", "edible"];
+                            let expectedNumOfFields = 7 + expectedAdditionalAttrs.length;
                             CompendiumTester.assertHasAttrs(
                                 data, 
                                 expectedAdditionalAttrs
@@ -58,8 +53,8 @@ describe("v3", () => {
                 describe("creature entry (food)", () => {
                     it("should have correct fields", (done) => {
                         compendium.getEntry(Math.floor(Math.random() * (83 - 48)) + 48, (data) => {
-                            let expectedAdditionalAttrs = ["hearts_recovered", "cooking_effect"];
-                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            let expectedAdditionalAttrs = ["hearts_recovered", "edible", "cooking_effect"];
+                            let expectedNumOfFields = 7 + expectedAdditionalAttrs.length;
                             CompendiumTester.assertHasAttrs(
                                 data, 
                                 expectedAdditionalAttrs
@@ -77,7 +72,7 @@ describe("v3", () => {
                     it("should have correct fields", (done) => {
                         compendium.getEntry(Math.floor(Math.random() * (385 - 201)) + 201, (data) => {
                             let expectedAdditionalAttrs = ["attack", "defense"];
-                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            let expectedNumOfFields = 7 + expectedAdditionalAttrs.length;
                             CompendiumTester.assertHasAttrs(
                                 data, 
                                 expectedAdditionalAttrs
@@ -95,7 +90,7 @@ describe("v3", () => {
                     it("should have correct fields", (done) => {
                         compendium.getEntry(Math.floor(Math.random() * (200 - 165)) + 165, (data) => {
                             let expectedAdditionalAttrs = ["hearts_recovered", "cooking_effect"];
-                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            let expectedNumOfFields = 7 + expectedAdditionalAttrs.length;
                             CompendiumTester.assertHasAttrs(
                                 data, 
                                 expectedAdditionalAttrs
@@ -113,7 +108,7 @@ describe("v3", () => {
                     it("should have correct fields", (done) => {
                         compendium.getEntry(Math.floor(Math.random() * (164 - 84)) + 84, (data) => {
                             let expectedAdditionalAttrs = ["drops"];
-                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            let expectedNumOfFields = 7 + expectedAdditionalAttrs.length;
                             CompendiumTester.assertHasAttrs(
                                 data, 
                                 expectedAdditionalAttrs
@@ -131,7 +126,7 @@ describe("v3", () => {
                     it("should have correct fields", (done) => {
                         compendium.getEntry(Math.floor(Math.random() * (389 - 386)) + 386, (data) => {
                             let expectedAdditionalAttrs = ["drops"];
-                            let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                            let expectedNumOfFields = 7 + expectedAdditionalAttrs.length;
                             CompendiumTester.assertHasAttrs(
                                 data, 
                                 expectedAdditionalAttrs
@@ -148,17 +143,11 @@ describe("v3", () => {
             });
             describe("categories", () => {
                 describe("creatures", () => {
-                    it("should have 2 sub-categories", (done) =>{
-                        compendium.getCategory("creatures", (data) => {
-                            assert.equal(Object.keys(data).length, 2);
-                            done();
-                        }, CompendiumTester.fail);
-                    });
-                    it("should have 52 entries", (done) =>{
+                    it("should have 83 entries", (done) =>{
                         compendium.getCategory("creatures", (data) => {
                             assert.equal(
-                                data["non_food"].length + data["non_food"].length,
-                                94
+                                data.length,
+                                83
                             );
                             done();
                         }, CompendiumTester.fail);
@@ -234,7 +223,7 @@ describe("v3", () => {
                 it("should have correct fields", (done) => {
                     compendium.getEntry(Math.floor(Math.random() * (164 - 84)) + 84, (data) => {
                         let expectedAdditionalAttrs = ["drops"];
-                        let expectedNumOfFields = 6 + expectedAdditionalAttrs.length;
+                        let expectedNumOfFields = 7 + expectedAdditionalAttrs.length;
                         CompendiumTester.assertHasAttrs(
                             data, 
                             expectedAdditionalAttrs
@@ -268,8 +257,8 @@ describe("v3", () => {
                 regions.getAllRegions((data) => {
                     assert.equal(data.length, expectedReigonNames.length, `STATUS CODE: 200; Expected regions do not match recieved regions`);
                     for (let i = 0; i < expectedReigonNames.length; i++) {
-                        if (!data.includes(expectedReigonNames[i])) {
-                            assert.fail(`STATUS CODE: 200; Expected regions do not match recieved regions`)
+                        if (!data.map((regionData => regionData.name)).includes(expectedReigonNames[i])) {
+                            assert.fail(`STATUS CODE: 200; Expected regions do not match recieved regions`);
                         }
                     }
                     done()

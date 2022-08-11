@@ -199,11 +199,11 @@ export class CompendiumTester extends ApiTester {
         )
     }
 
-    static assertHasAttrs(entryData: {id: number}, categegoryAttrs: string[]) {
+    static assertHasAttrs(entryData: {id: number}, categoryAttrs: string[]) {
         return (
             super.assertHasAttrs(
                 entryData,
-                ["category", "common_locations", "description", "id", "image", "dlc"].concat(categegoryAttrs),
+                ["category", "common_locations", "description", "id", "image", "dlc"].concat(categoryAttrs),
                 entryData.id
             )
         );
