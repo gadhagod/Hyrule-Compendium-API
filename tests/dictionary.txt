@@ -24,3 +24,5 @@ NoCategoryError
 ImageGetStreamCallback
 EntryCallback
 AnyCategory
+schemas
+Hyrule's

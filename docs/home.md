@@ -43,14 +43,14 @@ The base URL is **`https://botw-compendium.herokuapp.com/api/v3`**.
 ## Compendium
 The `/compendium` endpoint serves data on creatures, equipment, materials, monsters, and treasure.
 
-The schema of an items's data depends on the the category of the item, except for entries of the **creatures** category, where the field `edible` determines its schema.
+The schema of an items's data depends on the category of the item, except for entries of the **creatures** category, where the field `edible` determines its schema.
 
 ---------------
 
 ### `/compendium/entry`
 This endpoint is used for retrieving a specific entry, using it's name or ID. 
 If you are using a name to search for an item, spaces are to be replaced with an underscore or "%20".
-The schema of the response depends on the the category of the entry.
+The schema of the response depends on the category of the entry.
 
 **HTTP Request**
 
@@ -164,7 +164,7 @@ Would result in: \
 ?> **NOTE**: Master mode entry images use a different URL: `/master_mode/entry/<entry>/image`
 
 ## Regions
-The `/regions` endoint provides data on Hyrule's eight geographical regions, like encompassed shrines and settlements. The
+The `/regions` endpoint provides data on Hyrule's eight geographical regions, like encompassed shrines and settlements. The
 
 ---------------
 ### `/regions`
