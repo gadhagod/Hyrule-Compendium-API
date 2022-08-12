@@ -1,4 +1,5 @@
 var req = new XMLHttpRequest();
+var apiVersion = 3;
 
 /**
  * Makes a request to a given API endpoint and writes response to @param resElemId
@@ -8,7 +9,7 @@ var req = new XMLHttpRequest();
  * @param {string} loaderElemId ID of `div` element to contain loader
  */
 function createButton(endpoint, params, resElemId, loaderElemId) {
-    var url = `https://botw-compendium.herokuapp.com/api/v2${endpoint}?foo=foo`;
+    var url = `https://botw-compendium.herokuapp.com/api/v${apiVersion}/${endpoint}`;
     params.forEach((item) => {
         url += `&${encodeURIComponent(item.key)}=${encodeURIComponent(item.val)}`;
     })
