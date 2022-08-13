@@ -1,19 +1,20 @@
-from flask import Flask
+from flask import Blueprint
 from . import views
 
-def loadViews(app: Flask):
-    app.add_url_rule('/api/v3/compendium', view_func=views.all)
-    app.add_url_rule('/api/v3/compendium/all', view_func=views.all)
-    app.add_url_rule('/api/v3/compendium/master_mode', view_func=views.all_master_mode)
-    app.add_url_rule('/api/v3/compendium/master_mode/all', view_func=views.all_master_mode)
+blueprint = Blueprint("compendium", __name__)
 
-    app.add_url_rule('/api/v3/compendium/entry/<inp>', view_func=views.entry)
-    app.add_url_rule('/api/v3/compendium/entry/<inp>/image', view_func=views.entry_image)
-    app.add_url_rule('/api/v3/compendium/master_mode/entry/<inp>', view_func=views.master_mode_entry)
-    app.add_url_rule('/api/v3/compendium/master_mode/entry/<inp>/image', view_func=views.master_mode_entry_image)
+blueprint.add_url_rule('/', view_func=views.all)
+blueprint.add_url_rule('/all', view_func=views.all)
+blueprint.add_url_rule('/master_mode', view_func=views.all_master_mode)
+blueprint.add_url_rule('/master_mode/all', view_func=views.all_master_mode)
 
-    app.add_url_rule('/api/v3/compendium/category/treasure', view_func=views.treasure)
-    app.add_url_rule('/api/v3/compendium/category/monsters', view_func=views.monsters)
-    app.add_url_rule('/api/v3/compendium/category/materials', view_func=views.materials)
-    app.add_url_rule('/api/v3/compendium/category/equipment', view_func=views.equipment)
-    app.add_url_rule('/api/v3/compendium/category/creatures', view_func=views.creatures)
+blueprint.add_url_rule('/entry/<inp>', view_func=views.entry)
+blueprint.add_url_rule('/entry/<inp>/image', view_func=views.entry_image)
+blueprint.add_url_rule('/master_mode/entry/<inp>', view_func=views.master_mode_entry)
+blueprint.add_url_rule('/master_mode/entry/<inp>/image', view_func=views.master_mode_entry_image)
+
+blueprint.add_url_rule('/category/treasure', view_func=views.treasure)
+blueprint.add_url_rule('/category/monsters', view_func=views.monsters)
+blueprint.add_url_rule('/category/materials', view_func=views.materials)
+blueprint.add_url_rule('/category/equipment', view_func=views.equipment)
+blueprint.add_url_rule('/category/creatures', view_func=views.creatures)

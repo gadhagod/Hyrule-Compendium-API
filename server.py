@@ -1,7 +1,7 @@
 import flask
 from flask_cors import CORS
 from src.utils import redirectToDocs
-from src import loadViews
+from src import blueprint
 
 app = flask.Flask(__name__, static_folder='compendium/images')
 CORS(app)
@@ -11,7 +11,7 @@ app.register_error_handler(404, lambda ctx: ({'data': {}, 'message': 'Not found'
 app.add_url_rule('/', view_func=redirectToDocs)
 app.add_url_rule('/api', view_func=redirectToDocs)
 app.add_url_rule('/api/v3', view_func=redirectToDocs)
-loadViews(app)
+app.register_blueprint(blueprint, url_prefix='/api/v3')
 
 if __name__ == '__main__': # testing server
     app.run(debug=True)

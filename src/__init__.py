@@ -1,6 +1,7 @@
-from flask import Flask
-from . import compendium, regions
+from flask import Blueprint
+from .compendium import blueprint as compendium_blueprint
+from .regions import blueprint as regions_blueprint
 
-def loadViews(app: Flask):
-    compendium.loadViews(app)
-    regions.loadViews(app)
+blueprint = Blueprint("blueprint", __name__)
+blueprint.register_blueprint(compendium_blueprint, url_prefix="/compendium")
+blueprint.register_blueprint(regions_blueprint, url_prefix="/regions")

@@ -1,9 +1,7 @@
-from flask import Flask
+from flask import Blueprint
 from . import views
 
-def loadViews(app: Flask):
-    app.add_url_rule('/api/v3/region/<region_name>', view_func=views.get_region)
-    app.add_url_rule('/api/v3/regions/<region_name>', view_func=views.get_region)
-    app.add_url_rule('/api/v3/regions', view_func=views.get_all)
-    app.add_url_rule('/api/v3/regions/all', view_func=views.get_all)
-    app.add_url_rule('/api/v3/region/all', view_func=views.get_all)
+blueprint = Blueprint("regions", __name__)
+blueprint.add_url_rule('/<region_name>', view_func=views.get_region)
+blueprint.add_url_rule('/', view_func=views.get_all)
+blueprint.add_url_rule('/all', view_func=views.get_all)
