@@ -31,6 +31,9 @@ jobs:
         run: |
             sh setup.sh
             python3 -c "from server import app; app.run()" ${{ secrets.RS2_TOKEN }} &
+      - name: Freeze
+        run: |
+            pip3 freeze
       - name: Install dependencies
         run: |
             cd tests
