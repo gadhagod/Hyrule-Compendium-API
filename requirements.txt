@@ -11,7 +11,7 @@ idna==3.3
 itsdangerous==2.0.1
 Jinja2==3.0.3
 MarkupSafe==2.0.1
-git+https://github.com/gadhagod/rockset-python.git@fae8902baffdc9325b6a34a449132b4e699c7463
+rockset==0.8.10
 protobuf==3.19.1
 PyYAML==6.0
 requests==2.26.0
