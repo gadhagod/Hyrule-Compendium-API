@@ -1,10 +1,10 @@
-name: Update regions
+name: Update compendium
 on:
   push:
       branches:
         - master
       paths:
-        - db/data/regions.json
+        - db/totk/data/compendium/*.json
   workflow_dispatch:
 jobs:
   main:
@@ -19,5 +19,5 @@ jobs:
           rockset auth:add me ${{ secrets.RS2_TOKEN }}
       - name: Add docs
         run: |
-          cd db/scripts
-          sh update-regions.sh
+          cd db/totk/scripts
+          sh update-compendium.sh
