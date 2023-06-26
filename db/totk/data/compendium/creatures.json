@@ -497,7 +497,11 @@
             "common_locations": [
                 "Great Sky Island",
                 "East Gerudo Sky Archipelago"
-            ]
+            ],
+            "drops": [
+                "raw bird drumstick"
+            ],
+            "edible": false
         },
         {
             "id": 43,
@@ -584,7 +588,11 @@
             "common_locations": [
                 "Great Sky Island",
                 "North Necluda Sky Archipelago"
-            ]
+            ],
+            "drops": [
+                "raw bird drumstick"
+            ],
+            "edible": false
         },
         {
             "id": 50,
@@ -607,7 +615,11 @@
             "common_locations": [
                 "Great Sky Island",
                 "South Lanayru Sky Archipelago"
-            ]
+            ],
+            "drops": [
+                "raw meat"
+            ],
+            "edible": false
         },
         {
             "id": 52,
