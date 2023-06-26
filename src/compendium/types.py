@@ -1,14 +1,22 @@
+from flask import Response
+from rockset.query import FieldEqQuery
 from typing import (
     Literal, 
     TypedDict, 
     Optional,
-    Union
+    Union,
+    Set,
+    Dict
 )
 
-VersionString = Literal['v1', 'v2']
+Where = FieldEqQuery
+VersionString = Literal['v1', 'v2', 'v3']
 StandardCategoryName = Literal['creatures', 'equipment', 'materials', 'monsters', 'treasure']
 DlcCategoryName = Literal['master_mode']
 BaseEntrySelect = Literal['drops', 'cooking_effect', 'hearts_recovered', 'attack', 'defense']
+EntrySelectsOptions = Dict[StandardCategoryName, Set[BaseEntrySelect]]
+EntrySelects = Set[BaseEntrySelect]
+EntryImage = Response
 
 class EntryData(TypedDict, total=False):
     category: Union[StandardCategoryName, DlcCategoryName]

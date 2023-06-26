@@ -1,11 +1,16 @@
-from rockset import F
-from ..utils import region_query, no_results
+from ..constants import Game, IllegalGame, wrap_res
+from .main import BotwRegions, TotkRegions
 
-def get_region(region_name):
-    data = region_query(F['name'] == region_name.lower())
-    if(data):
-        return {'data': data[0]}
-    return no_results
+def region(**kwargs): 
+    return wrap_res(
+        BotwRegions.get_region,
+        TotkRegions.get_region,
+        **kwargs
+    )
 
-def get_all():
-    return {'data': region_query()}
+def all(**kwargs):
+    return wrap_res(
+        BotwRegions.get_all,
+        TotkRegions.get_all,
+        **kwargs
+    )

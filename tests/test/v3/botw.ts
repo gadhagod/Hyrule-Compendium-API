@@ -1,32 +1,38 @@
+import { 
+    CompendiumTester, 
+    ImageTester, 
+    RegionTester, 
+    Game 
+} from "./util";
 import assert from "assert";
-import { CompendiumTester, ImageTester, RegionTester } from "./util";
 
-let config = {
-    version: 3,
-    serverUrl: process.env.URL ?? "https://botw-compendium.herokuapp.com"
-}
+export default function (serverUrl: string) {
+    const compendium = new CompendiumTester(3, serverUrl, Game.botw);
+    const regions = new RegionTester(3, serverUrl, Game.botw);
 
-const compendium = new CompendiumTester(config.version, config.serverUrl);
-const regions = new RegionTester(config.version, config.serverUrl);
-
-describe("v3", () => {
     describe("compendium", () => {
         describe("standard", () => {
             describe("entries", () => {
                 describe("all standard entries", () => {
-                    it("should have 5 categories", (done) => {
+                    it("should have correct categories", (done) => {
+                        var categories = new Set<String>();
                         compendium.getAllEntries((data) => {
-                            assert.equal(Object.keys(data).length, 5);
+                            for (let entry of data) {
+                                categories.add(entry["category"]);
+                            }
+                            assert.equal(categories.size, 5);
+                            assert(categories.has("creatures"));
+                            assert(categories.has("equipment"));
+                            assert(categories.has("materials"));
+                            assert(categories.has("monsters"));
+                            assert(categories.has("treasure"));
                             done();
                         }, CompendiumTester.fail);
                     });
                     it("should have 389 entries", (done) => {
                         compendium.getAllEntries((data) => {
                             let numOfEntries = 0;
-                            console.log(data.length)
-                            for (let i = 0; i < Object.keys(data).length; i++) {
-                                numOfEntries += data[Object.keys(data)[i]].length;
-                            }
+                            numOfEntries += Object.keys(data).length;
                             assert.equal(numOfEntries, 389);
                             done();
                         }, CompendiumTester.fail);
@@ -249,7 +255,7 @@ describe("v3", () => {
             });
         });
     });
-    
+
     describe("regions", () => {
         let expectedReigonNames = ["hebra", "central", "eldin", "hateno", "ridgeland", "gerudo", "wasteland", "tabantha", "dueling peaks", "lake", "great plateau", "woodland", "akkala", "lanayru", "faron"]
         describe("get all regions", () => {
@@ -274,4 +280,4 @@ describe("v3", () => {
             })
         });
     });
-});
+}
