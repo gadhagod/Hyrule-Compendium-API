@@ -28,8 +28,10 @@ jobs:
           cache: pip
       - name: Install app requirements
         run: pip install -r requirements.txt
-      - name: Start API server
-        run: sh deploy.sh ${{ secrets.RS2_TOKEN }} &
+      - name: Clone v2-src
+        run: git clone https://github.com/gadhagod/Hyrule-Compendium-API -b v2-src v2
+      - name: Start server
+        run: python3 -c "from server import app; app.run()" ${{ secrets.RS2_TOKEN }} &
       - name: Install test dependencies
         run: |
           cd tests
@@ -37,4 +39,4 @@ jobs:
       - name: Execute tests
         run: |
           cd tests
-          env URL="http://127.0.0.1:8000" npx mocha
+          env URL="http://127.0.0.1:5000" npx mocha

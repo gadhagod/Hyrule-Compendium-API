@@ -1,3 +1,3 @@
 set -e
 git clone https://github.com/gadhagod/Hyrule-Compendium-API -b v2-src v2
-gunicorn server:app
+gunicorn server:app $1
