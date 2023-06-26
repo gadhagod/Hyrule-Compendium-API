@@ -43,8 +43,5 @@ To get started, check out the [documentation](http://gadhagod.github.io/Hyrule-C
 ## Support and Suggestions
 If you come across a malfunction or have any suggestions open an [issue](https://github.com/gadhagod/Hyrule-Compendium-API/issues) or a [pull request](https://github.com/gadhagod/Hyrule-Compendium-API/pulls).
 
-## Running locally
-Instructions for running locally can be found [here](local/README.md).
-
 ## Author
 Made with awesomeness by [@gadhagod](https://github.com/gadhagod).
