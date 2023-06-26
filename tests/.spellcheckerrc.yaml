@@ -1,6 +1,0 @@
----
-files:
-- ./docs/*.md
-- ./docs/**/*.md
-dictionaries:
-- "./tests/dictionary.txt"

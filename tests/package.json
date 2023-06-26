@@ -26,7 +26,6 @@
   "dependencies": {
     "mocha": "^8.4.0",
     "request": "^2.88.2",
-    "spellchecker-cli": "^4.8.0",
     "validate-image-type": "^1.1.1"
   },
   "devDependencies": {

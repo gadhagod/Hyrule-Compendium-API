@@ -2,9 +2,9 @@
 
 name: Local API Tests
 
-on: 
+on:
   push:
-    paths: 
+    paths:
       - server.py
       - requirements.txt
       - db/**/*
@@ -16,29 +16,25 @@ on:
 
 jobs:
   main:
-      runs-on: ubuntu-latest
-      strategy:
-        matrix:
-          node-version: [15.x]
-          python-version: ["3.9"]
-      steps:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [15.x]
+    steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-      - uses: BSFishy/pip-action@v1
-        with: 
-          requirements: requirements.txt
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: pip
+      - name: Install app requirements
+        run: pip install -r requirements.txt
       - name: Start API server
+        run: sh deploy.sh ${{ secrets.RS2_TOKEN }} &
+      - name: Install test dependencies
         run: |
-            sh setup.sh
-            python3 -c "from server import app; app.run()" ${{ secrets.RS2_TOKEN }} &
-      - name: Install dependencies
-        run: |
-            cd tests
-            npm i 
-            sudo npm i -g mocha 
-            sudo npm i -g ts-node
-            sudo npm i typescript
+          cd tests
+          npm i
       - name: Execute tests
         run: |
-            cd tests
-            env URL="http://127.0.0.1:5000" mocha -r ts-node/register
+          cd tests
+          env URL="http://127.0.0.1:8000" npx mocha
