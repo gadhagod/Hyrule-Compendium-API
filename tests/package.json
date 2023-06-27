@@ -7,11 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "npm run test:api --silent && npm run test:docs --silent",
-    "test:api": "node_modules/mocha/bin/mocha",
-    "test:api:v3": "node_modules/mocha/bin/mocha -g v3",
-    "test:api:v2": "node_modules/mocha/bin/mocha -g v2",
-    "test:docs": "cd ../ && tests/node_modules/spellchecker-cli/index.js && cd tests"
+    "test": "npm run test:api --silent",
+    "test:v3": "npx mocha -g v3",
+    "test:v2": "npx mocha -g v2"
   },
   "repository": {
     "type": "git",

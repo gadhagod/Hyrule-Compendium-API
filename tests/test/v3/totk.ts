@@ -76,7 +76,7 @@ export default function (serverUrl: string) {
             describe("material entry", () => {
                 it("should have correct fields", (done) => {
                     compendium.getEntry(Math.floor(Math.random() * (328 - 203)) + 203, (data) => {
-                        let expectedAdditionalAttrs = ["hearts_recovered", "cooking_effect"];
+                        let expectedAdditionalAttrs = ["hearts_recovered", "cooking_effect", "fuse_attack_power"];
                         CompendiumTester.assertHasAttrs(
                             data, 
                             expectedAdditionalAttrs
@@ -96,7 +96,7 @@ export default function (serverUrl: string) {
                         CompendiumTester.assertHasNestedAttrs(
                             data, 
                             "properties", 
-                            ["attack", "defense", "effect"]
+                            ["attack", "defense", "effect", "type"]
                         );
                         done();
                     }, CompendiumTester.fail);

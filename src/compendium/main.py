@@ -214,7 +214,7 @@ class TotkCompendium(Compendium):
     _selects = {
         'treasure': {'drops'},
         'monsters': {'drops'},
-        'materials': {'cooking_effect', 'hearts_recovered'},
+        'materials': {'cooking_effect', 'hearts_recovered', 'fuse_attack_power'},
         'equipment': {'properties'},
         'creatures': {
             'edible': {'hearts_recovered', 'cooking_effect', 'edible'},
