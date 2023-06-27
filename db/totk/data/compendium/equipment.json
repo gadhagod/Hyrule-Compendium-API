@@ -260,7 +260,8 @@
             "properties": {
                 "attack": 7,
                 "defense": 0,
-                "effect": ""
+                "effect": "",
+                "type":"one-handed weapon"
             },
             "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/forest_dweller's_sword/image",
             "category": "equipment",
