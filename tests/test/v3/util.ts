@@ -174,7 +174,6 @@ class ApiTester extends Tester {
                 return true;
             }
         })())) {
-            console.log(Object.keys(data).includes(key))
             assert.fail(
                 `${(id ? `${id}: ` : "")}attribute '${key}' doesn't contain '${nestedAttrs.slice(0, -1).join("', '")}', or '${nestedAttrs[nestedAttrs.length - 1]}'`
             );
