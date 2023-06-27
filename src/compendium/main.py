@@ -73,7 +73,7 @@ class BotwCompendium(Compendium):
         'treasure': {'drops'},
         'monsters': {'drops'},
         'materials': {'cooking_effect', 'hearts_recovered'},
-        'equipment': {'attack', 'defense'},
+        'equipment': {'properties'},
         'creatures': {
             'edible': {'hearts_recovered', 'cooking_effect', 'edible'},
             'inedible': {'drops', 'edible'}

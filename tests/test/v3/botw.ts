@@ -77,12 +77,17 @@ export default function (serverUrl: string) {
                 describe("equipment entry", () => {
                     it("should have correct fields", (done) => {
                         compendium.getEntry(Math.floor(Math.random() * (385 - 201)) + 201, (data) => {
-                            let expectedAdditionalAttrs = ["attack", "defense"];
+                            let expectedAdditionalAttrs = ["properties"];
                             let expectedNumOfFields = 7 + expectedAdditionalAttrs.length;
                             CompendiumTester.assertHasAttrs(
                                 data, 
                                 expectedAdditionalAttrs
                             ); 
+                            CompendiumTester.assertHasNestedAttrs(
+                                data,
+                                "properties",
+                                ["attack", "defense"]
+                            )
                             assert.equal(
                                 Object.keys(data).length, 
                                 expectedNumOfFields, 
