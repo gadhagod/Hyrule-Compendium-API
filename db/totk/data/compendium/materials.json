@@ -1,1579 +1,1577 @@
-{
-    "data": [
-        {
-            "id": 203,
-            "name": "apple",
-            "description": "A common fruit eaten by people since ancient times. Eat it fresh, or cook it to increase its effect.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hyrule Field",
-                "Hyrule Ridge"
-            ]
-            
-        },
-        {
-            "id": 204,
-            "name": "golden apple",
-            "description": "A rare, very sweet fruit that seems to have an extra sparkle to it. Sometimes found near normal apples.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 1.5,
-            "cooking_effect": "effect duration +00:20",
-            "common_locations": [
-                "Hyrule Field", 
-                "Hyrule Ridge"
-            ]
-            
-        },
-        {
-            "id": 205,
-            "name": "palm fruit",
-            "description": "Fruit from palm trees that grow near the ocean. It doesn't offer any special effects but will increase your heart recovery when used as an ingredient.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 1.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "East Necluda",
-                "Gerudo Desert"
-            ]
-            
-        },
-        {
-            "id": 206,
-            "name": "wildberry",
-            "description": "A fruit that grows in cold, snowy regions known for its tangy, sweet flavor. It doesn't offer any special effects, but it's a popular cooking ingredient.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "",
-            "common_locations": [
-                "Gerudo Highlands",
-                "Hebra Mountains"
-            ]
-            
-        },
-        {
-            "id": 207,
-            "name": "hylian tomato",
-            "description": "A fruit found widely from cold areas to warm climates. Full of nutrition, and kind of trendy lately. Use it in cooking to recover more hearts.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 1.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "East Necluda",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 208,
-            "name": "hydromelon",
-            "description": "This resilient fruit can flourish even in the heat of the desert. The hydrating liquid inside provides a cooling effect that, when cooked, increases your heat resistance.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "heat resistance",
-            "common_locations": [
-                "Gerudo Desert"
-            ]
-            
-        },
-        {
-            "id": 209,
-            "name": "spicy pepper",
-            "description": "This pepper is exploding with spice. Cook with it to create dishes that will raise your body temperature and help you withstand the cold.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "cold resistance",
-            "common_locations": [
-                "Hyrule Field",
-                "Gerudo Desert"
-            ]
-            
-        },
-        {
-            "id": 210,
-            "name": "voltfruit",
-            "description": "Cacti found in the Gerudo Desert bear this sweet fruit. It's naturally insulated, so when cooked into a dish, it provides resistance against electricity.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "sock resistance",
-            "common_locations": [
-                "Gerudo Desert"
-            ]
-            
-        },
-        {
-            "id": 211,
-            "name": "fleet-lotus seeds",
-            "description": "The plant that bears these seeds grows near deep water. The roots draw nutrients from the water, which boosts your movement speed when the seeds are cooked into a dish.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "speed up",
-            "common_locations": [
-                "Lanayru Great Spring"
-            ]
-            
-        },
-        {
-            "id": 212,
-            "name": "mighty bananas",
-            "description": "This fruit grows mainly in tropical forests of the Faron region. When it's used as an ingredient, the resulting dish will temporarily increase your attack power.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "attack up",
-            "common_locations": [
-                "Lake Floria",
-                "Eventide Island"
-            ]
-            
-        },
-        {
-            "id": 213,
-            "name": "fire fruit",
-            "description": "A fruit that generates heat when struck. Cooked correctly, its heating properties improve blood flow and stimulate muscles to raise attack power in high temperatures.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.25,
-            "cooking_effect": "hot weather attack",
-            "common_locations": [
-                "Hyrule Field",
-                "Eldin Canyon"
-            ]
-            
-        },
-        {
-            "id": 214,
-            "name": "ice fruit",
-            "description": "A fruit that generates cold when struck. Cooked correctly, it gives off an effect that strengthens muscles and increases attack power in cold temperatures.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.25,
-            "cooking_effect": "cold weather attack",
-            "common_locations": [
-                "Gerudo Highlands",
-                "Hebra Mountains"
-            ]
-            
-        },
-        {
-            "id": 215,
-            "name": "splash fruit",
-            "description": "A fruit that contains pressurized water. Cooking it brings out its ability to enhance swim speed when ingested.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.25,
-            "cooking_effect": "swim speed up",
-            "common_locations": [
-                "Lanayru Great Spring",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 216,
-            "name": "shock fruit",
-            "description": "When cooked correctly, this shockingly tasty fruit stimulates the consumer's muscles and grants increased attack power during thunderstorms.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.25,
-            "cooking_effect": "stormy weather attack",
-            "common_locations": [
-                "East Necluda",
-                "Gerudo Desert"
-            ]
-            
-        },
-        {
-            "id": 217,
-            "name": "dazzlefruit",
-            "description": "A fruit charged with powerful light. Break it to unleash dazzling sparkles that blind any monsters nearby.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.25,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hyrule Field",
-                "Gerudo Highlands"
-            ]
-            
-        },
-        {
-            "id": 218,
-            "name": "hylian shroom",
-            "description": "A common mushroom found near trees around Hyrule. Eat it to restore half a heart.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hyrule Field",
-                "Hyrule Ridge"
-            ]
-            
-        },
-        {
-            "id": 219,
-            "name": "skyshroom",
-            "description": "A common mushroom that grows near trees on sky islands. Eat it to restore health.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.25,
-            "cooking_effect": "",
-            "common_locations": [
-                "Great Sky Island",
-                "Thunderhead Isles"
-            ]
-            
-        },
-        {
-            "id": 220,
-            "name": "endura shroom",
-            "description": "A rare yellowish-orange mushroom. Cook it before eating to temporarily increase your stamina limit.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 1.0,
-            "cooking_effect": "extra stamina",
-            "common_locations": [
-                "North Tabantha Sky Archipelago",
-                "North Necluda Sky Archipelago"
-            ]
-            
-        },
-        {
-            "id": 221,
-            "name": "stamella shroom",
-            "description": "A nutritious mushroom chock-full of natural energy. Cook it to release its stamina-restoration properties.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "stamina recovery",
-            "common_locations": [
-                "Lanayru Great Spring",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 222,
-            "name": "hearty truffle",
-            "description": "This rare mushroom has a rich scent. It'll restore all your hearts and temporarily increase your maximum hearts when used in cooking.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 2.0,
-            "cooking_effect": "extra hearts",
-            "common_locations": [
-                "Hyrule Field",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 223,
-            "name": "big hearty truffle",
-            "description": "Years of going unpicked have allowed this hearty truffle to grow quite large. When cooked into a dish, it'll restore all hearts and temporarily increase your maximum hearts.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 3.0,
-            "cooking_effect": "extra hearts",
-            "common_locations": [
-                "East Necluda",
-                "Gerudo Desert"
-            ]
-            
-        },
-        {
-            "id": 224,
-            "name": "chillshroom",
-            "description": "Often found at the base of pine trees in cold climates, these mushrooms are cool to the touch and can be used to cook dishes that allow you to stay cool even in arid regions.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "heat resistance",
-            "common_locations": [
-                "Gerudo Highlands",
-                "Hebra Mountains"
-            ]
-            
-        },
-        {
-            "id": 225,
-            "name": "sunshroom",
-            "description": "A bright-red mushroom that grows in hot climates. Imbued with the power of heat, it can be used to cook dishes that will allow you to endure the bitter cold.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "cold resistance",
-            "common_locations": [
-                "Eldin Canyon",
-                "Gerudo Highlands"
-            ]
-            
-        },
-        {
-            "id": 226,
-            "name": "zapshroom",
-            "description": "This mushroom grows wild in the Gerudo region. The cap is naturally insulated, so when used in cooking, it will offer protection against electricity.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "shock resistance",
-            "common_locations": [
-                "Gerudo Desert",
-                "Lanayru Wetlands"
-            ]
-            
-        },
-        {
-            "id": 227,
-            "name": "rushroom",
-            "description": "A mushroom that can grow almost anywhere but prefers ceilings and sheer cliffs. Cook it before eating to temporarily increase your movement speed.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "speed up",
-            "common_locations": [
-                "Gerudo Highlands",
-                "Tabantha Frontier"
-            ]
-            
-        },
-        {
-            "id": 228,
-            "name": "razorshroom",
-            "description": "This mushroom is known for the natural slice in its cap. Eating it fosters your competitive spirit. Use it when cooking to prepare a dish that will increase your strength.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "attack up",
-            "common_locations": [
-                "Great Hyrule Forest",
-                "Tabantha Frontier"
-            ]
-            
-        },
-        {
-            "id": 229,
-            "name": "ironshroom",
-            "description": "The cap of this mushroom is very hard. Use it when cooking to prepare a dish that increases your defense.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "defense up",
-            "common_locations": [
-                "East Necluda",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 230,
-            "name": "silent shroom",
-            "description": "A strange mushroom that glows softly in the forest at night. Cooking it into a dish unlocks the nutrients in its cap, resulting in a meal that will allow you to move stealthily.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "stealth up",
-            "common_locations": [
-                "Akkala Highlands",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 231,
-            "name": "brightcap",
-            "description": "A mushroom that grows in caves and contains luminescent enzymes. Cook it into a dish to give a glowing effect to anyone who eats it.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "glow",
-            "common_locations": [
-                "Hyrule Caves"
-            ]
-            
-        },
-        {
-            "id": 232,
-            "name": "puffshroom",
-            "description": "A mushroom that spreads a cloud of fine spores when a stimulus is applied. The bitter powder makes them inedible.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "The Depths"
-            ]
-            
-        },
-        {
-            "id": 233,
-            "name": "hyrule herb",
-            "description": "This healthy herb has not changed since ancient times. Cook it before eating to increase the number of hearts it restores.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 1.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hyrule Field",
-                "Hyrule Ridge"
-            ]
-            
-        },
-        {
-            "id": 234,
-            "name": "stambulb",
-            "description": "A wild plant with bulging roots often found in cooler climates. It contains nutrients that increase endurance. Cook it to restore stamina.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "stamina recovery",
-            "common_locations": [
-                "Great Sky Island",
-                "Thunderhead Isles"
-            ]
-            
-        },
-        {
-            "id": 235,
-            "name": "hearty radish",
-            "description": "A rare radish that grows best in sunny plains. Cook it before eating to restore all your hearts and temporarily increase your maximum hearts.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 2.5,
-            "cooking_effect": "extra hearts",
-            "common_locations": [
-                "Lanayru Sky Archipelago",
-                "South Lanayru Sky Archipelago"
-            ]
-            
-        },
-        {
-            "id": 236,
-            "name": "big hearty radish",
-            "description": "This hearty radish is much larger than the average radish. When cooked into a dish, it restores all your hearts and temporarily increases your maximum hearts.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 4.0,
-            "cooking_effect": "extra hearts",
-            "common_locations": [
-                "Thunderhead Isles",
-                "North Necluda Sky Archipelago"
-            ]
-            
-        },
-        {
-            "id": 237,
-            "name": "cool safflina",
-            "description": "This medicinal plant grows in high elevations, such as mountains in the Hebra or Gerudo regions. When cooked into a dish, it will temporarily increase your heat resistance.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "heat resistance",
-            "common_locations": [
-                "Hebra Mountains",
-                "Tabantha Frontier"
-            ]
-            
-        },
-        {
-            "id": 238,
-            "name": "warm safflina",
-            "description": "This medicinal plant grows in hot regions, such as the Gerudo Desert. It's warm to the touch and increases your cold resistance when cooked into a dish.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "cold resistance",
-            "common_locations": [
-                "Eldin Canyon",
-                "Gerudo Desert"
-            ]
-            
-        },
-        {
-            "id": 239,
-            "name": "electric safflina",
-            "description": "This medicinal plant grows abundantly in the Gerudo Desert. Its peculiar fibers conduct electricity, which will increase your electricity resistance when cooked into a dish.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "shock resistance",
-            "common_locations": [
-                "Gerudo Desert",
-                "Hyrule Ridge"
-            ]
-            
-        },
-        {
-            "id": 240,
-            "name": "swift carrot",
-            "description": "This carrot is cultivated extensively in villages. It strengthens the legs and hips when cooked into a dish, which helps increase your movement speed.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "speed up",
-            "common_locations": [
-                "Kakariko Village",
-                "Hateno Village"
-            ]
-            
-        },
-        {
-            "id": 241,
-            "name": "endura carrot",
-            "description": "Highly valued as a medicinal plant, this carrot contains large amounts of nourishing energy. When cooked into a dish, it boosts your stamina beyond its maximum limit.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 2.0,
-            "cooking_effect": "extra stamina",
-            "common_locations": [
-                "East Necluda",
-                "Hyrule Ridge"
-            ]
-            
-        },
-        {
-            "id": 242,
-            "name": "fortified pumpkin",
-            "description": "An extremely tough pumpkin raised for food. When cooked, that toughness manifests itself by considerably upping defense.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "defense up",
-            "common_locations": [
-                "Kakariko Village",
-                "Hateno Village"
-            ]
-            
-        },
-        {
-            "id": 243,
-            "name": "sun pumpkin",
-            "description": "A new variety of pumpkin that soaks up the sunshine in Hateno Village. Baked into a dish, it can help heal the effects of exposure to gloom.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.5,
-            "cooking_effect": "gloom recovery",
-            "common_locations": [
-                "Hateno Village"
-            ]
-            
-        },
-        {
-            "id": 244,
-            "name": "swift violet",
-            "description": "This vitality-rich flower blooms mainly on cliffsides. When cooked into a dish, the nourishing compounds increase your movement speed.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "speed up",
-            "common_locations": [
-                "Hebra Mountains",
-                "Tabantha Frontier"
-            ]
-            
-        },
-        {
-            "id": 245,
-            "name": "mighty thistle",
-            "description": "This medicinal plant is known for its sharp thorns and for the fruit it bears. The fruit contains a compound that increases attack power when cooked into a dish.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "attack up",
-            "common_locations": [
-                "East Necluda",
-                "Faron Grasslands"
-            ]
-            
-        },
-        {
-            "id": 246,
-            "name": "armoranth",
-            "description": "This tough medicinal plant cannot be broken, but it can be cooked. Its durable yet flexible fibers raise your defense when cooked into a dish.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "defense up",
-            "common_locations": [
-                "Hyrule Ridge",
-                "Akkala Highlands"
-            ]
-            
-        },
-        {
-            "id": 247,
-            "name": "blue nightshade",
-            "description": "A plant that grows in quieter areas of Hyrule. At night, it gives off a soft glow. Cook with it to increase your stealth.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "stealth up",
-            "common_locations": [
-                "Great Hyrule Forest",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 248,
-            "name": "sundelion",
-            "description": "A wild plant that grows in the sun at high altitudes. Soaked in sunlight, its petals can restore health depleted by gloom when used in cooking.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "gloom recovery",
-            "common_locations": [
-                "Hyrule Field",
-                "Eldin Canyon"
-            ]
-            
-        },
-        {
-            "id": 249,
-            "name": "brightbloom seed",
-            "description": "A seed that's often found in caves or wells. When struck, it will take root and bloom, giving off faint light from a small flower.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hyrule Caves"
-            ]
-            
-        },
-        {
-            "id": 250,
-            "name": "giant brightbloom seed",
-            "description": "A seed that's found underground. When struck, it will take root and bloom, radiating a large amount of light from a big flower.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hyrule Caves"
-            ]
-            
-        },
-        {
-            "id": 251,
-            "name": "muddle bud",
-            "description": "A wildflower with a powerful odor that can disorient and confuse, making it difficult to tell friend from foe.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "The Depths"
-            ]
-            
-        },
-        {
-            "id": 252,
-            "name": "bomb flower",
-            "description": "A dangerous flower that contains explosive elements. Does not mix well with fire or electricity, unless the goal is to blow things up.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hyrule Caves",
-                "The Depths"
-            ]
-            
-        },
-        {
-            "id": 253,
-            "name": "silent princess",
-            "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. They were once feared to have gone extinct, but it's not uncommon to spot them growing in the wild.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "stealth up",
-            "common_locations": [
-                "Akkala Highlands",
-                "Hyrule Ridge"
-            ]
-            
-        },
-        {
-            "id": 254,
-            "name": "courser bee honey",
-            "description": "Honey straight from the hive is chock-full of nutrients. Cooking this into a meal unlocks the potential of these nutrients and provides a stamina-recovery effect.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 2.0,
-            "cooking_effect": "stamina recovery",
-            "common_locations": [
-                "Hyrule Field",
-                "East Necluda"
-            ]
-            
-        },
-        {
-            "id": 255,
-            "name": "hylian pine cone",
-            "description": "Grows on trees found all over Hyrule. It contains oil and burns well. Throw it into a fire to increase the intensity of the flame.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hebra Mountains",
-                "Lanayru Great Spring"
-            ]
-            
-        },
-        {
-            "id": 256,
-            "name": "korok frond",
-            "description": "A mysterious leaf that looks like it might be hiding something behind it. It has some medicinal value. Attach it to a stick and it can be used as a fan.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.25,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hyrule Field",
-                "Lanayru Great Spring"
-            ]
-            
-        },
-        {
-            "id": 257,
-            "name": "chuchu jelly",
-            "description": "A gelatinous substance that came from a Chuchu. It's unusable in this state, but applying a bit of elemental stimulation will change its form.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "East Necluda"
-            ]
-            
-        },
-        {
-            "id": 258,
-            "name": "red chuchu jelly",
-            "description": "A jiggly substance that normally comes from a Fire Chuchu. It consistently gives off heat. If struck, it will explode in a ball of flame.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Eldin Canyon",
-                "Eldin Mountains"
-            ]
-            
-        },
-        {
-            "id": 259,
-            "name": "white chuchu jelly",
-            "description": "A jiggly substance that came from an Ice Chuchu. It's cool to the touch, and squeezing it seems to relieve stress. If struck, it will explode in a cold mist.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Hebra Mountains",
-                "Gerudo Highlands"
-            ]
-            
-        },
-        {
-            "id": 260,
-            "name": "yellow chuchu jelly",
-            "description": "A jiggly substance that came from an Electric Chuchu. Electricity pulses through its gelatinous mass. If struck, it will explode in a burst of electric current.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "West Necluda",
-                "Gerudo Desert"
-            ]
-            
-        },
-        {
-            "id": 261,
-            "name": "keese eyeball",
-            "description": "These mysterious orbs scan their surroundings. Take advantage of their glaring awareness, and attach one to an arrow to grant a homing quality to the arrow.",
-            "fuse_attack_power": 1,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Hyrule Field",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 262,
-            "name": "fire keese eyeball",
-            "description": "Fire Keese eyeballs are imbued with heat and are useful in making elixirs. Attach one to an arrow to grant a homing quality to the arrow.",
-            "fuse_attack_power": 8,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Eldin Mountains",
-                "Eldin Mountains Depths"
-            ]
-            
-        },
-        {
-            "id": 263,
-            "name": "ice keese eyeball",
-            "description": "Ice Keese eyeballs are imbued with freezing power and are useful in making elixirs. Attach one to an arrow to grant a homing quality to the arrow.",
-            "fuse_attack_power": 4,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Hebra Mountains",
-                "Mount Lanayru"
-            ]
-            
-        },
-        {
-            "id": 264,
-            "name": "electric keese eyeball",
-            "description": "Electric Keese eyeballs are imbued with electric power and are useful in making elixirs. Attach one to an arrow to grant a homing quality to the arrow.",
-            "fuse_attack_power": 6,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Gerudo Desert",
-                "Gerudo Desert Depths"
-            ]
-            
-        },
-        {
-            "id": 265,
-            "name": "like like stone",
-            "description": "A strange round stone from a Like Like, made of crystallized inner fluids. It's a good ingredient for elixirs.",
-            "fuse_attack_power": 4,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Hyrule Field",
-                "Eldin Mountains"
-            ]
-            
-        },
-        {
-            "id": 266,
-            "name": "fire like stone",
-            "description": "A stomach stone that persists even at high temperatures. It retains heat even outside the body of the creature that contained it, which makes it a useful elixir ingredient.",
-            "fuse_attack_power": 12,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Eldin Mountains",
-                "Eldin Mountains Depths"
-            ]
-            
-        },
-        {
-            "id": 267,
-            "name": "ice like stone",
-            "description": "A stomach stone kept cold inside a very low-temperature body. It stays cold, even outside the body of the creature that contained it. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 12,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Mount Lanayru",
-                "Gerudo Highlands"
-            ]
-            
-        },
-        {
-            "id": 268,
-            "name": "shock like stone",
-            "description": "A stomach stone exposed to high voltage inside the body of a Shock Like. It maintains some charge even outside the creature. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 12,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Hyrule Field",
-                "East Necluda"
-            ]
-            
-        },
-        {
-            "id": 269,
-            "name": "aerocuda eyeball",
-            "description": "This eyeball is constantly trying to focus on its targets. Cook it with a critter to make an elixir, or attach it to an arrow to grant a homing quality to the arrow.",
-            "fuse_attack_power": 4,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Greater Hyrule"
-            ]
-            
-        },
-        {
-            "id": 270,
-            "name": "gibdo bone",
-            "description": "A creepy bone with multiple sharp tips. Attach it to a weapon to greatly increase its attack power. It tends to break easily due to its odd shape.",
-            "fuse_attack_power": 40,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Gerudo Desert",
-                "Gerudo Desert Depths"
-            ]
-            
-        },
-        {
-            "id": 271,
-            "name": "bokoblin horn",
-            "description": "A sharp horn with multiple barbs. Attach it to a weapon to increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 4,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "Central Hyrule Depths"
-            ]
-            
-        },
-        {
-            "id": 272,
-            "name": "blue bokoblin horn",
-            "description": "A two-pronged horn with sharp edges and tips. Attach it to a weapon to moderately increase its attack power, or brew it into an elixir.",
-            "fuse_attack_power": 7,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "Eldin Canyon"
-            ]
-            
-        },
-        {
-            "id": 273,
-            "name": "black bokoblin horn",
-            "description": "A vicious, three-pronged horn. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 17,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Gerudo Desert",
-                "Hyrule Ridge Depths"
-            ]
-            
-        },
-        {
-            "id": 274,
-            "name": "silver bokoblin horn",
-            "description": "A large, blade-like horn with a unique flourish on the tip. It's sharper than it looks. Attach it to a weapon to vastly increase attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 31,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": null
-            
-        },
-        {
-            "id": 275,
-            "name": "boss bokoblin horn",
-            "description": "The band on this sword-shaped horn shows that it belonged to a leader. Attach it to a weapon to increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 10,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "Hyrule Ridge"
-            ]
-            
-        },
-        {
-            "id": 276,
-            "name": "blue boss bokoblin horn",
-            "description": "An axe-shaped horn with a band to identify it as belonging to a leader. Attach it to a weapon to moderately increase attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 16,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "Lanayru Great Spring"
-            ]
-            
-        },
-        {
-            "id": 277,
-            "name": "black boss bokoblin horn",
-            "description": "A double-edged, axe-shaped horn with two leader bands. Attach it to a weapon to greatly increase attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 27,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "East Necluda"
-            ]
-            
-        },
-        {
-            "id": 278,
-            "name": "silver boss bokoblin horn",
-            "description": "A circular, serrated horn. The neatly tied strap contains arcane power. Attach it to a weapon to vastly increase attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 37,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": null
-            
-        },
-        {
-            "id": 279,
-            "name": "moblin horn",
-            "description": "A hard horn that resulted from a skull mutation. Attach it to a weapon to increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 6,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "Central Hyrule Depths"
-            ]
-            
-        },
-        {
-            "id": 280,
-            "name": "blue moblin horn",
-            "description": "A large, curved horn with two extremely hard tips. Attach it to a weapon to moderately increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 13,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "Eldin Canyon"
-            ]
-            
-        },
-        {
-            "id": 281,
-            "name": "black moblin horn",
-            "description": "A hefty horn with multiple tough barbs. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 24,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Gerudo Highlands",
-                "Deep Akkala"
-            ]
-            
-        },
-        {
-            "id": 282,
-            "name": "silver moblin horn",
-            "description": "A nasty-looking, rock-hard horn. Attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 33,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": null
-            
-        },
-        {
-            "id": 283,
-            "name": "lizalfos horn",
-            "description": "A thin, sharp, knife-like horn. Attach it to a weapon to increase its attack power, or cook it with a critter to brew an elixir.",
-            "fuse_attack_power": 8,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Lanayru Wetlands",
-                "Lanayru Great Spring"
-            ]
-            
-        },
-        {
-            "id": 284,
-            "name": "blue lizalfos horn",
-            "description": "A very long, sword-like horn. Attach it to a weapon to moderately increase its attack power, or cook it with a critter to brew an elixir.",
-            "fuse_attack_power": 16,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Mount Lanayru",
-                "Akkala Highlands Depths"
-            ]
-            
-        },
-        {
-            "id": 285,
-            "name": "black lizalfos horn",
-            "description": "A blade-like, serrated horn. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to brew an elixir.",
-            "fuse_attack_power": 26,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Gerudo Desert",
-                "East Necluda"
-            ]
-            
-        },
-        {
-            "id": 286,
-            "name": "fire-breath lizalfos horn",
-            "description": "A horn that glows red with the power of fire. Cook it with a critter to make an elixir. The right combination could draw out the blazing power contained within.",
-            "fuse_attack_power": 15,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Eldin Canyon",
-                "Gerudo Highlands"
-            ]
-            
-        },
-        {
-            "id": 287,
-            "name": "ice-breath lizalfos horn",
-            "description": "The freezing power embedded in this horn's crystal tip can be used to your advantage if you know how. Otherwise, cook it with a critter to make an elixir.",
-            "fuse_attack_power": 15,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hebra Mountains",
-                "Gerudo Highlands"
-            ]
-            
-        },
-        {
-            "id": 288,
-            "name": "electric lizalfos horn",
-            "description": "A horn charged with as much electricity as a bolt of lightning. Cook it with a critter to make an elixir. It will discharge electricity when stimulated.",
-            "fuse_attack_power": 15,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Gerudo Desert",
-                "Faron"
-            ]
-            
-        },
-        {
-            "id": 289,
-            "name": "silver lizalfos horn",
-            "description": "A sickle-shaped horn that looks like it could slice anything it touches. Attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 34,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": null
-            
-        },
-        {
-            "id": 290,
-            "name": "horriblin horn",
-            "description": "An elongated hammer-shaped horn with a hard, flat front. Attach to a weapon to increase attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 5,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Caves",
-                "Eldin Canyon Depths"
-            ]
-            
-        },
-        {
-            "id": 291,
-            "name": "blue horriblin horn",
-            "description": "A hammer-shaped horn with spiky bumps. Attach it to a weapon to moderately increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 11,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Death Mountain",
-                "Death Mountain Depths"
-            ]
-            
-        },
-        {
-            "id": 292,
-            "name": "black horriblin horn",
-            "description": "This large, heavy horn has slowly grown into its present hammer-like shape. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 22,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Caves",
-                "Gerudo Desert Depths"
-            ]
-            
-        },
-        {
-            "id": 293,
-            "name": "silver horriblin horn",
-            "description": "A curved horn with an extremely hard tip. Attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 5,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": null
-            
-        },
-        {
-            "id": 294,
-            "name": "lynel saber horn",
-            "description": "This blade-like Lynel horn is extremely sharp. It increases a weapon's attack power when attached. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 22,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "Central Hyrule Depths"
-            ]
-            
-        },
-        {
-            "id": 295,
-            "name": "lynel mace horn",
-            "description": "A hard, curved Lynel horn. It isn't fully grown, but it can be attached to a weapon to increase its attack power, or cooked with a critter to make an elixir.",
-            "fuse_attack_power": 18,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "Central Hyrule Depths"
-            ]
-            
-        },
-        {
-            "id": 296,
-            "name": "blue-maned lynel saber horn",
-            "description": "The sharp, blade-like horn of a Blue-Maned Lynel. Attach it to a weapon to moderately increase its attack power. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 33,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Lanayru Great Spring",
-                "Eldin Canyon Depths"
-            ]
-            
-        },
-        {
-            "id": 297,
-            "name": "blue-maned lynel mace horn",
-            "description": "Its ends are split apart, but this horn from a Blue-Maned Lynel is solid. Attach it to a weapon to moderately increase its attack power, or brew it into an elixir.",
-            "fuse_attack_power": 29,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Lanayru Great Spring",
-                "Eldin Canyon Depths"
-            ]
-            
-        },
-        {
-            "id": 298,
-            "name": "white-maned lynel saber horn",
-            "description": "This blade-like horn of a White-Maned Lynel can slash through just about anything. Attach it to a weapon to greatly increase attack power. Cook with a critter to make an elixir.",
-            "fuse_attack_power": 44,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Faron Grasslands Depths",
-                "Central Hyrule Depths"
-            ]
-            
-        },
-        {
-            "id": 299,
-            "name": "white-maned lynel mace horn",
-            "description": "The claw-like ends of this White-Maned Lynel horn are all extremely hard. Attach to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 40,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Faron Grasslands Depths",
-                "Central Hyrule Depths"
-            ]
-            
-        },
-        {
-            "id": 300,
-            "name": "silver lynel saber horn",
-            "description": "This piercing horn is sharpened to a point for maximum poking. Attach it to a weapon to vastly increase its attack power. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 55,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": null
-            
-        },
-        {
-            "id": 301,
-            "name": "silver lynel mace horn",
-            "description": "This wickedly barbed Silver Lynel horn is as hard as a diamond. Attach to a weapon to vastly increase its attack power. It's also a precious elixir ingredient.",
-            "fuse_attack_power": 51,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": null
-            
-        },
-        {
-            "id": 302,
-            "name": "soldier construct horn",
-            "description": "A blade-like horn from a Soldier Construct. It's very sharp, so handle with care.",
-            "fuse_attack_power": 3,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Great Sky Island",
-                "North Gerudo Sky Archipelago"
-            ]
-            
-        },
-        {
-            "id": 303,
-            "name": "soldier construct ii horn",
-            "description": "A sharp, hooked horn dropped from a Soldier Construct II. It's well suited for slicing through small branches and plants. Attach it to a weapon to moderately increase attack power.",
-            "fuse_attack_power": 8,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Hebra Mountains",
-                "Rising Island Chain"
-            ]
-            
-        },
-        {
-            "id": 304,
-            "name": "soldier construct iii horn",
-            "description": "A serrated horn from a Soldier Construct III. Attach it to a weapon to greatly increase attack power. It can cut through plants and large trees.",
-            "fuse_attack_power": 18,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Lanayru Sky Archipelago",
-                "Thunderhead Isles"
-            ]
-            
-        },
-        {
-            "id": 305,
-            "name": "soldier construct iv horn",
-            "description": "A horn embedded with a sharp disk. The disk spins mysteriously and can slice through almost anything. Attach the horn to a weapon and vastly increase its attack power.",
-            "fuse_attack_power": 24,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": null
-            
-        },
-        {
-            "id": 306,
-            "name": "captain construct i horn",
-            "description": "This wavy, double-edged, blade-like horn is formidable when it comes to slashing. Attach it to a weapon to increase attack power.",
-            "fuse_attack_power": 5,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Great Sky Island",
-                "Rising Island Chain"
-            ]
-            
-        },
-        {
-            "id": 307,
-            "name": "captain construct ii horn",
-            "description": "A sharp, blade-like horn with a split tip that easily slices anything it touches. Attach it to a weapon to moderately increase attack power.",
-            "fuse_attack_power": 15,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Lanayru Sky Archipelago",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 308,
-            "name": "captain construct iii horn",
-            "description": "A sharp, blade-like horn with a complex tip. It looks almost decorative. Attach it to a weapon to greatly increase attack power.",
-            "fuse_attack_power": 25,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": [
-                "Thyphlo Ruins",
-                "Lanayru Sky Archipelago"
-            ]
-        },
-        {
-            "id": 309,
-            "name": "captain construct iv horn",
-            "description": "A mean-looking, branching, blade-like horn. Its edges and tips are extremely sharp. Attach it to a weapon to vastly increase its attack power.",
-            "fuse_attack_power": 35,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "",
-            "common_locations": null
-            
-        },
-        {
-            "id": 310,
-            "name": "hinox horn",
-            "description": "A horn wrapped in spiked wood. Attach it to a weapon to increase attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 12,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Ridge",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 311,
-            "name": "blue hinox horn",
-            "description": "This mean-looking horn is wrapped in hard chains. Attach it to a weapon to moderately increase attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 19,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "East Necluda Depths",
-                "West Necluda"
-            ]
-            
-        },
-        {
-            "id": 312,
-            "name": "black hinox horn",
-            "description": "A horn wrapped in dangerous debris. It's easy to work with and greatly increases the attack power of a weapon when attached. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 27,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "East Necluda",
-                "West Necluda Depths"
-            ]
-            
-        },
-        {
-            "id": 313,
-            "name": "stalnox horn",
-            "description": "The impaled skulls should serve as a warning. But if you do obtain one, attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 29,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "East Necluda",
-                "Central Hyrule Depths"
-            ]
-            
-        },
-        {
-            "id": 314,
-            "name": "molduga jaw",
-            "description": "A hard jawbone. Its shape allows a Molduga some maneuverability in the sand. Attach it to a weapon to greatly increase its attack power. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 32,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": [
-                "Gerudo Desert"
-            ]
-            
-        },
-        {
-            "id": 315,
-            "name": "gleeok flame horn",
-            "description": "A crown-like, fire-imbued horn of a Gleeok. Attach it to a weapon to vastly increase its attack power. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 30,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Eldin Canyon",
-                "Lake Hylia"
-            ]
-            
-        },
-        {
-            "id": 316,
-            "name": "gleeok frost horn",
-            "description": "A crown-like, frost-imbued horn of a Gleeok. Attach it to a weapon to vastly increase its attack power. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 30,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Gerudo Highlands",
-                "Hebra Mountains"
-            ]
-            
-        },
-        {
-            "id": 317,
-            "name": "gleeok thunder horn",
-            "description": "A crown-like, lightning-imbued horn of a Gleeok. Attach it to a weapon to vastly increase its attack power. Cook it with a critter to make an elixir.",
-            "fuse_attack_power": 30,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hyrule Field",
-                "Faron Grasslands"
-            ]
-            
-        },
-        {
-            "id": 318,
-            "name": "frox fang",
-            "description": "A giant, ore-crunching Frox fang. Attach it to a weapon to moderately increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 14,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Gerudo Highlands Depths",
-                "Central Hyrule Depths"
-            ]
-            
-        },
-        {
-            "id": 319,
-            "name": "obsidian frox fang",
-            "description": "A giant fang for excavating and crushing ores. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 24,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Gerudo Desert Depths",
-                "Hyrule Ridge Depths"
-            ]
-            
-        },
-        {
-            "id": 320,
-            "name": "blue-white frox fang",
-            "description": "A giant fang that can easily dig through solid bedrock. Attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
-            "fuse_attack_power": 35,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +00:40",
-            "common_locations": [
-                "Hebra Mountains Depths",
-                "Tabantha Frontier Depths"
-            ]
-            
-        },
-        {
-            "id": 321,
-            "name": "dinraal's horn",
-            "description": "A sharp horn of the red spirit, Dinraal. It is said to be the crystallized power of fire itself. Attach the blade-shaped horn to a weapon to vastly increase attack power.",
-            "fuse_attack_power": 26,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +30:00",
-            "common_locations": null
-            
-        },
-        {
-            "id": 322,
-            "name": "shard of dinraal's spike",
-            "description": "An incredibly hard stone mined from a spike on Dinraal's back. It is very destructive when fused to a weapon, and it also imbues that weapon with the power of flame.",
-            "fuse_attack_power": 16,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": null
-            
-        },
-        {
-            "id": 323,
-            "name": "naydra's horn",
-            "description": "A sharp horn of the blue spirit, Naydra. It is said to be the crystallized power of ice itself. Attach the blade-shaped horn to a weapon to vastly increase attack power.",
-            "fuse_attack_power": 26,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +30:00",
-            "common_locations": null
-            
-        },
-        {
-            "id": 324,
-            "name": "shard of naydra's spike",
-            "description": "An incredibly hard stone mined from a spike on Naydra's back. It is very destructive when fused to a weapon, and it also imbues that weapon with the power of ice.",
-            "fuse_attack_power": 16,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": null
-            
-        },
-        {
-            "id": 325,
-            "name": "farosh's horn",
-            "description": "A sharp horn of the golden spirit, Farosh. It is said to be the crystallized power of electricity itself. Attach the blade-shaped horn to a weapon to vastly increase attack power.",
-            "fuse_attack_power": 26,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +30:00",
-            "common_locations": null
-            
-        },
-        {
-            "id": 326,
-            "name": "shard of farosh's spike",
-            "description": "An incredibly hard stone mined from a spike on Farosh's back. It is very destructive when fused to a weapon, and it also imbues that weapon with the power to shock.",
-            "fuse_attack_power": 16,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": null
-            
-        },
-        {
-            "id": 327,
-            "name": "light dragon's horn",
-            "description": "A horn chipped off the Light Dragon. Its gentle glow has a calming effect, and it has a mysterious healing power when attached to a weapon.",
-            "fuse_attack_power": 20,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +30:00",
-            "common_locations": null
-            
-        },
-        {
-            "id": 328,
-            "name": "shard of light dragon's spike",
-            "description": "An incredibly hard stone mined from a spike on the Light Dragon's back. It is very destructive when fused to a weapon, and it also imbues that weapon with healing power.",
-            "fuse_attack_power": 12,
-            "hearts_recovered": 0.0,
-            "cooking_effect": "effect duration +01:20",
-            "common_locations": null
-            
-        }
-    ]
-}
+[
+    {
+        "id": 203,
+        "name": "apple",
+        "description": "A common fruit eaten by people since ancient times. Eat it fresh, or cook it to increase its effect.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hyrule Field",
+            "Hyrule Ridge"
+        ]
+        
+    },
+    {
+        "id": 204,
+        "name": "golden apple",
+        "description": "A rare, very sweet fruit that seems to have an extra sparkle to it. Sometimes found near normal apples.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 1.5,
+        "cooking_effect": "effect duration +00:20",
+        "common_locations": [
+            "Hyrule Field", 
+            "Hyrule Ridge"
+        ]
+        
+    },
+    {
+        "id": 205,
+        "name": "palm fruit",
+        "description": "Fruit from palm trees that grow near the ocean. It doesn't offer any special effects but will increase your heart recovery when used as an ingredient.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 1.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "East Necluda",
+            "Gerudo Desert"
+        ]
+        
+    },
+    {
+        "id": 206,
+        "name": "wildberry",
+        "description": "A fruit that grows in cold, snowy regions known for its tangy, sweet flavor. It doesn't offer any special effects, but it's a popular cooking ingredient.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "",
+        "common_locations": [
+            "Gerudo Highlands",
+            "Hebra Mountains"
+        ]
+        
+    },
+    {
+        "id": 207,
+        "name": "hylian tomato",
+        "description": "A fruit found widely from cold areas to warm climates. Full of nutrition, and kind of trendy lately. Use it in cooking to recover more hearts.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 1.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "East Necluda",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 208,
+        "name": "hydromelon",
+        "description": "This resilient fruit can flourish even in the heat of the desert. The hydrating liquid inside provides a cooling effect that, when cooked, increases your heat resistance.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "heat resistance",
+        "common_locations": [
+            "Gerudo Desert"
+        ]
+        
+    },
+    {
+        "id": 209,
+        "name": "spicy pepper",
+        "description": "This pepper is exploding with spice. Cook with it to create dishes that will raise your body temperature and help you withstand the cold.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "cold resistance",
+        "common_locations": [
+            "Hyrule Field",
+            "Gerudo Desert"
+        ]
+        
+    },
+    {
+        "id": 210,
+        "name": "voltfruit",
+        "description": "Cacti found in the Gerudo Desert bear this sweet fruit. It's naturally insulated, so when cooked into a dish, it provides resistance against electricity.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "sock resistance",
+        "common_locations": [
+            "Gerudo Desert"
+        ]
+        
+    },
+    {
+        "id": 211,
+        "name": "fleet-lotus seeds",
+        "description": "The plant that bears these seeds grows near deep water. The roots draw nutrients from the water, which boosts your movement speed when the seeds are cooked into a dish.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "speed up",
+        "common_locations": [
+            "Lanayru Great Spring"
+        ]
+        
+    },
+    {
+        "id": 212,
+        "name": "mighty bananas",
+        "description": "This fruit grows mainly in tropical forests of the Faron region. When it's used as an ingredient, the resulting dish will temporarily increase your attack power.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "attack up",
+        "common_locations": [
+            "Lake Floria",
+            "Eventide Island"
+        ]
+        
+    },
+    {
+        "id": 213,
+        "name": "fire fruit",
+        "description": "A fruit that generates heat when struck. Cooked correctly, its heating properties improve blood flow and stimulate muscles to raise attack power in high temperatures.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.25,
+        "cooking_effect": "hot weather attack",
+        "common_locations": [
+            "Hyrule Field",
+            "Eldin Canyon"
+        ]
+        
+    },
+    {
+        "id": 214,
+        "name": "ice fruit",
+        "description": "A fruit that generates cold when struck. Cooked correctly, it gives off an effect that strengthens muscles and increases attack power in cold temperatures.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.25,
+        "cooking_effect": "cold weather attack",
+        "common_locations": [
+            "Gerudo Highlands",
+            "Hebra Mountains"
+        ]
+        
+    },
+    {
+        "id": 215,
+        "name": "splash fruit",
+        "description": "A fruit that contains pressurized water. Cooking it brings out its ability to enhance swim speed when ingested.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.25,
+        "cooking_effect": "swim speed up",
+        "common_locations": [
+            "Lanayru Great Spring",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 216,
+        "name": "shock fruit",
+        "description": "When cooked correctly, this shockingly tasty fruit stimulates the consumer's muscles and grants increased attack power during thunderstorms.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.25,
+        "cooking_effect": "stormy weather attack",
+        "common_locations": [
+            "East Necluda",
+            "Gerudo Desert"
+        ]
+        
+    },
+    {
+        "id": 217,
+        "name": "dazzlefruit",
+        "description": "A fruit charged with powerful light. Break it to unleash dazzling sparkles that blind any monsters nearby.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.25,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hyrule Field",
+            "Gerudo Highlands"
+        ]
+        
+    },
+    {
+        "id": 218,
+        "name": "hylian shroom",
+        "description": "A common mushroom found near trees around Hyrule. Eat it to restore half a heart.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hyrule Field",
+            "Hyrule Ridge"
+        ]
+        
+    },
+    {
+        "id": 219,
+        "name": "skyshroom",
+        "description": "A common mushroom that grows near trees on sky islands. Eat it to restore health.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.25,
+        "cooking_effect": "",
+        "common_locations": [
+            "Great Sky Island",
+            "Thunderhead Isles"
+        ]
+        
+    },
+    {
+        "id": 220,
+        "name": "endura shroom",
+        "description": "A rare yellowish-orange mushroom. Cook it before eating to temporarily increase your stamina limit.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 1.0,
+        "cooking_effect": "extra stamina",
+        "common_locations": [
+            "North Tabantha Sky Archipelago",
+            "North Necluda Sky Archipelago"
+        ]
+        
+    },
+    {
+        "id": 221,
+        "name": "stamella shroom",
+        "description": "A nutritious mushroom chock-full of natural energy. Cook it to release its stamina-restoration properties.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "stamina recovery",
+        "common_locations": [
+            "Lanayru Great Spring",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 222,
+        "name": "hearty truffle",
+        "description": "This rare mushroom has a rich scent. It'll restore all your hearts and temporarily increase your maximum hearts when used in cooking.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 2.0,
+        "cooking_effect": "extra hearts",
+        "common_locations": [
+            "Hyrule Field",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 223,
+        "name": "big hearty truffle",
+        "description": "Years of going unpicked have allowed this hearty truffle to grow quite large. When cooked into a dish, it'll restore all hearts and temporarily increase your maximum hearts.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 3.0,
+        "cooking_effect": "extra hearts",
+        "common_locations": [
+            "East Necluda",
+            "Gerudo Desert"
+        ]
+        
+    },
+    {
+        "id": 224,
+        "name": "chillshroom",
+        "description": "Often found at the base of pine trees in cold climates, these mushrooms are cool to the touch and can be used to cook dishes that allow you to stay cool even in arid regions.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "heat resistance",
+        "common_locations": [
+            "Gerudo Highlands",
+            "Hebra Mountains"
+        ]
+        
+    },
+    {
+        "id": 225,
+        "name": "sunshroom",
+        "description": "A bright-red mushroom that grows in hot climates. Imbued with the power of heat, it can be used to cook dishes that will allow you to endure the bitter cold.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "cold resistance",
+        "common_locations": [
+            "Eldin Canyon",
+            "Gerudo Highlands"
+        ]
+        
+    },
+    {
+        "id": 226,
+        "name": "zapshroom",
+        "description": "This mushroom grows wild in the Gerudo region. The cap is naturally insulated, so when used in cooking, it will offer protection against electricity.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "shock resistance",
+        "common_locations": [
+            "Gerudo Desert",
+            "Lanayru Wetlands"
+        ]
+        
+    },
+    {
+        "id": 227,
+        "name": "rushroom",
+        "description": "A mushroom that can grow almost anywhere but prefers ceilings and sheer cliffs. Cook it before eating to temporarily increase your movement speed.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "speed up",
+        "common_locations": [
+            "Gerudo Highlands",
+            "Tabantha Frontier"
+        ]
+        
+    },
+    {
+        "id": 228,
+        "name": "razorshroom",
+        "description": "This mushroom is known for the natural slice in its cap. Eating it fosters your competitive spirit. Use it when cooking to prepare a dish that will increase your strength.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "attack up",
+        "common_locations": [
+            "Great Hyrule Forest",
+            "Tabantha Frontier"
+        ]
+        
+    },
+    {
+        "id": 229,
+        "name": "ironshroom",
+        "description": "The cap of this mushroom is very hard. Use it when cooking to prepare a dish that increases your defense.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "defense up",
+        "common_locations": [
+            "East Necluda",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 230,
+        "name": "silent shroom",
+        "description": "A strange mushroom that glows softly in the forest at night. Cooking it into a dish unlocks the nutrients in its cap, resulting in a meal that will allow you to move stealthily.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "stealth up",
+        "common_locations": [
+            "Akkala Highlands",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 231,
+        "name": "brightcap",
+        "description": "A mushroom that grows in caves and contains luminescent enzymes. Cook it into a dish to give a glowing effect to anyone who eats it.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "glow",
+        "common_locations": [
+            "Hyrule Caves"
+        ]
+        
+    },
+    {
+        "id": 232,
+        "name": "puffshroom",
+        "description": "A mushroom that spreads a cloud of fine spores when a stimulus is applied. The bitter powder makes them inedible.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "The Depths"
+        ]
+        
+    },
+    {
+        "id": 233,
+        "name": "hyrule herb",
+        "description": "This healthy herb has not changed since ancient times. Cook it before eating to increase the number of hearts it restores.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 1.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hyrule Field",
+            "Hyrule Ridge"
+        ]
+        
+    },
+    {
+        "id": 234,
+        "name": "stambulb",
+        "description": "A wild plant with bulging roots often found in cooler climates. It contains nutrients that increase endurance. Cook it to restore stamina.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "stamina recovery",
+        "common_locations": [
+            "Great Sky Island",
+            "Thunderhead Isles"
+        ]
+        
+    },
+    {
+        "id": 235,
+        "name": "hearty radish",
+        "description": "A rare radish that grows best in sunny plains. Cook it before eating to restore all your hearts and temporarily increase your maximum hearts.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 2.5,
+        "cooking_effect": "extra hearts",
+        "common_locations": [
+            "Lanayru Sky Archipelago",
+            "South Lanayru Sky Archipelago"
+        ]
+        
+    },
+    {
+        "id": 236,
+        "name": "big hearty radish",
+        "description": "This hearty radish is much larger than the average radish. When cooked into a dish, it restores all your hearts and temporarily increases your maximum hearts.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 4.0,
+        "cooking_effect": "extra hearts",
+        "common_locations": [
+            "Thunderhead Isles",
+            "North Necluda Sky Archipelago"
+        ]
+        
+    },
+    {
+        "id": 237,
+        "name": "cool safflina",
+        "description": "This medicinal plant grows in high elevations, such as mountains in the Hebra or Gerudo regions. When cooked into a dish, it will temporarily increase your heat resistance.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "heat resistance",
+        "common_locations": [
+            "Hebra Mountains",
+            "Tabantha Frontier"
+        ]
+        
+    },
+    {
+        "id": 238,
+        "name": "warm safflina",
+        "description": "This medicinal plant grows in hot regions, such as the Gerudo Desert. It's warm to the touch and increases your cold resistance when cooked into a dish.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "cold resistance",
+        "common_locations": [
+            "Eldin Canyon",
+            "Gerudo Desert"
+        ]
+        
+    },
+    {
+        "id": 239,
+        "name": "electric safflina",
+        "description": "This medicinal plant grows abundantly in the Gerudo Desert. Its peculiar fibers conduct electricity, which will increase your electricity resistance when cooked into a dish.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "shock resistance",
+        "common_locations": [
+            "Gerudo Desert",
+            "Hyrule Ridge"
+        ]
+        
+    },
+    {
+        "id": 240,
+        "name": "swift carrot",
+        "description": "This carrot is cultivated extensively in villages. It strengthens the legs and hips when cooked into a dish, which helps increase your movement speed.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "speed up",
+        "common_locations": [
+            "Kakariko Village",
+            "Hateno Village"
+        ]
+        
+    },
+    {
+        "id": 241,
+        "name": "endura carrot",
+        "description": "Highly valued as a medicinal plant, this carrot contains large amounts of nourishing energy. When cooked into a dish, it boosts your stamina beyond its maximum limit.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 2.0,
+        "cooking_effect": "extra stamina",
+        "common_locations": [
+            "East Necluda",
+            "Hyrule Ridge"
+        ]
+        
+    },
+    {
+        "id": 242,
+        "name": "fortified pumpkin",
+        "description": "An extremely tough pumpkin raised for food. When cooked, that toughness manifests itself by considerably upping defense.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "defense up",
+        "common_locations": [
+            "Kakariko Village",
+            "Hateno Village"
+        ]
+        
+    },
+    {
+        "id": 243,
+        "name": "sun pumpkin",
+        "description": "A new variety of pumpkin that soaks up the sunshine in Hateno Village. Baked into a dish, it can help heal the effects of exposure to gloom.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.5,
+        "cooking_effect": "gloom recovery",
+        "common_locations": [
+            "Hateno Village"
+        ]
+        
+    },
+    {
+        "id": 244,
+        "name": "swift violet",
+        "description": "This vitality-rich flower blooms mainly on cliffsides. When cooked into a dish, the nourishing compounds increase your movement speed.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "speed up",
+        "common_locations": [
+            "Hebra Mountains",
+            "Tabantha Frontier"
+        ]
+        
+    },
+    {
+        "id": 245,
+        "name": "mighty thistle",
+        "description": "This medicinal plant is known for its sharp thorns and for the fruit it bears. The fruit contains a compound that increases attack power when cooked into a dish.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "attack up",
+        "common_locations": [
+            "East Necluda",
+            "Faron Grasslands"
+        ]
+        
+    },
+    {
+        "id": 246,
+        "name": "armoranth",
+        "description": "This tough medicinal plant cannot be broken, but it can be cooked. Its durable yet flexible fibers raise your defense when cooked into a dish.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "defense up",
+        "common_locations": [
+            "Hyrule Ridge",
+            "Akkala Highlands"
+        ]
+        
+    },
+    {
+        "id": 247,
+        "name": "blue nightshade",
+        "description": "A plant that grows in quieter areas of Hyrule. At night, it gives off a soft glow. Cook with it to increase your stealth.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "stealth up",
+        "common_locations": [
+            "Great Hyrule Forest",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 248,
+        "name": "sundelion",
+        "description": "A wild plant that grows in the sun at high altitudes. Soaked in sunlight, its petals can restore health depleted by gloom when used in cooking.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "gloom recovery",
+        "common_locations": [
+            "Hyrule Field",
+            "Eldin Canyon"
+        ]
+        
+    },
+    {
+        "id": 249,
+        "name": "brightbloom seed",
+        "description": "A seed that's often found in caves or wells. When struck, it will take root and bloom, giving off faint light from a small flower.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hyrule Caves"
+        ]
+        
+    },
+    {
+        "id": 250,
+        "name": "giant brightbloom seed",
+        "description": "A seed that's found underground. When struck, it will take root and bloom, radiating a large amount of light from a big flower.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hyrule Caves"
+        ]
+        
+    },
+    {
+        "id": 251,
+        "name": "muddle bud",
+        "description": "A wildflower with a powerful odor that can disorient and confuse, making it difficult to tell friend from foe.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "The Depths"
+        ]
+        
+    },
+    {
+        "id": 252,
+        "name": "bomb flower",
+        "description": "A dangerous flower that contains explosive elements. Does not mix well with fire or electricity, unless the goal is to blow things up.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hyrule Caves",
+            "The Depths"
+        ]
+        
+    },
+    {
+        "id": 253,
+        "name": "silent princess",
+        "description": "This lovely flower was said to have been a favorite of the princess of Hyrule. They were once feared to have gone extinct, but it's not uncommon to spot them growing in the wild.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "stealth up",
+        "common_locations": [
+            "Akkala Highlands",
+            "Hyrule Ridge"
+        ]
+        
+    },
+    {
+        "id": 254,
+        "name": "courser bee honey",
+        "description": "Honey straight from the hive is chock-full of nutrients. Cooking this into a meal unlocks the potential of these nutrients and provides a stamina-recovery effect.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 2.0,
+        "cooking_effect": "stamina recovery",
+        "common_locations": [
+            "Hyrule Field",
+            "East Necluda"
+        ]
+        
+    },
+    {
+        "id": 255,
+        "name": "hylian pine cone",
+        "description": "Grows on trees found all over Hyrule. It contains oil and burns well. Throw it into a fire to increase the intensity of the flame.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hebra Mountains",
+            "Lanayru Great Spring"
+        ]
+        
+    },
+    {
+        "id": 256,
+        "name": "korok frond",
+        "description": "A mysterious leaf that looks like it might be hiding something behind it. It has some medicinal value. Attach it to a stick and it can be used as a fan.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.25,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hyrule Field",
+            "Lanayru Great Spring"
+        ]
+        
+    },
+    {
+        "id": 257,
+        "name": "chuchu jelly",
+        "description": "A gelatinous substance that came from a Chuchu. It's unusable in this state, but applying a bit of elemental stimulation will change its form.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "East Necluda"
+        ]
+        
+    },
+    {
+        "id": 258,
+        "name": "red chuchu jelly",
+        "description": "A jiggly substance that normally comes from a Fire Chuchu. It consistently gives off heat. If struck, it will explode in a ball of flame.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Eldin Canyon",
+            "Eldin Mountains"
+        ]
+        
+    },
+    {
+        "id": 259,
+        "name": "white chuchu jelly",
+        "description": "A jiggly substance that came from an Ice Chuchu. It's cool to the touch, and squeezing it seems to relieve stress. If struck, it will explode in a cold mist.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Hebra Mountains",
+            "Gerudo Highlands"
+        ]
+        
+    },
+    {
+        "id": 260,
+        "name": "yellow chuchu jelly",
+        "description": "A jiggly substance that came from an Electric Chuchu. Electricity pulses through its gelatinous mass. If struck, it will explode in a burst of electric current.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "West Necluda",
+            "Gerudo Desert"
+        ]
+        
+    },
+    {
+        "id": 261,
+        "name": "keese eyeball",
+        "description": "These mysterious orbs scan their surroundings. Take advantage of their glaring awareness, and attach one to an arrow to grant a homing quality to the arrow.",
+        "fuse_attack_power": 1,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Hyrule Field",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 262,
+        "name": "fire keese eyeball",
+        "description": "Fire Keese eyeballs are imbued with heat and are useful in making elixirs. Attach one to an arrow to grant a homing quality to the arrow.",
+        "fuse_attack_power": 8,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Eldin Mountains",
+            "Eldin Mountains Depths"
+        ]
+        
+    },
+    {
+        "id": 263,
+        "name": "ice keese eyeball",
+        "description": "Ice Keese eyeballs are imbued with freezing power and are useful in making elixirs. Attach one to an arrow to grant a homing quality to the arrow.",
+        "fuse_attack_power": 4,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Hebra Mountains",
+            "Mount Lanayru"
+        ]
+        
+    },
+    {
+        "id": 264,
+        "name": "electric keese eyeball",
+        "description": "Electric Keese eyeballs are imbued with electric power and are useful in making elixirs. Attach one to an arrow to grant a homing quality to the arrow.",
+        "fuse_attack_power": 6,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Gerudo Desert",
+            "Gerudo Desert Depths"
+        ]
+        
+    },
+    {
+        "id": 265,
+        "name": "like like stone",
+        "description": "A strange round stone from a Like Like, made of crystallized inner fluids. It's a good ingredient for elixirs.",
+        "fuse_attack_power": 4,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Hyrule Field",
+            "Eldin Mountains"
+        ]
+        
+    },
+    {
+        "id": 266,
+        "name": "fire like stone",
+        "description": "A stomach stone that persists even at high temperatures. It retains heat even outside the body of the creature that contained it, which makes it a useful elixir ingredient.",
+        "fuse_attack_power": 12,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Eldin Mountains",
+            "Eldin Mountains Depths"
+        ]
+        
+    },
+    {
+        "id": 267,
+        "name": "ice like stone",
+        "description": "A stomach stone kept cold inside a very low-temperature body. It stays cold, even outside the body of the creature that contained it. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 12,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Mount Lanayru",
+            "Gerudo Highlands"
+        ]
+        
+    },
+    {
+        "id": 268,
+        "name": "shock like stone",
+        "description": "A stomach stone exposed to high voltage inside the body of a Shock Like. It maintains some charge even outside the creature. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 12,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Hyrule Field",
+            "East Necluda"
+        ]
+        
+    },
+    {
+        "id": 269,
+        "name": "aerocuda eyeball",
+        "description": "This eyeball is constantly trying to focus on its targets. Cook it with a critter to make an elixir, or attach it to an arrow to grant a homing quality to the arrow.",
+        "fuse_attack_power": 4,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Greater Hyrule"
+        ]
+        
+    },
+    {
+        "id": 270,
+        "name": "gibdo bone",
+        "description": "A creepy bone with multiple sharp tips. Attach it to a weapon to greatly increase its attack power. It tends to break easily due to its odd shape.",
+        "fuse_attack_power": 40,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Gerudo Desert",
+            "Gerudo Desert Depths"
+        ]
+        
+    },
+    {
+        "id": 271,
+        "name": "bokoblin horn",
+        "description": "A sharp horn with multiple barbs. Attach it to a weapon to increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 4,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "Central Hyrule Depths"
+        ]
+        
+    },
+    {
+        "id": 272,
+        "name": "blue bokoblin horn",
+        "description": "A two-pronged horn with sharp edges and tips. Attach it to a weapon to moderately increase its attack power, or brew it into an elixir.",
+        "fuse_attack_power": 7,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "Eldin Canyon"
+        ]
+        
+    },
+    {
+        "id": 273,
+        "name": "black bokoblin horn",
+        "description": "A vicious, three-pronged horn. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 17,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Gerudo Desert",
+            "Hyrule Ridge Depths"
+        ]
+        
+    },
+    {
+        "id": 274,
+        "name": "silver bokoblin horn",
+        "description": "A large, blade-like horn with a unique flourish on the tip. It's sharper than it looks. Attach it to a weapon to vastly increase attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 31,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": null
+        
+    },
+    {
+        "id": 275,
+        "name": "boss bokoblin horn",
+        "description": "The band on this sword-shaped horn shows that it belonged to a leader. Attach it to a weapon to increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 10,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "Hyrule Ridge"
+        ]
+        
+    },
+    {
+        "id": 276,
+        "name": "blue boss bokoblin horn",
+        "description": "An axe-shaped horn with a band to identify it as belonging to a leader. Attach it to a weapon to moderately increase attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 16,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "Lanayru Great Spring"
+        ]
+        
+    },
+    {
+        "id": 277,
+        "name": "black boss bokoblin horn",
+        "description": "A double-edged, axe-shaped horn with two leader bands. Attach it to a weapon to greatly increase attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 27,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "East Necluda"
+        ]
+        
+    },
+    {
+        "id": 278,
+        "name": "silver boss bokoblin horn",
+        "description": "A circular, serrated horn. The neatly tied strap contains arcane power. Attach it to a weapon to vastly increase attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 37,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": null
+        
+    },
+    {
+        "id": 279,
+        "name": "moblin horn",
+        "description": "A hard horn that resulted from a skull mutation. Attach it to a weapon to increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 6,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "Central Hyrule Depths"
+        ]
+        
+    },
+    {
+        "id": 280,
+        "name": "blue moblin horn",
+        "description": "A large, curved horn with two extremely hard tips. Attach it to a weapon to moderately increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 13,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "Eldin Canyon"
+        ]
+        
+    },
+    {
+        "id": 281,
+        "name": "black moblin horn",
+        "description": "A hefty horn with multiple tough barbs. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 24,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Gerudo Highlands",
+            "Deep Akkala"
+        ]
+        
+    },
+    {
+        "id": 282,
+        "name": "silver moblin horn",
+        "description": "A nasty-looking, rock-hard horn. Attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 33,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": null
+        
+    },
+    {
+        "id": 283,
+        "name": "lizalfos horn",
+        "description": "A thin, sharp, knife-like horn. Attach it to a weapon to increase its attack power, or cook it with a critter to brew an elixir.",
+        "fuse_attack_power": 8,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Lanayru Wetlands",
+            "Lanayru Great Spring"
+        ]
+        
+    },
+    {
+        "id": 284,
+        "name": "blue lizalfos horn",
+        "description": "A very long, sword-like horn. Attach it to a weapon to moderately increase its attack power, or cook it with a critter to brew an elixir.",
+        "fuse_attack_power": 16,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Mount Lanayru",
+            "Akkala Highlands Depths"
+        ]
+        
+    },
+    {
+        "id": 285,
+        "name": "black lizalfos horn",
+        "description": "A blade-like, serrated horn. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to brew an elixir.",
+        "fuse_attack_power": 26,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Gerudo Desert",
+            "East Necluda"
+        ]
+        
+    },
+    {
+        "id": 286,
+        "name": "fire-breath lizalfos horn",
+        "description": "A horn that glows red with the power of fire. Cook it with a critter to make an elixir. The right combination could draw out the blazing power contained within.",
+        "fuse_attack_power": 15,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Eldin Canyon",
+            "Gerudo Highlands"
+        ]
+        
+    },
+    {
+        "id": 287,
+        "name": "ice-breath lizalfos horn",
+        "description": "The freezing power embedded in this horn's crystal tip can be used to your advantage if you know how. Otherwise, cook it with a critter to make an elixir.",
+        "fuse_attack_power": 15,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hebra Mountains",
+            "Gerudo Highlands"
+        ]
+        
+    },
+    {
+        "id": 288,
+        "name": "electric lizalfos horn",
+        "description": "A horn charged with as much electricity as a bolt of lightning. Cook it with a critter to make an elixir. It will discharge electricity when stimulated.",
+        "fuse_attack_power": 15,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Gerudo Desert",
+            "Faron"
+        ]
+        
+    },
+    {
+        "id": 289,
+        "name": "silver lizalfos horn",
+        "description": "A sickle-shaped horn that looks like it could slice anything it touches. Attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 34,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": null
+        
+    },
+    {
+        "id": 290,
+        "name": "horriblin horn",
+        "description": "An elongated hammer-shaped horn with a hard, flat front. Attach to a weapon to increase attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 5,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Caves",
+            "Eldin Canyon Depths"
+        ]
+        
+    },
+    {
+        "id": 291,
+        "name": "blue horriblin horn",
+        "description": "A hammer-shaped horn with spiky bumps. Attach it to a weapon to moderately increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 11,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Death Mountain",
+            "Death Mountain Depths"
+        ]
+        
+    },
+    {
+        "id": 292,
+        "name": "black horriblin horn",
+        "description": "This large, heavy horn has slowly grown into its present hammer-like shape. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 22,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Caves",
+            "Gerudo Desert Depths"
+        ]
+        
+    },
+    {
+        "id": 293,
+        "name": "silver horriblin horn",
+        "description": "A curved horn with an extremely hard tip. Attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 5,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": null
+        
+    },
+    {
+        "id": 294,
+        "name": "lynel saber horn",
+        "description": "This blade-like Lynel horn is extremely sharp. It increases a weapon's attack power when attached. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 22,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "Central Hyrule Depths"
+        ]
+        
+    },
+    {
+        "id": 295,
+        "name": "lynel mace horn",
+        "description": "A hard, curved Lynel horn. It isn't fully grown, but it can be attached to a weapon to increase its attack power, or cooked with a critter to make an elixir.",
+        "fuse_attack_power": 18,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "Central Hyrule Depths"
+        ]
+        
+    },
+    {
+        "id": 296,
+        "name": "blue-maned lynel saber horn",
+        "description": "The sharp, blade-like horn of a Blue-Maned Lynel. Attach it to a weapon to moderately increase its attack power. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 33,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Lanayru Great Spring",
+            "Eldin Canyon Depths"
+        ]
+        
+    },
+    {
+        "id": 297,
+        "name": "blue-maned lynel mace horn",
+        "description": "Its ends are split apart, but this horn from a Blue-Maned Lynel is solid. Attach it to a weapon to moderately increase its attack power, or brew it into an elixir.",
+        "fuse_attack_power": 29,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Lanayru Great Spring",
+            "Eldin Canyon Depths"
+        ]
+        
+    },
+    {
+        "id": 298,
+        "name": "white-maned lynel saber horn",
+        "description": "This blade-like horn of a White-Maned Lynel can slash through just about anything. Attach it to a weapon to greatly increase attack power. Cook with a critter to make an elixir.",
+        "fuse_attack_power": 44,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Faron Grasslands Depths",
+            "Central Hyrule Depths"
+        ]
+        
+    },
+    {
+        "id": 299,
+        "name": "white-maned lynel mace horn",
+        "description": "The claw-like ends of this White-Maned Lynel horn are all extremely hard. Attach to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 40,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Faron Grasslands Depths",
+            "Central Hyrule Depths"
+        ]
+        
+    },
+    {
+        "id": 300,
+        "name": "silver lynel saber horn",
+        "description": "This piercing horn is sharpened to a point for maximum poking. Attach it to a weapon to vastly increase its attack power. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 55,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": null
+        
+    },
+    {
+        "id": 301,
+        "name": "silver lynel mace horn",
+        "description": "This wickedly barbed Silver Lynel horn is as hard as a diamond. Attach to a weapon to vastly increase its attack power. It's also a precious elixir ingredient.",
+        "fuse_attack_power": 51,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": null
+        
+    },
+    {
+        "id": 302,
+        "name": "soldier construct horn",
+        "description": "A blade-like horn from a Soldier Construct. It's very sharp, so handle with care.",
+        "fuse_attack_power": 3,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Great Sky Island",
+            "North Gerudo Sky Archipelago"
+        ]
+        
+    },
+    {
+        "id": 303,
+        "name": "soldier construct ii horn",
+        "description": "A sharp, hooked horn dropped from a Soldier Construct II. It's well suited for slicing through small branches and plants. Attach it to a weapon to moderately increase attack power.",
+        "fuse_attack_power": 8,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Hebra Mountains",
+            "Rising Island Chain"
+        ]
+        
+    },
+    {
+        "id": 304,
+        "name": "soldier construct iii horn",
+        "description": "A serrated horn from a Soldier Construct III. Attach it to a weapon to greatly increase attack power. It can cut through plants and large trees.",
+        "fuse_attack_power": 18,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Lanayru Sky Archipelago",
+            "Thunderhead Isles"
+        ]
+        
+    },
+    {
+        "id": 305,
+        "name": "soldier construct iv horn",
+        "description": "A horn embedded with a sharp disk. The disk spins mysteriously and can slice through almost anything. Attach the horn to a weapon and vastly increase its attack power.",
+        "fuse_attack_power": 24,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": null
+        
+    },
+    {
+        "id": 306,
+        "name": "captain construct i horn",
+        "description": "This wavy, double-edged, blade-like horn is formidable when it comes to slashing. Attach it to a weapon to increase attack power.",
+        "fuse_attack_power": 5,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Great Sky Island",
+            "Rising Island Chain"
+        ]
+        
+    },
+    {
+        "id": 307,
+        "name": "captain construct ii horn",
+        "description": "A sharp, blade-like horn with a split tip that easily slices anything it touches. Attach it to a weapon to moderately increase attack power.",
+        "fuse_attack_power": 15,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Lanayru Sky Archipelago",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 308,
+        "name": "captain construct iii horn",
+        "description": "A sharp, blade-like horn with a complex tip. It looks almost decorative. Attach it to a weapon to greatly increase attack power.",
+        "fuse_attack_power": 25,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": [
+            "Thyphlo Ruins",
+            "Lanayru Sky Archipelago"
+        ]
+    },
+    {
+        "id": 309,
+        "name": "captain construct iv horn",
+        "description": "A mean-looking, branching, blade-like horn. Its edges and tips are extremely sharp. Attach it to a weapon to vastly increase its attack power.",
+        "fuse_attack_power": 35,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "",
+        "common_locations": null
+        
+    },
+    {
+        "id": 310,
+        "name": "hinox horn",
+        "description": "A horn wrapped in spiked wood. Attach it to a weapon to increase attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 12,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Ridge",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 311,
+        "name": "blue hinox horn",
+        "description": "This mean-looking horn is wrapped in hard chains. Attach it to a weapon to moderately increase attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 19,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "East Necluda Depths",
+            "West Necluda"
+        ]
+        
+    },
+    {
+        "id": 312,
+        "name": "black hinox horn",
+        "description": "A horn wrapped in dangerous debris. It's easy to work with and greatly increases the attack power of a weapon when attached. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 27,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "East Necluda",
+            "West Necluda Depths"
+        ]
+        
+    },
+    {
+        "id": 313,
+        "name": "stalnox horn",
+        "description": "The impaled skulls should serve as a warning. But if you do obtain one, attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 29,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "East Necluda",
+            "Central Hyrule Depths"
+        ]
+        
+    },
+    {
+        "id": 314,
+        "name": "molduga jaw",
+        "description": "A hard jawbone. Its shape allows a Molduga some maneuverability in the sand. Attach it to a weapon to greatly increase its attack power. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 32,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": [
+            "Gerudo Desert"
+        ]
+        
+    },
+    {
+        "id": 315,
+        "name": "gleeok flame horn",
+        "description": "A crown-like, fire-imbued horn of a Gleeok. Attach it to a weapon to vastly increase its attack power. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 30,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Eldin Canyon",
+            "Lake Hylia"
+        ]
+        
+    },
+    {
+        "id": 316,
+        "name": "gleeok frost horn",
+        "description": "A crown-like, frost-imbued horn of a Gleeok. Attach it to a weapon to vastly increase its attack power. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 30,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Gerudo Highlands",
+            "Hebra Mountains"
+        ]
+        
+    },
+    {
+        "id": 317,
+        "name": "gleeok thunder horn",
+        "description": "A crown-like, lightning-imbued horn of a Gleeok. Attach it to a weapon to vastly increase its attack power. Cook it with a critter to make an elixir.",
+        "fuse_attack_power": 30,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hyrule Field",
+            "Faron Grasslands"
+        ]
+        
+    },
+    {
+        "id": 318,
+        "name": "frox fang",
+        "description": "A giant, ore-crunching Frox fang. Attach it to a weapon to moderately increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 14,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Gerudo Highlands Depths",
+            "Central Hyrule Depths"
+        ]
+        
+    },
+    {
+        "id": 319,
+        "name": "obsidian frox fang",
+        "description": "A giant fang for excavating and crushing ores. Attach it to a weapon to greatly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 24,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Gerudo Desert Depths",
+            "Hyrule Ridge Depths"
+        ]
+        
+    },
+    {
+        "id": 320,
+        "name": "blue-white frox fang",
+        "description": "A giant fang that can easily dig through solid bedrock. Attach it to a weapon to vastly increase its attack power, or cook it with a critter to make an elixir.",
+        "fuse_attack_power": 35,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +00:40",
+        "common_locations": [
+            "Hebra Mountains Depths",
+            "Tabantha Frontier Depths"
+        ]
+        
+    },
+    {
+        "id": 321,
+        "name": "dinraal's horn",
+        "description": "A sharp horn of the red spirit, Dinraal. It is said to be the crystallized power of fire itself. Attach the blade-shaped horn to a weapon to vastly increase attack power.",
+        "fuse_attack_power": 26,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +30:00",
+        "common_locations": null
+        
+    },
+    {
+        "id": 322,
+        "name": "shard of dinraal's spike",
+        "description": "An incredibly hard stone mined from a spike on Dinraal's back. It is very destructive when fused to a weapon, and it also imbues that weapon with the power of flame.",
+        "fuse_attack_power": 16,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": null
+        
+    },
+    {
+        "id": 323,
+        "name": "naydra's horn",
+        "description": "A sharp horn of the blue spirit, Naydra. It is said to be the crystallized power of ice itself. Attach the blade-shaped horn to a weapon to vastly increase attack power.",
+        "fuse_attack_power": 26,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +30:00",
+        "common_locations": null
+        
+    },
+    {
+        "id": 324,
+        "name": "shard of naydra's spike",
+        "description": "An incredibly hard stone mined from a spike on Naydra's back. It is very destructive when fused to a weapon, and it also imbues that weapon with the power of ice.",
+        "fuse_attack_power": 16,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": null
+        
+    },
+    {
+        "id": 325,
+        "name": "farosh's horn",
+        "description": "A sharp horn of the golden spirit, Farosh. It is said to be the crystallized power of electricity itself. Attach the blade-shaped horn to a weapon to vastly increase attack power.",
+        "fuse_attack_power": 26,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +30:00",
+        "common_locations": null
+        
+    },
+    {
+        "id": 326,
+        "name": "shard of farosh's spike",
+        "description": "An incredibly hard stone mined from a spike on Farosh's back. It is very destructive when fused to a weapon, and it also imbues that weapon with the power to shock.",
+        "fuse_attack_power": 16,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": null
+        
+    },
+    {
+        "id": 327,
+        "name": "light dragon's horn",
+        "description": "A horn chipped off the Light Dragon. Its gentle glow has a calming effect, and it has a mysterious healing power when attached to a weapon.",
+        "fuse_attack_power": 20,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +30:00",
+        "common_locations": null
+        
+    },
+    {
+        "id": 328,
+        "name": "shard of light dragon's spike",
+        "description": "An incredibly hard stone mined from a spike on the Light Dragon's back. It is very destructive when fused to a weapon, and it also imbues that weapon with healing power.",
+        "fuse_attack_power": 12,
+        "hearts_recovered": 0.0,
+        "cooking_effect": "effect duration +01:20",
+        "common_locations": null
+        
+    }
+]

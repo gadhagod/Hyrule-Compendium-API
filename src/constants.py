@@ -7,7 +7,7 @@ from enum import Enum
 from flask import request
 
 Game: Final =  Enum('Game', ['botw', 'totk'])
-db: Final = Client(api_key=getenv('RS2_TOKEN') or argv[1], api_server='api.rs2.usw2.rockset.com')
+db: Final = Client(api_key=getenv('RS2_TOKEN') or argv[1], api_server=getenv('RS2_SERVER') or 'api.rs2.usw2.rockset.com')
       
 def get_game() -> Game:
     game = request.args.get('game')
