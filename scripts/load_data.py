@@ -1,9 +1,14 @@
+# should be run from root dir
 # creates db (if needed) and adds/updates data in the db
 # see "self hosting" for information
 
-from os import getenv, getcwd, listdir, path, argv
+from sys import argv
+from os import getenv, getcwd, listdir, path
 from requests import post, get
 from json import dumps, loads
+
+if not getenv('RS2_TOKEN'):
+    raise Exception("Api key not provided as RS2_TOKEN env var")
 
 root_dir = getcwd()
 base_url = f'https://{getenv("RS2_SERVER") or "api.rs2.usw2.rockset.com"}'
@@ -55,7 +60,7 @@ def create_workspace(workspace_name):
         raise Exception(res.text)
         
 def add_docs(workspace, collection, docs):
-    print('Adding data to {workspace}.{collection}')
+    print(f'Adding data to {workspace}.{collection}')
     res = post(f'{base_url}/v1/orgs/self/ws/{workspace}/collections/{collection}/docs', dumps({
         'data': loads(docs)
     }), headers={'Authorization': api_key, 'Content-Type': 'application/json'})
