@@ -18,7 +18,7 @@ jobs:
       - name: Install app requirements
         run: pip install -r requirements.txt
       - name: Load data
-        run: python3 scripts/load_data.py
+        run: python3 scripts/load_data.py ${{ secrets.RS2_TOKEN }}
       - name: Start server
         run: python3 server &
       - name: Install test dependencies
