@@ -20,5 +20,5 @@ jobs:
           sudo apt install pngcheck
       - name: Check images
         run: |
-          pngcheck compendium/images/*.png compendium/images/**/*.png
+          pngcheck db/botw/data/compendium/images/*.png
           # TODO: check file dimensions
