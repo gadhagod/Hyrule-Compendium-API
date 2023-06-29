@@ -163,7 +163,7 @@ The schema of an entry's data depends on the category of the item.
 **Monster schema**:
 ```json
 { 
-    "name": "...", // string
+    "name": "...", // string; entry name
     "id": 0,  // integer; ID as shown in compendium
     "category": "...", // string; "monsters"
     "description": "...", // string; short paragraph
@@ -202,11 +202,11 @@ The schema of an entry's data depends on the category of the item.
     "id": 0, // integer; ID as shown in compendium
     "category": "...", // string; "materials"
     "description": "...", // string; short paragraph
-    "image": "...", // string, URL of image
+    "image": "...", // string; URL of image
     "common_locations": [], // array of strings or null for unknown; where the entry is commonly seen
     "hearts_recovered": 0.0, // float; health recovered when eaten raw
     "cooking_effect": "...", // string; special effect when used in a dish/elixir (e.g. "stamina recovery"), empty if none
-    "dlc": false, // boolean, whether the entry is from a DLC pack
+    "dlc": false, // boolean; whether the entry is from a DLC pack
     /* TEARS OF THE KINGDOM ONLY */
     "fuse_attack_power": 0 // integer; damage added when fused with a weapon
     /* */
@@ -227,7 +227,7 @@ Food (field "edible" is <code>true</code>):
     "common_locations": [], // array of strings or null for unknown; where the entry is commonly seen
     "edible": true, // boolean; true, whether the creature can be eaten or incorporated into a dish/elixir
     "hearts_recovered": 0.0, // float; hearts recovered when eaten raw
-    "dlc": false // boolean, whether the entry is from a DLC pack
+    "dlc": false // boolean; whether the entry is from a DLC pack
 }
 ```
 
@@ -242,7 +242,7 @@ Non-food (field "edible" is <code>false</code>):
     "common_locations": [], // array of strings or null for unknown; where the entry is commonly seen
     "edible": false, // boolean; false, whether the creature can be eaten or incorporated into a dish/elixir
     "drops": [], // array of strings or null for unknown; recoverable materials from killing
-    "dlc": false // boolean, whether the entry is from a DLC pack
+    "dlc": false // boolean; whether the entry is from a DLC pack
 }
 ```
 

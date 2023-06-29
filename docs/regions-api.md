@@ -6,7 +6,7 @@ The `/regions` endpoint provides data on Hyrule's eight geographical regions, li
 
 **Endpoint**: `/regions`
 
-This endpoint returns information on a single region, given the region's name.
+This endpoint retrieves information on a single region given its name.
 
 **HTTP Request**:
 ```http
@@ -21,7 +21,7 @@ $ curl https://botw-compendium.herokuapp.com/api/v3/regions/eldin
 
 **Endpoint**: `/regions/all`
 
-The endpoint returns all regions.
+This endpoint retrieves all regions.
 
 **HTTP Request**:
 ```http
