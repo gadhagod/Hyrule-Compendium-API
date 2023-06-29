@@ -2,7 +2,7 @@ from rockset import F, Q
 from abc import ABC, abstractstaticmethod
 from typing import Union
 from flask import send_from_directory
-from .exceptions import EntryNotFound, IllegalMasterModeEntryName
+from .exceptions import EntryNotFound, IllegalMasterModeEntryName, TotkImagesNotImplemented
 from ..constants import Game, db
 from .types import (
     EntrySelects, 
@@ -85,6 +85,7 @@ class BotwCompendium(Compendium):
     
     @staticmethod
     def get_category(category: StandardCategoryName) -> CategoryData:
+        category = category.lower()
         if category == 'creatures':
             return (
                 Compendium._query(
@@ -227,6 +228,7 @@ class TotkCompendium(Compendium):
     
     @staticmethod
     def get_category(category: StandardCategoryName) -> CategoryData:
+        category = category.lower()
         if category == 'creatures':
             return Compendium._query(
                     Game.totk,
@@ -280,46 +282,7 @@ class TotkCompendium(Compendium):
 
     @staticmethod
     def get_entry_image(inp: int, master_mode=False) -> EntryImage:
-        if inp == "master_mode":
-            raise IllegalMasterModeEntryName()
-
-        target_entry = None
-        if master_mode:
-            if inp.isnumeric():
-                res = Compendium._query(
-                    Game.totk,
-                    category='master_mode',
-                    where=(F['_id'] == inp),
-                )
-                if res:
-                    target_entry = res[0]['name']
-            else:
-                target_entry = inp
-        else:
-            if inp.isnumeric():
-                for category in TotkCompendium._selects.keys():
-                    res = Compendium._query(
-                        Game.totk,
-                        category=category,
-                        where=(F['_id'] == inp),
-                    )
-                    if res:
-                        target_entry = res[0]['name']
-                        break
-            else:
-                target_entry = inp
-
-        if not target_entry:
-            raise EntryNotFound(inp, Game.totk)
-
-        try:
-            return send_from_directory(
-                f'db/botw/data/compendium/images{"/master_mode" if master_mode else ""}', 
-                f"{target_entry.replace(' ', '_').replace('+', '＋')}.png", 
-                mimetype='image/png'
-            )
-        except FileNotFoundError:
-            raise EntryNotFound(inp, Game.totk)
+        raise TotkImagesNotImplemented()
 
     @staticmethod
     def get_all() -> list[EntryData]:

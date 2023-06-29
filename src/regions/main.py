@@ -1,7 +1,7 @@
 # TODO: region type hints 
 from abc import ABC, abstractstaticmethod
 from ..constants import Game, db
-from .exceptions import RegionNotFound, RegionsNotImplemented
+from .exceptions import RegionNotFound, TotkRegionsNotImplemented
 from rockset import F, Q
 
 class Regions(ABC):
@@ -54,9 +54,9 @@ class BotwRegions(Regions):
 class TotkRegions(Regions):
     @staticmethod
     def get_region(region_name):
-        raise RegionsNotImplemented()
+        raise TotkRegionsNotImplemented()
         
 
     @staticmethod
     def get_all():
-        raise RegionsNotImplemented()
+        raise TotkRegionsNotImplemented()

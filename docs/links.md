@@ -1,7 +1,7 @@
 # Links & Resources
 
 * [GitHub](https://github.com/gadhagod/Hyrule-Compendium-API)
-* [Roadmap](https://github.com/gadhagod/Hyrule-Compendium-API/issues/30)
+* [Roadmap](https://github.com/gadhagod/Hyrule-Compendium-API/issues/30#issue-1244733529)
 * [API status](https://github.com/gadhagod/Hyrule-Compendium-API/actions/workflows/deployed-api-tests.yml)
 * [Community](https://github.com/gadhagod/Hyrule-Compendium-API/discussions/new/choose)
 * [Contact](mailto:good.aarav@gmail.com)

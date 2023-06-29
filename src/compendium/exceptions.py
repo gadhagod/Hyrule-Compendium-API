@@ -1,7 +1,7 @@
 from typing import Union
 from ..constants import Game
 from ..exceptions import ApiException
-from werkzeug.exceptions import BadRequest, NotFound
+from werkzeug.exceptions import BadRequest, NotFound, NotImplemented
 
 class EntryNotFound(NotFound, ApiException):
     def __init__(self, entry: Union[int, str], game: Game):
@@ -10,3 +10,8 @@ class EntryNotFound(NotFound, ApiException):
 
 class IllegalMasterModeEntryName(BadRequest, ApiException):
     description = '"master_mode" is not a valid entry name. If you want to access a master mode entry, you must use /compendium/master_mode/<entry>'
+    
+class TotkImagesNotImplemented(NotImplemented, ApiException):
+    def __init__(self) -> None:
+        super().__init__()
+        TotkImagesNotImplemented.description = 'Totk regions have not been implemented yet'

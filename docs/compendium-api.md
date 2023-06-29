@@ -151,13 +151,13 @@ They can be referenced just as you would reference any other image from the web.
 Results in: \
 ![](https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel/image)
 
-?> **NOTE**: Master mode entry images use the format: `/master_mode/entry/<entry>/image`
+?> **NOTE**: Master mode entry images use the format: `/master_mode/entry/<entry>/image`.
 
-?> **NOTE**: Images of *Tears of the Kingdom* entries are retrieved by specifying the `game` paramater ([more information](compendium-api?id=tears-of-the-kingdom-entries)). 
+!> **WARNING**: *Tears of the Kingdom* images are not yet supported. It is in [the roadmap](https://github.com/gadhagod/Hyrule-Compendium-API/issues/30#issue-1244733529).
 
 ---------------
 
-## Entry Schemas
+## Entry schemas
 The schema of an entry's data depends on the category of the item.
 
 **Monster schema**:

@@ -9,7 +9,7 @@ class RegionNotFound(NotFound, ApiException):
         super().__init__()
         RegionNotFound.description = f'Region with name "{region}" does not exist in the specified game, {game.name}'
         
-class RegionsNotImplemented(NotImplemented, ApiException):
+class TotkRegionsNotImplemented(NotImplemented, ApiException):
     def __init__(self) -> None:
         super().__init__()
-        RegionsNotImplemented.description = 'Totk regions have not been implemented yet'
+        TotkRegionsNotImplemented.description = 'Totk regions have not been implemented yet'
