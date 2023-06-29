@@ -9,7 +9,9 @@ class EntryNotFound(NotFound, ApiException):
         EntryNotFound.description = f'Entry with name or ID "{entry}" does not exist in the specified game, {game.name}'
 
 class IllegalMasterModeEntryName(BadRequest, ApiException):
-    description = '"master_mode" is not a valid entry name. If you want to access a master mode entry, you must use /compendium/master_mode/<entry>'
+    def __init__(self):
+        super().__init__()
+        IllegalMasterModeEntryName.description = '"master_mode" is not a valid entry name. If you want to access a master mode entry, you must use /compendium/master_mode/<entry>'
     
 class TotkImagesNotImplemented(NotImplemented, ApiException):
     def __init__(self) -> None:

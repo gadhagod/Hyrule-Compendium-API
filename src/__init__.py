@@ -9,5 +9,5 @@ blueprint.register_blueprint(regions_blueprint, url_prefix="/regions")
 
 blueprint.register_error_handler(
     ApiException, 
-    lambda e: ({'data': {}, 'status': e.code, 'message': e.description}, 500)
+    lambda e: ({'data': {}, 'status': e.code, 'message': e.description}, e.status)
 )
