@@ -84,7 +84,7 @@ $ npm i
 
 Run the tests:
 ```bash
-npm run test:v3
+URL="http://127.0.0.1:<port>" npm run test:v3
 ```
 
 ### Documentation
