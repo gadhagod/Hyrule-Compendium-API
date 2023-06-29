@@ -22,4 +22,4 @@ jobs:
       - name: Execute tests
         run: |
           cd tests
-          npx mocha
+          npm test
