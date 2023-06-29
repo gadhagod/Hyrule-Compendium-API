@@ -1,0 +1,39 @@
+name: Load data
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - db/botw/data/**/*.json
+  workflow_dispatch:
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: pip
+      - name: Install app requirements
+        run: pip install -r requirements.txt
+      - name: Load data
+        run: python3 load_data.py
+      - name: Start server
+        run: python3 server &
+      - name: Install test dependencies
+        run: |
+          cd tests
+          npm i
+      - name: Execute tests
+        run: |
+          cd tests
+          env URL="http://127.0.0.1:5000" npx mocha
+      - name: Install test dependencies
+        run: |
+          cd tests
+          npm i
+      - name: Execute tests
+        run: |
+          cd tests
+          env URL="http://127.0.0.1:5000" npm run test:v3

@@ -2,9 +2,7 @@
 <img src="docs/assets/light_logo.png" length=10% width=10%>
 </p>
 <h1 align="center">Hyrule Compendium API</h1>
-<p align="center"><b>An API serving data on all creatures, monsters, materials, equipment, and treasure in <i>The Legend of Zelda: Breath of the Wild</i>.</b><br>
-<sub>By <a href="https://github.com/gadhagod">Aarav Borthakur</a></sub></p>
-<p align="center">
+<p align="center"><b>An API serving data on all in-game items and regions in <i>Breath of the Wild</i> and <i>Tears of the Kingdom</i></b><br><br>
     <a href="https://github.com/gadhagod/Hyrule-Compendium-API/actions/workflows/deployed-api-tests.yml">
         <img src="https://github.com/gadhagod/Hyrule-Compendium-API/actions/workflows/deployed-api-tests.yml/badge.svg">
     </a>
@@ -13,12 +11,12 @@
 ***
 
 ## Concept
-The Hyrule compendium is an encyclopedia of all in-game interactive items. With this brilliant API, you can access this data from code and embed it into your own application. See the [compendium directory](compendium) of this repository to see all entries in the compendium. 385 entries and 5 categories of entries are in the compendium.
+The Hyrule compendium is an encyclopedia of all the in-game interactive items in the world of Hyrule. With this brilliant API, you can access its data and embed it into your own application. 
 
 You can see a specific item, all items in a category, or all data in our database.
-Here is an example request and response, retrieving data on the silver lynel:
+Here is an example request and response, retrieving data on the white-maned lynel:
 
-    $ curl https://botw-compendium.herokuapp.com/api/v2/entry/white-maned_lynel
+    $ curl https://botw-compendium.herokuapp.com/api/v3/entry/white-maned_lynel
     {
         "data": {
             "name": "white-maned lynel",
@@ -44,7 +42,4 @@ To get started, check out the [documentation](http://gadhagod.github.io/Hyrule-C
 If you come across a malfunction or have any suggestions open an [issue](https://github.com/gadhagod/Hyrule-Compendium-API/issues) or a [pull request](https://github.com/gadhagod/Hyrule-Compendium-API/pulls).
 
 ## Running locally
-Instructions for running locally can be found [here](local/README.md).
-
-## Author
-Made with awesomeness by [@gadhagod](https://github.com/gadhagod).
+Instructions for running locally can be found [https://gadhagod.github.io/Hyrule-Compendium-API/#/self-hosting].

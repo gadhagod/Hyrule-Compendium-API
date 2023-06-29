@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "npm run test:api --silent && npm run test:docs --silent",
-    "test:api": "node_modules/mocha/bin/mocha",
-    "test:docs": "cd ../ && tests/node_modules/spellchecker-cli/index.js && cd tests"
+    "test": "npx mocha",
+    "test:v3": "npx mocha -g v3",
+    "test:v2": "npx mocha -g v2"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,6 @@
   "dependencies": {
     "mocha": "^8.4.0",
     "request": "^2.88.2",
-    "spellchecker-cli": "^4.8.0",
     "validate-image-type": "^1.1.1"
   },
   "devDependencies": {

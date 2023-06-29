@@ -4,21 +4,21 @@ name: Authenticate images
 
 on:
   push:
-      branches:
-        - master
-      paths:
-        - 'compendium/images/**'
+    branches:
+      - master
+    paths:
+      - db/botw/compendium/images/**
 
 jobs:
   main:
+    runs-on: ubuntu-latest
 
-      runs-on: ubuntu-latest
-
-      steps:
+    steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
         run: |
-            sudo apt install pngcheck
+          sudo apt install pngcheck
       - name: Check images
         run: |
-          pngcheck compendium/images/*.png compendium/images/**/*.png
+          pngcheck db/botw/data/compendium/images/*.png
+          # TODO: check file dimensions
