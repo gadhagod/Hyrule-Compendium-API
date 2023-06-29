@@ -1,1 +1,1 @@
-By [Aarav Borthakur](https://github.com/gadhagod)
+By **[Aarav Borthakur](https://github.com/gadhagod)**

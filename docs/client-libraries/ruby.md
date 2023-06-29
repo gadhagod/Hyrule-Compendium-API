@@ -1,4 +1,4 @@
-# Ruby wrapper
+# Ruby Client
 The official Ruby wrapper makes API usage quick to setup and use in the Ruby language.
 
 This documentation applies to version [3.2.0](https://github.com/gadhagod/Hyrule-Compendium-ruby-client/releases/tag/3.2.0).
