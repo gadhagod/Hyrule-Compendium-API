@@ -1,0 +1,16 @@
+{
+  "name": "hyrule-compendium-docs",
+  "private": true,
+  "version": "v3",
+  "description": "Hyrule Compendium API documentation",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx docsify serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docsify": "^4.13.1"
+  }
+}
