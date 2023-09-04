@@ -2,7 +2,6 @@
 # creates db (if needed) and adds/updates data in the db
 # see "self hosting" for information
 
-from sys import argv
 from os import getenv, getcwd, listdir, path
 from requests import post, get
 from json import dumps, loads
@@ -12,7 +11,7 @@ if not getenv('RS2_TOKEN'):
 
 root_dir = getcwd()
 base_url = f'https://{getenv("RS2_SERVER") or "api.rs2.usw2.rockset.com"}'
-api_key = f'ApiKey {getenv("RS2_TOKEN") or argv[1]}'
+api_key = f'ApiKey {getenv("RS2_TOKEN")}'
 
 def get_files_in_dir(dir_path):
     res = []
