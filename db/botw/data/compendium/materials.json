@@ -314,7 +314,7 @@
             "Hyrule Ridge",
             "East Necluda"
         ],
-        "hearts_recovered": 20.5,
+        "hearts_recovered": 2.5,
         "cooking_effect": "extra hearts",
         "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/hearty_radish/image",
         "category": "materials",
