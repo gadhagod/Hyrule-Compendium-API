@@ -17,4 +17,4 @@ class TotkImagesNotImplemented(NotImplemented, ApiException):
     def __init__(self) -> None:
         super().__init__()
         TotkImagesNotImplemented.status = 501
-        TotkImagesNotImplemented.description = 'Totk regions have not been implemented yet'
+        TotkImagesNotImplemented.description = 'Totk images have not been implemented yet'
