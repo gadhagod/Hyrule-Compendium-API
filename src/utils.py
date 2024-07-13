@@ -5,7 +5,7 @@ from flask import send_from_directory, Response
 from rockset import Client, Q, F
 from sys import argv
 
-rs = Client(api_key=getenv('RS2_TOKEN') or argv[1], api_server='api.rs2.usw2.rockset.com')
+rs = Client(api_key=getenv('RS2_TOKEN') or argv[1], api_server=getenv('RS2_SERVER') or 'api.rs2.usw2.rockset.com')
 
 selects = {
     'treasure': ['drops'],
