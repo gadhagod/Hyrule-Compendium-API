@@ -31,11 +31,12 @@ jobs:
       - name: Clone v2-src
         run: git clone https://github.com/gadhagod/Hyrule-Compendium-API -b v2-src v2
       - name: Start server
-        run: python3 -c "from server import app; app.run()" ${{ secrets.RS2_TOKEN }} &
+        run: python3 -c "from server import app; app.run()" &
         env:
           MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
           MONGO_USERNAME: ${{ secrets.MONGO_USERNAME }}
           RS2_TOKEN: ${{ secrets.RS2_TOKEN }}
+          RS2_SERVER: ${{ secrets.RS2_SERVER }}
 
       - name: Install test dependencies
         run: |
