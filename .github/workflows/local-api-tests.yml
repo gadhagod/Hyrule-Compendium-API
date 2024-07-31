@@ -32,6 +32,9 @@ jobs:
         run: git clone https://github.com/gadhagod/Hyrule-Compendium-API -b v2-src v2
       - name: Start server
         run: python3 -c "from server import app; app.run()" ${{ secrets.RS2_TOKEN }} &
+        env:
+          MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
+          MONGO_USERNAME: ${{ secrets.MONGO_USERNAME }}
       - name: Install test dependencies
         run: |
           cd tests
@@ -40,6 +43,3 @@ jobs:
         run: |
           cd tests
           env URL="http://127.0.0.1:5000" npx mocha
-        env:
-          MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
-          MONGO_USERNAME: ${{ secrets.MONGO_USERNAME }}
