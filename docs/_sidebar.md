@@ -4,6 +4,5 @@
 
 ---
 
-* [Self hosting](self-hosting)
 * [Attributions](attributions)
 * [Links](links)

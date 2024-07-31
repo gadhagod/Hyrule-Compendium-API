@@ -1,1 +1,0 @@
-SQL field mappings for incoming documents. See [rockset.com/docs/ingest-transformation](https://rockset.com/docs/ingest-transformation) for documentation.

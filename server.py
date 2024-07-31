@@ -1,6 +1,6 @@
 import flask
 from flask_cors import CORS
-from src import blueprint, exceptions
+from endpoints import blueprint, exceptions
 from werkzeug.exceptions import NotFound
 
 def redirectToDocs(): return flask.redirect('https://gadhagod.github.io/Hyrule-Compendium-API')
@@ -8,13 +8,14 @@ def redirectToDocs(): return flask.redirect('https://gadhagod.github.io/Hyrule-C
 app = flask.Flask(__name__, static_folder='compendium/images')
 app.app_context()
 CORS(app)
-
+    
 app.register_error_handler(
     500,
     lambda e: ({'data': {}, 'status': 500, 'message': 'Server error'}, 500)
 )
+
 app.register_error_handler(
-    NotFound, 
+    NotFound,   
     lambda e: ({
         'data': {}, 
         'status': 404, 
