@@ -43,6 +43,6 @@ def wrap_res(
         response = list(response)
     return {
         'data': response,
-        'status': 500,
+        'status': 200,
         'message': ''
     }
