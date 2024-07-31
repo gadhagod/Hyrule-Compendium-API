@@ -35,6 +35,8 @@ jobs:
         env:
           MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
           MONGO_USERNAME: ${{ secrets.MONGO_USERNAME }}
+          RS2_TOKEN: ${{ secrets.RS2_TOKEN }}
+
       - name: Install test dependencies
         run: |
           cd tests
