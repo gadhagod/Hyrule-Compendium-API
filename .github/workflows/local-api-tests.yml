@@ -40,3 +40,6 @@ jobs:
         run: |
           cd tests
           env URL="http://127.0.0.1:5000" npx mocha
+        env:
+          MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
+          MONGO_USERNAME: ${{ secrets.MONGO_USERNAME }}
