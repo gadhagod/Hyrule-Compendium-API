@@ -1,3 +1,7 @@
+### WARNING: v1 and v2 are being discontinued on September 29, 2024. Please see the [migration guide](https://github.com/gadhagod/Hyrule-Compendium-API/issues/46) to update your applications.
+
+***
+
 <p align="center">
 <img src="docs/assets/light_logo.png" length=10% width=10%>
 </p>
