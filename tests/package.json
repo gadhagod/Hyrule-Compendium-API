@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "npx mocha",
-    "test:v3": "npx mocha -g v3",
-    "test:v2": "npx mocha -g v2"
+    "test:v3": "npx mocha -g v3"
   },
   "repository": {
     "type": "git",
