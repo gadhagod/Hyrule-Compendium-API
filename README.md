@@ -36,7 +36,7 @@ Here is an example request and response, retrieving data on the white-maned lyne
                 "lynel hoof",
                 "lynel guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v2/entry/white-maned_lynel/image"
+            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/white-maned_lynel/image"
         }
     }
 
