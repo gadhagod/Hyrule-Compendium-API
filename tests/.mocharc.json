@@ -1,5 +1,5 @@
 {
     "timeout": 20000,
     "require": "ts-node/register",
-    "file": ["test/v3/index.ts"]
+    "file": ["test/v3/index.ts", "test/v2.ts"]
 }

@@ -113,7 +113,7 @@ class EntryFinder(ABC):
     def get_entry(self, id_or_name: str):
         if id_or_name.isnumeric():
             return self.get_entry_with_id(int(id_or_name))
-        return self.get_entry_with_name(id_or_name)
+        return self.get_entry_with_name()
     
     @abstractmethod
     def get_category(self, collection, category):
