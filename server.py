@@ -32,6 +32,4 @@ app.register_blueprint(blueprint, url_prefix='/api/v3')
 if __name__ == '__main__': # dev server
     app.run(debug=True)
 else: # prod server
-    # precondition: "v2-src" branch cloned into "v2" dir
-    from v2.server import v2_blueprint
-    app.register_blueprint(v2_blueprint)
+    pass
