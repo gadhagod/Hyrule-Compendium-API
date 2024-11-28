@@ -105,9 +105,9 @@ class EntryFinder(ABC):
         return entry
     
     def get_entry_with_name(self, name):
-        entry = self.query_machine.search_doc({'name': name})
+        entry = self.query_machine.search_doc({'name': name.replace('_', ' ')})
         if entry is None:
-            raise EntryNonexistant(id) 
+            raise EntryNonexistant(name) 
         return entry
     
     def get_entry(self, id_or_name: str):
