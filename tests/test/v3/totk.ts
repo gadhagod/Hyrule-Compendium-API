@@ -1,6 +1,6 @@
 import { 
     CompendiumTester, 
-    // ImageTester,
+    ImageTester,
     // RegionTester, 
     Game 
 } from "./util";
@@ -173,10 +173,9 @@ export default function (serverUrl: string) {
                 });
             });
         });
-        /*
         describe("images", () => {
             it("should be png", (done) => {
-                let entryId = Math.floor(Math.random() * (389 - 386)) + 386;
+                let entryId = Math.floor(Math.random() * 509) + 1;
                 compendium.getEntryImage(entryId, (content) => {
                     ImageTester.validateImage(entryId, content as Buffer, done, (err) => {
                         throw err;
@@ -184,6 +183,5 @@ export default function (serverUrl: string) {
                 }, CompendiumTester.fail);
             });
         });
-        */
     });
 }
