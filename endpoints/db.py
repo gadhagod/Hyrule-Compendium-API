@@ -169,7 +169,7 @@ class BotwEntryFinder(EntryFinder):
         return self.query_machine.get_doc(self.BotwCategories.MASTER_MODE, {'id': id})
 
     def get_master_mode_entry_with_name(self, name: str):
-        return self.query_machine.get_doc(self.BotwCategories.MASTER_MODE, {'name': name})
+        return self.query_machine.get_doc(self.BotwCategories.MASTER_MODE, {'name': name.replace('_', ' ')})
     
     def get_master_mode_entry(self, id_or_name: str):
         if id_or_name.isnumeric():
