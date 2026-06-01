@@ -9,7 +9,7 @@ var apiVersion = 3;
  * @param {string} loaderElemId ID of `div` element to contain loader
  */
 function createButton(endpoint, game, resElemId, loaderElemId) {
-    var url = `https://botw-compendium.herokuapp.com/api/v${apiVersion}/${endpoint}?game=${game}`;
+    var url = `https://api.hyrule-compendium.com/v${apiVersion}/${endpoint}?game=${game}`;
 
     var loader = document.getElementById(loaderElemId);
     loader.setAttribute("class", "loader");

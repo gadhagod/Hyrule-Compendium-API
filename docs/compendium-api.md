@@ -15,18 +15,18 @@ The schema of the response depends on the category of the entry.
 **HTTP Request**
 
 ```http
-GET https://botw-compendium.herokuapp.com/api/v3/compendium/entry/<entry>
+GET https://api.hyrule-compendium.com/v3/compendium/entry/<entry>
 ```
     
 **Example Request** \
 <br>With name:
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v3/compendium/entry/moblin
+$ curl https://api.hyrule-compendium.com/v3/compendium/entry/moblin
 ```
 
 With ID:
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v3/compendium/entry/108
+$ curl https://api.hyrule-compendium.com/v3/compendium/entry/108
 ```
 
 ### Try endpoint
@@ -49,11 +49,11 @@ This endpoint retrieves all compendium entries.
 
 **HTTP Request**
 ```http
-GET https://botw-compendium.herokuapp.com/api/v3/compendium/all
+GET https://api.hyrule-compendium.com/v3/compendium/all
 ```
 **Example Request**
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v3/compendium/all
+$ curl https://api.hyrule-compendium.com/v3/compendium/all
 ```
 ---------------
 ## Get category
@@ -70,11 +70,11 @@ This endpoint is used for retrieving all entries in a given category. The catego
 
 **HTTP Request**
 ```http
-GET https://botw-compendium.herokuapp.com/api/v3/compendium/category/<category>
+GET https://api.hyrule-compendium.com/v3/compendium/category/<category>
 ```
 **Example Request**
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v3/compendium/category/monsters
+$ curl https://api.hyrule-compendium.com/v3/compendium/category/monsters
 ```
 
 ---------------
@@ -88,11 +88,11 @@ If you are using a name to search for an item, spaces are to be replaced with an
 
 **HTTP Request**
 ```http
-GET https://botw-compendium.herokuapp.com/api/v3/compendium/master_mode/entry/<entry>
+GET https://api.hyrule-compendium.com/v3/compendium/master_mode/entry/<entry>
 ```
 **Example Request**
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v3/compendium/master_mode/entry/golden_bokoblin
+$ curl https://api.hyrule-compendium.com/v3/compendium/master_mode/entry/golden_bokoblin
 ```
 ---------------
 
@@ -104,11 +104,11 @@ This endpoint retrieves all master mode exclusive entries.
 
 **HTTP Request**
 ```http
-GET https://botw-compendium.herokuapp.com/api/v3/compendium/master_mode/all
+GET https://api.hyrule-compendium.com/v3/compendium/master_mode/all
 ```
 **Example Request**
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v3/compendium/master_mode/all
+$ curl https://api.hyrule-compendium.com/v3/compendium/master_mode/all
 ```
 
 ---------------
@@ -118,15 +118,15 @@ You can configure which game to query by setting URL parameter `game`. If `game`
 
 Example URLs for *Breath of the Wild*:
 ```
-https://botw-compendium.herokuapp.com/api/v3/compendium/entry/123
-https://botw-compendium.herokuapp.com/api/v3/compendium/entry/123?game=1
-https://botw-compendium.herokuapp.com/api/v3/compendium/entry/123?game=botw
+https://api.hyrule-compendium.com/v3/compendium/entry/123
+https://api.hyrule-compendium.com/v3/compendium/entry/123?game=1
+https://api.hyrule-compendium.com/v3/compendium/entry/123?game=botw
 ```
 
 Example URLs for *Tears of the Kingdom*:
 ```
-https://botw-compendium.herokuapp.com/api/v3/compendium/entry/123?game=2
-https://botw-compendium.herokuapp.com/api/v3/compendium/entry/123?game=totk
+https://api.hyrule-compendium.com/v3/compendium/entry/123?game=2
+https://api.hyrule-compendium.com/v3/compendium/entry/123?game=totk
 ```
 
 !> **NOTE**: If the `game` paramater is defined and is not `1`, `2`, `botw`, `totk`, you will recieve a 400 status code.
@@ -136,20 +136,20 @@ https://botw-compendium.herokuapp.com/api/v3/compendium/entry/123?game=totk
 ## Images
 This API also serves images of each entry. Each compendium entry has the field `image`. Its value of `image` is a link to the entry's image in a 280x280 pixel PNG format. The image links follow this schema:
 ```bash
-https://botw-compendium.herokuapp.com/api/v3/compendium/entry/<entry>/image
+https://api.hyrule-compendium.com/v3/compendium/entry/<entry>/image
 ```
 `<entry>` can be either the entry's ID or name. For example, the white-maned lynel's image could be retrieved from either of the two links:
-* [https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel/image](http://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel/image)
-* [https://botw-compendium.herokuapp.com/api/v3/compendium/entry/121/image](https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel/image)
+* [https://api.hyrule-compendium.com/v3/compendium/entry/lynel/image](https://api.hyrule-compendium.com/v3/compendium/entry/lynel/image)
+* [https://api.hyrule-compendium.com/v3/compendium/entry/121/image](https://api.hyrule-compendium.com/v3/compendium/entry/lynel/image)
 
 ?> **NOTE**: You do not have to make a request to `/entry/<entry>` every time you want an image! Entry image links are guaranteed to be in the format `/entry/<entry>/image`.
 
 They can be referenced just as you would reference any other image from the web. For example, using HTML:
 ```html
-<img src="https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel/image">
+<img src="https://api.hyrule-compendium.com/v3/compendium/entry/lynel/image">
 ```
 Results in: \
-![](https://botw-compendium.herokuapp.com/api/v3/compendium/entry/lynel/image)
+![](https://api.hyrule-compendium.com/v3/compendium/entry/lynel/image)
 
 ?> **NOTE**: Master mode entry images use the format: `/master_mode/entry/<entry>/image`.
 

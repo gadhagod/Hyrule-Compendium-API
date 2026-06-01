@@ -23,3 +23,5 @@ jobs:
         run: |
           cd tests
           npm test
+        env:
+          URL: https://api.hyrule-compendium.com

@@ -120,7 +120,7 @@ class ApiTester extends Tester {
             throw "ERROR: ApiTester class only works for v3 and up";
         }
         this.version = version;
-        this._serverExtension = `/api/v${version}${route}`;
+        this._serverExtension = `/v${version}${route}`;
     }
 
     protected makeRequest(urlExtension: string, successCallback: Callback.Api.SuccessCallback, errorCallback: Callback.ErrorCallback) {

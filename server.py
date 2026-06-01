@@ -25,9 +25,11 @@ app.register_error_handler(
 )
 
 app.add_url_rule('/', view_func=redirectToDocs)
+app.add_url_rule('/v3', view_func=redirectToDocs)
 app.add_url_rule('/api', view_func=redirectToDocs)
 app.add_url_rule('/api/v3', view_func=redirectToDocs)
-app.register_blueprint(blueprint, url_prefix='/api/v3')
+app.register_blueprint(blueprint, url_prefix='/v3')
+app.register_blueprint(blueprint, url_prefix='/api/v3', name='api_v3')
 
 if __name__ == '__main__': # dev server
     app.run(debug=True)

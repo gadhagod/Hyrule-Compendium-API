@@ -10,11 +10,11 @@ This endpoint retrieves information on a single region given its name.
 
 **HTTP Request**:
 ```http
-GET https://botw-compendium.herokuapp.com/api/v3/regions/<region>
+GET https://api.hyrule-compendium.com/v3/regions/<region>
 ```
 **Example Request**
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v3/regions/eldin
+$ curl https://api.hyrule-compendium.com/v3/regions/eldin
 ```
 ---------------
 ## Get all regions
@@ -25,9 +25,9 @@ This endpoint retrieves all regions.
 
 **HTTP Request**:
 ```http
-GET https://botw-compendium.herokuapp.com/api/v3/regions/all
+GET https://api.hyrule-compendium.com/v3/regions/all
 ```
 **Example Request**
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v3/regions/all
+$ curl https://api.hyrule-compendium.com/v3/regions/all
 ```

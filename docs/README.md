@@ -13,7 +13,7 @@ The Hyrule compendium is an encyclopedia of all the in-game interactive items in
 Here is an example request and response, retrieving data on the white-maned lynel:
 
 ```bash
-$ curl https://botw-compendium.herokuapp.com/api/v3/compendium/entry/white-maned_lynel
+$ curl https://api.hyrule-compendium.com/v3/compendium/entry/white-maned_lynel
 {
     "data": {
         "name": "white-maned lynel",
@@ -29,7 +29,7 @@ $ curl https://botw-compendium.herokuapp.com/api/v3/compendium/entry/white-maned
             "lynel hoof",
             "lynel guts"
         ],
-        "image": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/white-maned_lynel/image"
+        "image": "https://api.hyrule-compendium.com/v3/compendium/entry/white-maned_lynel/image"
     }
 }
 ```

@@ -16,7 +16,7 @@ function makeReq(
     callback: (arg0: any, arg1: any) => void,
     image: false | APIImageRequest = false
 ) {
-    let url = `${(process.env.URL ?? "https://botw-compendium.herokuapp.com") + "/api/v2"}${endpoint}`;
+    let url = `${(process.env.URL ?? "https://api.hyrule-compendium.com") + "/api/v2"}${endpoint}`;
     if (image) {
         request.head(url, (_err: any, res: any) => {
             request(url)

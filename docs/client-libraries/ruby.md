@@ -28,7 +28,7 @@ Base class for the Hyrule-Compendium.
 Parameters:
 * `url`: The base URL of the API server
     - type: str
-    - default: "http://botw-compendium.herokuapp.com/api/v2"
+    - default: "https://api.hyrule-compendium.com/api/v2"
 * `default_timeout`: Default seconds to wait for response for all API calling functions until raising `Net::ReadTimeout`.
     - type: float, int
     - default: `nil` (no timeout)
