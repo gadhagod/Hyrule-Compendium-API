@@ -1,4 +1,4 @@
-### WARNING: v1 and v2 are being discontinued on September 29, 2024. Please see the [migration guide](https://github.com/gadhagod/Hyrule-Compendium-API/issues/46) to update your applications.
+### NOTICE: The API is now served at **[https://api.hyrule-compendium.com](https://api.hyrule-compendium.com)**. The old `botw-compendium.herokuapp.com` hostname is no longer in use. Please update your applications to the new domain. 
 
 ***
 
